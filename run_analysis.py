@@ -51,7 +51,7 @@ print(f"  Pedidos:    {master.shape[0]:,}")
 print(f"  Clientes:   {customers.shape[0]:,}")
 print(f"  Motoristas: {drivers.shape[0]:,}")
 print(f"  Produtos:   {products.shape[0]:,}")
-print(f"  Intervalo:  {master['date'].min().date()} → {master['date'].max().date()}")
+print(f"  Intervalo:  {master['date'].min().date()} a {master['date'].max().date()}")
 
 
 # ─────────────────────────────────────────────
@@ -287,7 +287,7 @@ plt.close()
 
 print("\n  Taxa por dia da semana:")
 for _, row in day_missing.iterrows():
-    marker = " ◄ pior" if row["has_missing"] == day_missing["has_missing"].max() else ""
+    marker = " <- pior" if row["has_missing"] == day_missing["has_missing"].max() else ""
     print(f"    {row['day_of_week']:<12} {row['has_missing']*100:.1f}%{marker}")
 
 
@@ -306,9 +306,9 @@ print(f"  P-value:     {pvalue:.4f}")
 print(f"  Média itens — pedidos SEM falha:  {avg_by_missing[False]:.2f}")
 print(f"  Média itens — pedidos COM falha:  {avg_by_missing[True]:.2f}")
 if pvalue < 0.05:
-    print("  → Correlação estatisticamente significativa (p < 0.05)")
+    print("  -> Correlacao estatisticamente significativa (p < 0.05)")
 else:
-    print("  → Sem correlação significativa")
+    print("  -> Sem correlacao significativa")
 
 
 # ─────────────────────────────────────────────
@@ -321,7 +321,7 @@ driver_perf = (
     .agg(deliveries=("order_id", "count"), missing_rate=("has_missing", "mean"))
     .reset_index()
 )
-qualified   = driver_perf[driver_perf["deliveries"] >= 20].copy()
+qualified   = driver_perf[driver_perf["deliveries"] >= 5].copy()
 worst       = qualified.nlargest(10, "missing_rate")
 best        = qualified.nsmallest(10, "missing_rate")
 
