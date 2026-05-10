@@ -297,27 +297,27 @@
   "shap_categories": [
     {
       "category": "Motorista",
-      "pct": 75.9,
+      "pct": 66.8,
       "level": "critical"
     },
     {
       "category": "Pedido",
-      "pct": 13.9,
+      "pct": 18.6,
       "level": "warning"
     },
     {
       "category": "Tempo",
-      "pct": 4.5,
+      "pct": 8.4,
       "level": "neutral"
     },
     {
       "category": "Cliente",
-      "pct": 3.2,
+      "pct": 3.4,
       "level": "neutral"
     },
     {
       "category": "Localização",
-      "pct": 2.5,
+      "pct": 2.8,
       "level": "ok"
     }
   ],
@@ -365,12 +365,12 @@
   ],
   "conclusion": {
     "verdict": "O problema está nos motoristas — não nos clientes.",
-    "driver_shap_pct": 75.9,
-    "client_shap_pct": 3.2,
-    "driver_vs_client_ratio": 24,
+    "driver_shap_pct": 66.8,
+    "client_shap_pct": 3.4,
+    "driver_vs_client_ratio": 19,
     "worst_driver_rate": 36.4,
     "best_driver_rate": 27.3,
-    "model_auc": 0.8322,
+    "model_auc": 0.7979,
     "statistical_proof": "Mann-Whitney p < 0.001 (motoristas) vs Kruskal-Wallis p = 0.366 (clientes por idade)",
     "statistical_tests": {
       "mann_whitney_drivers": {

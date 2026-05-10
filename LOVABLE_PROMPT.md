@@ -231,24 +231,24 @@ e reforço de equipe às segundas-feiras.
 ### Narrativa (card introdutório)
 > "O fator individual de maior impacto nas falhas é o motorista.
 > Análise de SHAP (técnica de explicabilidade de modelos de machine learning)
-> mostra que **75,8% do poder preditivo de falha** está no histórico do entregador —
-> **22 vezes mais** do que o perfil do cliente (3,5%).
+> mostra que **66,8% do poder preditivo de falha** está no histórico do entregador —
+> **19 vezes mais** do que o perfil do cliente (3,4%).
 > O problema não está em quem pede — está em quem entrega."
 
 ### Destaque visual — Decomposição de Causas (gráfico de barras horizontais com cores)
 - Título: "O que Explica as Falhas? — Análise SHAP"
-- Legenda: "Modelo de machine learning (Random Forest, AUC 0,83) identifica
+- Legenda: "Modelo de machine learning (Random Forest, AUC 0,80) identifica
   a contribuição de cada fator para a probabilidade de falha.
   SHAP mede o impacto médio de cada variável em cada pedido individual."
 - Barras coloridas por categoria:
 ```
-Motorista   75,8%  → cor #991B1B (crítico — barra longa)
+Motorista   66,8%  → cor #991B1B (crítico — barra longa)
 Pedido      13,4%  → cor #B45309 (alerta)
 Tempo        5,0%  → cor #2C5F8A (neutro)
-Cliente      3,5%  → cor #2D7D4F (ok — barra curta)
+Cliente      3,4%  → cor #2D7D4F (ok — barra curta)
 Localização  2,3%  → cor #2D7D4F (ok)
 ```
-- Annotation ao lado: "Motorista = 22x mais impacto que o cliente"
+- Annotation ao lado: "Motorista = 19x mais impacto que o cliente"
 
 ### Linha de KPI Cards (4 cards)
 | Card | Valor | Legenda | Cor |
@@ -362,7 +362,7 @@ ROI da intervenção: 9x
 ### Narrativa (card introdutório)
 > "Duas análises independentes confirmam a mesma conclusão:
 > **o problema está nos motoristas, não nos clientes**.
-> SHAP: 75,8% vs 3,5% de poder explicativo.
+> SHAP: 66,8% vs 3,4% de poder explicativo.
 > Variância: motoristas variam de 0% a 36,4%; clientes apresentam taxa de falha praticamente uniforme.
 > As ações abaixo são priorizadas por impacto financeiro esperado."
 
@@ -374,10 +374,10 @@ ROI da intervenção: 9x
 ║  O problema de itens faltantes é primariamente           ║
 ║  um problema OPERACIONAL DE MOTORISTAS.                  ║
 ║                                                          ║
-║  Motorista:    75,8% do poder explicativo                ║
+║  Motorista:    66,8% do poder explicativo                ║
 ║  Pedido:       13,4%                                     ║
 ║  Tempo:         5,0%                                     ║
-║  Cliente:       3,5%  ← NÃO é a causa                   ║
+║  Cliente:       3,4%  ← NÃO é a causa                   ║
 ║  Localização:   2,3%                                     ║
 ╚══════════════════════════════════════════════════════════╝
 ```
@@ -415,7 +415,7 @@ RESUMO DO PROJETO
 10.000 pedidos analisados | $2,83M em receita | 7 cidades
 
 Problema identificado:    15,0% de taxa de falha
-Causa principal:          Motoristas (75,8% do fator explicativo)
+Causa principal:          Motoristas (66,8% do fator explicativo)
 Custo atual:              $106.380/ano em reentregas
 Receita em risco:         $47.371 (churn pós-falha)
 

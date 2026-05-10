@@ -24,16 +24,16 @@ A grocery delivery operation serving **7 cities in the Orlando, FL area** proces
 | Total orders analyzed | 10,000 (Jan–Dec 2023) |
 | Total revenue | $2,833,022 |
 | Overall failure rate | 15.0% (1 in 7 deliveries) |
-| Driver SHAP contribution | 75.9% of predictive power |
-| Client SHAP contribution | 3.2% — not a causal factor |
-| Driver vs. client explanatory ratio | 24× |
+| Driver SHAP contribution | 66.8% of predictive power |
+| Client SHAP contribution | 3.4% — not a causal factor |
+| Driver vs. client explanatory ratio | 19× |
 | Highest-risk region | Altamonte Springs (16.2%) |
 | Best-performing region | Sanford (13.9%) |
 | Peak failure day | Monday (16.1%) |
 | Customers with at least one failure | 71% of the base (881 of 1,239) |
 | Churn rate after failure | 7.8% (26 customers) |
 | Revenue at risk from churn | $47,371 |
-| Model AUC (Random Forest) | 0.83 |
+| Model AUC (Random Forest) | 0.80 |
 
 ---
 

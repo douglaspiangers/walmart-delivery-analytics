@@ -23,9 +23,16 @@ from src.preprocessing import clean_orders, clean_drivers, build_master
 print("Carregando dados...")
 master = pd.read_parquet("data/processed/master.parquet")
 
-# ── Feature engineering (idêntico ao NB07 e NB11)
-driver_rate = master.groupby("driver_id")["has_missing"].mean().rename("driver_fail_rate")
-master = master.join(driver_rate, on="driver_id")
+# ── Feature engineering — driver_fail_rate sem data leakage
+# Para cada pedido, usa apenas entregas ANTERIORES do mesmo motorista (expanding window).
+# Pedidos sem histórico recebem a taxa global como prior.
+master = master.sort_values("date").reset_index(drop=True)
+global_rate = master["has_missing"].mean()
+master["driver_fail_rate"] = (
+    master.groupby("driver_id")["has_missing"]
+    .transform(lambda x: x.shift(1).expanding().mean())
+    .fillna(global_rate)
+)
 
 def hour_to_period(h):
     if h < 6:  return "madrugada"
