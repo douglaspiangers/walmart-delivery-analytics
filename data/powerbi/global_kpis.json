@@ -1,0 +1,21 @@
+{
+  "total_orders": 10000,
+  "total_revenue": 2833022.38,
+  "avg_ticket": 283.3,
+  "global_failure_rate": 0.1502,
+  "total_failures": 1502,
+  "total_failure_cost": 106379.99,
+  "total_drivers": 1247,
+  "total_customers": 1239,
+  "total_regions": 7,
+  "worst_region": "Altamonte Springs",
+  "worst_region_rate": 0.162,
+  "best_region": "Sanford",
+  "best_region_rate": 0.1389,
+  "chronic_drivers": 0,
+  "coaching_drivers": 425,
+  "customers_with_failure": 881,
+  "customer_churn_count": 26,
+  "revenue_at_risk": 47370.91,
+  "cost_per_failure": 70.83
+}

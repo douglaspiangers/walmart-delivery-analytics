@@ -19,14 +19,21 @@ A grocery delivery operation serving **7 cities in the Orlando, FL area** proces
 
 ## Key Findings
 
-| Finding | Detail |
+| Metric | Value |
 |---|---|
-| Overall missing item rate | **15.0%** of all orders had at least one missing item |
-| Worst performing region | **Altamonte Springs — 16.2%** (vs. 13.9% best region: Sanford) |
-| Peak failure window | **Monday deliveries — 16.1%** failure rate |
-| Driver variance | Worst driver: **36.4%** failure rate vs. best: **0.0%** |
-| Primary causal factor | **Driver historical performance** is the strongest predictor of future failures |
-| Estimated financial impact | **~$37,500/year** in redelivery costs attributable to high-risk drivers alone |
+| Total orders analyzed | 10,000 (Jan–Dec 2023) |
+| Total revenue | $2,833,022 |
+| Overall failure rate | 15.0% (1 in 7 deliveries) |
+| Driver SHAP contribution | 75.9% of predictive power |
+| Client SHAP contribution | 3.2% — not a causal factor |
+| Driver vs. client explanatory ratio | 24× |
+| Highest-risk region | Altamonte Springs (16.2%) |
+| Best-performing region | Sanford (13.9%) |
+| Peak failure day | Monday (16.1%) |
+| Customers with at least one failure | 71% of the base (881 of 1,239) |
+| Churn rate after failure | 7.8% (26 customers) |
+| Revenue at risk from churn | $47,371 |
+| Model AUC (Random Forest) | 0.83 |
 
 ---
 
@@ -57,25 +64,32 @@ A grocery delivery operation serving **7 cities in the Orlando, FL area** proces
 walmart-delivery-analytics/
 ├── data/
 │   ├── raw/                    # Original CSV files (5 tables)
-│   └── processed/              # Cleaned Parquet files + results_summary.json
+│   ├── processed/              # Cleaned Parquet files + results_summary.json + shap_results.json
+│   └── powerbi/                # Star-schema CSVs ready for Power BI import (13 files)
 ├── notebooks/
 │   ├── 01_data_profiling.ipynb        # Data structure, nulls, duplicates
 │   ├── 02_data_cleaning.ipynb         # Type fixes, column normalization, master join
 │   ├── 03_exploratory_analysis.ipynb  # Visual EDA — 6 analyses
 │   ├── 04_business_insights.ipynb     # Executive KPIs, region table, top products
 │   ├── 05_delivery_quality_analysis.ipynb  # Failure patterns by region/day/driver
-│   ├── 06_statistical_analysis.ipynb  # Chi-square, Kruskal-Wallis, Mann-Whitney, CIs
 │   ├── 07_causal_analysis.ipynb       # Logistic regression, Random Forest, SHAP
-│   └── 08_segmentation.ipynb          # K-Means driver & customer segmentation
+│   ├── 08_segmentation.ipynb          # K-Means driver & customer segmentation
+│   ├── 09_driver_cohort_analysis.ipynb     # H1 vs H2 longitudinal driver performance
+│   ├── 10_customer_retention_analysis.ipynb # Churn analysis and at-risk revenue
+│   └── 11_executive_conclusion.ipynb       # Final answer: drivers vs. clients (SHAP + statistics)
 ├── src/
 │   ├── data_loader.py          # Raw data loading functions
 │   ├── preprocessing.py        # Cleaning, transformation, master join logic
 │   └── visualization.py        # Reusable matplotlib chart functions
 ├── dashboard/
-│   └── dashboard.py            # Interactive Plotly Dash app (4 views)
+│   └── dashboard.py            # Interactive Plotly Dash app (4 tabs)
 ├── reports/
-│   └── figures/                # Exported PNG charts (01–24)
+│   └── figures/                # Exported PNG charts (12 pipeline + 3 executive conclusion)
 ├── run_analysis.py             # Full pipeline script — generates all figures
+├── export_powerbi.py           # Generates star-schema CSVs for Power BI
+├── generate_lovable_data.py    # Exports static JSON for the React dashboard
+├── LOVABLE_PROMPT.md           # Full prompt to build the React dashboard in Lovable
+├── POWERBI_GUIDE.md            # Step-by-step Power BI import and DAX guide
 └── requirements.txt
 ```
 
@@ -85,11 +99,11 @@ walmart-delivery-analytics/
 
 | File | Rows | Description |
 |---|---|---|
-| `orders.csv` | 10,000 | Delivery orders — region, amount, hour, driver, customer, items |
-| `customers.csv` | 1,239 | Customer profiles with age |
-| `drivers.csv` | 1,247 | Driver profiles with trip count |
-| `products.csv` | 314 | Product catalog with category and price |
-| `order_items.csv` | 1,662 | Order-to-product link table |
+| `orders.csv` | 10,000 | Core transaction table — date, amount, region, delivery hour, driver and customer IDs, items delivered/missing |
+| `customers.csv` | 1,239 | Customer registry — name and age |
+| `drivers.csv` | 1,247 | Driver registry — name, age, total trip count |
+| `order_items.csv` | 1,662 | Order-product junction — maps orders to individual products |
+| `products.csv` | 314 | Product catalog — name, category, and unit price |
 
 ---
 
@@ -122,15 +136,6 @@ Fixes all identified issues: monetary values stored as strings (`$1,095.54` → 
 - Driver performance ranking (minimum delivery threshold)
 - Failure rate heatmap by region and hour
 
-### 06 — Statistical Analysis
-Rigorous statistical validation of EDA patterns:
-- **Chi-square** test: failure rate across regions (are differences real or chance?)
-- **Chi-square** test: failure rate across weekdays
-- **Kruskal-Wallis** test: order value distribution across regions
-- **Mann-Whitney U**: high-risk vs. low-risk driver performance
-- **Wilson confidence intervals** (95%) for failure rates by region
-- **Effect sizes**: Cramér's V and Cohen's d
-
 ### 07 — Causal Analysis
 Identifies *why* orders fail using predictive models:
 - **Feature engineering**: driver historical rate, time periods, weekend flags
@@ -149,27 +154,23 @@ Clusters drivers and customers for targeted interventions:
 ### 09 — Driver Cohort Analysis
 Longitudinal analysis of driver performance over time — answers whether experience protects against failures and whether high-risk drivers self-correct:
 
-| KPI | What it measures | Business question answered |
-|---|---|---|
-| **Failure Rate by Experience Tier** | Failure rate by trips bucket (Novice / Intermediate / Expert) | Does experience reduce failures? |
-| **H1 vs H2 Improvement Rate** | % of drivers who improved from Jan–Jun to Jul–Dec | Is the operation evolving or stagnating? |
-| **Driver Consistency Index** | Coefficient of variation of monthly failure rate per driver | Are problem drivers chronically bad, or just inconsistent? |
-| **Financial Cost by Experience Tier** | Estimated redelivery cost per experience segment | Where does training investment generate most ROI? |
-| **Recovery Rate** | % of high-risk H1 drivers who improved by H2 | Do problem drivers self-correct without intervention? |
+| Question | Finding |
+|---|---|
+| Does experience reduce failure rates? | No — intermediate drivers (26–50 trips) show the highest failure rate (15.9%), above both novices and veterans |
+| Do high-risk drivers self-correct without intervention? | Only 49.7% improved from H1 to H2 spontaneously — autocorrection alone is insufficient |
+| Who should be targeted first? | Chronic high-risk drivers (consistent >Q75 failure rate across both semesters) |
 
 **Key findings:** Intermediate drivers show the highest failure rate (experience is NOT a linear protector). Only ~50% of drivers improved H1→H2 without intervention. Chronic high-risk drivers are the primary target for disciplinary action.
 
 ### 10 — Customer Retention Analysis
 Quantifies the downstream impact of delivery failures on customer behavior — distinguishing operational cost (redelivery) from strategic cost (churn):
 
-| KPI | What it measures | Business question answered |
-|---|---|---|
-| **Customer Failure Profile** | Distribution of customers by number of failures experienced | What % of the base was directly impacted? |
-| **Return Rate After Failure** | % of customers who placed a new order after their first failure | Does a failure drive customers away? |
-| **Order Frequency Comparison** | Orders/month for customers with vs. without failures | Does failure reduce purchase cadence? |
-| **Revenue at Risk** | Revenue from customers who churned after a failure | How much money is actually at stake? |
-| **Post-Failure Spend Change** | Average ticket before vs. after first failure (returning customers) | Do returning customers spend less? |
-| **Churn Rate by Failure Count** | % of customers lost, segmented by number of failures experienced | How much does each additional failure raise churn risk? |
+| Metric | Value |
+|---|---|
+| Customers with at least one failure | 881 (71.1% of base) |
+| Return rate after first failure | 92.2% |
+| Churned customers (90-day window) | 26 |
+| Revenue at risk from churned customers | $47,371 |
 
 **Key findings:** 71% of customers experienced at least one failure. 92.2% return after a failure — but the 7.8% who don't represent **$47,371 in at-risk revenue**. Churn risk compounds with each additional failure. Intervention must happen at the 1st failure, not the 3rd.
 
@@ -181,13 +182,10 @@ A 4-tab Plotly Dash application giving operational and executive visibility:
 
 | Tab | Content |
 |---|---|
-| Executive View | KPI cards, monthly trends, revenue by region, failure rate over time |
-| Operational Analysis | Delivery heatmaps (volume + failure rate), failure by day and period |
-| Driver Performance | Distribution, top 15 worst/best drivers, volume vs. failure scatter |
-| Region Drill-down | Per-region KPIs, weekday pattern, top risky drivers, heatmap |
-| **Score de Risco** | Interactive order risk scoring — select region, day, driver, amount, items → real-time failure probability with gauge and feature contribution breakdown |
-| **Cohort de Motoristas** | 4 KPI charts: failure rate by experience tier, H1 vs H2 scatter, consistency index quadrants, financial cost by tier |
-| **Retenção de Clientes** | 4 KPI charts: customer failure profile, return rate, order frequency comparison, churn rate by failure count |
+| Executive Overview | Global KPIs, monthly revenue and order trend, regional revenue breakdown |
+| Delivery Quality | Failure rate by region, day of week, and delivery hour heatmap |
+| Driver Performance | Top 10 worst/best drivers, failure rate distribution, H1 vs H2 trajectory scatter |
+| Customer Impact | Churn analysis by failure count, retention rates, at-risk revenue by customer segment |
 
 **Run the dashboard:**
 ```bash
@@ -210,7 +208,7 @@ pip install -r requirements.txt
 # 3. Option A — Run full pipeline (generates all charts + processed data)
 python -X utf8 run_analysis.py
 
-# 4. Option B — Run notebooks in order (01 to 08)
+# 4. Option B — Run notebooks in order (01 to 11)
 jupyter notebook notebooks/
 
 # 5. Option C — Launch interactive dashboard
@@ -223,30 +221,17 @@ python dashboard/dashboard.py
 
 ## Tools & Libraries
 
-| Purpose | Library |
+| Tool / Library | Purpose |
 |---|---|
-| Data manipulation | pandas, numpy |
-| Visualization (static) | matplotlib, seaborn |
-| Visualization (interactive) | plotly, dash |
-| Statistical testing | scipy |
-| Machine learning | scikit-learn |
-| Model explainability | shap |
-| Data storage | parquet (via pandas) |
-| Notebook environment | Jupyter |
-
----
-
-## Statistical Results Summary
-
-| Test | Target | Result | p-value | Effect Size |
-|---|---|---|---|---|
-| Chi-square | Region → Failure rate | See notebook 06 | See nb06 | Cramér's V |
-| Chi-square | Weekday → Failure rate | See notebook 06 | See nb06 | Cramér's V |
-| Kruskal-Wallis | Order value across regions | See notebook 06 | See nb06 | — |
-| Mann-Whitney U | High vs. low risk drivers | Significant | See nb06 | Cohen's d |
-| Random Forest AUC | Failure prediction | See notebook 07 | — | — |
-
-> Run the notebooks to compute exact values. The `data/processed/results_summary.json` file contains the key business metrics from the pipeline run.
+| Python 3.14 | Core language |
+| Pandas 3.0 | Data manipulation and aggregation |
+| NumPy | Numerical operations |
+| Scikit-Learn 1.x | Logistic Regression and Random Forest classification |
+| SHAP | Model explainability — feature contribution per prediction |
+| SciPy | Statistical tests — Kruskal-Wallis, Mann-Whitney U, Point-biserial |
+| Plotly Dash | Interactive multi-tab web dashboard |
+| Matplotlib / Seaborn | Static chart generation for reports |
+| Jupyter Notebook | Exploratory analysis and narrative documentation |
 
 ---
 
@@ -254,19 +239,13 @@ python dashboard/dashboard.py
 
 | Commit | Description |
 |---|---|
-| `chore: project setup` | gitignore, requirements, README scaffold |
-| `data: add raw CSV files` | 5 raw datasets with consistent naming |
-| `feat: add src modules` | data_loader, preprocessing, visualization |
-| `feat: add analysis notebooks 01-05` | EDA, cleaning, quality analysis |
-| `feat: add run_analysis.py` | Full pipeline script, 12 figures, results JSON |
-| `feat: statistical analysis notebook 06` | Hypothesis tests, confidence intervals, effect sizes |
-| `feat: causal analysis notebook 07` | Logistic regression, Random Forest, SHAP |
-| `feat: segmentation notebook 08` | Driver/customer K-Means clustering |
-| `feat: interactive dashboard` | Plotly Dash, 4 views, region drill-down |
-| `feat: driver cohort analysis (nb09)` | Experience tiers, H1/H2 trajectory, consistency index, financial cost, recovery rate |
-| `feat: customer retention analysis (nb10)` | Failure profile, return rate, frequency, revenue at risk, churn by failure count |
-| `feat: dashboard v2 — 7 tabs` | Risk scoring simulator, driver cohort view, customer retention view |
-| `docs: final README` | Complete storytelling and business recommendations |
+| `82291a7` | Project setup — `.gitignore`, `requirements.txt`, README skeleton |
+| `74826ed` | Raw data — 5 CSV files with normalized naming convention |
+| `4b736dc` | Source modules — `data_loader.py`, `preprocessing.py`, `visualization.py` |
+| `70e2f4f` | Analysis notebooks 01–05 — profiling, cleaning, EDA, business insights, delivery quality |
+| `d6d5106` | Pipeline script — `run_analysis.py` generating all 12 report figures |
+| `3b7cc1a` | Project v2 — causal analysis (SHAP), segmentation, driver cohort, customer retention, Power BI export |
+| `(pending)` | Executive conclusion notebook (11), Lovable React dashboard prompt, README completion |
 
 ---
 

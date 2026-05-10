@@ -1,0 +1,1248 @@
+driver_id,driver_name,total_deliveries,total_failures,hist_failure_rate,total_revenue,avg_ticket,trips,driver_age,exp_tier,rate_h1,rate_h2,delta_h1_h2,improved_h1_h2,consistency_cv,months_active,intervention_quadrant,estimated_failure_cost,risk_flag
+WDID09872,Tonya Chung,7,0,0.0,2038.81,291.2586,35,18,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID09873,Pamela Moore,11,4,0.3636,3858.95,350.8136,64,18,Experiente (51+ trips),,,,,1.299,9,Instável — Coaching,283.3022,True
+WDID09874,Billy Lawson,11,4,0.3636,2858.31,259.8464,37,18,Intermediário (26–50 trips),,,,,1.058,7,Instável — Coaching,283.3022,True
+WDID09875,Stephen Randolph,11,4,0.3636,2832.49,257.4991,64,18,Experiente (51+ trips),,,,,1.133,8,Instável — Coaching,283.3022,True
+WDID09876,Jordan Daniel,11,4,0.3636,2935.32,266.8473,53,18,Experiente (51+ trips),0.5,0.2,-0.3,True,1.19,8,Instável — Coaching,283.3022,True
+WDID09877,James White,11,4,0.3636,3344.06,304.0055,14,18,Novato (≤25 trips),,,,,1.19,8,Instável — Coaching,283.3022,True
+WDID09878,Roger Green,11,4,0.3636,3122.29,283.8445,22,18,Novato (≤25 trips),0.6,0.1667,-0.4333,True,1.249,9,Instável — Coaching,283.3022,True
+WDID09879,Shane Palmer,11,4,0.3636,5236.44,476.04,35,18,Intermediário (26–50 trips),,,,,1.249,9,Instável — Coaching,283.3022,True
+WDID09880,Brittany Gordon,11,4,0.3636,3384.35,307.6682,36,18,Intermediário (26–50 trips),0.6,0.1667,-0.4333,True,1.466,8,Instável — Coaching,283.3022,True
+WDID09881,Tracey Watkins,11,4,0.3636,3493.74,317.6127,26,18,Intermediário (26–50 trips),0.6,0.1667,-0.4333,True,1.269,7,Instável — Coaching,283.3022,True
+WDID09882,Angela Young,11,4,0.3636,2938.13,267.1027,75,18,Experiente (51+ trips),,,,,1.058,7,Instável — Coaching,283.3022,True
+WDID09883,Charles Rios DVM,11,4,0.3636,2859.71,259.9736,62,18,Experiente (51+ trips),,,,,1.182,8,Instável — Coaching,283.3022,True
+WDID09884,James Winters,11,4,0.3636,3092.51,281.1373,22,18,Novato (≤25 trips),0.6,0.1667,-0.4333,True,0.965,6,Instável — Coaching,283.3022,True
+WDID09885,Jacob Barker,11,4,0.3636,3755.52,341.4109,50,18,Intermediário (26–50 trips),0.3333,0.4,0.0667,False,1.19,8,Instável — Coaching,283.3022,True
+WDID09886,Jasmine Perez,11,4,0.3636,4459.11,405.3736,45,18,Intermediário (26–50 trips),,,,,1.19,8,Instável — Coaching,283.3022,True
+WDID09887,Debbie Cox,11,4,0.3636,3500.81,318.2555,62,18,Experiente (51+ trips),,,,,1.414,7,Instável — Coaching,283.3022,True
+WDID09888,Nancy Porter,11,4,0.3636,2094.82,190.4382,58,18,Experiente (51+ trips),,,,,1.299,9,Instável — Coaching,283.3022,True
+WDID09889,Carla James,11,4,0.3636,3693.28,335.7527,66,18,Experiente (51+ trips),,,,,0.965,6,Instável — Coaching,283.3022,True
+WDID09890,Cynthia Owens,11,4,0.3636,3115.22,283.2018,67,18,Experiente (51+ trips),0.3333,0.4,0.0667,False,1.377,7,Instável — Coaching,283.3022,True
+WDID09891,Justin Parsons,11,4,0.3636,3005.89,273.2627,16,18,Novato (≤25 trips),,,,,1.182,8,Instável — Coaching,283.3022,True
+WDID09892,Andrew Lambert,11,4,0.3636,3108.18,282.5618,34,18,Intermediário (26–50 trips),0.6,0.1667,-0.4333,True,1.5,9,Instável — Coaching,283.3022,True
+WDID09893,Mrs. Valerie Schwartz MD,11,4,0.3636,2947.35,267.9409,77,18,Experiente (51+ trips),,,,,1.19,8,Instável — Coaching,283.3022,True
+WDID09894,Jennifer Wright,11,4,0.3636,2836.16,257.8327,61,18,Experiente (51+ trips),,,,,1.19,8,Instável — Coaching,283.3022,True
+WDID09895,Jason Moss,11,4,0.3636,1754.27,159.4791,18,18,Novato (≤25 trips),0.6,0.1667,-0.4333,True,1.186,9,Instável — Coaching,283.3022,True
+WDID09896,Anthony Robertson,11,4,0.3636,3493.51,317.5918,77,18,Experiente (51+ trips),0.4,0.3333,-0.0667,True,1.332,7,Instável — Coaching,283.3022,True
+WDID09897,Brandon Chavez,7,0,0.0,1664.32,237.76,76,18,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID09898,Judith Howard,7,0,0.0,2391.32,341.6171,58,18,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID09899,Stephen Patton,7,0,0.0,1930.32,275.76,47,18,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID09900,Melissa Mcbride,7,0,0.0,2059.98,294.2829,37,18,Intermediário (26–50 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID09901,Cassandra Nguyen,7,0,0.0,2432.71,347.53,42,18,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID09902,Patricia Vance,7,0,0.0,2095.44,299.3486,38,18,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID09903,Paul Gomez,7,0,0.0,1909.23,272.7471,53,18,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID09904,Chris Davis,7,0,0.0,1840.19,262.8843,43,18,Intermediário (26–50 trips),,,,,0.0,7,Referência — Boas Práticas,0.0,False
+WDID09905,Brandy Martinez,7,0,0.0,1748.13,249.7329,50,18,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID09906,Michael Willis,7,0,0.0,1624.61,232.0871,23,18,Novato (≤25 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID09907,Brandy Pittman,7,0,0.0,1456.84,208.12,50,18,Intermediário (26–50 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID09908,Ann Hall,7,0,0.0,1660.72,237.2457,64,18,Experiente (51+ trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID09909,John Walker,7,0,0.0,1311.36,187.3371,15,18,Novato (≤25 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID09910,Oscar Roman,7,0,0.0,994.27,142.0386,48,18,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID09911,Kimberly Hayes,7,0,0.0,1915.92,273.7029,73,18,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID09912,Michael Delgado,7,0,0.0,2005.18,286.4543,15,18,Novato (≤25 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID09913,Tricia Larsen,7,0,0.0,2744.36,392.0514,78,18,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID09914,Julie Rosales,7,0,0.0,2294.79,327.8271,18,18,Novato (≤25 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID09915,Natasha Graves,7,0,0.0,1470.08,210.0114,56,18,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID09916,Paul Lam,7,0,0.0,1634.25,233.4643,49,18,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID09917,Jennifer Zimmerman,7,0,0.0,2055.09,293.5843,30,18,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID09918,Shelby Wilson,7,0,0.0,1667.89,238.27,58,18,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID09919,John Rodriguez,7,0,0.0,2300.21,328.6014,65,18,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID09920,William Brown,7,0,0.0,2679.97,382.8529,29,18,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID09921,Charles Hernandez,7,0,0.0,1813.81,259.1157,49,18,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID09922,Jacob Li,7,0,0.0,1759.82,251.4029,24,18,Novato (≤25 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID09923,Eric Lawson,7,0,0.0,1953.02,279.0029,21,18,Novato (≤25 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID09924,Nathan Davis,7,0,0.0,1896.73,270.9614,18,18,Novato (≤25 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID09925,Rebecca Stephens,7,0,0.0,2145.23,306.4614,29,18,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID09926,Laura Pearson,7,0,0.0,2960.25,422.8929,18,18,Novato (≤25 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID09927,Stephanie Morgan,7,0,0.0,2789.41,398.4871,16,18,Novato (≤25 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID09928,Kimberly Johnson,7,0,0.0,2276.95,325.2786,25,18,Novato (≤25 trips),,,,,0.0,7,Referência — Boas Práticas,0.0,False
+WDID09929,Kimberly Hall,7,0,0.0,2109.07,301.2957,74,18,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID09930,Nicholas Johnson,7,0,0.0,2160.89,308.6986,64,18,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID09931,Christopher Buck,7,0,0.0,1968.26,281.18,24,18,Novato (≤25 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID09932,Luis Baker,7,0,0.0,1647.98,235.4257,66,18,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID09933,Nicholas Stewart,7,0,0.0,1677.68,239.6686,23,18,Novato (≤25 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID09934,Robert Hogan,7,0,0.0,1583.25,226.1786,52,18,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID09935,Cody Chavez,7,0,0.0,1629.55,232.7929,74,18,Experiente (51+ trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID09936,Alicia Terry,7,0,0.0,1356.61,193.8014,37,18,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID09937,Daniel Mitchell,7,0,0.0,2688.71,384.1014,56,18,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID09938,Thomas Mcfarland,7,0,0.0,1784.7,254.9571,15,18,Novato (≤25 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID09939,Brian Douglas,7,0,0.0,2391.95,341.7071,21,18,Novato (≤25 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID09940,Jessica Mercer,7,0,0.0,2288.56,326.9371,34,18,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID09941,Kimberly Holden,7,0,0.0,2037.09,291.0129,41,18,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID09942,Richard Williams,7,0,0.0,2267.33,323.9043,68,18,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID09943,Shannon Preston,7,0,0.0,1884.16,269.1657,73,18,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID09944,David Farmer,7,0,0.0,1987.03,283.8614,11,18,Novato (≤25 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID09945,Carly Garrett,7,0,0.0,1918.99,274.1414,33,18,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID09946,Christopher Perez,7,0,0.0,1384.89,197.8414,28,18,Intermediário (26–50 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID09947,Brianna Austin,7,0,0.0,1325.78,189.3971,50,18,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID09948,Deborah Foster,7,0,0.0,1418.1,202.5857,12,18,Novato (≤25 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID09949,Jordan Holmes,7,0,0.0,2545.93,363.7043,74,18,Experiente (51+ trips),,,,,0.0,7,Referência — Boas Práticas,0.0,False
+WDID09950,Matthew Dean,7,0,0.0,1441.18,205.8829,28,18,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID09951,Stephanie Mills,7,0,0.0,1631.24,233.0343,63,18,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID09952,Matthew Coleman,7,0,0.0,1477.07,211.01,60,18,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID09953,Jamie Torres,7,0,0.0,1591.85,227.4071,27,18,Intermediário (26–50 trips),,,,,0.0,7,Referência — Boas Práticas,0.0,False
+WDID09954,Zachary Thornton,7,0,0.0,1685.6,240.8,48,18,Intermediário (26–50 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID09955,Taylor Gray,7,0,0.0,1409.69,201.3843,63,18,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID09956,Emily Strickland,7,0,0.0,1308.07,186.8671,70,18,Experiente (51+ trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID09957,Cindy West,7,0,0.0,1519.92,217.1314,54,18,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID09958,Robert Sherman,7,0,0.0,1635.21,233.6014,48,18,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID09959,Michelle Bowen,7,0,0.0,1596.21,228.03,34,18,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID09960,Christopher West,7,0,0.0,2027.51,289.6443,26,18,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID09961,Victor Bennett,7,0,0.0,2383.61,340.5157,24,18,Novato (≤25 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID09962,Frank Smith,7,0,0.0,1668.88,238.4114,70,18,Experiente (51+ trips),,,,,0.0,3,Referência — Boas Práticas,0.0,False
+WDID09963,Sherri Wright,7,0,0.0,1867.53,266.79,52,18,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID09964,Barry Hooper,7,0,0.0,1435.1,205.0143,68,18,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID09965,Brandon Rivers,7,0,0.0,1434.78,204.9686,75,18,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID09966,Amy Cardenas,7,0,0.0,1308.1,186.8714,66,18,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID09967,Joshua Campbell,7,0,0.0,1595.5,227.9286,23,18,Novato (≤25 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID09968,Antonio Washington,7,0,0.0,2120.22,302.8886,39,18,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID09969,Andrew Mcfarland,7,0,0.0,1925.3,275.0429,76,18,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID09970,Bryce Estrada,7,0,0.0,1496.73,213.8186,64,18,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID09971,Christine Dennis,7,0,0.0,1527.9,218.2714,20,18,Novato (≤25 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID09972,Anthony Dixon,7,0,0.0,1322.02,188.86,13,18,Novato (≤25 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID09973,Miguel Hicks,7,0,0.0,1382.6,197.5143,52,18,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID09974,Jillian Morales,7,0,0.0,2080.05,297.15,70,18,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID09975,Corey Morales,7,0,0.0,1756.63,250.9471,12,18,Novato (≤25 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID09976,Stephanie Camacho,7,0,0.0,2509.61,358.5157,20,18,Novato (≤25 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID09977,Troy Garcia,7,0,0.0,1896.79,270.97,27,18,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID09978,George Harmon,7,0,0.0,2537.49,362.4986,19,18,Novato (≤25 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID09979,Chad Mcguire,7,0,0.0,3241.38,463.0543,25,18,Novato (≤25 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID09980,Erin Lawrence,7,0,0.0,2235.95,319.4214,28,18,Intermediário (26–50 trips),,,,,0.0,3,Referência — Boas Práticas,0.0,False
+WDID09981,Christopher Peters,7,0,0.0,1991.33,284.4757,42,18,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID09982,Kimberly Cannon,7,0,0.0,2076.62,296.66,37,18,Intermediário (26–50 trips),,,,,0.0,7,Referência — Boas Práticas,0.0,False
+WDID09983,Lisa Miller,7,0,0.0,2726.85,389.55,44,18,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID09984,Shawn Orr,7,0,0.0,1839.89,262.8414,76,18,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID09985,Kathryn Tran,7,0,0.0,1604.4,229.2,44,18,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID09986,Monica Randall,7,0,0.0,1730.73,247.2471,19,18,Novato (≤25 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID09987,Breanna Floyd,7,0,0.0,1646.49,235.2129,77,18,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID09988,Denise Thompson,7,0,0.0,1570.12,224.3029,13,18,Novato (≤25 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID09989,Cheryl Lee,7,0,0.0,2055.67,293.6671,72,18,Experiente (51+ trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID09990,Clayton Jones,7,0,0.0,1249.33,178.4757,65,18,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID09991,Jessica Patterson,7,0,0.0,2619.76,374.2514,35,18,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID09992,Joseph Turner,7,0,0.0,1650.37,235.7671,16,18,Novato (≤25 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID09993,Todd Garcia,7,0,0.0,1649.55,235.65,70,18,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID09994,Michele Hawkins,7,0,0.0,1272.71,181.8157,24,18,Novato (≤25 trips),,,,,0.0,7,Referência — Boas Práticas,0.0,False
+WDID09995,John Cox,7,0,0.0,1921.47,274.4957,27,18,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID09996,Megan Ward,7,0,0.0,1700.87,242.9814,78,18,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID09997,Tracy Johnson,7,0,0.0,2194.74,313.5343,71,18,Experiente (51+ trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID09998,Alexandra Thompson,7,0,0.0,2081.16,297.3086,26,18,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID09999,Richard Johnson,7,0,0.0,2860.94,408.7057,78,18,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10000,Mrs. Sarah Carpenter MD,7,0,0.0,2588.34,369.7629,46,18,Intermediário (26–50 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10001,Thomas Terry,7,0,0.0,2161.9,308.8429,15,18,Novato (≤25 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10002,Lindsey Gonzales,7,0,0.0,2849.25,407.0357,49,18,Intermediário (26–50 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10003,Crystal Williams,7,0,0.0,1953.86,279.1229,56,18,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10004,Katherine Estes,7,0,0.0,2504.01,357.7157,13,18,Novato (≤25 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10005,Jeremy Allen,7,0,0.0,2332.77,333.2529,31,18,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10006,Wanda Harmon,7,0,0.0,2083.46,297.6371,63,18,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10007,Andrew Robertson,7,0,0.0,1735.94,247.9914,54,18,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10008,Dennis Cox,7,0,0.0,1723.24,246.1771,37,18,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10009,Tiffany Hardy,7,0,0.0,1786.39,255.1986,58,18,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10010,Eric Mcdonald,7,0,0.0,1991.44,284.4914,37,18,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10011,Christopher Hughes,7,0,0.0,1918.39,274.0557,61,18,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10012,Stacy Compton,7,0,0.0,1751.5,250.2143,25,18,Novato (≤25 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10013,Gregory Moss,7,0,0.0,1548.85,221.2643,38,18,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10014,Veronica Johnson,7,0,0.0,1371.11,195.8729,71,18,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10015,Mercedes Quinn,7,0,0.0,1537.53,219.6471,11,18,Novato (≤25 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10016,Vanessa Park,7,0,0.0,1256.01,179.43,46,18,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10017,Robert Reese,7,0,0.0,1207.87,172.5529,70,18,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10018,Jennifer Weaver,7,0,0.0,1272.84,181.8343,24,18,Novato (≤25 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10019,Lisa Swanson,7,0,0.0,1290.13,184.3043,64,18,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10020,Joel Hancock,7,0,0.0,1662.99,237.57,56,18,Experiente (51+ trips),,,,,0.0,7,Referência — Boas Práticas,0.0,False
+WDID10021,Terry Stewart,7,0,0.0,1513.91,216.2729,13,18,Novato (≤25 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10022,Benjamin Gibson,7,0,0.0,1763.34,251.9057,75,18,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10023,Leslie Gibson,7,0,0.0,1708.83,244.1186,15,18,Novato (≤25 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10024,Nathan Sherman,7,0,0.0,1725.34,246.4771,77,18,Experiente (51+ trips),,,,,0.0,7,Referência — Boas Práticas,0.0,False
+WDID10025,Michael Jones,7,0,0.0,1815.51,259.3586,65,18,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10026,Jasmine Jacobs,7,0,0.0,2095.52,299.36,58,18,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10027,Cheryl Benson,7,0,0.0,1694.59,242.0843,21,18,Novato (≤25 trips),,,,,0.0,7,Referência — Boas Práticas,0.0,False
+WDID10028,Nicole White,7,0,0.0,1941.5,277.3571,26,18,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10029,Denise Tran,7,0,0.0,1687.87,241.1243,64,18,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10030,Troy Cowan,7,0,0.0,1492.74,213.2486,63,18,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10031,Melinda King,7,0,0.0,1410.6,201.5143,13,18,Novato (≤25 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10032,Jennifer Johnson,7,0,0.0,1699.75,242.8214,31,18,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10033,Walter Miller,7,0,0.0,2038.69,291.2414,45,18,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10034,Robert Howard Jr.,7,0,0.0,1978.3,282.6143,24,18,Novato (≤25 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10035,Alexis Wilson,7,0,0.0,1806.6,258.0857,12,18,Novato (≤25 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10036,Jason Stevens,7,0,0.0,2502.68,357.5257,66,18,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10037,Amanda Ferguson,7,0,0.0,2230.84,318.6914,22,18,Novato (≤25 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10038,Jonathan Torres,7,0,0.0,2456.24,350.8914,23,18,Novato (≤25 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10039,Michelle Hunter,7,0,0.0,1851.69,264.5271,18,18,Novato (≤25 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10040,Roberta Nelson,7,0,0.0,1350.43,192.9186,22,18,Novato (≤25 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10041,Brenda Vargas,7,0,0.0,1213.17,173.31,40,18,Intermediário (26–50 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10042,Kent Oneal,7,0,0.0,2233.74,319.1057,34,18,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10043,Rita Brown,7,0,0.0,2026.42,289.4886,69,18,Experiente (51+ trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10044,Madison Norman,7,0,0.0,1553.62,221.9457,32,18,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10045,James York,7,0,0.0,1895.25,270.75,54,18,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10046,Tanya Bowen,7,0,0.0,1894.0,270.5714,50,18,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10047,Donald Gonzalez,7,0,0.0,1651.2,235.8857,34,18,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10048,Janice Ramos,7,0,0.0,2354.25,336.3214,27,18,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10049,Paula Gray,7,0,0.0,2559.68,365.6686,78,18,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10050,Cassandra Hatfield,7,0,0.0,2851.97,407.4243,67,18,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10051,Timothy Bradley,7,0,0.0,2610.37,372.91,57,18,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10052,Jeremiah Carroll,7,0,0.0,2150.78,307.2543,70,18,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10053,Mark Ortiz,7,0,0.0,2039.82,291.4029,67,18,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10054,Patrick Ellis,7,0,0.0,2318.99,331.2843,19,18,Novato (≤25 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10055,Christina Obrien,7,0,0.0,2059.33,294.19,54,18,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10056,Heather Gibson,7,0,0.0,1622.45,231.7786,21,18,Novato (≤25 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10057,Jennifer Lam,7,0,0.0,1859.43,265.6329,53,18,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10058,Holly Grant,11,4,0.3636,3396.83,308.8027,29,18,Intermediário (26–50 trips),0.3333,0.4,0.0667,False,1.183,6,Instável — Coaching,283.3022,True
+WDID10059,Amber Porter,11,4,0.3636,3408.91,309.9009,46,18,Intermediário (26–50 trips),,,,,1.058,7,Instável — Coaching,283.3022,True
+WDID10060,Jody Patel,11,4,0.3636,3996.96,363.36,41,18,Intermediário (26–50 trips),0.5,0.2,-0.3,True,1.069,8,Instável — Coaching,283.3022,True
+WDID10061,Ashley Peterson,11,4,0.3636,2932.24,266.5673,42,18,Intermediário (26–50 trips),0.2,0.5,0.3,False,1.182,8,Instável — Coaching,283.3022,True
+WDID10062,Audrey Lopez,11,4,0.3636,4185.7,380.5182,28,18,Intermediário (26–50 trips),,,,,1.466,8,Instável — Coaching,283.3022,True
+WDID10063,John Martinez,11,4,0.3636,3293.06,299.3691,77,18,Experiente (51+ trips),,,,,1.491,5,Instável — Coaching,283.3022,True
+WDID10064,Charlotte Davila,11,4,0.3636,2409.65,219.0591,37,18,Intermediário (26–50 trips),,,,,1.243,8,Instável — Coaching,283.3022,True
+WDID10065,Nicole Martinez,11,4,0.3636,2850.83,259.1664,23,18,Novato (≤25 trips),0.6,0.1667,-0.4333,True,1.414,7,Instável — Coaching,283.3022,True
+WDID10066,Ryan Gomez,11,4,0.3636,3405.23,309.5664,60,18,Experiente (51+ trips),0.3333,0.4,0.0667,False,1.27,6,Instável — Coaching,283.3022,True
+WDID10067,Bruce Lane,11,4,0.3636,3490.36,317.3055,29,18,Intermediário (26–50 trips),0.4,0.3333,-0.0667,True,1.029,6,Instável — Coaching,283.3022,True
+WDID10068,Tyler Stewart,11,4,0.3636,2945.63,267.7845,24,19,Novato (≤25 trips),0.4,0.3333,-0.0667,True,1.414,7,Instável — Coaching,283.3022,True
+WDID10069,Ms. Lindsay Carpenter,11,4,0.3636,2956.11,268.7373,77,19,Experiente (51+ trips),,,,,1.118,7,Instável — Coaching,283.3022,True
+WDID10070,Heather Torres,11,4,0.3636,3065.17,278.6518,51,19,Experiente (51+ trips),,,,,1.133,8,Instável — Coaching,283.3022,True
+WDID10071,Chad Medina,11,4,0.3636,2733.85,248.5318,20,19,Novato (≤25 trips),0.5,0.2,-0.3,True,1.182,8,Instável — Coaching,283.3022,True
+WDID10072,Brian Crawford,11,4,0.3636,3057.68,277.9709,32,19,Intermediário (26–50 trips),0.4,0.3333,-0.0667,True,1.299,9,Instável — Coaching,283.3022,True
+WDID10073,Elizabeth Robinson,11,4,0.3636,3480.23,316.3845,35,19,Intermediário (26–50 trips),,,,,1.129,6,Instável — Coaching,283.3022,True
+WDID10074,Joseph Roberts,11,4,0.3636,3082.74,280.2491,65,19,Experiente (51+ trips),0.6,0.1667,-0.4333,True,1.31,6,Instável — Coaching,283.3022,True
+WDID10075,Sandra Howard,11,4,0.3636,2979.26,270.8418,71,19,Experiente (51+ trips),0.5,0.2,-0.3,True,1.299,9,Instável — Coaching,283.3022,True
+WDID10076,Michelle Kane,11,4,0.3636,2228.0,202.5455,30,19,Intermediário (26–50 trips),,,,,1.392,5,Instável — Coaching,283.3022,True
+WDID10077,Brent Werner,11,4,0.3636,2488.95,226.2682,15,19,Novato (≤25 trips),,,,,1.262,6,Instável — Coaching,283.3022,True
+WDID10078,Todd Morris,11,4,0.3636,2969.04,269.9127,69,19,Experiente (51+ trips),0.2,0.5,0.3,False,1.228,8,Instável — Coaching,283.3022,True
+WDID10079,Brittany Kelly,11,4,0.3636,2867.69,260.6991,70,19,Experiente (51+ trips),0.0,0.6667,0.6667,False,0.894,6,Instável — Coaching,283.3022,True
+WDID10080,Kimberly Russell,11,4,0.3636,3269.13,297.1936,52,19,Experiente (51+ trips),0.2,0.5,0.3,False,1.058,7,Instável — Coaching,283.3022,True
+WDID10081,Jonathan Gonzalez,11,4,0.3636,4346.87,395.17,45,19,Intermediário (26–50 trips),,,,,1.05,7,Instável — Coaching,283.3022,True
+WDID10082,Brittany Morgan,11,4,0.3636,3697.18,336.1073,60,19,Experiente (51+ trips),0.4,0.3333,-0.0667,True,1.225,6,Instável — Coaching,283.3022,True
+WDID10083,Andrea Choi,11,4,0.3636,4017.8,365.2545,28,19,Intermediário (26–50 trips),0.5,0.2,-0.3,True,0.913,5,Instável — Coaching,283.3022,True
+WDID10084,Candace Taylor,11,4,0.3636,3338.28,303.48,11,19,Novato (≤25 trips),0.3333,0.4,0.0667,False,1.332,7,Instável — Coaching,283.3022,True
+WDID10085,Charles Barrett,11,4,0.3636,3704.01,336.7282,57,19,Experiente (51+ trips),0.5,0.2,-0.3,True,1.118,7,Instável — Coaching,283.3022,True
+WDID10086,Matthew Brooks,11,4,0.3636,2958.16,268.9236,20,19,Novato (≤25 trips),0.3333,0.4,0.0667,False,1.182,8,Instável — Coaching,283.3022,True
+WDID10087,Jessica Johnson,11,4,0.3636,2808.61,255.3282,74,19,Experiente (51+ trips),,,,,1.265,6,Instável — Coaching,283.3022,True
+WDID10088,Anne Mckee,11,4,0.3636,2812.52,255.6836,13,19,Novato (≤25 trips),,,,,1.732,7,Instável — Coaching,283.3022,True
+WDID10089,Andrew Smith,11,4,0.3636,2713.13,246.6482,41,19,Intermediário (26–50 trips),,,,,1.31,6,Instável — Coaching,283.3022,True
+WDID10090,Jennifer Harris,11,4,0.3636,2524.43,229.4936,65,19,Experiente (51+ trips),0.3333,0.4,0.0667,False,1.095,6,Instável — Coaching,283.3022,True
+WDID10091,Paul Boyd,11,4,0.3636,3451.65,313.7864,68,19,Experiente (51+ trips),,,,,1.269,7,Instável — Coaching,283.3022,True
+WDID10092,Savannah Berg,11,4,0.3636,3884.87,353.17,25,19,Novato (≤25 trips),,,,,1.281,7,Instável — Coaching,283.3022,True
+WDID10093,Justin Gregory,11,4,0.3636,2604.54,236.7764,56,19,Experiente (51+ trips),0.2,0.5,0.3,False,1.182,8,Instável — Coaching,283.3022,True
+WDID10094,Eric Bennett,11,4,0.3636,2774.33,252.2118,18,19,Novato (≤25 trips),,,,,1.111,7,Instável — Coaching,283.3022,True
+WDID10095,Billy Daniels,11,4,0.3636,3671.59,333.7809,71,19,Experiente (51+ trips),0.3333,0.4,0.0667,False,1.755,7,Instável — Coaching,283.3022,True
+WDID10096,Kelly Lopez,11,4,0.3636,2613.48,237.5891,14,19,Novato (≤25 trips),0.3333,0.4,0.0667,False,0.894,6,Instável — Coaching,283.3022,True
+WDID10097,Melissa Little,11,4,0.3636,2820.98,256.4527,59,19,Experiente (51+ trips),,,,,0.894,6,Instável — Coaching,283.3022,True
+WDID10098,Alice Giles,11,4,0.3636,2569.65,233.6045,71,19,Experiente (51+ trips),,,,,1.111,7,Instável — Coaching,283.3022,True
+WDID10099,Julie Nichols,11,4,0.3636,3007.75,273.4318,27,19,Intermediário (26–50 trips),0.4,0.3333,-0.0667,True,1.243,8,Instável — Coaching,283.3022,True
+WDID10100,Nicholas Drake,11,4,0.3636,3200.52,290.9564,44,19,Intermediário (26–50 trips),,,,,1.595,6,Instável — Coaching,283.3022,True
+WDID10101,Anita Harris,11,4,0.3636,4433.19,403.0173,47,19,Intermediário (26–50 trips),0.3333,0.4,0.0667,False,1.19,8,Instável — Coaching,283.3022,True
+WDID10102,Brian Kelley,7,0,0.0,2895.97,413.71,37,19,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10103,Melissa Harmon,7,0,0.0,2962.43,423.2043,65,19,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10104,David Nguyen,7,0,0.0,2568.15,366.8786,52,18,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10105,Laura Bradley,7,0,0.0,2046.57,292.3671,51,19,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10106,Justin Young,7,0,0.0,2248.86,321.2657,25,19,Novato (≤25 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10107,Julia Anderson,7,0,0.0,2597.15,371.0214,68,19,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10108,Nicole Allen,7,0,0.0,2299.99,328.57,68,19,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10109,Melissa Davidson,7,0,0.0,2295.16,327.88,77,19,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10110,Michael Poole,7,0,0.0,1801.91,257.4157,11,19,Novato (≤25 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10111,Jonathan Hansen,7,0,0.0,1971.6,281.6571,38,19,Intermediário (26–50 trips),,,,,0.0,7,Referência — Boas Práticas,0.0,False
+WDID10112,Alec Nichols,7,0,0.0,1746.78,249.54,26,19,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10113,Calvin Osborne,7,0,0.0,1807.09,258.1557,48,19,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10114,Amy Neal,7,0,0.0,1897.67,271.0957,77,19,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10115,Shawn Boone,7,0,0.0,2176.77,310.9671,41,19,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10116,Brandy Bennett,7,0,0.0,2025.51,289.3586,68,19,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10117,Brian Bennett,7,0,0.0,2160.23,308.6043,15,19,Novato (≤25 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10118,Donna Kelly,7,0,0.0,1682.69,240.3843,34,19,Intermediário (26–50 trips),,,,,0.0,3,Referência — Boas Práticas,0.0,False
+WDID10119,Mary Wood,7,0,0.0,1901.55,271.65,43,19,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10120,Jack Pratt,7,0,0.0,1850.44,264.3486,22,19,Novato (≤25 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10121,Andrew Gibson,7,0,0.0,2160.82,308.6886,20,19,Novato (≤25 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10122,Derrick Russell,7,0,0.0,2033.42,290.4886,45,19,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10123,Julie Snyder,7,0,0.0,2002.17,286.0243,32,19,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10124,Timothy Hernandez II,7,0,0.0,1481.8,211.6857,29,19,Intermediário (26–50 trips),,,,,0.0,3,Referência — Boas Práticas,0.0,False
+WDID10125,Geoffrey Heath,7,0,0.0,1344.92,192.1314,54,19,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10126,Cindy Rivera,7,0,0.0,1659.79,237.1129,70,19,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10127,Alan Hess,7,0,0.0,1591.93,227.4186,51,19,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10128,Lindsay Smith,7,0,0.0,1486.61,212.3729,21,19,Novato (≤25 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10129,Andrea Miller,7,0,0.0,1827.58,261.0829,50,19,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10130,Katie Frey,7,0,0.0,2053.93,293.4186,39,19,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10131,Erica Jackson,7,0,0.0,1704.94,243.5629,42,19,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10132,Isaac Lewis,7,0,0.0,1645.25,235.0357,32,19,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10133,Carl Mcguire,7,0,0.0,1765.24,252.1771,14,19,Novato (≤25 trips),,,,,0.0,3,Referência — Boas Práticas,0.0,False
+WDID10134,Jake Patterson,7,0,0.0,1493.59,213.37,73,19,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10135,Ruth Mooney,7,0,0.0,1465.84,209.4057,70,19,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10136,Jody Sanchez,7,0,0.0,2041.04,291.5771,15,19,Novato (≤25 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10137,Martha Anderson,7,0,0.0,2735.66,390.8086,29,19,Intermediário (26–50 trips),,,,,0.0,7,Referência — Boas Práticas,0.0,False
+WDID10138,Rhonda Keller,7,0,0.0,2541.4,363.0571,43,19,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10139,Kelly Hughes DDS,7,0,0.0,2451.44,350.2057,66,19,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10140,Donald Stuart,7,0,0.0,2062.14,294.5914,71,19,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10141,Christine Bauer,7,0,0.0,2143.84,306.2629,48,19,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10142,Shawn Young,7,0,0.0,2121.18,303.0257,74,19,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10143,Deanna Golden,7,0,0.0,2049.52,292.7886,77,19,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10144,Laura Smith,7,0,0.0,1769.44,252.7771,11,19,Novato (≤25 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10145,James Green,7,0,0.0,1484.24,212.0343,27,19,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10146,Melanie Henderson,7,0,0.0,1574.37,224.91,22,19,Novato (≤25 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10147,Matthew Brown,7,0,0.0,1277.55,182.5071,39,19,Intermediário (26–50 trips),,,,,0.0,3,Referência — Boas Práticas,0.0,False
+WDID10148,Claudia King,7,0,0.0,1431.28,204.4686,44,19,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10149,Betty Smith,7,0,0.0,1350.4,192.9143,49,19,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10150,Heidi Meyer,7,0,0.0,1200.57,171.51,49,19,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10151,Adam Brown,7,0,0.0,2002.82,286.1171,70,19,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10152,Samantha Carey,7,0,0.0,1511.51,215.93,51,19,Experiente (51+ trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10153,Samuel Glover,7,0,0.0,1393.6,199.0857,71,19,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10154,Gerald Pollard,7,0,0.0,1548.01,221.1443,38,19,Intermediário (26–50 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10155,Mr. Thomas Anderson,7,0,0.0,1029.51,147.0729,54,19,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10156,David Hernandez,7,0,0.0,1412.03,201.7186,31,19,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10157,Leonard Nelson,7,0,0.0,2262.24,323.1771,35,19,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10158,James Rivera,7,0,0.0,2052.39,293.1986,26,19,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10159,Monique Jackson,7,0,0.0,1732.07,247.4386,76,19,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10160,John Morris,7,0,0.0,2807.48,401.0686,70,19,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10161,Rebecca Harmon,7,0,0.0,2507.87,358.2671,23,19,Novato (≤25 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10162,Rebecca Myers,7,0,0.0,2448.35,349.7643,66,19,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10163,George Padilla,7,0,0.0,2230.21,318.6014,26,19,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10164,Cynthia Park,7,0,0.0,2404.97,343.5671,49,19,Intermediário (26–50 trips),,,,,0.0,7,Referência — Boas Práticas,0.0,False
+WDID10165,Tyler Mason,7,0,0.0,2299.07,328.4386,42,19,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10166,Paul Diaz,7,0,0.0,1785.85,255.1214,40,19,Intermediário (26–50 trips),,,,,0.0,3,Referência — Boas Práticas,0.0,False
+WDID10167,Patricia Villarreal,7,0,0.0,2111.19,301.5986,49,19,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10168,Hector Collins,7,0,0.0,1913.08,273.2971,50,19,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10169,David Durham,7,0,0.0,1367.15,195.3071,72,19,Experiente (51+ trips),,,,,0.0,7,Referência — Boas Práticas,0.0,False
+WDID10170,Lisa Frank,7,0,0.0,1644.61,234.9443,33,19,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10171,Derek Colon,7,0,0.0,1470.7,210.1,33,19,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10172,Jennifer Diaz,7,0,0.0,1904.16,272.0229,28,19,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10173,Keith Perez,7,0,0.0,2176.61,310.9443,39,19,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10174,Kelly Bray,7,0,0.0,1662.76,237.5371,11,19,Novato (≤25 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10175,Rebecca Newton,7,0,0.0,2021.06,288.7229,15,19,Novato (≤25 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10176,Jordan Guerrero,7,0,0.0,1854.33,264.9043,39,19,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10177,Samantha Francis,7,0,0.0,1868.49,266.9271,62,20,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10178,Misty Castro,7,0,0.0,1494.41,213.4871,17,20,Novato (≤25 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10179,Jessica Beck,7,0,0.0,1478.77,211.2529,63,20,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10180,Debbie Gross,7,0,0.0,1427.54,203.9343,60,20,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10181,Michael Riley,7,0,0.0,1494.57,213.51,71,20,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10182,Jeremy Owens,7,0,0.0,1350.85,192.9786,74,20,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10183,Dawn Smith,7,0,0.0,1493.89,213.4129,12,20,Novato (≤25 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10184,Kelly Saunders,7,0,0.0,2099.81,299.9729,67,20,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10185,Lisa Camacho,7,0,0.0,2276.09,325.1557,20,20,Novato (≤25 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10186,Latoya Austin,7,0,0.0,1993.96,284.8514,47,20,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10187,Lauren Stevens,7,0,0.0,2011.38,287.34,29,20,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10188,Leslie White,7,0,0.0,1869.25,267.0357,19,20,Novato (≤25 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10189,Brenda Cooper,7,0,0.0,2465.83,352.2614,23,20,Novato (≤25 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10190,Kara Hall,7,0,0.0,2621.55,374.5071,41,20,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10191,Heather Robinson,7,0,0.0,2151.51,307.3586,20,20,Novato (≤25 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10192,Michelle Griffin,7,0,0.0,1905.99,272.2843,23,20,Novato (≤25 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10193,Shawn Riley,7,0,0.0,2596.13,370.8757,32,20,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10194,Emily Gonzales,7,0,0.0,2387.67,341.0957,51,20,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10195,Jimmy Baldwin,7,0,0.0,2146.89,306.6986,38,20,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10196,Brian Anderson,7,0,0.0,3017.69,431.0986,39,20,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10197,Jacob Soto,7,0,0.0,2022.24,288.8914,56,20,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10198,Samuel Walton,7,0,0.0,1987.89,283.9843,58,20,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10199,Sophia Wilson,7,0,0.0,1652.02,236.0029,78,20,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10200,Michelle Johnson,7,0,0.0,2085.2,297.8857,46,20,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10201,Frank Ruiz,7,0,0.0,1847.4,263.9143,11,20,Novato (≤25 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10202,Rebecca Peterson,7,0,0.0,2978.85,425.55,29,20,Intermediário (26–50 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10203,Kyle Peterson,7,0,0.0,2623.22,374.7457,34,20,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10204,Katie Shields,7,0,0.0,1858.69,265.5271,36,20,Intermediário (26–50 trips),,,,,0.0,7,Referência — Boas Práticas,0.0,False
+WDID10205,Jeffrey Tyler,7,0,0.0,1861.73,265.9614,57,20,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10206,Maria Gamble,7,0,0.0,1832.4,261.7714,76,20,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10207,Matthew Thompson,7,0,0.0,1486.06,212.2943,59,20,Experiente (51+ trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10208,Evelyn Martinez,7,0,0.0,1580.51,225.7871,23,20,Novato (≤25 trips),,,,,0.0,7,Referência — Boas Práticas,0.0,False
+WDID10209,Vicki Whitaker,7,0,0.0,1329.95,189.9929,53,20,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10210,Yesenia Howard MD,7,0,0.0,1656.73,236.6757,69,20,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10211,Katelyn Walker,7,0,0.0,1544.86,220.6943,69,20,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10212,Todd Livingston,7,0,0.0,1857.91,265.4157,13,20,Novato (≤25 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10213,Marcus Rodriguez,7,0,0.0,2112.67,301.81,77,20,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10214,Kelly Benjamin,7,0,0.0,2051.91,293.13,34,20,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10215,Michael Ford,7,0,0.0,2384.3,340.6143,17,20,Novato (≤25 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10216,Nicole Freeman,11,4,0.3636,4000.82,363.7109,45,20,Intermediário (26–50 trips),0.1667,0.6,0.4333,False,1.182,8,Instável — Coaching,283.3022,True
+WDID10217,Christopher Cooper,11,4,0.3636,3262.66,296.6055,69,20,Experiente (51+ trips),,,,,1.182,8,Instável — Coaching,283.3022,True
+WDID10218,Shelly Sweeney,11,4,0.3636,4060.53,369.1391,42,20,Intermediário (26–50 trips),0.4,0.3333,-0.0667,True,1.355,10,Instável — Coaching,283.3022,True
+WDID10219,Justin Robinson,11,4,0.3636,2897.29,263.39,54,20,Experiente (51+ trips),,,,,1.19,8,Instável — Coaching,283.3022,True
+WDID10220,Crystal Harris,11,4,0.3636,3921.24,356.4764,55,20,Experiente (51+ trips),,,,,1.512,8,Instável — Coaching,283.3022,True
+WDID10221,Michael Baxter,11,4,0.3636,2922.09,265.6445,42,20,Intermediário (26–50 trips),,,,,1.377,7,Instável — Coaching,283.3022,True
+WDID10222,Daniel Hall,11,4,0.3636,2879.47,261.77,40,20,Intermediário (26–50 trips),,,,,1.332,7,Instável — Coaching,283.3022,True
+WDID10223,Scott Bell,11,4,0.3636,2958.81,268.9827,24,20,Novato (≤25 trips),0.2,0.5,0.3,False,1.025,6,Instável — Coaching,283.3022,True
+WDID10224,Anthony Mitchell,11,4,0.3636,4328.93,393.5391,25,20,Novato (≤25 trips),,,,,0.903,6,Instável — Coaching,283.3022,True
+WDID10225,Mary Miller,11,4,0.3636,3209.2,291.7455,49,20,Intermediário (26–50 trips),0.3333,0.4,0.0667,False,1.117,6,Instável — Coaching,283.3022,True
+WDID10226,Sherri Allen,11,4,0.3636,2986.33,271.4845,43,20,Intermediário (26–50 trips),0.3333,0.4,0.0667,False,1.182,8,Instável — Coaching,283.3022,True
+WDID10227,David Williams,11,4,0.3636,3269.85,297.2591,47,20,Intermediário (26–50 trips),,,,,1.281,7,Instável — Coaching,283.3022,True
+WDID10228,Lindsey Nash,11,4,0.3636,3634.7,330.4273,63,20,Experiente (51+ trips),,,,,1.308,9,Instável — Coaching,283.3022,True
+WDID10229,Jason Hoover,7,0,0.0,1503.73,214.8186,78,20,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10230,Nicole Grimes,7,0,0.0,1670.18,238.5971,68,20,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10231,Emily Tyler,7,0,0.0,1879.88,268.5543,53,20,Experiente (51+ trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10232,Sarah Mccormick,7,0,0.0,1265.2,180.7429,16,20,Novato (≤25 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10233,Kathy Pope,7,0,0.0,1789.11,255.5871,36,20,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10234,Melinda Parker,7,0,0.0,1657.19,236.7414,52,20,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10235,Michelle Rojas,7,0,0.0,1538.0,219.7143,42,20,Intermediário (26–50 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10236,Katherine Howard,7,0,0.0,2056.24,293.7486,13,20,Novato (≤25 trips),,,,,0.0,7,Referência — Boas Práticas,0.0,False
+WDID10237,Alicia Day,7,0,0.0,2041.18,291.5971,73,20,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10238,Beverly Bennett,7,0,0.0,2291.51,327.3586,15,20,Novato (≤25 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10239,Rachel Miller,7,0,0.0,1927.41,275.3443,70,21,Experiente (51+ trips),,,,,0.0,7,Referência — Boas Práticas,0.0,False
+WDID10240,Debra Tyler,7,0,0.0,1834.91,262.13,71,21,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10241,Mathew Ward,7,0,0.0,1449.35,207.05,21,21,Novato (≤25 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10242,Rebekah Campbell,7,0,0.0,1337.89,191.1271,78,21,Experiente (51+ trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10243,Sandra Shannon,7,0,0.0,1536.42,219.4886,38,21,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10244,David Cisneros,7,0,0.0,2480.04,354.2914,70,21,Experiente (51+ trips),,,,,0.0,3,Referência — Boas Práticas,0.0,False
+WDID10245,William Ballard,11,4,0.3636,3417.66,310.6964,46,21,Intermediário (26–50 trips),0.5,0.2,-0.3,True,1.111,7,Instável — Coaching,283.3022,True
+WDID10246,Samantha Burns,11,4,0.3636,4064.96,369.5418,63,21,Experiente (51+ trips),0.4,0.3333,-0.0667,True,1.466,8,Instável — Coaching,283.3022,True
+WDID10247,Sandra Ochoa,11,4,0.3636,3566.0,324.1818,76,21,Experiente (51+ trips),0.0,0.6667,0.6667,False,1.38,8,Instável — Coaching,283.3022,True
+WDID10248,Victoria Adams,11,4,0.3636,3764.19,342.1991,61,21,Experiente (51+ trips),,,,,1.243,8,Instável — Coaching,283.3022,True
+WDID10249,Michael Martin,11,4,0.3636,3546.84,322.44,78,21,Experiente (51+ trips),,,,,1.133,8,Instável — Coaching,283.3022,True
+WDID10250,Jared Campos,11,4,0.3636,2815.52,255.9564,24,21,Novato (≤25 trips),0.3333,0.4,0.0667,False,1.182,8,Instável — Coaching,283.3022,True
+WDID10251,Jennifer Solis,11,4,0.3636,2365.3,215.0273,63,21,Experiente (51+ trips),,,,,1.5,9,Instável — Coaching,283.3022,True
+WDID10252,Timothy Humphrey,11,4,0.3636,2243.75,203.9773,39,21,Intermediário (26–50 trips),0.3333,0.4,0.0667,False,1.182,8,Instável — Coaching,283.3022,True
+WDID10253,Kenneth Hess,11,4,0.3636,2798.79,254.4355,53,21,Experiente (51+ trips),,,,,1.414,8,Instável — Coaching,283.3022,True
+WDID10254,Sylvia Reed,11,4,0.3636,3465.87,315.0791,33,21,Intermediário (26–50 trips),0.6,0.1667,-0.4333,True,1.133,8,Instável — Coaching,283.3022,True
+WDID10255,Matthew Miller,11,4,0.3636,3101.01,281.91,20,21,Novato (≤25 trips),0.6,0.1667,-0.4333,True,1.247,7,Instável — Coaching,283.3022,True
+WDID10256,Jennifer Brown,11,4,0.3636,3234.17,294.0155,61,21,Experiente (51+ trips),,,,,1.129,6,Instável — Coaching,283.3022,True
+WDID10257,Paul Lyons,11,4,0.3636,4126.43,375.13,29,21,Intermediário (26–50 trips),,,,,1.466,8,Instável — Coaching,283.3022,True
+WDID10258,Christopher Williams,11,4,0.3636,3070.74,279.1582,33,21,Intermediário (26–50 trips),0.4,0.3333,-0.0667,True,1.111,7,Instável — Coaching,283.3022,True
+WDID10259,James Jones,7,0,0.0,1716.96,245.28,26,21,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10260,Eric Morse,7,0,0.0,1464.53,209.2186,20,21,Novato (≤25 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10261,Shannon Juarez,7,0,0.0,1909.46,272.78,50,21,Intermediário (26–50 trips),,,,,0.0,7,Referência — Boas Práticas,0.0,False
+WDID10262,Alyssa Higgins,7,0,0.0,1830.93,261.5614,14,21,Novato (≤25 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10263,Dr. Matthew Hines,7,0,0.0,2366.68,338.0971,31,21,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10264,Brian Adams,7,0,0.0,1877.38,268.1971,47,21,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10265,Robert Nixon,7,0,0.0,1981.78,283.1114,23,21,Novato (≤25 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10266,Laurie Cameron,7,0,0.0,1538.23,219.7471,36,21,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10267,Miss Christina Friedman,7,0,0.0,1878.23,268.3186,53,21,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10268,Samuel Baker,7,0,0.0,2016.52,288.0743,20,21,Novato (≤25 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10269,Leslie Leonard,7,0,0.0,1613.58,230.5114,13,21,Novato (≤25 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10270,Katherine Lowe,7,0,0.0,1414.75,202.1071,35,21,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10271,Christopher Valentine,7,0,0.0,2050.09,292.87,21,21,Novato (≤25 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10272,Jerry Norris,7,0,0.0,1948.46,278.3514,70,21,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10273,Robert Johnson,7,0,0.0,1859.18,265.5971,23,21,Novato (≤25 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10274,Ryan Hill,7,0,0.0,1573.09,224.7271,35,21,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10275,Eric Koch,7,0,0.0,1394.36,199.1943,70,21,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10276,Perry Silva,7,0,0.0,2037.05,291.0071,34,21,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10277,Sarah Ferguson,7,0,0.0,1730.54,247.22,21,21,Novato (≤25 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10278,Veronica Conley,7,0,0.0,1963.16,280.4514,51,21,Experiente (51+ trips),,,,,0.0,7,Referência — Boas Práticas,0.0,False
+WDID10279,Caitlin Smith,7,0,0.0,1450.43,207.2043,46,21,Intermediário (26–50 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10280,Jaclyn Martin,7,0,0.0,1337.6,191.0857,67,21,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10281,Seth Martinez,7,0,0.0,1417.82,202.5457,51,21,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10282,Brittany Morgan,7,0,0.0,2173.49,310.4986,76,19,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10283,Mark Mason,7,0,0.0,2517.85,359.6929,11,21,Novato (≤25 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10284,Kyle Davis,7,0,0.0,1444.38,206.34,54,21,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10285,Jason Lee,7,0,0.0,1440.55,205.7929,40,21,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10286,Jasmine Smith,7,0,0.0,2006.87,286.6957,74,21,Experiente (51+ trips),,,,,0.0,7,Referência — Boas Práticas,0.0,False
+WDID10287,Amber Murray,7,0,0.0,1737.01,248.1443,39,21,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10288,James Moran,7,0,0.0,2324.91,332.13,50,21,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10289,Darrell Mcmillan,7,0,0.0,2457.6,351.0857,63,21,Experiente (51+ trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10290,Sandra Lane,7,0,0.0,2260.14,322.8771,45,21,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10291,Rachel Bautista,7,0,0.0,2307.11,329.5871,74,21,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10292,Jerry Kirk,7,0,0.0,2305.44,329.3486,58,21,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10293,Rebecca Hall MD,7,0,0.0,1936.72,276.6743,64,21,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10294,Elizabeth Cox,7,0,0.0,2471.1,353.0143,70,21,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10295,Sean Johnson,7,0,0.0,1768.39,252.6271,66,21,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10296,Toni Obrien,7,0,0.0,1392.35,198.9071,50,22,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10297,Anthony Thomas,7,0,0.0,1864.4,266.3429,65,22,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10298,Stephanie Archer,7,0,0.0,2448.84,349.8343,14,22,Novato (≤25 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10299,Amber Anderson,7,0,0.0,2186.99,312.4271,20,22,Novato (≤25 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10300,Elizabeth Rivera,7,0,0.0,2137.67,305.3814,22,22,Novato (≤25 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10301,Steven Harris,7,0,0.0,1785.11,255.0157,52,22,Experiente (51+ trips),,,,,0.0,7,Referência — Boas Práticas,0.0,False
+WDID10302,James Stephenson,7,0,0.0,1995.11,285.0157,34,22,Intermediário (26–50 trips),,,,,0.0,7,Referência — Boas Práticas,0.0,False
+WDID10303,Mary Gutierrez,7,0,0.0,1952.2,278.8857,67,22,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10304,Wayne Valenzuela,7,0,0.0,3103.78,443.3971,23,22,Novato (≤25 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10305,Charles Fields,7,0,0.0,2109.84,301.4057,77,22,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10306,Jacob Rivera,7,0,0.0,1896.14,270.8771,23,22,Novato (≤25 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10307,Russell Lewis,7,0,0.0,1875.45,267.9214,72,22,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10308,Brian Williams,7,0,0.0,1756.29,250.8986,39,19,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10309,Jessica Acosta,11,4,0.3636,3246.7,295.1545,12,22,Novato (≤25 trips),,,,,1.111,7,Instável — Coaching,283.3022,True
+WDID10310,Teresa Trujillo,11,4,0.3636,2500.58,227.3255,50,22,Intermediário (26–50 trips),,,,,0.903,6,Instável — Coaching,283.3022,True
+WDID10311,Caleb Martinez,11,4,0.3636,2788.91,253.5373,57,22,Experiente (51+ trips),0.4,0.3333,-0.0667,True,1.377,7,Instável — Coaching,283.3022,True
+WDID10312,Toni Carter DDS,11,4,0.3636,2793.34,253.94,68,22,Experiente (51+ trips),,,,,1.133,8,Instável — Coaching,283.3022,True
+WDID10313,Nathan Price,11,4,0.3636,4059.51,369.0464,29,22,Intermediário (26–50 trips),0.3333,0.4,0.0667,False,1.249,9,Instável — Coaching,283.3022,True
+WDID10314,Joshua Barrett,11,4,0.3636,3063.97,278.5427,38,22,Intermediário (26–50 trips),0.1667,0.6,0.4333,False,1.31,6,Instável — Coaching,283.3022,True
+WDID10315,Courtney Smith,11,4,0.3636,2854.52,259.5018,60,22,Experiente (51+ trips),0.6,0.1667,-0.4333,True,1.47,7,Instável — Coaching,283.3022,True
+WDID10316,Jasmine Higgins,11,4,0.3636,3114.13,283.1027,39,22,Intermediário (26–50 trips),0.2,0.5,0.3,False,1.058,7,Instável — Coaching,283.3022,True
+WDID10317,Stephen Walls,11,4,0.3636,2966.48,269.68,11,22,Novato (≤25 trips),,,,,1.377,7,Instável — Coaching,283.3022,True
+WDID10318,Jason Young,11,4,0.3636,3994.55,363.1409,16,22,Novato (≤25 trips),0.2,0.5,0.3,False,1.05,7,Instável — Coaching,283.3022,True
+WDID10319,Cynthia Thomas,11,4,0.3636,3162.64,287.5127,40,22,Intermediário (26–50 trips),0.3333,0.4,0.0667,False,0.803,6,Instável — Coaching,283.3022,True
+WDID10320,Amanda Bennett,11,4,0.3636,2944.31,267.6645,21,22,Novato (≤25 trips),,,,,1.182,8,Instável — Coaching,283.3022,True
+WDID10321,Crystal Ellis,11,4,0.3636,2679.47,243.5882,21,22,Novato (≤25 trips),,,,,1.38,8,Instável — Coaching,283.3022,True
+WDID10322,Dana Ferguson,11,4,0.3636,2551.77,231.9791,40,22,Intermediário (26–50 trips),,,,,1.19,8,Instável — Coaching,283.3022,True
+WDID10323,Edward Moore,11,4,0.3636,3355.15,305.0136,19,22,Novato (≤25 trips),0.8,0.0,-0.8,True,1.0,7,Instável — Coaching,283.3022,True
+WDID10324,Glenda Johnson,11,4,0.3636,3654.48,332.2255,40,22,Intermediário (26–50 trips),,,,,1.133,8,Instável — Coaching,283.3022,True
+WDID10325,Kimberly Townsend,11,4,0.3636,3013.58,273.9618,54,22,Experiente (51+ trips),0.6667,0.0,-0.6667,True,1.247,7,Instável — Coaching,283.3022,True
+WDID10326,Brittany Daniel,11,4,0.3636,4316.92,392.4473,41,22,Intermediário (26–50 trips),,,,,1.069,8,Instável — Coaching,283.3022,True
+WDID10327,Cindy Mahoney,7,0,0.0,2367.52,338.2171,65,22,Experiente (51+ trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10328,Dennis Forbes,7,0,0.0,2249.46,321.3514,24,22,Novato (≤25 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10329,Juan Melendez,7,0,0.0,2015.95,287.9929,25,22,Novato (≤25 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10330,Cindy King,7,0,0.0,2712.49,387.4986,28,22,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10331,Julia Cunningham,7,0,0.0,1845.66,263.6657,74,22,Experiente (51+ trips),,,,,0.0,7,Referência — Boas Práticas,0.0,False
+WDID10332,Brittney King MD,7,0,0.0,1891.48,270.2114,67,22,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10333,Jose Solomon,7,0,0.0,1940.35,277.1929,76,23,Experiente (51+ trips),,,,,0.0,7,Referência — Boas Práticas,0.0,False
+WDID10334,Amber Robinson,7,0,0.0,2121.08,303.0114,36,23,Intermediário (26–50 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10335,William Alexander,7,0,0.0,1745.31,249.33,60,23,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10336,Kevin Anderson,7,0,0.0,1616.61,230.9443,28,23,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10337,Cynthia Mckinney,7,0,0.0,1657.93,236.8471,11,23,Novato (≤25 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10338,George Morgan,7,0,0.0,1655.5,236.5,74,23,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10339,Daniel Wolf,7,0,0.0,1603.31,229.0443,38,23,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10340,Jennifer Chen,7,0,0.0,1522.02,217.4314,75,23,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10341,Michael Kim,7,0,0.0,1647.38,235.34,65,23,Experiente (51+ trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10342,Matthew Morgan PhD,7,0,0.0,1539.03,219.8614,15,23,Novato (≤25 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10343,Jose Williams,7,0,0.0,1737.79,248.2557,24,23,Novato (≤25 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10344,Jodi Gutierrez,7,0,0.0,1720.29,245.7557,59,23,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10345,Tina Schneider,7,0,0.0,1265.71,180.8157,62,23,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10346,Laura Johnson,7,0,0.0,1309.49,187.07,41,23,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10347,Jennifer Drake,7,0,0.0,1546.34,220.9057,22,23,Novato (≤25 trips),,,,,0.0,7,Referência — Boas Práticas,0.0,False
+WDID10348,Phillip Wallace,7,0,0.0,1415.2,202.1714,37,23,Intermediário (26–50 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10349,David Drake,7,0,0.0,2480.21,354.3157,68,23,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10350,James Gates,7,0,0.0,2657.03,379.5757,37,23,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10351,Matthew Davis,7,0,0.0,2295.14,327.8771,19,23,Novato (≤25 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10352,David Davis,7,0,0.0,2026.15,289.45,50,23,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10353,Mr. Michael Brown,7,0,0.0,2146.31,306.6157,58,23,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10354,Allison Davis,7,0,0.0,2044.24,292.0343,63,23,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10355,Stacy Blackburn,11,4,0.3636,3443.36,313.0327,78,23,Experiente (51+ trips),,,,,1.269,7,Instável — Coaching,283.3022,True
+WDID10356,Christina Bowers,11,4,0.3636,2778.24,252.5673,37,23,Intermediário (26–50 trips),,,,,1.025,6,Instável — Coaching,283.3022,True
+WDID10357,Michelle Owen,11,4,0.3636,3072.02,279.2745,48,23,Intermediário (26–50 trips),,,,,1.029,6,Instável — Coaching,283.3022,True
+WDID10358,Nancy Snyder,11,4,0.3636,3050.76,277.3418,14,23,Novato (≤25 trips),,,,,1.335,7,Instável — Coaching,283.3022,True
+WDID10359,Dustin Wood,11,4,0.3636,4342.19,394.7445,57,23,Experiente (51+ trips),,,,,1.03,6,Instável — Coaching,283.3022,True
+WDID10360,Alyssa Walker,7,0,0.0,2216.96,316.7086,40,23,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10361,Jason Allen,7,0,0.0,2197.15,313.8786,38,23,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10362,Courtney Castillo,7,0,0.0,1749.86,249.98,35,23,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10363,Karen Warner,7,0,0.0,1829.75,261.3929,35,23,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10364,Rebecca Robinson,7,0,0.0,2630.64,375.8057,29,23,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10365,Carl Blair,7,0,0.0,1564.08,223.44,39,23,Intermediário (26–50 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10366,Curtis Suarez,7,0,0.0,1954.36,279.1943,59,23,Experiente (51+ trips),,,,,0.0,3,Referência — Boas Práticas,0.0,False
+WDID10367,Benjamin Cordova,7,0,0.0,1843.88,263.4114,27,23,Intermediário (26–50 trips),,,,,0.0,7,Referência — Boas Práticas,0.0,False
+WDID10368,Brenda Palmer,7,0,0.0,1965.43,280.7757,61,23,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10369,Christine Smith,7,0,0.0,1874.1,267.7286,42,23,Intermediário (26–50 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10370,Ann Allen,7,0,0.0,1776.67,253.81,60,23,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10371,Joseph Lam,7,0,0.0,2054.68,293.5257,17,23,Novato (≤25 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10372,Erin Martinez,7,0,0.0,1524.89,217.8414,28,24,Intermediário (26–50 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10373,Tracy Henderson,7,0,0.0,1839.74,262.82,46,24,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10374,Jeffery Long,7,0,0.0,1522.65,217.5214,77,24,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10375,David Hanson,7,0,0.0,1323.67,189.0957,60,24,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10376,Erik Johnson,7,0,0.0,1832.45,261.7786,36,24,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10377,Walter Reed,7,0,0.0,1964.26,280.6086,41,24,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10378,Natasha Walker,7,0,0.0,2016.23,288.0329,33,24,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10379,Cathy Bailey,7,0,0.0,2310.45,330.0643,73,24,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10380,Donald Gregory,7,0,0.0,1758.03,251.1471,69,24,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10381,Jasmine Savage,7,0,0.0,1388.49,198.3557,38,24,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10382,Brandon Garza,7,0,0.0,1709.03,244.1471,62,24,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10383,Douglas Young,7,0,0.0,2256.32,322.3314,60,24,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10384,Lisa Jackson,7,0,0.0,2306.96,329.5657,43,24,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10385,Miss Gabrielle Gray,7,0,0.0,1869.45,267.0643,32,24,Intermediário (26–50 trips),,,,,0.0,7,Referência — Boas Práticas,0.0,False
+WDID10386,Dennis Robinson MD,11,4,0.3636,4213.52,383.0473,15,24,Novato (≤25 trips),,,,,1.414,8,Instável — Coaching,283.3022,True
+WDID10387,Dalton Rogers,11,4,0.3636,3462.96,314.8145,27,24,Intermediário (26–50 trips),,,,,1.133,8,Instável — Coaching,283.3022,True
+WDID10388,Damon Bailey,11,4,0.3636,3000.81,272.8009,75,24,Experiente (51+ trips),,,,,1.55,8,Instável — Coaching,283.3022,True
+WDID10389,Megan Smith,11,4,0.3636,1984.01,180.3645,64,24,Experiente (51+ trips),,,,,1.291,10,Instável — Coaching,283.3022,True
+WDID10390,Maria Spears,11,4,0.3636,2987.91,271.6282,15,24,Novato (≤25 trips),,,,,1.355,10,Instável — Coaching,283.3022,True
+WDID10391,Richard Hoffman,7,0,0.0,1413.17,201.8814,42,24,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10392,Stephen Palmer,7,0,0.0,1352.68,193.24,51,24,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10393,John Mckinney,7,0,0.0,1072.13,153.1614,22,24,Novato (≤25 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10394,Jamie Ramirez,7,0,0.0,1114.49,159.2129,13,24,Novato (≤25 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10395,Jesse Morales DVM,7,0,0.0,1563.45,223.35,49,24,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10396,Jennifer Murray,7,0,0.0,1699.21,242.7443,54,24,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10397,Shannon Gomez,7,0,0.0,1952.87,278.9814,50,24,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10398,Ashley Brown,7,0,0.0,2232.67,318.9529,72,24,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10399,Cathy Sanders,7,0,0.0,2159.56,308.5086,70,24,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10400,Daniel Wall,7,0,0.0,2159.82,308.5457,50,24,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10401,Stephanie Williams,7,0,0.0,2038.65,291.2357,27,24,Intermediário (26–50 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10402,Dr. Barbara Donovan,7,0,0.0,1662.55,237.5071,48,25,Intermediário (26–50 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10403,Nathaniel Villa,7,0,0.0,1718.54,245.5057,57,25,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10404,Brandon Soto,7,0,0.0,2273.08,324.7257,17,25,Novato (≤25 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10405,Kathleen Manning,7,0,0.0,2032.87,290.41,35,25,Intermediário (26–50 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10406,Micheal Solomon,7,0,0.0,1937.2,276.7429,32,25,Intermediário (26–50 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10407,Ashley Lin,7,0,0.0,2194.14,313.4486,55,25,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10408,Shawn Short,7,0,0.0,2201.01,314.43,46,25,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10409,Kimberly Snyder,7,0,0.0,2158.49,308.3557,20,25,Novato (≤25 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10410,Ronald Spencer,7,0,0.0,1821.8,260.2571,78,25,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10411,Mark Trevino,7,0,0.0,2399.4,342.7714,76,25,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10412,Jeremy Phillips,7,0,0.0,2003.96,286.28,69,25,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10413,Valerie Greer,7,0,0.0,2254.72,322.1029,50,25,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10414,Christina Estrada,7,0,0.0,2160.13,308.59,23,25,Novato (≤25 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10415,Jerry Lamb,11,4,0.3636,4371.14,397.3764,55,25,Experiente (51+ trips),,,,,1.587,9,Instável — Coaching,283.3022,True
+WDID10416,Sandra Henry,11,4,0.3636,2249.06,204.46,41,25,Intermediário (26–50 trips),,,,,1.414,7,Instável — Coaching,283.3022,True
+WDID10417,James Velez,11,4,0.3636,2742.88,249.3527,21,25,Novato (≤25 trips),0.3333,0.4,0.0667,False,1.19,8,Instável — Coaching,283.3022,True
+WDID10418,Kelsey Mitchell,11,4,0.3636,2662.47,242.0427,18,26,Novato (≤25 trips),0.5,0.2,-0.3,True,1.5,9,Instável — Coaching,283.3022,True
+WDID10419,Valerie Davis,11,4,0.3636,2386.44,216.9491,29,26,Intermediário (26–50 trips),,,,,1.029,6,Instável — Coaching,283.3022,True
+WDID10420,Heather King,11,4,0.3636,2844.13,258.5573,31,26,Intermediário (26–50 trips),0.5,0.2,-0.3,True,1.0,7,Instável — Coaching,283.3022,True
+WDID10421,Jesse Solomon,11,4,0.3636,2902.99,263.9082,29,26,Intermediário (26–50 trips),,,,,1.335,7,Instável — Coaching,283.3022,True
+WDID10422,Patrick Hall,11,4,0.3636,2532.47,230.2245,27,26,Intermediário (26–50 trips),,,,,1.38,8,Instável — Coaching,283.3022,True
+WDID10423,Robert Wright,11,4,0.3636,1991.78,181.0709,63,26,Experiente (51+ trips),,,,,1.317,6,Instável — Coaching,283.3022,True
+WDID10424,Sara Good,7,0,0.0,1044.26,149.18,77,26,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10425,Carol Simpson,7,0,0.0,3335.8,476.5429,63,26,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10426,Ricky Carter,7,0,0.0,2869.77,409.9671,55,26,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10427,Kristin Jones,7,0,0.0,2503.2,357.6,39,26,Intermediário (26–50 trips),,,,,0.0,7,Referência — Boas Práticas,0.0,False
+WDID10428,Erika Cook,7,0,0.0,2156.49,308.07,15,26,Novato (≤25 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10429,Thomas Fletcher,7,0,0.0,2023.99,289.1414,78,26,Experiente (51+ trips),,,,,0.0,7,Referência — Boas Práticas,0.0,False
+WDID10430,Mary Hall,7,0,0.0,1849.21,264.1729,56,22,Experiente (51+ trips),,,,,0.0,3,Referência — Boas Práticas,0.0,False
+WDID10431,Billy Adams,7,0,0.0,1964.5,280.6429,61,26,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10432,Sara Garcia,7,0,0.0,2764.07,394.8671,51,27,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10433,Mark Mathews,7,0,0.0,2807.82,401.1171,41,27,Intermediário (26–50 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10434,Daniel Hall,7,0,0.0,1924.86,274.98,14,20,Novato (≤25 trips),,,,,0.0,7,Referência — Boas Práticas,0.0,False
+WDID10435,Mark Allen,7,0,0.0,1877.1,268.1571,59,27,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10436,Jaime Fuller,7,0,0.0,1869.73,267.1043,65,27,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10437,Misty Jones,7,0,0.0,1661.37,237.3386,22,27,Novato (≤25 trips),,,,,0.0,7,Referência — Boas Práticas,0.0,False
+WDID10438,Robert Richard,7,0,0.0,1645.6,235.0857,31,27,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10439,Faith Martin,7,0,0.0,2152.46,307.4943,36,27,Intermediário (26–50 trips),,,,,0.0,7,Referência — Boas Práticas,0.0,False
+WDID10440,Sarah Mitchell,11,4,0.3636,2511.03,228.2755,33,27,Intermediário (26–50 trips),0.0,0.6667,0.6667,False,1.19,8,Instável — Coaching,283.3022,True
+WDID10441,Sandra Case,11,4,0.3636,2961.32,269.2109,31,27,Intermediário (26–50 trips),,,,,1.182,8,Instável — Coaching,283.3022,True
+WDID10442,Marc Waters,11,4,0.3636,4018.47,365.3155,12,27,Novato (≤25 trips),0.4,0.3333,-0.0667,True,1.414,8,Instável — Coaching,283.3022,True
+WDID10443,Darryl Wilson,11,4,0.3636,3085.41,280.4918,62,27,Experiente (51+ trips),,,,,1.228,8,Instável — Coaching,283.3022,True
+WDID10444,Jennifer Rasmussen,11,4,0.3636,2961.13,269.1936,14,27,Novato (≤25 trips),0.3333,0.4,0.0667,False,1.182,8,Instável — Coaching,283.3022,True
+WDID10445,Denise Brown,11,4,0.3636,3250.5,295.5,56,28,Experiente (51+ trips),0.3333,0.4,0.0667,False,1.19,8,Instável — Coaching,283.3022,True
+WDID10446,Theresa Fields,11,4,0.3636,3881.65,352.8773,22,28,Novato (≤25 trips),0.5,0.2,-0.3,True,1.281,7,Instável — Coaching,283.3022,True
+WDID10447,Patricia Vance,11,4,0.3636,3915.84,355.9855,40,18,Intermediário (26–50 trips),,,,,1.19,8,Instável — Coaching,283.3022,True
+WDID10448,Jennifer Thornton,11,4,0.3636,3158.94,287.1764,52,28,Experiente (51+ trips),,,,,1.05,7,Instável — Coaching,283.3022,True
+WDID10449,Natasha White,11,4,0.3636,2833.21,257.5645,37,28,Intermediário (26–50 trips),,,,,1.029,6,Instável — Coaching,283.3022,True
+WDID10450,Deborah Graham,11,4,0.3636,3965.94,360.54,30,28,Intermediário (26–50 trips),,,,,1.335,7,Instável — Coaching,283.3022,True
+WDID10451,Charles Tate,7,0,0.0,2088.21,298.3157,21,28,Novato (≤25 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10452,Lawrence Lewis,7,0,0.0,1823.39,260.4843,27,28,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10453,Nicholas Kent,7,0,0.0,1529.41,218.4871,52,28,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10454,Sean Sheppard,7,0,0.0,1522.2,217.4571,47,28,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10455,Sarah Nicholson,7,0,0.0,2507.63,358.2329,29,28,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10456,Lori Carroll,7,0,0.0,3261.97,465.9957,30,28,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10457,Paul Delgado,7,0,0.0,2674.9,382.1286,19,28,Novato (≤25 trips),,,,,0.0,7,Referência — Boas Práticas,0.0,False
+WDID10458,Tammy Hernandez,7,0,0.0,2080.35,297.1929,29,28,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10459,Brianna Diaz,7,0,0.0,1665.73,237.9614,70,28,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10460,Kyle Bishop,7,0,0.0,1844.21,263.4586,23,28,Novato (≤25 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10461,Hector Davis,7,0,0.0,1932.46,276.0657,68,28,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10462,Dalton Mills,7,0,0.0,1632.18,233.1686,37,39,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10463,Rebecca Lin,11,4,0.3636,4437.73,403.43,46,57,Intermediário (26–50 trips),0.5,0.2,-0.3,True,1.087,5,Instável — Coaching,283.3022,True
+WDID10464,Paul Leach,11,4,0.3636,2595.86,235.9873,57,30,Experiente (51+ trips),0.2,0.5,0.3,False,1.469,8,Instável — Coaching,283.3022,True
+WDID10465,Kirk Parker,11,4,0.3636,3104.32,282.2109,64,63,Experiente (51+ trips),,,,,1.708,7,Instável — Coaching,283.3022,True
+WDID10466,Alison Knight,11,4,0.3636,2851.32,259.2109,13,29,Novato (≤25 trips),0.2,0.5,0.3,False,1.291,10,Instável — Coaching,283.3022,True
+WDID10467,Amy Fox,11,4,0.3636,3462.87,314.8064,32,53,Intermediário (26–50 trips),,,,,1.096,7,Instável — Coaching,283.3022,True
+WDID10468,Joan Melton,11,4,0.3636,4240.15,385.4682,40,31,Intermediário (26–50 trips),,,,,1.27,6,Instável — Coaching,283.3022,True
+WDID10469,Leslie Powell,11,4,0.3636,2951.41,268.31,47,46,Intermediário (26–50 trips),0.3333,0.4,0.0667,False,1.186,9,Instável — Coaching,283.3022,True
+WDID10470,Wendy Vincent,11,4,0.3636,3685.65,335.0591,35,32,Intermediário (26–50 trips),0.1667,0.6,0.4333,False,1.186,9,Instável — Coaching,283.3022,True
+WDID10471,Amanda Malone,11,4,0.3636,3689.56,335.4145,44,60,Intermediário (26–50 trips),0.5,0.2,-0.3,True,1.18,6,Instável — Coaching,283.3022,True
+WDID10472,Brent Green,11,4,0.3636,3189.56,289.96,55,35,Experiente (51+ trips),,,,,1.117,6,Instável — Coaching,283.3022,True
+WDID10473,Matthew Wood,11,4,0.3636,3956.39,359.6718,55,40,Experiente (51+ trips),,,,,1.19,8,Instável — Coaching,283.3022,True
+WDID10474,Aaron Garcia,11,4,0.3636,3269.81,297.2555,66,35,Experiente (51+ trips),,,,,1.118,7,Instável — Coaching,283.3022,True
+WDID10475,Jeffery Taylor,11,4,0.3636,4054.01,368.5464,29,60,Intermediário (26–50 trips),0.4,0.3333,-0.0667,True,1.335,7,Instável — Coaching,283.3022,True
+WDID10476,Scott Carter,11,4,0.3636,3370.11,306.3736,12,51,Novato (≤25 trips),,,,,1.38,8,Instável — Coaching,283.3022,True
+WDID10477,Kristine Bradshaw,11,4,0.3636,4098.89,372.6264,27,50,Intermediário (26–50 trips),0.0,0.6667,0.6667,False,1.414,8,Instável — Coaching,283.3022,True
+WDID10478,Joseph Lopez,11,4,0.3636,4281.76,389.2509,22,40,Novato (≤25 trips),0.1667,0.6,0.4333,False,1.466,8,Instável — Coaching,283.3022,True
+WDID10479,Rebecca Duffy,11,4,0.3636,3513.41,319.4009,18,34,Novato (≤25 trips),,,,,1.058,7,Instável — Coaching,283.3022,True
+WDID10480,Dr. Elizabeth Cooper DDS,11,4,0.3636,3027.46,275.2236,27,38,Intermediário (26–50 trips),,,,,1.183,6,Instável — Coaching,283.3022,True
+WDID10481,Stephanie Johnson,11,4,0.3636,4051.27,368.2973,45,44,Intermediário (26–50 trips),0.4,0.3333,-0.0667,True,1.096,7,Instável — Coaching,283.3022,True
+WDID10482,Robert Jones,11,4,0.3636,3866.92,351.5382,32,61,Intermediário (26–50 trips),,,,,1.182,8,Instável — Coaching,283.3022,True
+WDID10483,Glenn Anderson,11,4,0.3636,4123.62,374.8745,55,40,Experiente (51+ trips),0.6,0.1667,-0.4333,True,1.335,7,Instável — Coaching,283.3022,True
+WDID10484,Sean Walker,11,4,0.3636,4007.63,364.33,16,29,Novato (≤25 trips),,,,,1.118,7,Instável — Coaching,283.3022,True
+WDID10485,Gina Martinez,11,4,0.3636,3608.44,328.04,16,32,Novato (≤25 trips),0.3333,0.4,0.0667,False,1.355,10,Instável — Coaching,283.3022,True
+WDID10486,Taylor Pope,11,4,0.3636,2391.14,217.3764,45,54,Intermediário (26–50 trips),0.3333,0.4,0.0667,False,1.262,6,Instável — Coaching,283.3022,True
+WDID10487,Jack Williams,11,4,0.3636,3786.28,344.2073,42,50,Intermediário (26–50 trips),0.5,0.2,-0.3,True,1.133,8,Instável — Coaching,283.3022,True
+WDID10488,Scott Alvarez,11,4,0.3636,2489.77,226.3427,60,29,Experiente (51+ trips),,,,,1.243,8,Instável — Coaching,283.3022,True
+WDID10489,Jessica Patterson,11,4,0.3636,2719.54,247.2309,24,48,Novato (≤25 trips),0.3333,0.4,0.0667,False,1.414,8,Instável — Coaching,283.3022,True
+WDID10490,Joan Brooks,11,4,0.3636,2456.59,223.3264,65,44,Experiente (51+ trips),,,,,1.38,8,Instável — Coaching,283.3022,True
+WDID10491,Cristina Martin,11,4,0.3636,2546.98,231.5436,57,44,Experiente (51+ trips),,,,,1.414,8,Instável — Coaching,283.3022,True
+WDID10492,Christie Ramirez,11,4,0.3636,2540.13,230.9209,55,36,Experiente (51+ trips),,,,,1.463,7,Instável — Coaching,283.3022,True
+WDID10493,Justin Reynolds,11,4,0.3636,2796.11,254.1918,63,35,Experiente (51+ trips),0.6,0.1667,-0.4333,True,1.182,8,Instável — Coaching,283.3022,True
+WDID10494,Doris Li,11,4,0.3636,3478.3,316.2091,70,47,Experiente (51+ trips),0.1667,0.6,0.4333,False,1.414,8,Instável — Coaching,283.3022,True
+WDID10495,Priscilla White,11,4,0.3636,3876.74,352.4309,46,64,Intermediário (26–50 trips),0.5,0.2,-0.3,True,1.058,7,Instável — Coaching,283.3022,True
+WDID10496,Keith Coffey,11,4,0.3636,2948.58,268.0527,28,57,Intermediário (26–50 trips),,,,,1.466,8,Instável — Coaching,283.3022,True
+WDID10497,Heather Davis,11,4,0.3636,2300.5,209.1364,41,38,Intermediário (26–50 trips),0.1667,0.6,0.4333,False,1.466,8,Instável — Coaching,283.3022,True
+WDID10498,Alan Woodward,11,4,0.3636,3110.33,282.7573,76,36,Experiente (51+ trips),0.4,0.3333,-0.0667,True,1.118,7,Instável — Coaching,283.3022,True
+WDID10499,Brian Wheeler IV,11,4,0.3636,3729.92,339.0836,37,64,Intermediário (26–50 trips),0.4,0.3333,-0.0667,True,1.249,9,Instável — Coaching,283.3022,True
+WDID10500,William Lee,11,4,0.3636,3603.93,327.63,65,50,Experiente (51+ trips),0.3333,0.4,0.0667,False,1.262,6,Instável — Coaching,283.3022,True
+WDID10501,Caroline Smith,11,4,0.3636,3946.44,358.7673,64,49,Experiente (51+ trips),,,,,1.133,8,Instável — Coaching,283.3022,True
+WDID10502,Heather Johnson,11,4,0.3636,3902.32,354.7564,44,38,Intermediário (26–50 trips),,,,,1.069,8,Instável — Coaching,283.3022,True
+WDID10503,Alec Rodriguez,11,4,0.3636,3737.71,339.7918,71,42,Experiente (51+ trips),0.5,0.2,-0.3,True,1.058,7,Instável — Coaching,283.3022,True
+WDID10504,Tracey Thomas,11,4,0.3636,3804.19,345.8355,57,35,Experiente (51+ trips),0.1667,0.6,0.4333,False,1.332,7,Instável — Coaching,283.3022,True
+WDID10505,Paula Case,11,4,0.3636,4869.28,442.6618,16,62,Novato (≤25 trips),0.2,0.5,0.3,False,1.029,6,Instável — Coaching,283.3022,True
+WDID10506,Timothy Brown,11,4,0.3636,5088.32,462.5745,12,37,Novato (≤25 trips),0.5,0.2,-0.3,True,1.133,8,Instável — Coaching,283.3022,True
+WDID10507,Mark James,11,4,0.3636,4937.79,448.89,46,50,Intermediário (26–50 trips),,,,,1.186,9,Instável — Coaching,283.3022,True
+WDID10508,Adam Wilson,11,4,0.3636,3436.87,312.4427,36,53,Intermediário (26–50 trips),0.2,0.5,0.3,False,1.38,8,Instável — Coaching,283.3022,True
+WDID10509,Timothy Francis,11,4,0.3636,5042.36,458.3964,33,54,Intermediário (26–50 trips),,,,,1.249,9,Instável — Coaching,283.3022,True
+WDID10510,Oscar Shah,11,4,0.3636,3050.67,277.3336,50,32,Intermediário (26–50 trips),,,,,1.146,5,Instável — Coaching,283.3022,True
+WDID10511,Dr. Dustin Sherman DVM,11,4,0.3636,2476.39,225.1264,55,32,Experiente (51+ trips),,,,,1.19,8,Instável — Coaching,283.3022,True
+WDID10512,Jason Evans,11,4,0.3636,2915.66,265.06,62,57,Experiente (51+ trips),0.0,0.6667,0.6667,False,1.852,8,Instável — Coaching,283.3022,True
+WDID10513,Andrew Reid,11,4,0.3636,2414.22,219.4745,39,56,Intermediário (26–50 trips),,,,,1.19,8,Instável — Coaching,283.3022,True
+WDID10514,Mary Lee,11,4,0.3636,2715.71,246.8827,23,50,Novato (≤25 trips),0.5,0.2,-0.3,True,1.011,6,Instável — Coaching,283.3022,True
+WDID10515,Kelly Anderson,11,4,0.3636,1737.6,157.9636,43,59,Intermediário (26–50 trips),,,,,1.708,7,Instável — Coaching,283.3022,True
+WDID10516,Leah Shelton,11,4,0.3636,2394.3,217.6636,68,59,Experiente (51+ trips),0.3333,0.4,0.0667,False,1.029,6,Instável — Coaching,283.3022,True
+WDID10517,Timothy Brown,11,4,0.3636,2794.32,254.0291,49,37,Intermediário (26–50 trips),0.6,0.1667,-0.4333,True,1.247,7,Instável — Coaching,283.3022,True
+WDID10518,Nicholas Hendricks,11,4,0.3636,4233.14,384.8309,19,42,Novato (≤25 trips),,,,,1.118,7,Instável — Coaching,283.3022,True
+WDID10519,Bradley Bradford,11,4,0.3636,3455.41,314.1282,43,51,Intermediário (26–50 trips),0.5,0.2,-0.3,True,1.182,8,Instável — Coaching,283.3022,True
+WDID10520,Janet Smith,11,4,0.3636,3379.39,307.2173,76,58,Experiente (51+ trips),0.4,0.3333,-0.0667,True,1.269,7,Instável — Coaching,283.3022,True
+WDID10521,Gabriel Fox,11,4,0.3636,2557.97,232.5427,49,47,Intermediário (26–50 trips),,,,,0.965,6,Instável — Coaching,283.3022,True
+WDID10522,Michelle Hess,11,4,0.3636,2765.13,251.3755,74,49,Experiente (51+ trips),0.5,0.2,-0.3,True,1.299,9,Instável — Coaching,283.3022,True
+WDID10523,Laura Hampton,11,4,0.3636,4135.47,375.9518,73,56,Experiente (51+ trips),0.4,0.3333,-0.0667,True,1.133,8,Instável — Coaching,283.3022,True
+WDID10524,Angela Evans,11,4,0.3636,3610.9,328.2636,73,65,Experiente (51+ trips),,,,,0.839,5,Instável — Coaching,283.3022,True
+WDID10525,Kevin Morales,11,4,0.3636,5410.99,491.9082,75,60,Experiente (51+ trips),0.3333,0.4,0.0667,False,1.249,9,Instável — Coaching,283.3022,True
+WDID10526,Megan Hunt,11,4,0.3636,3916.93,356.0845,58,54,Experiente (51+ trips),,,,,1.133,8,Instável — Coaching,283.3022,True
+WDID10527,Matthew Brown,11,4,0.3636,4306.01,391.4555,68,48,Experiente (51+ trips),,,,,1.335,7,Instável — Coaching,283.3022,True
+WDID10528,Betty Brown,11,4,0.3636,3596.82,326.9836,52,54,Experiente (51+ trips),0.4,0.3333,-0.0667,True,1.299,9,Instável — Coaching,283.3022,True
+WDID10529,Jasmine Smith,11,4,0.3636,3215.04,292.2764,66,59,Experiente (51+ trips),0.0,0.8,0.8,False,1.133,8,Instável — Coaching,283.3022,True
+WDID10530,Courtney Schroeder,11,4,0.3636,4404.97,400.4518,50,37,Intermediário (26–50 trips),,,,,1.308,9,Instável — Coaching,283.3022,True
+WDID10531,Brian Ellis,11,4,0.3636,3399.52,309.0473,75,64,Experiente (51+ trips),0.3333,0.4,0.0667,False,1.182,8,Instável — Coaching,283.3022,True
+WDID10532,Kelly Sosa,11,4,0.3636,3340.7,303.7,34,43,Intermediário (26–50 trips),0.4,0.3333,-0.0667,True,1.19,8,Instável — Coaching,283.3022,True
+WDID10533,Michelle Robinson,11,4,0.3636,3435.76,312.3418,45,41,Intermediário (26–50 trips),,,,,0.965,6,Instável — Coaching,283.3022,True
+WDID10534,Jared Cooper,11,4,0.3636,3929.94,357.2673,25,57,Novato (≤25 trips),,,,,1.459,5,Instável — Coaching,283.3022,True
+WDID10535,Amanda King,11,4,0.3636,4315.86,392.3509,28,54,Intermediário (26–50 trips),0.3333,0.4,0.0667,False,1.182,8,Instável — Coaching,283.3022,True
+WDID10536,Scott Wallace,11,4,0.3636,3577.28,325.2073,71,63,Experiente (51+ trips),,,,,1.55,8,Instável — Coaching,283.3022,True
+WDID10537,Veronica Taylor,11,4,0.3636,2485.65,225.9682,72,64,Experiente (51+ trips),,,,,1.011,6,Instável — Coaching,283.3022,True
+WDID10538,Stephen Kent,11,4,0.3636,3576.71,325.1555,36,51,Intermediário (26–50 trips),0.4,0.3333,-0.0667,True,1.133,8,Instável — Coaching,283.3022,True
+WDID10539,Tracy Adkins,11,4,0.3636,3001.76,272.8873,69,56,Experiente (51+ trips),,,,,1.07,6,Instável — Coaching,283.3022,True
+WDID10540,Brittany Rodriguez,11,4,0.3636,2721.11,247.3736,32,62,Intermediário (26–50 trips),,,,,1.512,8,Instável — Coaching,283.3022,True
+WDID10541,Heidi Owens,11,4,0.3636,3669.69,333.6082,22,41,Novato (≤25 trips),,,,,1.19,8,Instável — Coaching,283.3022,True
+WDID10542,Antonio Johnson,11,4,0.3636,2690.19,244.5627,42,29,Intermediário (26–50 trips),,,,,1.182,8,Instável — Coaching,283.3022,True
+WDID10543,Mr. Kenneth Adams,11,4,0.3636,3107.53,282.5027,62,60,Experiente (51+ trips),0.4,0.3333,-0.0667,True,1.058,7,Instável — Coaching,283.3022,True
+WDID10544,Kevin Morris,11,4,0.3636,3058.72,278.0655,31,64,Intermediário (26–50 trips),0.6,0.1667,-0.4333,True,0.894,6,Instável — Coaching,283.3022,True
+WDID10545,Dr. Daniel Harris MD,11,4,0.3636,4308.94,391.7218,59,36,Experiente (51+ trips),,,,,1.335,7,Instável — Coaching,283.3022,True
+WDID10546,Crystal Bryant,11,4,0.3636,4150.2,377.2909,71,55,Experiente (51+ trips),0.6,0.1667,-0.4333,True,1.182,8,Instável — Coaching,283.3022,True
+WDID10547,Laura Coleman,11,3,0.2727,4614.24,419.4764,55,33,Experiente (51+ trips),0.3333,0.2,-0.1333,True,1.55,8,Instável — Coaching,212.4767,True
+WDID10548,Chase Ball,11,3,0.2727,4876.59,443.3264,19,47,Novato (≤25 trips),,,,,1.247,7,Instável — Coaching,212.4767,True
+WDID10549,Alfred Cardenas,11,3,0.2727,2899.91,263.6282,45,43,Intermediário (26–50 trips),,,,,1.466,8,Instável — Coaching,212.4767,True
+WDID10550,Andrew Stone,11,3,0.2727,2682.8,243.8909,67,40,Experiente (51+ trips),,,,,1.755,7,Instável — Coaching,212.4767,True
+WDID10551,Danielle Campos,11,3,0.2727,3414.19,310.3809,65,48,Experiente (51+ trips),,,,,1.377,7,Instável — Coaching,212.4767,True
+WDID10552,Ashley Coleman,11,3,0.2727,2669.84,242.7127,36,46,Intermediário (26–50 trips),,,,,1.708,7,Instável — Coaching,212.4767,True
+WDID10553,Alisha Lopez,11,3,0.2727,3454.12,314.0109,37,51,Intermediário (26–50 trips),0.3333,0.2,-0.1333,True,1.281,7,Instável — Coaching,212.4767,True
+WDID10554,Sharon Myers,11,3,0.2727,3635.54,330.5036,37,51,Intermediário (26–50 trips),0.1667,0.4,0.2333,False,1.512,8,Instável — Coaching,212.4767,True
+WDID10555,Hannah Soto,11,3,0.2727,4099.87,372.7155,25,47,Novato (≤25 trips),,,,,1.332,7,Instável — Coaching,212.4767,True
+WDID10556,Donna Massey,11,3,0.2727,3668.65,333.5136,25,65,Novato (≤25 trips),,,,,1.674,9,Instável — Coaching,212.4767,True
+WDID10557,Jesse Hardy,11,3,0.2727,2815.98,255.9982,56,34,Experiente (51+ trips),,,,,1.587,9,Instável — Coaching,212.4767,True
+WDID10558,Stacy Booth,11,3,0.2727,3276.5,297.8636,59,54,Experiente (51+ trips),,,,,1.5,9,Instável — Coaching,212.4767,True
+WDID10559,Thomas White,11,3,0.2727,3342.12,303.8291,67,30,Experiente (51+ trips),,,,,1.55,8,Instável — Coaching,212.4767,True
+WDID10560,Justin Randall,11,3,0.2727,3102.77,282.07,60,52,Experiente (51+ trips),,,,,1.414,7,Instável — Coaching,212.4767,True
+WDID10561,Monique Bentley,11,3,0.2727,3663.68,333.0618,24,37,Novato (≤25 trips),0.2,0.3333,0.1333,False,1.512,8,Instável — Coaching,212.4767,True
+WDID10562,Nicolas Humphrey,11,3,0.2727,3570.75,324.6136,67,33,Experiente (51+ trips),0.3333,0.2,-0.1333,True,1.403,6,Instável — Coaching,212.4767,True
+WDID10563,Thomas Powell,11,3,0.2727,2815.1,255.9182,44,34,Intermediário (26–50 trips),0.5,0.0,-0.5,True,1.817,6,Instável — Coaching,212.4767,True
+WDID10564,Steven Cooper,11,3,0.2727,3239.43,294.4936,55,35,Experiente (51+ trips),,,,,1.549,6,Instável — Coaching,212.4767,True
+WDID10565,Jeffrey Moreno,11,3,0.2727,3459.87,314.5336,14,58,Novato (≤25 trips),0.1667,0.4,0.2333,False,1.55,8,Instável — Coaching,212.4767,True
+WDID10566,Danielle Castillo,11,3,0.2727,3088.05,280.7318,44,65,Intermediário (26–50 trips),0.2,0.3333,0.1333,False,1.414,7,Instável — Coaching,212.4767,True
+WDID10567,Angel Meyer,11,3,0.2727,2381.46,216.4964,66,58,Experiente (51+ trips),,,,,1.463,7,Instável — Coaching,212.4767,True
+WDID10568,Christine Callahan,11,3,0.2727,3367.03,306.0936,73,42,Experiente (51+ trips),,,,,1.463,7,Instável — Coaching,212.4767,True
+WDID10569,Alexandra Jones,11,3,0.2727,4022.47,365.6791,60,30,Experiente (51+ trips),,,,,1.549,6,Instável — Coaching,212.4767,True
+WDID10570,Cynthia Barnes,11,3,0.2727,3492.99,317.5445,27,41,Intermediário (26–50 trips),0.1667,0.4,0.2333,False,1.332,7,Instável — Coaching,212.4767,True
+WDID10571,Thomas Greene,11,3,0.2727,2209.9,200.9,37,40,Intermediário (26–50 trips),0.1667,0.4,0.2333,False,1.31,6,Instável — Coaching,212.4767,True
+WDID10572,Scott Brown,11,3,0.2727,3493.71,317.61,56,56,Experiente (51+ trips),,,,,1.673,6,Instável — Coaching,212.4767,True
+WDID10573,Angela Wright,11,3,0.2727,2510.26,228.2055,31,63,Intermediário (26–50 trips),0.1667,0.4,0.2333,False,1.332,7,Instável — Coaching,212.4767,True
+WDID10574,Kenneth Clark,11,3,0.2727,2638.08,239.8255,73,34,Experiente (51+ trips),,,,,1.31,6,Instável — Coaching,212.4767,True
+WDID10575,Stacy Garcia,11,3,0.2727,2981.46,271.0418,41,36,Intermediário (26–50 trips),,,,,1.732,7,Instável — Coaching,212.4767,True
+WDID10576,Raymond Cherry Jr.,11,3,0.2727,2741.97,249.27,45,32,Intermediário (26–50 trips),,,,,1.295,5,Instável — Coaching,212.4767,True
+WDID10577,Ruth Diaz,11,3,0.2727,2982.94,271.1764,72,50,Experiente (51+ trips),,,,,1.512,8,Instável — Coaching,212.4767,True
+WDID10578,Jeremy Cox MD,11,3,0.2727,2570.91,233.7191,58,57,Experiente (51+ trips),,,,,1.732,7,Instável — Coaching,212.4767,True
+WDID10579,Amanda Lin,11,3,0.2727,3155.3,286.8455,66,39,Experiente (51+ trips),,,,,1.549,6,Instável — Coaching,212.4767,True
+WDID10580,Rhonda Johnson,11,3,0.2727,2958.0,268.9091,67,50,Experiente (51+ trips),,,,,2.035,9,Instável — Coaching,212.4767,True
+WDID10581,Cheyenne Randolph,11,3,0.2727,2670.61,242.7827,47,60,Intermediário (26–50 trips),0.3333,0.2,-0.1333,True,1.38,8,Instável — Coaching,212.4767,True
+WDID10582,Kim Cross,11,3,0.2727,3743.53,340.3209,36,36,Intermediário (26–50 trips),,,,,1.247,7,Instável — Coaching,212.4767,True
+WDID10583,Heather Preston MD,11,3,0.2727,4632.48,421.1345,20,36,Novato (≤25 trips),0.2,0.3333,0.1333,False,1.466,8,Instável — Coaching,212.4767,True
+WDID10584,Joshua Sanchez,11,3,0.2727,4281.44,389.2218,40,38,Intermediário (26–50 trips),0.3333,0.2,-0.1333,True,1.247,7,Instável — Coaching,212.4767,True
+WDID10585,Stephanie Gutierrez,11,3,0.2727,3289.09,299.0082,22,29,Novato (≤25 trips),0.1667,0.4,0.2333,False,1.377,7,Instável — Coaching,212.4767,True
+WDID10586,Jeanette Lewis,11,3,0.2727,4546.01,413.2736,43,51,Intermediário (26–50 trips),,,,,1.466,8,Instável — Coaching,212.4767,True
+WDID10587,Nicole Sullivan,11,3,0.2727,2228.22,202.5655,42,41,Intermediário (26–50 trips),0.3333,0.2,-0.1333,True,1.046,5,Instável — Coaching,212.4767,True
+WDID10588,Angela Hicks,11,3,0.2727,2624.0,238.5455,74,53,Experiente (51+ trips),0.2,0.3333,0.1333,False,1.31,6,Instável — Coaching,212.4767,True
+WDID10589,Kimberly Munoz,11,3,0.2727,2646.79,240.6173,71,49,Experiente (51+ trips),,,,,1.852,8,Instável — Coaching,212.4767,True
+WDID10590,Eric Martin,11,3,0.2727,3072.04,279.2764,41,39,Intermediário (26–50 trips),0.6,0.0,-0.6,True,1.466,8,Instável — Coaching,212.4767,True
+WDID10591,Jeffrey Hunter,11,3,0.2727,2313.58,210.3255,57,52,Experiente (51+ trips),,,,,1.635,9,Instável — Coaching,212.4767,True
+WDID10592,Michael Andrade,11,3,0.2727,2615.06,237.7327,41,59,Intermediário (26–50 trips),,,,,1.915,7,Instável — Coaching,212.4767,True
+WDID10593,Christina Hart,11,3,0.2727,1897.8,172.5273,61,40,Experiente (51+ trips),,,,,1.38,8,Instável — Coaching,212.4767,True
+WDID10594,Steven Carson,11,3,0.2727,2849.14,259.0127,67,55,Experiente (51+ trips),0.1667,0.4,0.2333,False,1.512,8,Instável — Coaching,212.4767,True
+WDID10595,Shane Dalton,11,3,0.2727,3181.73,289.2482,23,35,Novato (≤25 trips),0.2,0.3333,0.1333,False,1.6,8,Instável — Coaching,212.4767,True
+WDID10596,Victoria Hawkins,11,3,0.2727,3123.69,283.9718,67,52,Experiente (51+ trips),,,,,1.247,7,Instável — Coaching,212.4767,True
+WDID10597,Stephen Krueger,11,3,0.2727,3799.39,345.3991,62,33,Experiente (51+ trips),,,,,1.635,9,Instável — Coaching,212.4767,True
+WDID10598,Christina Cruz,11,3,0.2727,3416.12,310.5564,54,49,Experiente (51+ trips),,,,,1.317,6,Instável — Coaching,212.4767,True
+WDID10599,Seth Molina,11,3,0.2727,3015.93,274.1755,32,47,Intermediário (26–50 trips),,,,,1.332,7,Instável — Coaching,212.4767,True
+WDID10600,Sheri Hamilton,11,3,0.2727,3226.53,293.3209,38,38,Intermediário (26–50 trips),,,,,1.512,8,Instável — Coaching,212.4767,True
+WDID10601,John Miller,11,3,0.2727,3486.17,316.9245,63,65,Experiente (51+ trips),,,,,1.463,7,Instável — Coaching,212.4767,True
+WDID10602,Michael Campbell,11,3,0.2727,2758.28,250.7527,31,42,Intermediário (26–50 trips),0.4,0.1667,-0.2333,True,1.332,7,Instável — Coaching,212.4767,True
+WDID10603,Amanda Coleman,11,3,0.2727,2533.35,230.3045,69,65,Experiente (51+ trips),0.3333,0.2,-0.1333,True,1.63,5,Instável — Coaching,212.4767,True
+WDID10604,Keith Mayer,11,3,0.2727,2526.22,229.6564,50,35,Intermediário (26–50 trips),,,,,1.755,7,Instável — Coaching,212.4767,True
+WDID10605,Eileen Williams,11,3,0.2727,3102.21,282.0191,39,45,Intermediário (26–50 trips),0.2,0.3333,0.1333,False,1.281,7,Instável — Coaching,212.4767,True
+WDID10606,Miguel Mathews,11,3,0.2727,3077.64,279.7855,25,35,Novato (≤25 trips),,,,,1.38,8,Instável — Coaching,212.4767,True
+WDID10607,Dana Henderson,11,3,0.2727,2595.67,235.97,63,56,Experiente (51+ trips),,,,,1.984,8,Instável — Coaching,212.4767,True
+WDID10608,Mrs. Kelsey Young MD,11,3,0.2727,3054.71,277.7009,46,39,Intermediário (26–50 trips),,,,,1.414,7,Instável — Coaching,212.4767,True
+WDID10609,Lisa Garcia,11,3,0.2727,3918.88,356.2618,72,63,Experiente (51+ trips),,,,,1.6,8,Instável — Coaching,212.4767,True
+WDID10610,Katie Rivera,11,3,0.2727,2779.18,252.6527,77,52,Experiente (51+ trips),,,,,1.5,9,Instável — Coaching,212.4767,True
+WDID10611,Christopher Garcia,11,3,0.2727,2883.53,262.1391,32,51,Intermediário (26–50 trips),0.1667,0.4,0.2333,False,1.095,6,Instável — Coaching,212.4767,True
+WDID10612,Teresa Hernandez,11,3,0.2727,2970.35,270.0318,58,48,Experiente (51+ trips),,,,,1.55,8,Instável — Coaching,212.4767,True
+WDID10613,Jennifer Miller,11,3,0.2727,2954.64,268.6036,72,29,Experiente (51+ trips),0.3333,0.2,-0.1333,True,1.61,10,Instável — Coaching,212.4767,True
+WDID10614,Vanessa Burke,11,3,0.2727,3355.89,305.0809,47,40,Intermediário (26–50 trips),0.3333,0.2,-0.1333,True,1.635,9,Instável — Coaching,212.4767,True
+WDID10615,Lawrence Davis,11,3,0.2727,3541.71,321.9736,25,50,Novato (≤25 trips),0.0,0.5,0.5,False,1.512,8,Instável — Coaching,212.4767,True
+WDID10616,Matthew Ross,11,3,0.2727,4021.08,365.5527,69,37,Experiente (51+ trips),,,,,1.573,6,Instável — Coaching,212.4767,True
+WDID10617,Jennifer Rodriguez,11,3,0.2727,4328.97,393.5427,39,57,Intermediário (26–50 trips),0.5,0.0,-0.5,True,1.852,8,Instável — Coaching,212.4767,True
+WDID10618,Amanda Lopez,11,3,0.2727,3100.78,281.8891,64,64,Experiente (51+ trips),0.2,0.3333,0.1333,False,1.6,8,Instável — Coaching,212.4767,True
+WDID10619,Nina Lowe,11,3,0.2727,2952.14,268.3764,48,47,Intermediário (26–50 trips),0.5,0.0,-0.5,True,1.673,6,Instável — Coaching,212.4767,True
+WDID10620,Samantha Graham,11,3,0.2727,2836.51,257.8645,51,43,Experiente (51+ trips),0.2,0.3333,0.1333,False,1.225,5,Instável — Coaching,212.4767,True
+WDID10621,Jose Garcia,11,3,0.2727,2032.94,184.8127,19,48,Novato (≤25 trips),,,,,1.332,7,Instável — Coaching,212.4767,True
+WDID10622,Daniel Newman,11,3,0.2727,3285.47,298.6791,34,61,Intermediário (26–50 trips),,,,,1.558,7,Instável — Coaching,212.4767,True
+WDID10623,Jeremy Allen,11,3,0.2727,4849.98,440.9073,28,44,Intermediário (26–50 trips),0.1667,0.4,0.2333,False,1.377,7,Instável — Coaching,212.4767,True
+WDID10624,Carrie Savage,11,3,0.2727,4295.62,390.5109,72,49,Experiente (51+ trips),0.4,0.1667,-0.2333,True,1.512,8,Instável — Coaching,212.4767,True
+WDID10625,Oscar Edwards,11,3,0.2727,4335.28,394.1164,14,30,Novato (≤25 trips),0.4,0.1667,-0.2333,True,1.466,8,Instável — Coaching,212.4767,True
+WDID10626,Michael Wise,11,3,0.2727,3766.57,342.4155,56,47,Experiente (51+ trips),0.1667,0.4,0.2333,False,1.55,8,Instável — Coaching,212.4767,True
+WDID10627,Jeremy Ramos,11,3,0.2727,4010.84,364.6218,44,64,Intermediário (26–50 trips),,,,,1.466,8,Instável — Coaching,212.4767,True
+WDID10628,Barry Rodriguez,11,3,0.2727,2728.65,248.0591,19,62,Novato (≤25 trips),0.2,0.3333,0.1333,False,1.755,7,Instável — Coaching,212.4767,True
+WDID10629,Morgan Preston,11,3,0.2727,2425.26,220.4782,65,58,Experiente (51+ trips),0.3333,0.2,-0.1333,True,1.281,7,Instável — Coaching,212.4767,True
+WDID10630,Jennifer Collins,11,3,0.2727,2986.93,271.5391,64,55,Experiente (51+ trips),0.4,0.1667,-0.2333,True,1.31,6,Instável — Coaching,212.4767,True
+WDID10631,Lori Thomas,11,3,0.2727,3690.1,335.4636,48,31,Intermediário (26–50 trips),,,,,1.463,7,Instável — Coaching,212.4767,True
+WDID10632,Derek Mccullough,11,3,0.2727,5152.22,468.3836,52,62,Experiente (51+ trips),,,,,1.5,9,Instável — Coaching,212.4767,True
+WDID10633,Bonnie Petty,11,3,0.2727,4042.27,367.4791,20,32,Novato (≤25 trips),0.1667,0.4,0.2333,False,1.512,8,Instável — Coaching,212.4767,True
+WDID10634,Kevin Castillo DDS,11,3,0.2727,3204.0,291.2727,48,65,Intermediário (26–50 trips),0.2,0.3333,0.1333,False,1.332,7,Instável — Coaching,212.4767,True
+WDID10635,John Hutchinson,11,3,0.2727,3527.42,320.6745,70,35,Experiente (51+ trips),0.1667,0.4,0.2333,False,1.6,8,Instável — Coaching,212.4767,True
+WDID10636,Lauren Obrien,11,3,0.2727,3040.87,276.4427,13,64,Novato (≤25 trips),,,,,1.225,6,Instável — Coaching,212.4767,True
+WDID10637,Gerald Salazar,11,3,0.2727,2766.0,251.4545,64,49,Experiente (51+ trips),0.3333,0.2,-0.1333,True,1.332,7,Instável — Coaching,212.4767,True
+WDID10638,Robert Tapia,11,3,0.2727,3249.15,295.3773,33,30,Intermediário (26–50 trips),,,,,1.9,8,Instável — Coaching,212.4767,True
+WDID10639,Jennifer Martin,11,3,0.2727,3566.61,324.2373,59,37,Experiente (51+ trips),,,,,1.9,8,Instável — Coaching,212.4767,True
+WDID10640,Tara Russell,11,3,0.2727,2765.25,251.3864,53,44,Experiente (51+ trips),,,,,1.377,7,Instável — Coaching,212.4767,True
+WDID10641,Chelsey Willis,11,3,0.2727,4190.65,380.9682,63,51,Experiente (51+ trips),0.6,0.0,-0.6,True,1.755,7,Instável — Coaching,212.4767,True
+WDID10642,Kathleen Aguilar,11,3,0.2727,3677.29,334.2991,22,55,Novato (≤25 trips),,,,,1.414,7,Instável — Coaching,212.4767,True
+WDID10643,Tiffany Frost,11,3,0.2727,2927.15,266.1045,11,50,Novato (≤25 trips),,,,,1.6,8,Instável — Coaching,212.4767,True
+WDID10644,Maria Cohen,11,3,0.2727,3086.16,280.56,71,45,Experiente (51+ trips),,,,,1.414,7,Instável — Coaching,212.4767,True
+WDID10645,William Brown,11,3,0.2727,3195.29,290.4809,48,56,Intermediário (26–50 trips),0.2,0.3333,0.1333,False,1.332,7,Instável — Coaching,212.4767,True
+WDID10646,Lisa Grant,11,3,0.2727,2371.83,215.6209,57,63,Experiente (51+ trips),,,,,1.332,7,Instável — Coaching,212.4767,True
+WDID10647,Richard Davis,11,3,0.2727,1859.63,169.0573,31,41,Intermediário (26–50 trips),0.1667,0.4,0.2333,False,1.984,8,Instável — Coaching,212.4767,True
+WDID10648,Denise Allison,11,3,0.2727,1967.44,178.8582,35,61,Intermediário (26–50 trips),0.4,0.1667,-0.2333,True,1.635,9,Instável — Coaching,212.4767,True
+WDID10649,Danny Owens,11,3,0.2727,2548.77,231.7064,77,29,Experiente (51+ trips),0.1667,0.4,0.2333,False,1.836,7,Instável — Coaching,212.4767,True
+WDID10650,Shannon Galloway,11,3,0.2727,2983.03,271.1845,27,35,Intermediário (26–50 trips),0.2,0.3333,0.1333,False,1.6,8,Instável — Coaching,212.4767,True
+WDID10651,Seth Smith,11,3,0.2727,3238.23,294.3845,56,32,Experiente (51+ trips),,,,,1.466,8,Instável — Coaching,212.4767,True
+WDID10652,Maureen Brady,11,3,0.2727,4169.01,379.0009,39,51,Intermediário (26–50 trips),,,,,1.095,6,Instável — Coaching,212.4767,True
+WDID10653,Sharon Hanson,11,3,0.2727,3442.34,312.94,15,32,Novato (≤25 trips),,,,,1.512,8,Instável — Coaching,212.4767,True
+WDID10654,Chris Ryan,11,3,0.2727,3931.7,357.4273,31,51,Intermediário (26–50 trips),0.3333,0.2,-0.1333,True,1.587,9,Instável — Coaching,212.4767,True
+WDID10655,Mr. Eric Scott MD,11,3,0.2727,4199.1,381.7364,27,32,Intermediário (26–50 trips),,,,,1.9,8,Instável — Coaching,212.4767,True
+WDID10656,Laura Casey,11,3,0.2727,4242.62,385.6927,26,31,Intermediário (26–50 trips),0.1667,0.4,0.2333,False,1.984,8,Instável — Coaching,212.4767,True
+WDID10657,Jessica French,11,3,0.2727,4190.82,380.9836,21,30,Novato (≤25 trips),,,,,1.466,8,Instável — Coaching,212.4767,True
+WDID10658,Charles Flowers,11,3,0.2727,3472.78,315.7073,55,62,Experiente (51+ trips),0.2,0.3333,0.1333,False,1.512,8,Instável — Coaching,212.4767,True
+WDID10659,Nathan Cox,11,3,0.2727,3231.83,293.8027,21,54,Novato (≤25 trips),0.0,0.6,0.6,False,2.646,7,Instável — Coaching,212.4767,True
+WDID10660,Katrina Baker,11,3,0.2727,3950.29,359.1173,50,46,Intermediário (26–50 trips),,,,,1.377,7,Instável — Coaching,212.4767,True
+WDID10661,Anthony Ingram,11,3,0.2727,5531.31,502.8464,41,63,Intermediário (26–50 trips),,,,,1.38,8,Instável — Coaching,212.4767,True
+WDID10662,Sean Reyes,11,3,0.2727,4235.16,385.0145,42,58,Intermediário (26–50 trips),,,,,1.332,7,Instável — Coaching,212.4767,True
+WDID10663,Justin Smith,11,3,0.2727,3430.31,311.8464,12,59,Novato (≤25 trips),0.3333,0.2,-0.1333,True,1.281,7,Instável — Coaching,212.4767,True
+WDID10664,Brandon Schmidt,11,3,0.2727,3865.11,351.3736,20,43,Novato (≤25 trips),0.2,0.3333,0.1333,False,1.466,8,Instável — Coaching,212.4767,True
+WDID10665,Teresa Jefferson,11,3,0.2727,2908.97,264.4518,30,45,Intermediário (26–50 trips),0.3333,0.2,-0.1333,True,1.31,6,Instável — Coaching,212.4767,True
+WDID10666,Tyrone Wall,11,3,0.2727,3363.61,305.7827,41,59,Intermediário (26–50 trips),0.2,0.3333,0.1333,False,1.673,6,Instável — Coaching,212.4767,True
+WDID10667,Christopher Burns,11,3,0.2727,3552.26,322.9327,33,38,Intermediário (26–50 trips),0.5,0.0,-0.5,True,1.673,6,Instável — Coaching,212.4767,True
+WDID10668,Jennifer Miller,11,3,0.2727,3818.89,347.1718,63,61,Experiente (51+ trips),,,,,1.587,9,Instável — Coaching,212.4767,True
+WDID10669,Richard Carr,11,3,0.2727,3885.4,353.2182,77,33,Experiente (51+ trips),,,,,1.732,7,Instável — Coaching,212.4767,True
+WDID10670,Molly Valdez,11,3,0.2727,3474.12,315.8291,52,38,Experiente (51+ trips),0.2,0.3333,0.1333,False,1.377,7,Instável — Coaching,212.4767,True
+WDID10671,Justin Villa,11,3,0.2727,2620.68,238.2436,45,52,Intermediário (26–50 trips),0.4,0.1667,-0.2333,True,1.674,9,Instável — Coaching,212.4767,True
+WDID10672,Terry Walker,11,3,0.2727,2804.17,254.9245,16,38,Novato (≤25 trips),0.4,0.1667,-0.2333,True,1.466,8,Instável — Coaching,212.4767,True
+WDID10673,Jasmine Nash,11,3,0.2727,2840.94,258.2673,61,59,Experiente (51+ trips),,,,,1.587,9,Instável — Coaching,212.4767,True
+WDID10674,James Johnson,11,3,0.2727,3145.04,285.9127,76,41,Experiente (51+ trips),0.5,0.0,-0.5,True,1.466,8,Instável — Coaching,212.4767,True
+WDID10675,Kelsey Garcia,11,3,0.2727,3404.4,309.4909,30,40,Intermediário (26–50 trips),,,,,1.247,7,Instável — Coaching,212.4767,True
+WDID10676,Emily Hubbard,11,3,0.2727,2881.23,261.93,72,61,Experiente (51+ trips),0.2,0.3333,0.1333,False,1.466,8,Instável — Coaching,212.4767,True
+WDID10677,Cynthia Moreno,11,3,0.2727,3295.6,299.6,36,60,Intermediário (26–50 trips),,,,,1.984,7,Instável — Coaching,212.4767,True
+WDID10678,Scott Martin,11,3,0.2727,2736.3,248.7545,44,34,Intermediário (26–50 trips),0.1667,0.4,0.2333,False,1.466,8,Instável — Coaching,212.4767,True
+WDID10679,Ian Hill,11,3,0.2727,3406.59,309.69,16,54,Novato (≤25 trips),,,,,1.332,7,Instável — Coaching,212.4767,True
+WDID10680,Stacy Vaughn,11,3,0.2727,2263.48,205.7709,43,53,Intermediário (26–50 trips),,,,,1.587,9,Instável — Coaching,212.4767,True
+WDID10681,Lawrence Guzman,11,3,0.2727,2881.89,261.99,49,45,Intermediário (26–50 trips),0.4,0.1667,-0.2333,True,1.6,8,Instável — Coaching,212.4767,True
+WDID10682,Andrea Bryant,11,3,0.2727,3031.37,275.5791,39,52,Intermediário (26–50 trips),,,,,1.732,7,Instável — Coaching,212.4767,True
+WDID10683,Rebecca Woods,11,3,0.2727,3108.82,282.62,71,43,Experiente (51+ trips),,,,,1.55,8,Instável — Coaching,212.4767,True
+WDID10684,Cody Baker,11,3,0.2727,3037.52,276.1382,37,42,Intermediário (26–50 trips),0.4,0.1667,-0.2333,True,1.332,7,Instável — Coaching,212.4767,True
+WDID10685,Nicole Barker,11,3,0.2727,3622.84,329.3491,40,32,Intermediário (26–50 trips),0.2,0.3333,0.1333,False,1.377,7,Instável — Coaching,212.4767,True
+WDID10686,Tony Wright,11,3,0.2727,4577.29,416.1173,50,41,Intermediário (26–50 trips),0.2,0.3333,0.1333,False,1.463,7,Instável — Coaching,212.4767,True
+WDID10687,Cynthia Meyer,11,3,0.2727,4411.89,401.0809,45,30,Intermediário (26–50 trips),,,,,1.7,10,Instável — Coaching,212.4767,True
+WDID10688,Crystal Sanders,11,3,0.2727,2982.58,271.1436,51,65,Experiente (51+ trips),,,,,1.512,8,Instável — Coaching,212.4767,True
+WDID10689,Daniel Sanders,11,3,0.2727,2751.67,250.1518,48,65,Intermediário (26–50 trips),0.0,0.5,0.5,False,1.984,8,Instável — Coaching,212.4767,True
+WDID10690,Samantha Gonzalez,10,3,0.3,2481.54,248.154,46,59,Intermediário (26–50 trips),0.2,0.4,0.2,False,1.573,6,Instável — Coaching,212.4767,True
+WDID10691,Amber Davis,10,3,0.3,2180.0,218.0,31,48,Intermediário (26–50 trips),,,,,1.332,7,Instável — Coaching,212.4767,True
+WDID10692,Melvin Holder,10,3,0.3,2761.65,276.165,22,29,Novato (≤25 trips),,,,,1.31,6,Instável — Coaching,212.4767,True
+WDID10693,Chad Hill,10,3,0.3,3467.68,346.768,38,62,Intermediário (26–50 trips),,,,,1.225,6,Instável — Coaching,212.4767,True
+WDID10694,Jennifer Medina,10,3,0.3,2398.81,239.881,47,29,Intermediário (26–50 trips),,,,,1.38,8,Instável — Coaching,212.4767,True
+WDID10695,Elizabeth Williams,10,3,0.3,3871.87,387.187,67,34,Experiente (51+ trips),0.2,0.4,0.2,False,1.755,7,Instável — Coaching,212.4767,True
+WDID10696,David Taylor,10,3,0.3,3926.94,392.694,11,45,Novato (≤25 trips),,,,,1.225,6,Instável — Coaching,212.4767,True
+WDID10697,Corey Wood,10,3,0.3,4340.51,434.051,55,49,Experiente (51+ trips),,,,,1.463,7,Instável — Coaching,212.4767,True
+WDID10698,Willie Wilson,10,3,0.3,3208.17,320.817,30,55,Intermediário (26–50 trips),,,,,1.512,8,Instável — Coaching,212.4767,True
+WDID10699,Joseph Nichols,10,3,0.3,3511.48,351.148,22,33,Novato (≤25 trips),0.2,0.4,0.2,False,1.463,7,Instável — Coaching,212.4767,True
+WDID10700,Brittney Lawson,10,3,0.3,1790.77,179.077,29,40,Intermediário (26–50 trips),,,,,1.332,7,Instável — Coaching,212.4767,True
+WDID10701,Ryan Shaw Jr.,10,3,0.3,2904.38,290.438,71,57,Experiente (51+ trips),,,,,1.332,7,Instável — Coaching,212.4767,True
+WDID10702,Sarah Anderson,10,3,0.3,2266.21,226.621,59,30,Experiente (51+ trips),0.4,0.2,-0.2,True,1.129,6,Instável — Coaching,212.4767,True
+WDID10703,Katie Maldonado,10,3,0.3,2648.53,264.853,15,64,Novato (≤25 trips),0.4,0.2,-0.2,True,1.512,8,Instável — Coaching,212.4767,True
+WDID10704,Michelle Chaney,10,3,0.3,3428.65,342.865,26,57,Intermediário (26–50 trips),0.4,0.2,-0.2,True,1.225,6,Instável — Coaching,212.4767,True
+WDID10705,Jeffrey Perez,10,3,0.3,3280.78,328.078,42,37,Intermediário (26–50 trips),,,,,1.463,7,Instável — Coaching,212.4767,True
+WDID10706,Sarah Moon,10,3,0.3,2481.82,248.182,69,42,Experiente (51+ trips),,,,,1.332,7,Instável — Coaching,212.4767,True
+WDID10707,Diana May,10,3,0.3,1961.31,196.131,34,30,Intermediário (26–50 trips),,,,,1.31,6,Instável — Coaching,212.4767,True
+WDID10708,Kimberly Lopez,10,3,0.3,2450.28,245.028,56,64,Experiente (51+ trips),0.2,0.4,0.2,False,1.466,8,Instável — Coaching,212.4767,True
+WDID10709,Stacey Cross,10,3,0.3,3886.51,388.651,68,56,Experiente (51+ trips),,,,,1.466,8,Instável — Coaching,212.4767,True
+WDID10710,Jared Hendrix,10,3,0.3,2857.23,285.723,13,49,Novato (≤25 trips),,,,,0.948,5,Instável — Coaching,212.4767,True
+WDID10711,Jeffrey Porter,10,3,0.3,3172.59,317.259,56,52,Experiente (51+ trips),,,,,1.836,7,Instável — Coaching,212.4767,True
+WDID10712,Michaela Davies,10,3,0.3,2930.71,293.071,64,60,Experiente (51+ trips),,,,,0.913,5,Instável — Coaching,212.4767,True
+WDID10713,Joseph Martinez,10,3,0.3,2713.21,271.321,52,33,Experiente (51+ trips),,,,,1.5,9,Instável — Coaching,212.4767,True
+WDID10714,Yvonne Morris,10,3,0.3,2646.12,264.612,15,64,Novato (≤25 trips),,,,,1.512,8,Instável — Coaching,212.4767,True
+WDID10715,Jason Watson,10,3,0.3,2658.01,265.801,11,51,Novato (≤25 trips),,,,,1.414,7,Instável — Coaching,212.4767,True
+WDID10716,Jose Campbell,10,3,0.3,2525.12,252.512,34,59,Intermediário (26–50 trips),,,,,1.0,5,Instável — Coaching,212.4767,True
+WDID10717,Grant Mitchell,10,3,0.3,4121.62,412.162,16,36,Novato (≤25 trips),0.4,0.2,-0.2,True,1.332,7,Instável — Coaching,212.4767,True
+WDID10718,Dustin Ortiz,10,3,0.3,3928.94,392.894,67,39,Experiente (51+ trips),,,,,1.414,7,Instável — Coaching,212.4767,True
+WDID10719,Elizabeth Cardenas,10,3,0.3,2712.75,271.275,63,42,Experiente (51+ trips),,,,,1.332,7,Instável — Coaching,212.4767,True
+WDID10720,Julia Bell,10,3,0.3,2851.55,285.155,35,48,Intermediário (26–50 trips),,,,,1.262,6,Instável — Coaching,212.4767,True
+WDID10721,Michael Rose,10,3,0.3,2788.48,278.848,56,50,Experiente (51+ trips),,,,,1.512,8,Instável — Coaching,212.4767,True
+WDID10722,Michelle Campbell,10,3,0.3,3085.18,308.518,24,39,Novato (≤25 trips),,,,,1.466,8,Instável — Coaching,212.4767,True
+WDID10723,Denise Martin,10,3,0.3,2603.06,260.306,68,31,Experiente (51+ trips),,,,,1.31,6,Instável — Coaching,212.4767,True
+WDID10724,Dr. Sarah Harrison MD,10,3,0.3,3320.49,332.049,75,55,Experiente (51+ trips),,,,,1.373,6,Instável — Coaching,212.4767,True
+WDID10725,Jeremy Jenkins,10,3,0.3,2021.22,202.122,47,37,Intermediário (26–50 trips),0.2,0.4,0.2,False,1.332,7,Instável — Coaching,212.4767,True
+WDID10726,Lindsey Johnson,10,3,0.3,1999.0,199.9,34,46,Intermediário (26–50 trips),,,,,1.247,7,Instável — Coaching,212.4767,True
+WDID10727,Brian Duran,10,3,0.3,3357.24,335.724,74,62,Experiente (51+ trips),,,,,1.466,8,Instável — Coaching,212.4767,True
+WDID10728,Alan Johnson,10,3,0.3,1525.11,152.511,75,48,Experiente (51+ trips),,,,,1.836,7,Instável — Coaching,212.4767,True
+WDID10729,Richard Powell,10,3,0.3,2722.07,272.207,59,40,Experiente (51+ trips),,,,,1.0,5,Instável — Coaching,212.4767,True
+WDID10730,Kevin Gilmore,10,3,0.3,2234.47,223.447,11,30,Novato (≤25 trips),,,,,1.852,8,Instável — Coaching,212.4767,True
+WDID10731,Zachary Walker,10,3,0.3,2221.68,222.168,36,62,Intermediário (26–50 trips),,,,,1.466,8,Instável — Coaching,212.4767,True
+WDID10732,Molly Stone,10,3,0.3,2358.96,235.896,21,31,Novato (≤25 trips),,,,,1.836,7,Instável — Coaching,212.4767,True
+WDID10733,Carla Ramirez,10,3,0.3,2609.34,260.934,74,62,Experiente (51+ trips),,,,,1.414,5,Instável — Coaching,212.4767,True
+WDID10734,Michael Zimmerman,10,3,0.3,3606.44,360.644,69,65,Experiente (51+ trips),,,,,1.673,6,Instável — Coaching,212.4767,True
+WDID10735,Mr. Robert Kelly,10,3,0.3,3772.17,377.217,67,55,Experiente (51+ trips),,,,,1.512,8,Instável — Coaching,212.4767,True
+WDID10736,Casey Wood,10,3,0.3,3068.01,306.801,69,55,Experiente (51+ trips),,,,,1.852,8,Instável — Coaching,212.4767,True
+WDID10737,Jessica Murray,10,3,0.3,4323.32,432.332,47,29,Intermediário (26–50 trips),0.4,0.2,-0.2,True,1.332,7,Instável — Coaching,212.4767,True
+WDID10738,Kelly Robbins,10,3,0.3,3106.85,310.685,70,29,Experiente (51+ trips),0.4,0.2,-0.2,True,1.463,7,Instável — Coaching,212.4767,True
+WDID10739,Devin King,10,3,0.3,3429.57,342.957,61,33,Experiente (51+ trips),,,,,1.225,6,Instável — Coaching,212.4767,True
+WDID10740,Ronald Doyle,10,3,0.3,3203.57,320.357,78,58,Experiente (51+ trips),,,,,1.332,7,Instável — Coaching,212.4767,True
+WDID10741,Brandon Bush,10,3,0.3,3631.49,363.149,58,47,Experiente (51+ trips),,,,,1.262,6,Instável — Coaching,212.4767,True
+WDID10742,Elizabeth Jones,10,3,0.3,4131.85,413.185,11,47,Novato (≤25 trips),,,,,1.225,6,Instável — Coaching,212.4767,True
+WDID10743,Andrew Crawford,10,3,0.3,4629.42,462.942,74,34,Experiente (51+ trips),,,,,1.466,8,Instável — Coaching,212.4767,True
+WDID10744,Molly Cole,10,3,0.3,3690.99,369.099,29,62,Intermediário (26–50 trips),,,,,1.377,7,Instável — Coaching,212.4767,True
+WDID10745,Megan Mccormick,6,0,0.0,2164.93,360.8217,64,45,Experiente (51+ trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10746,Rebecca Young,6,0,0.0,1328.36,221.3933,63,39,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10747,Elizabeth Thomas,6,0,0.0,1159.42,193.2367,32,51,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10748,Kenneth Lewis,6,0,0.0,1140.84,190.14,23,44,Novato (≤25 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10749,Jason Henry,6,0,0.0,962.06,160.3433,77,61,Experiente (51+ trips),,,,,0.0,3,Referência — Boas Práticas,0.0,False
+WDID10750,Carlos Kelley,6,0,0.0,916.46,152.7433,73,53,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10751,Christopher Weiss,6,0,0.0,717.95,119.6583,54,41,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10752,April Hensley,6,0,0.0,1050.86,175.1433,72,44,Experiente (51+ trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10753,Rachel Walker,6,0,0.0,1245.29,207.5483,59,47,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10754,Johnny Mcmahon,6,0,0.0,928.46,154.7433,26,44,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10755,Devon Rogers,6,0,0.0,1162.36,193.7267,51,48,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10756,Sherry Dunn,6,0,0.0,1372.07,228.6783,50,56,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10757,Tracey Knight,6,0,0.0,1530.41,255.0683,13,50,Novato (≤25 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10758,Heather Powell,6,0,0.0,1374.59,229.0983,29,42,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10759,Anne Stafford,6,0,0.0,1585.27,264.2117,59,54,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10760,Wayne Chan,6,0,0.0,1532.21,255.3683,55,30,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10761,Jaime Griffith,6,0,0.0,2277.07,379.5117,16,64,Novato (≤25 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10762,Paul Wells,6,0,0.0,1993.0,332.1667,45,41,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10763,Oscar Davis,6,0,0.0,1864.51,310.7517,14,31,Novato (≤25 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10764,Cassandra Jones,6,0,0.0,1714.91,285.8183,42,45,Intermediário (26–50 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10765,Louis Cross,6,0,0.0,1706.49,284.415,78,59,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10766,Heather Welch,6,0,0.0,1582.28,263.7133,25,60,Novato (≤25 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10767,Christopher Richardson,6,0,0.0,1261.82,210.3033,12,46,Novato (≤25 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10768,William Robinson,6,0,0.0,1172.12,195.3533,12,48,Novato (≤25 trips),,,,,0.0,3,Referência — Boas Práticas,0.0,False
+WDID10769,Katherine Young,6,0,0.0,1416.21,236.035,29,65,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10770,Christopher Wiley,6,0,0.0,1372.79,228.7983,78,63,Experiente (51+ trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10771,Nicole Harris,6,0,0.0,1284.93,214.155,62,60,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10772,Richard Martin,6,0,0.0,1211.83,201.9717,65,31,Experiente (51+ trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10773,Nicholas Nelson,6,0,0.0,872.66,145.4433,65,29,Experiente (51+ trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10774,Evelyn White DDS,6,0,0.0,1723.51,287.2517,30,47,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10775,William Tucker,6,0,0.0,1593.69,265.615,33,62,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10776,Derek Edwards,6,0,0.0,1678.46,279.7433,20,50,Novato (≤25 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10777,Adam Fuentes,6,0,0.0,2312.24,385.3733,25,45,Novato (≤25 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10778,Omar Robinson,6,0,0.0,1648.01,274.6683,78,64,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10779,Kevin Robinson,6,0,0.0,1416.72,236.12,21,36,Novato (≤25 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10780,Clayton Ramirez,6,0,0.0,1033.87,172.3117,45,60,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10781,Amanda Moss,6,0,0.0,974.58,162.43,43,49,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10782,Aaron Rogers,6,0,0.0,2019.46,336.5767,36,51,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10783,Stephen Thompson,6,0,0.0,1697.29,282.8817,62,35,Experiente (51+ trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10784,Deborah Stark,6,0,0.0,1280.13,213.355,70,58,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10785,Ashley Byrd,6,0,0.0,1442.3,240.3833,74,58,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10786,Christopher Richardson,6,0,0.0,1590.45,265.075,43,60,Intermediário (26–50 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10787,Amy King,6,0,0.0,1682.32,280.3867,41,58,Intermediário (26–50 trips),,,,,0.0,3,Referência — Boas Práticas,0.0,False
+WDID10788,Alejandro Smith,6,0,0.0,1406.35,234.3917,78,30,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10789,Amy Miller,6,0,0.0,895.82,149.3033,44,36,Intermediário (26–50 trips),,,,,0.0,3,Referência — Boas Práticas,0.0,False
+WDID10790,Katherine Martin,6,0,0.0,1033.37,172.2283,30,50,Intermediário (26–50 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10791,James Duncan,6,0,0.0,1342.64,223.7733,75,56,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10792,Ronald Hernandez,6,0,0.0,1397.0,232.8333,26,63,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10793,Linda Yates,6,0,0.0,1516.84,252.8067,33,52,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10794,James Shepherd,6,0,0.0,1272.37,212.0617,27,32,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10795,Joseph Stewart,6,0,0.0,1120.66,186.7767,63,52,Experiente (51+ trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10796,Bobby Morse MD,6,0,0.0,1292.23,215.3717,12,46,Novato (≤25 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10797,Peter Carter,6,0,0.0,1383.88,230.6467,45,33,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10798,Ronnie Curtis,6,0,0.0,1623.25,270.5417,32,56,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10799,Valerie Perry,6,0,0.0,1563.27,260.545,54,49,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10800,James Hoover,6,0,0.0,1849.27,308.2117,60,39,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10801,Jamie Jenkins,6,0,0.0,1854.48,309.08,59,30,Experiente (51+ trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10802,Michaela Coleman,6,0,0.0,2232.9,372.15,63,54,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10803,Jennifer Martin,6,0,0.0,2001.86,333.6433,67,32,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10804,Tyler Vasquez,6,0,0.0,1652.9,275.4833,39,64,Intermediário (26–50 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10805,Adam Irwin,6,0,0.0,1865.93,310.9883,74,49,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10806,Lisa Sutton,6,0,0.0,1501.25,250.2083,19,56,Novato (≤25 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10807,Susan Smith,6,0,0.0,1430.8,238.4667,35,37,Intermediário (26–50 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10808,Tiffany Hamilton,6,0,0.0,1674.78,279.13,60,62,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10809,Patrick Moran,6,0,0.0,1926.54,321.09,18,40,Novato (≤25 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10810,Jesus Walters,6,0,0.0,1830.45,305.075,76,48,Experiente (51+ trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10811,Bruce Manning,6,0,0.0,1771.48,295.2467,78,48,Experiente (51+ trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10812,Erin Davis,6,0,0.0,1521.41,253.5683,60,55,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10813,Shawn Nguyen,6,0,0.0,1355.63,225.9383,72,43,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10814,Elizabeth Little,6,0,0.0,1451.0,241.8333,37,44,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10815,Erica Schultz,6,0,0.0,1335.64,222.6067,52,60,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10816,Ryan Hartman,6,0,0.0,1359.08,226.5133,57,43,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10817,Brian Castro,6,0,0.0,1139.64,189.94,60,43,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10818,Brooke Garcia,6,0,0.0,1516.5,252.75,53,63,Experiente (51+ trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10819,Melanie Heath,6,0,0.0,1150.67,191.7783,35,65,Intermediário (26–50 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10820,Dr. Gabriel Mendoza,6,0,0.0,1146.89,191.1483,74,40,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10821,Victoria Bowen,6,0,0.0,1807.17,301.195,46,47,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10822,Rebecca Rivers,6,0,0.0,2694.05,449.0083,76,45,Experiente (51+ trips),,,,,0.0,3,Referência — Boas Práticas,0.0,False
+WDID10823,Cathy Daniel,6,0,0.0,1605.75,267.625,67,61,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10824,Marcus Hamilton,6,0,0.0,1700.89,283.4817,60,43,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10825,Ricky Hodge,6,0,0.0,1748.28,291.38,74,29,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10826,Krista Adams,6,0,0.0,1498.57,249.7617,39,55,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10827,Xavier Hernandez,6,0,0.0,1602.9,267.15,22,56,Novato (≤25 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10828,Jason Willis,6,0,0.0,2352.63,392.105,60,50,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10829,Shannon Thomas,6,0,0.0,2259.3,376.55,49,42,Intermediário (26–50 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10830,Christy Young,6,0,0.0,1883.89,313.9817,63,40,Experiente (51+ trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10831,Ashley Alvarez,6,0,0.0,1746.41,291.0683,16,33,Novato (≤25 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10832,John Watkins,6,0,0.0,1783.24,297.2067,16,39,Novato (≤25 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10833,Laura Murillo,6,0,0.0,1821.95,303.6583,51,60,Experiente (51+ trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10834,Mr. Michael Cox MD,6,0,0.0,1595.45,265.9083,54,39,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10835,Rodney Wallace,6,0,0.0,1594.22,265.7033,48,52,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10836,Laura Schultz,6,0,0.0,1223.3,203.8833,22,38,Novato (≤25 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10837,Mr. Cameron Swanson,6,0,0.0,1875.42,312.57,72,42,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10838,Emily Ho,6,0,0.0,1520.53,253.4217,46,35,Intermediário (26–50 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10839,Brenda Cooley,6,0,0.0,2937.34,489.5567,78,65,Experiente (51+ trips),,,,,0.0,3,Referência — Boas Práticas,0.0,False
+WDID10840,Daniel Perkins,6,0,0.0,2186.63,364.4383,37,57,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10841,Justin Villanueva,6,0,0.0,1850.65,308.4417,61,30,Experiente (51+ trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10842,Roberto Jones,6,0,0.0,1828.55,304.7583,14,62,Novato (≤25 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10843,Andrew Kirby,6,0,0.0,1798.13,299.6883,42,52,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10844,Patricia Jordan,6,0,0.0,2046.66,341.11,50,65,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10845,Joanna Black,6,0,0.0,2106.3,351.05,48,61,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10846,Jodi Harvey,6,0,0.0,2205.27,367.545,68,29,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10847,Alyssa Bradford,6,0,0.0,1592.87,265.4783,54,42,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10848,Tyler Williams,6,0,0.0,1693.77,282.295,62,31,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10849,Michelle Humphrey,6,0,0.0,1524.39,254.065,69,65,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10850,Jennifer Herrera,6,0,0.0,1469.73,244.955,49,55,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10851,Dana Welch,6,0,0.0,1280.01,213.335,37,32,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10852,Shaun Strong,6,0,0.0,1540.75,256.7917,68,37,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10853,Paul Norton,6,0,0.0,1041.92,173.6533,58,61,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10854,Anthony Garza,6,0,0.0,1562.33,260.3883,57,55,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10855,Katie Bennett,6,0,0.0,1548.77,258.1283,39,55,Intermediário (26–50 trips),,,,,0.0,3,Referência — Boas Práticas,0.0,False
+WDID10856,John Hutchinson,6,0,0.0,1551.44,258.5733,14,64,Novato (≤25 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10857,Andrew Carlson,6,0,0.0,1885.62,314.27,22,65,Novato (≤25 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10858,Lauren Sanders,6,0,0.0,1686.27,281.045,50,60,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10859,Richard Carter,6,0,0.0,1549.46,258.2433,22,42,Novato (≤25 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10860,Kelly Price,6,0,0.0,1820.76,303.46,72,43,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10861,Brooke Lewis,6,0,0.0,2054.46,342.41,51,29,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10862,Brooke Miranda,6,0,0.0,1582.79,263.7983,74,41,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10863,Michael Elliott,6,0,0.0,2245.44,374.24,59,49,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10864,James Greene,6,0,0.0,2133.57,355.595,12,42,Novato (≤25 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10865,Chase Hale,6,0,0.0,2058.75,343.125,73,63,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10866,Aaron Jackson,6,0,0.0,1989.48,331.58,27,29,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10867,Jason Jones,6,0,0.0,1883.04,313.84,66,35,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10868,Gerald Lewis,6,0,0.0,1778.06,296.3433,58,55,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10869,William Jones,6,0,0.0,1654.3,275.7167,67,58,Experiente (51+ trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10870,Debbie Lopez,6,0,0.0,1586.75,264.4583,55,45,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10871,Tina Green,6,0,0.0,1452.61,242.1017,42,35,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10872,Ivan Adams,6,0,0.0,1359.81,226.635,13,43,Novato (≤25 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10873,Alexander Diaz,6,0,0.0,1302.07,217.0117,33,50,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10874,Nathaniel Miller,6,0,0.0,1225.5,204.25,71,52,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10875,James King,6,0,0.0,1640.9,273.4833,41,47,Intermediário (26–50 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10876,Gregory Taylor,6,0,0.0,1487.19,247.865,75,32,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10877,Thomas Cook,6,0,0.0,1323.24,220.54,40,64,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10878,Adam Sullivan,6,0,0.0,1226.76,204.46,28,50,Intermediário (26–50 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10879,Robert Baker,6,0,0.0,1539.2,256.5333,47,33,Intermediário (26–50 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10880,Yolanda Shepard,6,0,0.0,1498.77,249.795,50,47,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10881,Sarah Whitney,6,0,0.0,1335.9,222.65,70,31,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10882,Mr. Scott Robinson,6,0,0.0,1702.82,283.8033,50,59,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10883,Gail Turner,6,0,0.0,1550.8,258.4667,53,29,Experiente (51+ trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10884,Stephen Ray,6,0,0.0,1421.09,236.8483,61,29,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10885,Nancy Blevins,6,0,0.0,1732.08,288.68,11,63,Novato (≤25 trips),,,,,0.0,3,Referência — Boas Práticas,0.0,False
+WDID10886,John Garcia,6,0,0.0,1639.59,273.265,53,62,Experiente (51+ trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10887,Craig Freeman,6,0,0.0,1520.36,253.3933,54,37,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10888,Jose Morris,6,0,0.0,1394.98,232.4967,71,56,Experiente (51+ trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10889,Jake Rodriguez,6,0,0.0,1800.97,300.1617,74,31,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10890,Jeanette Li,6,0,0.0,1622.47,270.4117,33,29,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10891,Kelly Myers,6,0,0.0,1446.71,241.1183,53,45,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10892,Gary Wagner,6,0,0.0,1805.14,300.8567,48,54,Intermediário (26–50 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10893,Edwin Adams,6,0,0.0,1704.23,284.0383,45,51,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10894,Mark Ortega,6,0,0.0,1608.59,268.0983,24,54,Novato (≤25 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10895,Lauren Turner,6,0,0.0,1456.81,242.8017,22,29,Novato (≤25 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10896,Jennifer Finley,6,0,0.0,1272.41,212.0683,20,29,Novato (≤25 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10897,Lucas Buck,6,0,0.0,1173.73,195.6217,74,50,Experiente (51+ trips),,,,,0.0,3,Referência — Boas Práticas,0.0,False
+WDID10898,Joshua Smith,6,0,0.0,1073.53,178.9217,36,50,Intermediário (26–50 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10899,Alexander Lindsey,6,0,0.0,1382.97,230.495,44,42,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10900,Russell Carter,6,0,0.0,1299.54,216.59,23,52,Novato (≤25 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10901,Terri Hansen DDS,6,0,0.0,1709.36,284.8933,62,45,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10902,Brittany Richardson,6,0,0.0,1523.26,253.8767,12,47,Novato (≤25 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10903,John Collins,6,0,0.0,1358.54,226.4233,27,44,Intermediário (26–50 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10904,Patrick Murphy,6,0,0.0,1260.22,210.0367,36,46,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10905,Janice Wilkerson,6,0,0.0,1612.4,268.7333,74,29,Experiente (51+ trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10906,Jason Jackson,6,0,0.0,1450.1,241.6833,73,59,Experiente (51+ trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10907,Lawrence Barnett,6,0,0.0,1343.37,223.895,78,30,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10908,John Johnson,6,0,0.0,1731.81,288.635,14,32,Novato (≤25 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10909,Jamie Garcia,6,0,0.0,1661.98,276.9967,42,42,Intermediário (26–50 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10910,Nicole Jenkins,6,0,0.0,1543.08,257.18,61,51,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10911,Mitchell Osborne,6,0,0.0,1478.45,246.4083,65,51,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10912,Michael Coleman,6,0,0.0,1775.01,295.835,74,33,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10913,Amanda Barnes,6,0,0.0,1707.57,284.595,54,39,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10914,Brad Yang,6,0,0.0,2029.89,338.315,75,53,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10915,Michael Rodriguez,6,0,0.0,1927.09,321.1817,49,53,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10916,Nicole Russell,6,0,0.0,1859.86,309.9767,40,33,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10917,Tiffany Myers,6,0,0.0,1730.29,288.3817,47,52,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10918,Matthew Benton,6,0,0.0,1655.31,275.885,77,53,Experiente (51+ trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10919,Kristin Thompson,6,0,0.0,1560.74,260.1233,48,45,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10920,Douglas Combs,6,0,0.0,1426.79,237.7983,69,29,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10921,Sandra Frazier,6,0,0.0,1224.06,204.01,56,49,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10922,Ian Johnson,6,0,0.0,1178.45,196.4083,73,38,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10923,Wendy Morris,6,0,0.0,1059.16,176.5267,28,29,Intermediário (26–50 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10924,Tammy Hunt,6,0,0.0,1826.02,304.3367,59,61,Experiente (51+ trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10925,Mr. Keith Chambers,6,0,0.0,1761.78,293.63,11,32,Novato (≤25 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10926,Jason Cisneros,6,0,0.0,1650.33,275.055,28,39,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10927,Nicole Dunn,6,0,0.0,1559.66,259.9433,15,32,Novato (≤25 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10928,April Harris,6,0,0.0,1384.9,230.8167,77,37,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10929,Holly Smith,6,0,0.0,1231.66,205.2767,59,52,Experiente (51+ trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10930,James Kane,6,0,0.0,1110.36,185.06,61,48,Experiente (51+ trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10931,Franklin Wright,6,0,0.0,1534.44,255.74,75,30,Experiente (51+ trips),,,,,0.0,3,Referência — Boas Práticas,0.0,False
+WDID10932,Juan Booker,6,0,0.0,1383.36,230.56,73,60,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10933,Alexis Martin,6,0,0.0,1737.33,289.555,47,52,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10934,William Tucker,6,0,0.0,1628.03,271.3383,62,65,Experiente (51+ trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10935,Brian Park,6,0,0.0,1530.67,255.1117,32,60,Intermediário (26–50 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10936,Matthew Buck,6,0,0.0,1924.31,320.7183,36,65,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10937,Roy Frost,6,0,0.0,1767.77,294.6283,42,31,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10938,Felicia Jones,6,0,0.0,1696.95,282.825,26,61,Intermediário (26–50 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10939,Ann Brown,6,0,0.0,1565.79,260.965,34,50,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10940,Thomas Reynolds,6,0,0.0,1886.84,314.4733,72,31,Experiente (51+ trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10941,Selena Gomez,6,0,0.0,1788.31,298.0517,59,29,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10942,Glenn Lawrence,6,0,0.0,2187.19,364.5317,40,30,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10943,Jordan Martin,6,0,0.0,2028.93,338.155,55,44,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10944,Sheila Smith,6,0,0.0,1936.94,322.8233,32,44,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10945,Walter Hunt,6,0,0.0,1788.44,298.0733,66,64,Experiente (51+ trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10946,Katie Chavez,6,0,0.0,1696.27,282.7117,64,29,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10947,Caitlin White,6,0,0.0,1573.65,262.275,70,50,Experiente (51+ trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10948,Jennifer Taylor,6,0,0.0,1463.75,243.9583,12,37,Novato (≤25 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10949,Adam Costa,6,0,0.0,1388.18,231.3633,40,30,Intermediário (26–50 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10950,Bethany Jones,6,0,0.0,1706.33,284.3883,26,56,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10951,Calvin Cohen,6,0,0.0,1497.75,249.625,60,43,Experiente (51+ trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10952,Charles Myers,6,0,0.0,1358.52,226.42,22,64,Novato (≤25 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10953,Nicholas Bauer,6,0,0.0,1083.66,180.61,53,40,Experiente (51+ trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10954,Anthony Robinson,6,0,0.0,1449.5,241.5833,27,43,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10955,Kim Bishop,6,0,0.0,1289.0,214.8333,76,60,Experiente (51+ trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10956,Gregory Green,6,0,0.0,2023.12,337.1867,11,43,Novato (≤25 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10957,Sarah Mcmillan,6,0,0.0,1892.08,315.3467,78,53,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10958,Mr. Benjamin Murphy,6,0,0.0,1781.84,296.9733,50,45,Intermediário (26–50 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10959,William Woodard,6,0,0.0,1703.97,283.995,77,31,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10960,Deborah Davis,6,0,0.0,1604.11,267.3517,60,31,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10961,Amy Campbell,6,0,0.0,1858.33,309.7217,66,61,Experiente (51+ trips),,,,,0.0,3,Referência — Boas Práticas,0.0,False
+WDID10962,Claudia Sutton,6,0,0.0,1695.95,282.6583,74,55,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10963,Michael Martin,6,0,0.0,1912.96,318.8267,66,29,Experiente (51+ trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10964,Martha Patel,6,0,0.0,1865.98,310.9967,63,57,Experiente (51+ trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10965,Kim Farmer,6,0,0.0,1750.01,291.6683,70,35,Experiente (51+ trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10966,Shannon Reyes,6,0,0.0,1659.74,276.6233,24,43,Novato (≤25 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10967,Cody Mitchell,6,0,0.0,1530.19,255.0317,62,39,Experiente (51+ trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10968,Victor Olson,6,0,0.0,1428.02,238.0033,72,31,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10969,Annette Williams,6,0,0.0,1807.87,301.3117,15,62,Novato (≤25 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10970,Russell Byrd,6,0,0.0,1742.75,290.4583,47,54,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10971,Chris Schmitt,6,0,0.0,1671.15,278.525,37,47,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10972,Kristen Hernandez,6,0,0.0,1526.85,254.475,77,60,Experiente (51+ trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10973,Kimberly Kennedy,6,0,0.0,1431.61,238.6017,18,64,Novato (≤25 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10974,Rebecca Smith,6,0,0.0,1326.49,221.0817,13,56,Novato (≤25 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10975,Angela Brown,6,0,0.0,1253.87,208.9783,20,38,Novato (≤25 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10976,Rachel Smith,6,0,0.0,1655.52,275.92,61,41,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10977,Emily Smith,6,0,0.0,1487.13,247.855,73,63,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10978,Adam Hansen,6,0,0.0,1388.29,231.3817,23,51,Novato (≤25 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10979,Ronald Gibson,6,0,0.0,1246.69,207.7817,23,48,Novato (≤25 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10980,Destiny Gonzalez,6,0,0.0,1159.26,193.21,56,51,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10981,Taylor Pacheco,6,0,0.0,1539.2,256.5333,78,36,Experiente (51+ trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10982,Stephanie Stephens DDS,6,0,0.0,1440.88,240.1467,73,58,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10983,Colleen Villarreal,6,0,0.0,1216.3,202.7167,77,45,Experiente (51+ trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10984,Ashley Brown,6,0,0.0,1176.21,196.035,33,53,Intermediário (26–50 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10985,Kimberly Ryan MD,6,0,0.0,1130.09,188.3483,26,49,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10986,Travis Taylor,6,0,0.0,1543.56,257.26,75,32,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10987,Troy Munoz,6,0,0.0,1483.47,247.245,24,35,Novato (≤25 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10988,John Robinson,6,0,0.0,1355.26,225.8767,45,53,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10989,Audrey Mcdowell,6,0,0.0,1231.53,205.255,35,44,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10990,Amy Bennett,6,0,0.0,1132.16,188.6933,14,48,Novato (≤25 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10991,Leslie Smith,6,0,0.0,1075.08,179.18,65,30,Experiente (51+ trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10992,Richard Green,6,0,0.0,1342.07,223.6783,77,30,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10993,Olivia Andrews,6,0,0.0,1722.22,287.0367,39,37,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10994,Corey Coffey,6,0,0.0,1976.67,329.445,55,42,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID10995,David Nielsen,6,0,0.0,1889.81,314.9683,12,57,Novato (≤25 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID10996,Jonathan Wheeler,6,0,0.0,1838.79,306.465,24,58,Novato (≤25 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10997,Michael Ramsey,6,0,0.0,1614.53,269.0883,49,38,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10998,Darrell Chambers,6,0,0.0,1526.99,254.4983,47,29,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID10999,David Miller,6,0,0.0,1377.36,229.56,51,49,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID11000,Shane Davis,6,0,0.0,1614.79,269.1317,55,35,Experiente (51+ trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID11001,Amanda Foster,6,0,0.0,1850.4,308.4,56,34,Experiente (51+ trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID11002,Brenda Sanchez,6,0,0.0,2096.15,349.3583,49,33,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID11003,Anita Smith,6,0,0.0,1998.27,333.045,18,35,Novato (≤25 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID11004,Anthony Garner,6,0,0.0,1942.11,323.685,20,62,Novato (≤25 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID11005,Joel Austin,6,0,0.0,1824.67,304.1117,27,40,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID11006,Scott Wallace,6,0,0.0,2110.2,351.7,55,35,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID11007,Gary Mccullough,6,0,0.0,1957.78,326.2967,47,50,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID11008,Carly Underwood,6,0,0.0,1850.72,308.4533,58,29,Experiente (51+ trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID11009,Deborah Juarez,6,0,0.0,1749.88,291.6467,32,52,Intermediário (26–50 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID11010,Darlene Sanchez DVM,6,0,0.0,1668.88,278.1467,52,39,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID11011,Sherry Gomez,6,0,0.0,1503.91,250.6517,32,44,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID11012,Kimberly Rios,6,0,0.0,1319.88,219.98,52,44,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID11013,Gregory Miller,6,0,0.0,1206.39,201.065,22,33,Novato (≤25 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID11014,Jimmy Ray,6,0,0.0,1108.75,184.7917,43,61,Intermediário (26–50 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID11015,William Taylor DDS,6,0,0.0,1048.06,174.6767,27,58,Intermediário (26–50 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID11016,Sharon Miller,6,0,0.0,929.04,154.84,28,46,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID11017,Debbie Lewis,6,0,0.0,1330.81,221.8017,70,29,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID11018,Elaine Bowers,6,0,0.0,1242.99,207.165,76,49,Experiente (51+ trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID11019,Andrew Moore,6,0,0.0,1616.26,269.3767,60,57,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID11020,Timothy Ray,6,0,0.0,1378.36,229.7267,61,31,Experiente (51+ trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID11021,Caitlin Sanford,6,0,0.0,1326.37,221.0617,73,59,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID11022,Christian Davis,6,0,0.0,1258.21,209.7017,11,52,Novato (≤25 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID11023,Kristen Terrell,6,0,0.0,1146.89,191.1483,17,51,Novato (≤25 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID11024,Austin King,6,0,0.0,1030.95,171.825,70,34,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID11025,Brett Ryan,6,0,0.0,931.23,155.205,43,57,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID11026,Stephanie Allen,6,0,0.0,868.73,144.7883,27,64,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID11027,Kevin Ellis,6,0,0.0,1694.4,282.4,21,49,Novato (≤25 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID11028,Kimberly Holt,6,0,0.0,1598.86,266.4767,30,64,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID11029,Emily Carter,6,0,0.0,1535.61,255.935,17,59,Novato (≤25 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID11030,Gabriel Odom,6,0,0.0,1451.44,241.9067,75,43,Experiente (51+ trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID11031,Paul Carrillo,6,0,0.0,1370.18,228.3633,63,30,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID11032,Willie Hansen,6,0,0.0,1310.65,218.4417,30,44,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID11033,Andrew Brown,6,0,0.0,1175.11,195.8517,67,29,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID11034,Mark Soto,6,0,0.0,995.31,165.885,49,55,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID11035,Courtney Miller,6,0,0.0,1757.91,292.985,47,29,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID11036,Jessica Trevino,6,0,0.0,1724.79,287.465,74,51,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID11037,Mary Bartlett,6,0,0.0,1528.74,254.79,44,50,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID11038,Joel Hurley,6,0,0.0,1405.94,234.3233,70,46,Experiente (51+ trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID11039,Janet Griffin,6,0,0.0,1809.86,301.6433,76,31,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID11040,Taylor Taylor,6,0,0.0,1766.21,294.3683,33,57,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID11041,Lawrence Robertson,6,0,0.0,1651.37,275.2283,59,45,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID11042,Dr. Lindsay Davis,6,0,0.0,1534.47,255.745,42,33,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID11043,Timothy Taylor,6,0,0.0,1361.22,226.87,56,54,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID11044,Peter Vaughn,6,0,0.0,1252.38,208.73,38,55,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID11045,Sarah Keith,6,0,0.0,1160.5,193.4167,24,36,Novato (≤25 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID11046,Kenneth Sharp,6,0,0.0,1517.54,252.9233,38,56,Intermediário (26–50 trips),,,,,0.0,3,Referência — Boas Práticas,0.0,False
+WDID11047,Nicole Tate,6,0,0.0,1895.19,315.865,68,33,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID11048,Crystal Rodriguez,6,0,0.0,1816.92,302.82,44,49,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID11049,Timothy Cook MD,6,0,0.0,1736.51,289.4183,65,44,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID11050,Thomas Simmons,6,0,0.0,2086.38,347.73,17,40,Novato (≤25 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID11051,Denise Johnson,6,0,0.0,2032.47,338.745,53,32,Experiente (51+ trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID11052,Jennifer Nelson,6,0,0.0,1960.46,326.7433,13,40,Novato (≤25 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID11053,Cynthia Bowen,6,0,0.0,1740.98,290.1633,58,60,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID11054,David Davis,6,0,0.0,1676.47,279.4117,40,60,Intermediário (26–50 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID11055,Zachary Nguyen,6,0,0.0,1595.43,265.905,77,52,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID11056,Denise Valdez,6,0,0.0,1470.35,245.0583,42,59,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID11057,Cassandra Welch,6,0,0.0,1360.47,226.745,34,37,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID11058,Lee Garza,6,0,0.0,1682.86,280.4767,38,56,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID11059,Shawn Cook,6,0,0.0,1526.79,254.465,67,57,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID11060,Alyssa Pollard,6,0,0.0,1395.85,232.6417,25,54,Novato (≤25 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID11061,Susan Murray,6,0,0.0,1716.14,286.0233,42,64,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID11062,George Martinez,6,0,0.0,1586.17,264.3617,70,29,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID11063,Kathryn Hall,6,0,0.0,1513.97,252.3283,49,56,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID11064,Matthew Cole,6,0,0.0,1381.89,230.315,71,41,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID11065,Marisa Cherry,6,0,0.0,1254.6,209.1,66,30,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID11066,Daniel Terry,6,0,0.0,1068.23,178.0383,21,45,Novato (≤25 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID11067,William Payne,6,0,0.0,1022.02,170.3367,65,65,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID11068,Rick Bennett,6,0,0.0,1403.44,233.9067,72,51,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID11069,Anthony King,6,0,0.0,1738.45,289.7417,38,37,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID11070,April Jones,6,0,0.0,1648.69,274.7817,22,46,Novato (≤25 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID11071,Kari Cox,6,0,0.0,1978.37,329.7283,27,55,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID11072,Lee Larsen,6,0,0.0,1925.03,320.8383,78,39,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID11073,Craig Brown,6,0,0.0,2162.18,360.3633,63,36,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID11074,Abigail Murphy,6,0,0.0,2065.75,344.2917,78,64,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID11075,Raymond Martin,6,0,0.0,1978.63,329.7717,69,52,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID11076,Breanna Tucker,6,0,0.0,1906.16,317.6933,44,36,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID11077,David Reyes,6,0,0.0,1821.75,303.625,48,59,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID11078,Kristen Campbell,6,0,0.0,1707.61,284.6017,53,55,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID11079,Brandon Kline,6,0,0.0,2066.97,344.495,71,52,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID11080,Jordan Webb,6,0,0.0,1967.46,327.91,65,47,Experiente (51+ trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID11081,James Reed,6,0,0.0,1894.59,315.765,36,64,Intermediário (26–50 trips),,,,,0.0,3,Referência — Boas Práticas,0.0,False
+WDID11082,Bobby Murphy,6,0,0.0,1705.05,284.175,78,35,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID11083,Kenneth Lopez,6,0,0.0,1583.78,263.9633,40,64,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID11084,Jennifer Olsen,6,0,0.0,1471.46,245.2433,21,61,Novato (≤25 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID11085,Carmen Hamilton,6,0,0.0,1321.57,220.2617,39,61,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID11086,Eric Smith,6,0,0.0,1618.05,269.675,35,44,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID11087,Juan Cox,6,0,0.0,1550.21,258.3683,13,38,Novato (≤25 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID11088,Holly Yates,6,0,0.0,1425.17,237.5283,32,43,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID11089,Zachary Rivera,6,0,0.0,1345.95,224.325,41,58,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID11090,Samantha Mcguire,6,0,0.0,1746.87,291.145,24,40,Novato (≤25 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID11091,Elizabeth Garcia,6,0,0.0,1646.09,274.3483,55,47,Experiente (51+ trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID11092,George Sims,6,0,0.0,1614.46,269.0767,66,31,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID11093,Brian Turner,6,0,0.0,1439.89,239.9817,19,48,Novato (≤25 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID11094,Jesse Fernandez,6,0,0.0,1844.0,307.3333,40,32,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID11095,Monica Reynolds,6,0,0.0,2103.19,350.5317,16,36,Novato (≤25 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID11096,Valerie Love,6,0,0.0,1975.76,329.2933,52,56,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID11097,James Richardson,6,0,0.0,1896.1,316.0167,73,50,Experiente (51+ trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID11098,John Pope,6,0,0.0,1792.79,298.7983,31,32,Intermediário (26–50 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID11099,Ashley Gutierrez,6,0,0.0,1630.37,271.7283,46,35,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID11100,Brett Young,6,0,0.0,1976.81,329.4683,39,48,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID11101,Angela Moreno,6,0,0.0,1894.51,315.7517,29,43,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID11102,Jennifer Dean,6,0,0.0,1701.0,283.5,37,37,Intermediário (26–50 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID11103,Joseph Farmer,6,0,0.0,1526.27,254.3783,14,63,Novato (≤25 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID11104,Dr. Adam Freeman,6,0,0.0,1446.93,241.155,72,34,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID11105,Catherine Hansen,6,0,0.0,1356.13,226.0217,76,31,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID11106,Tyler Moyer,6,0,0.0,1247.38,207.8967,36,31,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID11107,Michael Miller,6,0,0.0,1176.4,196.0667,58,32,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID11108,Savannah Fowler,6,0,0.0,1140.95,190.1583,69,52,Experiente (51+ trips),,,,,0.0,3,Referência — Boas Práticas,0.0,False
+WDID11109,Harry Hamilton,6,0,0.0,1460.7,243.45,14,38,Novato (≤25 trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID11110,Jackie Nelson,6,0,0.0,1302.5,217.0833,25,57,Novato (≤25 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID11111,Nicole Lewis,6,0,0.0,1158.76,193.1267,74,41,Experiente (51+ trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False
+WDID11112,Christopher Fisher,6,0,0.0,1069.17,178.195,74,50,Experiente (51+ trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID11113,Dawn Torres,6,0,0.0,1839.44,306.5733,42,37,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID11114,Shannon Leblanc,6,0,0.0,1736.38,289.3967,32,54,Intermediário (26–50 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID11115,Jo Cook,6,0,0.0,1529.72,254.9533,57,36,Experiente (51+ trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID11116,Heather Rogers,6,0,0.0,1886.0,314.3333,11,30,Novato (≤25 trips),,,,,0.0,6,Referência — Boas Práticas,0.0,False
+WDID11117,Kellie Moore,6,0,0.0,1721.02,286.8367,23,42,Novato (≤25 trips),,,,,0.0,5,Referência — Boas Práticas,0.0,False
+WDID11118,Billy Moore,6,0,0.0,1607.93,267.9883,57,46,Experiente (51+ trips),,,,,0.0,4,Referência — Boas Práticas,0.0,False

@@ -1,0 +1,9 @@
+metric,value
+Total de Clientes,1239.0
+Clientes com Falha,881.0
+% Base Impactada,71.1
+Retornaram Após Falha,812.0
+Return Rate (%),65.5
+Clientes em Churn,26.0
+Revenue at Risk ($),47370.91
+Custo Médio por Churn ($),1821.96

@@ -1,0 +1,410 @@
+{
+  "meta": {
+    "project": "Walmart Delivery Analytics",
+    "subtitle": "Analise de Qualidade de Entregas | 2023 | Regiao de Orlando, FL",
+    "period": "Jan–Dez 2023",
+    "cities": 7
+  },
+  "kpis": {
+    "total_orders": 10000,
+    "total_revenue": 2833022.38,
+    "avg_ticket": 283.3,
+    "failure_rate_pct": 15.0,
+    "total_failures": 1502,
+    "total_failure_cost": 106379.99,
+    "total_drivers": 1247,
+    "total_customers": 1239,
+    "total_regions": 7,
+    "cost_per_failure": 70.83
+  },
+  "regions": [
+    {
+      "region": "Altamonte Springs",
+      "orders": 1426,
+      "revenue": 408562.15,
+      "failure_rate": 16.2,
+      "vs_avg_pp": 1.2,
+      "status": "critical"
+    },
+    {
+      "region": "Clermont",
+      "orders": 1384,
+      "revenue": 390672.57,
+      "failure_rate": 15.8,
+      "vs_avg_pp": 0.8,
+      "status": "critical"
+    },
+    {
+      "region": "Apopka",
+      "orders": 1422,
+      "revenue": 405920.39,
+      "failure_rate": 15.3,
+      "vs_avg_pp": 0.3,
+      "status": "critical"
+    },
+    {
+      "region": "Orlando",
+      "orders": 1401,
+      "revenue": 396044.15,
+      "failure_rate": 15.1,
+      "vs_avg_pp": 0.1,
+      "status": "critical"
+    },
+    {
+      "region": "Winter Park",
+      "orders": 1485,
+      "revenue": 419550.38,
+      "failure_rate": 14.5,
+      "vs_avg_pp": -0.5,
+      "status": "ok"
+    },
+    {
+      "region": "Kissimmee",
+      "orders": 1421,
+      "revenue": 392062.58,
+      "failure_rate": 14.4,
+      "vs_avg_pp": -0.7,
+      "status": "ok"
+    },
+    {
+      "region": "Sanford",
+      "orders": 1461,
+      "revenue": 420210.16,
+      "failure_rate": 13.9,
+      "vs_avg_pp": -1.1,
+      "status": "ok"
+    }
+  ],
+  "monthly_trend": [
+    {
+      "month": "2023-01",
+      "orders": 843,
+      "revenue": 236034.02,
+      "failure_rate": 14.6
+    },
+    {
+      "month": "2023-02",
+      "orders": 745,
+      "revenue": 212571.55,
+      "failure_rate": 13.4
+    },
+    {
+      "month": "2023-03",
+      "orders": 850,
+      "revenue": 241503.65,
+      "failure_rate": 16.7
+    },
+    {
+      "month": "2023-04",
+      "orders": 789,
+      "revenue": 219246.64,
+      "failure_rate": 15.3
+    },
+    {
+      "month": "2023-05",
+      "orders": 830,
+      "revenue": 234602.94,
+      "failure_rate": 17.0
+    },
+    {
+      "month": "2023-06",
+      "orders": 823,
+      "revenue": 236606.88,
+      "failure_rate": 13.7
+    },
+    {
+      "month": "2023-07",
+      "orders": 891,
+      "revenue": 249822.22,
+      "failure_rate": 15.7
+    },
+    {
+      "month": "2023-08",
+      "orders": 871,
+      "revenue": 245210.08,
+      "failure_rate": 15.6
+    },
+    {
+      "month": "2023-09",
+      "orders": 826,
+      "revenue": 232753.33,
+      "failure_rate": 13.9
+    },
+    {
+      "month": "2023-10",
+      "orders": 866,
+      "revenue": 247119.2,
+      "failure_rate": 14.0
+    },
+    {
+      "month": "2023-11",
+      "orders": 808,
+      "revenue": 235017.41,
+      "failure_rate": 16.5
+    },
+    {
+      "month": "2023-12",
+      "orders": 858,
+      "revenue": 242534.46,
+      "failure_rate": 13.6
+    }
+  ],
+  "days_of_week": [
+    {
+      "day": "Monday",
+      "failure_rate": 16.1,
+      "status": "critical"
+    },
+    {
+      "day": "Tuesday",
+      "failure_rate": 15.9,
+      "status": "critical"
+    },
+    {
+      "day": "Wednesday",
+      "failure_rate": 15.5,
+      "status": "critical"
+    },
+    {
+      "day": "Thursday",
+      "failure_rate": 13.8,
+      "status": "ok"
+    },
+    {
+      "day": "Friday",
+      "failure_rate": 13.8,
+      "status": "ok"
+    },
+    {
+      "day": "Saturday",
+      "failure_rate": 15.7,
+      "status": "critical"
+    },
+    {
+      "day": "Sunday",
+      "failure_rate": 14.4,
+      "status": "ok"
+    }
+  ],
+  "periods_of_day": [
+    {
+      "period": "Madrugada (0-5h)",
+      "failure_rate": 14.7
+    },
+    {
+      "period": "Manha (6-11h)",
+      "failure_rate": 16.1
+    },
+    {
+      "period": "Tarde (12-17h)",
+      "failure_rate": 14.8
+    },
+    {
+      "period": "Noite (18-23h)",
+      "failure_rate": 14.5
+    }
+  ],
+  "driver_tiers": [
+    {
+      "tier": "Novato (<=25)",
+      "drivers": 257,
+      "failure_rate": 10.5,
+      "cost": 20681.06
+    },
+    {
+      "tier": "Intermediario (26-50)",
+      "drivers": 457,
+      "failure_rate": 11.9,
+      "cost": 41928.73
+    },
+    {
+      "tier": "Experiente (51+)",
+      "drivers": 533,
+      "failure_rate": 10.7,
+      "cost": 43770.2
+    }
+  ],
+  "worst_drivers": [
+    {
+      "driver_name": "Pamela Moore",
+      "failure_rate": 36.4,
+      "deliveries": 11,
+      "tier": "Experiente (51+)"
+    },
+    {
+      "driver_name": "Billy Lawson",
+      "failure_rate": 36.4,
+      "deliveries": 11,
+      "tier": "Intermediario (26-50)"
+    },
+    {
+      "driver_name": "Stephen Randolph",
+      "failure_rate": 36.4,
+      "deliveries": 11,
+      "tier": "Experiente (51+)"
+    },
+    {
+      "driver_name": "Jordan Daniel",
+      "failure_rate": 36.4,
+      "deliveries": 11,
+      "tier": "Experiente (51+)"
+    },
+    {
+      "driver_name": "James White",
+      "failure_rate": 36.4,
+      "deliveries": 11,
+      "tier": "Novato (<=25)"
+    },
+    {
+      "driver_name": "Roger Green",
+      "failure_rate": 36.4,
+      "deliveries": 11,
+      "tier": "Novato (<=25)"
+    },
+    {
+      "driver_name": "Shane Palmer",
+      "failure_rate": 36.4,
+      "deliveries": 11,
+      "tier": "Intermediario (26-50)"
+    },
+    {
+      "driver_name": "Brittany Gordon",
+      "failure_rate": 36.4,
+      "deliveries": 11,
+      "tier": "Intermediario (26-50)"
+    },
+    {
+      "driver_name": "Tracey Watkins",
+      "failure_rate": 36.4,
+      "deliveries": 11,
+      "tier": "Intermediario (26-50)"
+    },
+    {
+      "driver_name": "Angela Young",
+      "failure_rate": 36.4,
+      "deliveries": 11,
+      "tier": "Experiente (51+)"
+    }
+  ],
+  "retention": {
+    "total_customers": 1239,
+    "customers_with_failure": 881,
+    "pct_affected": 71.1,
+    "return_rate_after_failure": 92.2,
+    "churned_customers": 26,
+    "revenue_at_risk": 47370.91
+  },
+  "shap_categories": [
+    {
+      "category": "Motorista",
+      "pct": 75.9,
+      "level": "critical"
+    },
+    {
+      "category": "Pedido",
+      "pct": 13.9,
+      "level": "warning"
+    },
+    {
+      "category": "Tempo",
+      "pct": 4.5,
+      "level": "neutral"
+    },
+    {
+      "category": "Cliente",
+      "pct": 3.2,
+      "level": "neutral"
+    },
+    {
+      "category": "Localização",
+      "pct": 2.5,
+      "level": "ok"
+    }
+  ],
+  "action_plan": [
+    {
+      "priority": 1,
+      "action": "Retreinamento de motoristas com taxa > 20%",
+      "target": "Motoristas Cronicos e Instaveis",
+      "impact": "Reducao de 30% no custo de falha",
+      "savings": 31914.0,
+      "category": "driver"
+    },
+    {
+      "priority": 2,
+      "action": "Checklist digital para pedidos > 12 itens ou > $400",
+      "target": "Pedidos de alto valor/volume",
+      "impact": "-2pp na taxa de falha",
+      "savings": 13829.4,
+      "category": "order"
+    },
+    {
+      "priority": 3,
+      "action": "Reforco operacional nas Segundas-feiras",
+      "target": "Operacao semanal",
+      "impact": "Reducao da pior janela de falha",
+      "savings": 5319.0,
+      "category": "time"
+    },
+    {
+      "priority": 4,
+      "action": "Auditoria operacional em Altamonte Springs",
+      "target": "Pior regiao — 16.2% de falha",
+      "impact": "Alinhamento ao benchmark de Sanford",
+      "savings": 4255.2,
+      "category": "region"
+    },
+    {
+      "priority": 5,
+      "action": "Compensacao imediata apos 1a falha do cliente",
+      "target": "26 clientes em churn",
+      "impact": "Recuperar $47,371 em receita",
+      "savings": 47370.91,
+      "category": "retention"
+    }
+  ],
+  "conclusion": {
+    "verdict": "O problema está nos motoristas — não nos clientes.",
+    "driver_shap_pct": 75.9,
+    "client_shap_pct": 3.2,
+    "driver_vs_client_ratio": 24,
+    "worst_driver_rate": 36.4,
+    "best_driver_rate": 27.3,
+    "model_auc": 0.8322,
+    "statistical_proof": "Mann-Whitney p < 0.001 (motoristas) vs Kruskal-Wallis p = 0.366 (clientes por idade)",
+    "statistical_tests": {
+      "mann_whitney_drivers": {
+        "test": "Mann-Whitney U",
+        "description": "Alta risco (>=Q75) vs. Baixo risco (<=Q25) entre motoristas",
+        "statistic": 2142426.0,
+        "p_value": 9.147491929337873e-10,
+        "significant": true,
+        "label": "p < 0.001"
+      },
+      "kruskal_age_groups": {
+        "test": "Kruskal-Wallis",
+        "description": "Taxa de falha por faixa etária do cliente",
+        "statistic": 3.1739,
+        "p_value": 0.36558783864390476,
+        "significant": false,
+        "label": "p = 0.366"
+      },
+      "kruskal_value_segments": {
+        "test": "Kruskal-Wallis",
+        "description": "Taxa de falha por segmento de valor do cliente",
+        "statistic": 22.7106,
+        "p_value": 4.639892327019038e-05,
+        "significant": true,
+        "label": "p = 0.000"
+      },
+      "kruskal_regions": {
+        "test": "Kruskal-Wallis",
+        "description": "Taxa de falha entre regiões",
+        "statistic": 4.66,
+        "p_value": 0.5885535599755982,
+        "significant": false,
+        "label": "p = 0.5886"
+      }
+    }
+  }
+}

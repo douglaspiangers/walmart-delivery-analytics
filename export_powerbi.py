@@ -54,7 +54,11 @@ order_items = load_order_items()
 master      = build_master(orders, customers, drivers)
 
 # Constantes de negócio
-REDELIVERY_COST_RATE = 0.25          # 25% do ticket como custo de reentrega
+# PREMISSA: custo de reentrega estimado em 25% do ticket médio.
+# Referência de mercado: operações de grocery delivery tipicamente incorrem em
+# 20–30% do valor do pedido em custos de reentrega (mão-de-obra + logística).
+# Fonte: premissa operacional — ajustar se dados reais de custo estiverem disponíveis.
+REDELIVERY_COST_RATE = 0.25
 AVG_TICKET           = master["order_amount"].mean()
 COST_PER_FAILURE     = AVG_TICKET * REDELIVERY_COST_RATE
 GLOBAL_FAILURE_RATE  = master["has_missing"].mean()

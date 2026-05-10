@@ -1,0 +1,1240 @@
+customer_id,customer_name,customer_age,total_orders,total_failures,total_revenue,avg_ticket,months_active,first_order,last_order,failure_rate,orders_per_month,had_failure,age_group,failure_group,value_segment,churned,returned_after_failure
+WCID5000,Dustin Spencer,38,7,0,2092.2,298.8857,7,2023-01-20,2023-09-16,0.0,1.0,False,30–44,0 — Sem falha,Médio Valor,False,False
+WCID5001,Clayton Huff,66,9,3,2595.46,288.3844,5,2023-03-05,2023-11-10,0.3333,1.8,True,60+,3+ — Múltiplas falhas,Alto Valor,False,True
+WCID5002,Angelica Wilson,72,6,2,2196.25,366.0417,5,2023-01-04,2023-12-07,0.3333,1.2,True,60+,2 — Duas falhas,Alto Valor,False,True
+WCID5003,Lisa Marquez,20,11,2,3163.13,287.5573,8,2023-01-11,2023-12-11,0.1818,1.375,True,18–29,2 — Duas falhas,VIP,False,True
+WCID5004,James Martinez,35,15,3,4520.94,301.396,10,2023-01-24,2023-12-17,0.2,1.5,True,30–44,3+ — Múltiplas falhas,VIP,False,True
+WCID5005,Dawn Tucker,85,11,2,3320.22,301.8382,8,2023-01-01,2023-11-29,0.1818,1.375,True,60+,2 — Duas falhas,VIP,False,True
+WCID5006,Tracy Taylor,90,4,0,1033.59,258.3975,4,2023-07-09,2023-12-29,0.0,1.0,False,60+,0 — Sem falha,Baixo Valor,False,False
+WCID5007,Timothy Daniel,18,14,6,4490.46,320.7471,10,2023-01-01,2023-12-17,0.4286,1.4,True,,3+ — Múltiplas falhas,VIP,False,True
+WCID5008,Christopher Martin,53,3,0,861.04,287.0133,3,2023-01-11,2023-06-14,0.0,1.0,False,45–59,0 — Sem falha,Baixo Valor,False,False
+WCID5009,Andrea Mccarty,86,8,0,2147.11,268.3888,4,2023-01-07,2023-12-30,0.0,2.0,False,60+,0 — Sem falha,Médio Valor,False,False
+WCID5010,Felicia Harrington,18,16,0,3099.51,193.7194,10,2023-01-22,2023-12-06,0.0,1.6,False,,0 — Sem falha,VIP,False,False
+WCID5011,Jesus Green,59,9,2,2388.66,265.4067,8,2023-01-10,2023-12-22,0.2222,1.125,True,45–59,2 — Duas falhas,Alto Valor,False,True
+WCID5012,Jorge Allen,80,9,2,2338.19,259.7989,7,2023-02-05,2023-09-23,0.2222,1.2857,True,60+,2 — Duas falhas,Alto Valor,False,True
+WCID5013,Patrick Campbell,62,5,0,1167.2,233.44,4,2023-02-14,2023-11-16,0.0,1.25,False,60+,0 — Sem falha,Baixo Valor,False,False
+WCID5014,David Jackson,35,15,5,3235.41,215.694,9,2023-01-10,2023-12-21,0.3333,1.6667,True,30–44,3+ — Múltiplas falhas,VIP,False,True
+WCID5015,Ms. Natalie Krause DVM,38,6,0,1504.45,250.7417,5,2023-02-23,2023-11-24,0.0,1.2,False,30–44,0 — Sem falha,Baixo Valor,False,False
+WCID5016,Joseph White,74,15,0,4955.24,330.3493,10,2023-01-15,2023-12-10,0.0,1.5,False,60+,0 — Sem falha,VIP,False,False
+WCID5017,Nicholas Juarez,59,5,2,1858.39,371.678,4,2023-05-10,2023-10-08,0.4,1.25,True,45–59,2 — Duas falhas,Médio Valor,False,True
+WCID5018,Mark Mcmahon,78,5,2,1201.68,240.336,5,2023-01-21,2023-10-26,0.4,1.0,True,60+,2 — Duas falhas,Baixo Valor,False,True
+WCID5019,Sarah Davidson,59,7,3,1588.53,226.9329,5,2023-01-03,2023-08-01,0.4286,1.4,True,45–59,3+ — Múltiplas falhas,Baixo Valor,True,True
+WCID5020,John Mora,83,8,1,1703.5,212.9375,5,2023-02-05,2023-09-30,0.125,1.6,True,60+,1 — Uma falha,Médio Valor,True,False
+WCID5021,Beth Wong,41,11,2,3392.03,308.3664,6,2023-02-27,2023-11-19,0.1818,1.8333,True,30–44,2 — Duas falhas,VIP,False,True
+WCID5022,Katherine Greer,45,5,3,2039.69,407.938,5,2023-01-25,2023-09-04,0.6,1.0,True,30–44,3+ — Múltiplas falhas,Médio Valor,False,True
+WCID5023,Dominique Hill,87,7,0,1679.0,239.8571,7,2023-01-17,2023-12-16,0.0,1.0,False,60+,0 — Sem falha,Médio Valor,False,False
+WCID5024,Ariel Winters,80,11,1,2091.78,190.1618,8,2023-01-14,2023-11-13,0.0909,1.375,True,60+,1 — Uma falha,Médio Valor,False,True
+WCID5025,Mr. Louis Arroyo,67,14,2,5026.86,359.0614,7,2023-01-14,2023-12-23,0.1429,2.0,True,60+,2 — Duas falhas,VIP,False,True
+WCID5026,Alison Robles,20,7,0,1846.86,263.8371,5,2023-01-30,2023-09-28,0.0,1.4,False,18–29,0 — Sem falha,Médio Valor,False,False
+WCID5027,Christina May,57,9,1,2070.75,230.0833,7,2023-03-16,2023-12-23,0.1111,1.2857,True,45–59,1 — Uma falha,Médio Valor,False,True
+WCID5028,Allison Barker,88,11,2,1844.54,167.6855,6,2023-02-13,2023-08-28,0.1818,1.8333,True,60+,2 — Duas falhas,Médio Valor,False,True
+WCID5029,Ryan Baker,24,8,0,2206.98,275.8725,6,2023-03-16,2023-12-18,0.0,1.3333,False,18–29,0 — Sem falha,Alto Valor,False,False
+WCID5030,Heather Mitchell,23,12,3,4291.01,357.5842,6,2023-03-15,2023-12-11,0.25,2.0,True,18–29,3+ — Múltiplas falhas,VIP,False,True
+WCID5031,John Cooper,68,2,1,1204.64,602.32,2,2023-01-01,2023-08-13,0.5,1.0,True,60+,1 — Uma falha,Baixo Valor,False,True
+WCID5032,Christian Sanchez,18,5,0,1375.48,275.096,3,2023-03-29,2023-06-12,0.0,1.6667,False,,0 — Sem falha,Baixo Valor,False,False
+WCID5033,Shawn Garcia,48,9,3,3299.37,366.5967,6,2023-04-12,2023-12-03,0.3333,1.5,True,45–59,3+ — Múltiplas falhas,VIP,False,True
+WCID5034,Laura Green,84,10,2,2587.36,258.736,7,2023-01-03,2023-12-31,0.2,1.4286,True,60+,2 — Duas falhas,Alto Valor,False,True
+WCID5035,Cynthia Keller,64,10,1,2498.65,249.865,6,2023-01-04,2023-09-21,0.1,1.6667,True,60+,1 — Uma falha,Alto Valor,False,True
+WCID5036,Rhonda Murphy,36,4,0,657.59,164.3975,3,2023-08-25,2023-10-06,0.0,1.3333,False,30–44,0 — Sem falha,Baixo Valor,False,False
+WCID5037,Amy Leblanc,46,9,1,2364.59,262.7322,7,2023-01-24,2023-12-31,0.1111,1.2857,True,45–59,1 — Uma falha,Alto Valor,False,False
+WCID5038,Stephanie Ryan,62,8,1,1764.47,220.5588,6,2023-03-25,2023-12-07,0.125,1.3333,True,60+,1 — Uma falha,Médio Valor,False,True
+WCID5039,Jennifer Woods,65,11,3,3317.46,301.5873,7,2023-02-01,2023-11-14,0.2727,1.5714,True,60+,3+ — Múltiplas falhas,VIP,False,True
+WCID5040,Amy Harrison,72,11,1,3530.91,320.9918,8,2023-01-14,2023-11-19,0.0909,1.375,True,60+,1 — Uma falha,VIP,False,True
+WCID5041,Brad Jones,34,6,0,1847.5,307.9167,4,2023-02-17,2023-09-09,0.0,1.5,False,30–44,0 — Sem falha,Médio Valor,False,False
+WCID5042,Daniel Phillips,85,7,1,1932.68,276.0971,6,2023-02-25,2023-11-10,0.1429,1.1667,True,60+,1 — Uma falha,Médio Valor,False,True
+WCID5043,Rachel Deleon,87,11,2,4382.06,398.3691,8,2023-01-15,2023-11-10,0.1818,1.375,True,60+,2 — Duas falhas,VIP,False,True
+WCID5044,Adam Johnson,42,8,1,2628.55,328.5688,4,2023-01-03,2023-09-12,0.125,2.0,True,30–44,1 — Uma falha,Alto Valor,False,True
+WCID5045,Jessica Robinson,23,14,2,3634.24,259.5886,10,2023-01-27,2023-11-06,0.1429,1.4,True,18–29,2 — Duas falhas,VIP,False,True
+WCID5046,James Hopkins,38,15,5,4157.15,277.1433,9,2023-03-14,2023-12-28,0.3333,1.6667,True,30–44,3+ — Múltiplas falhas,VIP,False,True
+WCID5047,Cory Spencer,81,5,3,1961.47,392.294,4,2023-01-10,2023-11-04,0.6,1.25,True,60+,3+ — Múltiplas falhas,Médio Valor,False,True
+WCID5048,Amber Reed,73,5,1,1299.18,259.836,4,2023-05-09,2023-12-29,0.2,1.25,True,60+,1 — Uma falha,Baixo Valor,False,True
+WCID5049,Mary Reese,40,11,2,2965.41,269.5827,8,2023-03-12,2023-12-31,0.1818,1.375,True,30–44,2 — Duas falhas,VIP,False,True
+WCID5050,Bruce Williams,87,5,1,1073.83,214.766,4,2023-03-11,2023-11-23,0.2,1.25,True,60+,1 — Uma falha,Baixo Valor,False,True
+WCID5051,Terri Bean,40,4,1,1072.01,268.0025,3,2023-02-19,2023-11-12,0.25,1.3333,True,30–44,1 — Uma falha,Baixo Valor,False,True
+WCID5052,Joseph Mcintosh,46,9,3,2857.49,317.4989,5,2023-02-03,2023-12-22,0.3333,1.8,True,45–59,3+ — Múltiplas falhas,VIP,False,True
+WCID5053,Melanie Austin,79,13,3,3569.41,274.57,10,2023-02-07,2023-12-28,0.2308,1.3,True,60+,3+ — Múltiplas falhas,VIP,False,True
+WCID5054,Casey Thompson,76,12,1,3825.4,318.7833,9,2023-02-21,2023-12-24,0.0833,1.3333,True,60+,1 — Uma falha,VIP,False,True
+WCID5055,Julie Holland,42,7,1,2267.03,323.8614,6,2023-01-10,2023-10-06,0.1429,1.1667,True,30–44,1 — Uma falha,Alto Valor,False,True
+WCID5056,Gabriela Barton,72,8,1,2242.93,280.3662,6,2023-01-11,2023-11-10,0.125,1.3333,True,60+,1 — Uma falha,Alto Valor,False,False
+WCID5057,Melanie Farmer,65,10,1,3027.87,302.787,6,2023-01-17,2023-08-28,0.1,1.6667,True,60+,1 — Uma falha,VIP,False,True
+WCID5058,Steven Long,34,4,0,627.03,156.7575,4,2023-04-25,2023-11-09,0.0,1.0,False,30–44,0 — Sem falha,Baixo Valor,False,False
+WCID5059,Beth Martin,81,5,1,2262.03,452.406,4,2023-03-25,2023-09-24,0.2,1.25,True,60+,1 — Uma falha,Alto Valor,True,False
+WCID5060,Alicia Mckinney,43,11,0,3567.7,324.3364,7,2023-03-16,2023-12-21,0.0,1.5714,False,30–44,0 — Sem falha,VIP,False,False
+WCID5061,Mark Rice,27,7,3,1639.85,234.2643,7,2023-01-22,2023-12-08,0.4286,1.0,True,18–29,3+ — Múltiplas falhas,Médio Valor,False,True
+WCID5062,Joanna Bush,26,8,2,2208.77,276.0962,7,2023-01-02,2023-12-13,0.25,1.1429,True,18–29,2 — Duas falhas,Alto Valor,False,True
+WCID5063,Patricia Dougherty,69,5,0,1545.66,309.132,4,2023-02-08,2023-12-06,0.0,1.25,False,60+,0 — Sem falha,Baixo Valor,False,False
+WCID5064,Leonard Jones,47,4,1,1334.9,333.725,4,2023-04-24,2023-12-11,0.25,1.0,True,45–59,1 — Uma falha,Baixo Valor,False,False
+WCID5065,Bruce Ruiz,48,6,2,1605.67,267.6117,6,2023-02-13,2023-12-10,0.3333,1.0,True,45–59,2 — Duas falhas,Baixo Valor,False,True
+WCID5066,Stephen Howard,25,7,0,1968.17,281.1671,4,2023-03-09,2023-12-24,0.0,1.75,False,18–29,0 — Sem falha,Médio Valor,False,False
+WCID5067,Debra Hoffman,49,11,2,3240.89,294.6264,6,2023-01-24,2023-12-07,0.1818,1.8333,True,45–59,2 — Duas falhas,VIP,False,True
+WCID5068,Steven Wilson,43,10,2,2727.42,272.742,7,2023-01-06,2023-10-25,0.2,1.4286,True,30–44,2 — Duas falhas,Alto Valor,False,True
+WCID5069,Alyssa Ochoa,21,4,0,1665.25,416.3125,4,2023-01-01,2023-08-07,0.0,1.0,False,18–29,0 — Sem falha,Médio Valor,False,False
+WCID5070,John Martinez,31,9,1,3100.7,344.5222,6,2023-01-27,2023-12-31,0.1111,1.5,True,30–44,1 — Uma falha,VIP,False,True
+WCID5071,Anthony Rodriguez,38,7,2,1662.18,237.4543,4,2023-04-21,2023-10-15,0.2857,1.75,True,30–44,2 — Duas falhas,Médio Valor,False,True
+WCID5072,Samantha Potter,73,8,2,2127.63,265.9538,7,2023-01-13,2023-11-28,0.25,1.1429,True,60+,2 — Duas falhas,Médio Valor,False,True
+WCID5073,George Daniels,67,11,4,3198.38,290.7618,9,2023-03-02,2023-12-24,0.3636,1.2222,True,60+,3+ — Múltiplas falhas,VIP,False,True
+WCID5074,Stephanie Taylor,49,6,1,2179.14,363.19,6,2023-01-25,2023-11-06,0.1667,1.0,True,45–59,1 — Uma falha,Alto Valor,False,True
+WCID5075,Ruben Stevenson,24,3,1,871.96,290.6533,3,2023-02-27,2023-06-02,0.3333,1.0,True,18–29,1 — Uma falha,Baixo Valor,False,True
+WCID5076,Rachel Butler,59,9,2,2453.15,272.5722,7,2023-01-08,2023-11-21,0.2222,1.2857,True,45–59,2 — Duas falhas,Alto Valor,False,True
+WCID5077,Andrew Schmidt,31,8,2,2684.07,335.5087,7,2023-01-11,2023-12-07,0.25,1.1429,True,30–44,2 — Duas falhas,Alto Valor,False,True
+WCID5078,Stephanie Lin,77,11,1,2716.38,246.9436,8,2023-01-01,2023-12-12,0.0909,1.375,True,60+,1 — Uma falha,Alto Valor,False,True
+WCID5079,Robert Ferrell,62,9,1,2217.11,246.3456,8,2023-03-05,2023-12-31,0.1111,1.125,True,60+,1 — Uma falha,Alto Valor,False,True
+WCID5080,Jennifer Davis,56,12,2,3209.08,267.4233,8,2023-01-21,2023-12-24,0.1667,1.5,True,45–59,2 — Duas falhas,VIP,False,True
+WCID5081,Mr. Gregory Lane MD,66,8,1,2337.47,292.1838,4,2023-02-07,2023-08-17,0.125,2.0,True,60+,1 — Uma falha,Alto Valor,False,True
+WCID5082,Jennifer Norris,62,8,0,2003.34,250.4175,6,2023-02-02,2023-12-13,0.0,1.3333,False,60+,0 — Sem falha,Médio Valor,False,False
+WCID5083,Nicole James,47,2,0,417.79,208.895,2,2023-04-24,2023-09-03,0.0,1.0,False,45–59,0 — Sem falha,Baixo Valor,False,False
+WCID5084,Matthew Powers,32,6,0,1117.11,186.185,6,2023-03-27,2023-11-22,0.0,1.0,False,30–44,0 — Sem falha,Baixo Valor,False,False
+WCID5085,Paul Mclean,80,12,2,4159.39,346.6158,6,2023-01-20,2023-11-27,0.1667,2.0,True,60+,2 — Duas falhas,VIP,False,True
+WCID5086,Kevin Henry,71,2,0,914.52,457.26,2,2023-02-03,2023-03-04,0.0,1.0,False,60+,0 — Sem falha,Baixo Valor,False,False
+WCID5087,David Hines,62,12,2,2775.57,231.2975,9,2023-02-20,2023-11-26,0.1667,1.3333,True,60+,2 — Duas falhas,Alto Valor,False,True
+WCID5088,Mrs. Heidi Gray,35,11,1,3055.62,277.7836,6,2023-01-08,2023-12-29,0.0909,1.8333,True,30–44,1 — Uma falha,VIP,False,True
+WCID5089,Sally Saunders,47,8,1,1642.73,205.3412,7,2023-02-04,2023-12-08,0.125,1.1429,True,45–59,1 — Uma falha,Médio Valor,False,False
+WCID5090,David Bender,63,5,0,1263.41,252.682,5,2023-02-14,2023-12-15,0.0,1.0,False,60+,0 — Sem falha,Baixo Valor,False,False
+WCID5091,Eric Taylor,53,5,0,1417.7,283.54,4,2023-04-10,2023-11-11,0.0,1.25,False,45–59,0 — Sem falha,Baixo Valor,False,False
+WCID5092,William Golden,79,13,1,3972.31,305.5623,9,2023-01-07,2023-11-07,0.0769,1.4444,True,60+,1 — Uma falha,VIP,False,False
+WCID5093,Kristi Pham,32,7,0,1642.46,234.6371,7,2023-01-13,2023-10-22,0.0,1.0,False,30–44,0 — Sem falha,Médio Valor,False,False
+WCID5094,Ryan Glover,60,7,0,1964.36,280.6229,5,2023-05-05,2023-10-08,0.0,1.4,False,45–59,0 — Sem falha,Médio Valor,False,False
+WCID5095,Mary Bradley,89,7,0,2015.14,287.8771,6,2023-02-04,2023-11-09,0.0,1.1667,False,60+,0 — Sem falha,Médio Valor,False,False
+WCID5096,Nicole Manning,56,7,0,1802.43,257.49,5,2023-02-18,2023-12-16,0.0,1.4,False,45–59,0 — Sem falha,Médio Valor,False,False
+WCID5097,Sandra Porter,43,11,1,1896.89,172.4445,7,2023-01-05,2023-12-13,0.0909,1.5714,True,30–44,1 — Uma falha,Médio Valor,False,True
+WCID5098,Courtney Thomas,49,13,0,4980.17,383.09,8,2023-01-29,2023-11-28,0.0,1.625,False,45–59,0 — Sem falha,VIP,False,False
+WCID5099,Anthony Acosta,65,13,1,3530.32,271.5631,8,2023-01-26,2023-12-08,0.0769,1.625,True,60+,1 — Uma falha,VIP,False,True
+WCID5100,Mark Orr,36,6,0,1227.25,204.5417,5,2023-02-16,2023-12-27,0.0,1.2,False,30–44,0 — Sem falha,Baixo Valor,False,False
+WCID5101,Christina Walker,73,9,1,2336.94,259.66,6,2023-03-21,2023-12-09,0.1111,1.5,True,60+,1 — Uma falha,Alto Valor,False,True
+WCID5102,James Branch,60,10,1,2745.44,274.544,8,2023-01-16,2023-12-15,0.1,1.25,True,45–59,1 — Uma falha,Alto Valor,False,True
+WCID5103,Kelsey Christensen,39,11,0,2895.82,263.2564,9,2023-02-02,2023-12-17,0.0,1.2222,False,30–44,0 — Sem falha,VIP,False,False
+WCID5104,Sherry Taylor,88,7,1,2759.62,394.2314,6,2023-03-26,2023-12-07,0.1429,1.1667,True,60+,1 — Uma falha,Alto Valor,False,True
+WCID5105,Raven Gonzalez,39,5,0,1532.85,306.57,4,2023-03-03,2023-10-15,0.0,1.25,False,30–44,0 — Sem falha,Baixo Valor,False,False
+WCID5106,Ashley Clark,68,8,0,2249.88,281.235,7,2023-01-10,2023-12-23,0.0,1.1429,False,60+,0 — Sem falha,Alto Valor,False,False
+WCID5107,Joyce Sims,67,12,3,2973.49,247.7908,7,2023-01-18,2023-11-10,0.25,1.7143,True,60+,3+ — Múltiplas falhas,VIP,False,True
+WCID5108,Thomas Taylor,46,9,1,2589.37,287.7078,8,2023-04-10,2023-12-12,0.1111,1.125,True,45–59,1 — Uma falha,Alto Valor,False,True
+WCID5109,Julia Johnson,24,9,0,1861.18,206.7978,6,2023-01-17,2023-12-24,0.0,1.5,False,18–29,0 — Sem falha,Médio Valor,False,False
+WCID5110,James Black,70,7,1,1663.77,237.6814,6,2023-04-11,2023-12-01,0.1429,1.1667,True,60+,1 — Uma falha,Médio Valor,False,True
+WCID5111,Peter Daniels,72,6,1,1708.07,284.6783,4,2023-02-05,2023-08-10,0.1667,1.5,True,60+,1 — Uma falha,Médio Valor,False,True
+WCID5112,Yvonne Moran,84,3,0,724.93,241.6433,3,2023-03-03,2023-11-28,0.0,1.0,False,60+,0 — Sem falha,Baixo Valor,False,False
+WCID5113,Mr. Austin Lester,34,10,1,3056.69,305.669,8,2023-02-24,2023-12-26,0.1,1.25,True,30–44,1 — Uma falha,VIP,False,True
+WCID5114,Jasmine Lee,57,8,3,1544.95,193.1187,6,2023-01-01,2023-11-21,0.375,1.3333,True,45–59,3+ — Múltiplas falhas,Baixo Valor,False,True
+WCID5115,Jo Powers,28,10,1,2617.7,261.77,7,2023-01-09,2023-12-25,0.1,1.4286,True,18–29,1 — Uma falha,Alto Valor,False,True
+WCID5116,Brian Kirk,30,7,0,1389.7,198.5286,5,2023-02-02,2023-12-25,0.0,1.4,False,18–29,0 — Sem falha,Baixo Valor,False,False
+WCID5117,David Cline,81,8,2,2798.81,349.8512,7,2023-01-13,2023-12-11,0.25,1.1429,True,60+,2 — Duas falhas,Alto Valor,False,True
+WCID5118,Stephanie Love,83,7,0,1723.47,246.21,7,2023-03-26,2023-12-29,0.0,1.0,False,60+,0 — Sem falha,Médio Valor,False,False
+WCID5119,Richard Anderson,33,9,3,2033.47,225.9411,7,2023-02-19,2023-12-03,0.3333,1.2857,True,30–44,3+ — Múltiplas falhas,Médio Valor,False,True
+WCID5120,Dawn Williams,82,7,2,2823.98,403.4257,5,2023-02-19,2023-12-31,0.2857,1.4,True,60+,2 — Duas falhas,Alto Valor,False,True
+WCID5121,Joel Stephenson,75,5,1,1461.41,292.282,4,2023-02-10,2023-11-14,0.2,1.25,True,60+,1 — Uma falha,Baixo Valor,False,True
+WCID5122,Cynthia Johnson,28,8,0,2675.47,334.4337,7,2023-01-21,2023-10-10,0.0,1.1429,False,18–29,0 — Sem falha,Alto Valor,False,False
+WCID5123,James Young,56,8,1,2885.78,360.7225,6,2023-02-10,2023-09-08,0.125,1.3333,True,45–59,1 — Uma falha,VIP,False,True
+WCID5124,Brittany Martin,73,8,1,1953.48,244.185,6,2023-01-12,2023-10-14,0.125,1.3333,True,60+,1 — Uma falha,Médio Valor,False,True
+WCID5125,Hunter Smith,33,12,2,3465.28,288.7733,7,2023-01-20,2023-11-18,0.1667,1.7143,True,30–44,2 — Duas falhas,VIP,False,True
+WCID5126,Eileen Humphrey,65,7,0,2491.63,355.9471,6,2023-02-02,2023-12-15,0.0,1.1667,False,60+,0 — Sem falha,Alto Valor,False,False
+WCID5127,Cheryl Wright,78,6,1,3214.93,535.8217,5,2023-04-15,2023-11-15,0.1667,1.2,True,60+,1 — Uma falha,VIP,False,True
+WCID5128,Shaun Long,32,11,0,2935.02,266.82,7,2023-01-02,2023-12-14,0.0,1.5714,False,30–44,0 — Sem falha,VIP,False,False
+WCID5129,Christopher Nguyen,45,12,1,3785.77,315.4808,6,2023-01-03,2023-12-26,0.0833,2.0,True,30–44,1 — Uma falha,VIP,False,True
+WCID5130,Ashley Gonzales,88,7,0,2145.03,306.4329,6,2023-02-02,2023-10-26,0.0,1.1667,False,60+,0 — Sem falha,Médio Valor,False,False
+WCID5131,James Vargas,78,4,3,1103.58,275.895,4,2023-02-22,2023-12-19,0.75,1.0,True,60+,3+ — Múltiplas falhas,Baixo Valor,False,True
+WCID5132,Dawn Maxwell,40,9,2,2762.13,306.9033,7,2023-01-11,2023-11-30,0.2222,1.2857,True,30–44,2 — Duas falhas,Alto Valor,False,True
+WCID5133,Angela Graves,18,6,0,1553.96,258.9933,5,2023-03-24,2023-11-02,0.0,1.2,False,,0 — Sem falha,Baixo Valor,False,False
+WCID5134,Marcus Anderson,67,7,2,2015.59,287.9414,6,2023-01-13,2023-12-22,0.2857,1.1667,True,60+,2 — Duas falhas,Médio Valor,False,True
+WCID5135,Madison Nelson,23,6,3,1792.85,298.8083,5,2023-01-04,2023-12-25,0.5,1.2,True,18–29,3+ — Múltiplas falhas,Médio Valor,False,True
+WCID5136,Yvette Nicholson,58,8,1,1958.77,244.8462,6,2023-02-05,2023-11-30,0.125,1.3333,True,45–59,1 — Uma falha,Médio Valor,False,True
+WCID5137,Brian Williams,77,12,3,3146.68,262.2233,8,2023-01-11,2023-12-28,0.25,1.5,True,60+,3+ — Múltiplas falhas,VIP,False,True
+WCID5138,Kimberly Dennis,75,3,1,1018.79,339.5967,3,2023-04-11,2023-11-18,0.3333,1.0,True,60+,1 — Uma falha,Baixo Valor,False,True
+WCID5139,Shannon Cross,80,5,1,752.44,150.488,5,2023-03-07,2023-10-25,0.2,1.0,True,60+,1 — Uma falha,Baixo Valor,False,True
+WCID5140,Sara Kim,52,2,0,832.45,416.225,2,2023-05-21,2023-09-27,0.0,1.0,False,45–59,0 — Sem falha,Baixo Valor,False,False
+WCID5141,Carlos Harris,28,7,0,1641.82,234.5457,5,2023-05-16,2023-12-24,0.0,1.4,False,18–29,0 — Sem falha,Médio Valor,False,False
+WCID5142,Jennifer Leon,44,6,0,1898.6,316.4333,6,2023-01-12,2023-11-15,0.0,1.0,False,30–44,0 — Sem falha,Médio Valor,False,False
+WCID5143,Shane Powell,63,7,0,1966.8,280.9714,7,2023-01-09,2023-12-13,0.0,1.0,False,60+,0 — Sem falha,Médio Valor,False,False
+WCID5144,Donald Horton,37,4,1,2146.1,536.525,4,2023-01-11,2023-09-10,0.25,1.0,True,30–44,1 — Uma falha,Médio Valor,False,True
+WCID5145,Joshua Davis,34,9,2,3386.34,376.26,8,2023-02-13,2023-11-26,0.2222,1.125,True,30–44,2 — Duas falhas,VIP,False,True
+WCID5146,Cindy Lucas,33,5,0,1647.85,329.57,3,2023-02-04,2023-08-05,0.0,1.6667,False,30–44,0 — Sem falha,Médio Valor,False,False
+WCID5147,Katie Mcdaniel,60,13,0,3868.55,297.5808,8,2023-01-12,2023-12-12,0.0,1.625,False,45–59,0 — Sem falha,VIP,False,False
+WCID5148,Michael Brown,87,6,0,2045.71,340.9517,6,2023-01-25,2023-12-29,0.0,1.0,False,60+,0 — Sem falha,Médio Valor,False,False
+WCID5149,Taylor Davis,90,7,2,2121.21,303.03,5,2023-01-11,2023-10-06,0.2857,1.4,True,60+,2 — Duas falhas,Médio Valor,False,True
+WCID5150,Peggy Howe,30,5,1,1016.07,203.214,5,2023-03-18,2023-12-14,0.2,1.0,True,18–29,1 — Uma falha,Baixo Valor,False,False
+WCID5151,Joseph Reyes,34,8,0,2182.19,272.7738,6,2023-02-13,2023-10-06,0.0,1.3333,False,30–44,0 — Sem falha,Alto Valor,False,False
+WCID5152,Amber Smith,90,10,1,2379.02,237.902,6,2023-01-16,2023-11-12,0.1,1.6667,True,60+,1 — Uma falha,Alto Valor,False,True
+WCID5153,Brandy Reed,67,8,1,2028.06,253.5075,6,2023-01-13,2023-12-21,0.125,1.3333,True,60+,1 — Uma falha,Médio Valor,False,True
+WCID5154,Scott Clay,31,8,1,2447.37,305.9212,5,2023-01-02,2023-12-05,0.125,1.6,True,30–44,1 — Uma falha,Alto Valor,False,True
+WCID5155,Brittany Morse,34,13,2,2373.06,182.5431,8,2023-01-03,2023-12-09,0.1538,1.625,True,30–44,2 — Duas falhas,Alto Valor,False,True
+WCID5156,Kevin Tran,46,11,0,1760.51,160.0464,8,2023-01-21,2023-12-26,0.0,1.375,False,45–59,0 — Sem falha,Médio Valor,False,False
+WCID5157,Jason Hall,49,9,1,1957.8,217.5333,7,2023-01-10,2023-12-19,0.1111,1.2857,True,45–59,1 — Uma falha,Médio Valor,False,True
+WCID5158,Terry Carlson,32,10,2,2894.95,289.495,5,2023-03-05,2023-12-24,0.2,2.0,True,30–44,2 — Duas falhas,VIP,False,True
+WCID5159,Lisa Brown,24,11,0,2898.0,263.4545,8,2023-02-04,2023-12-06,0.0,1.375,False,18–29,0 — Sem falha,VIP,False,False
+WCID5160,Jermaine Johnson,51,4,0,1534.04,383.51,2,2023-01-18,2023-04-30,0.0,2.0,False,45–59,0 — Sem falha,Baixo Valor,False,False
+WCID5161,Lisa Meza,81,8,0,1780.69,222.5862,5,2023-02-05,2023-10-10,0.0,1.6,False,60+,0 — Sem falha,Médio Valor,False,False
+WCID5162,Mr. Marcus Park,54,10,1,2566.56,256.656,9,2023-01-06,2023-11-06,0.1,1.1111,True,45–59,1 — Uma falha,Alto Valor,False,True
+WCID5163,Michael Faulkner,29,14,3,3762.72,268.7657,8,2023-01-31,2023-11-23,0.2143,1.75,True,18–29,3+ — Múltiplas falhas,VIP,False,True
+WCID5164,Keith Jones,27,7,2,1421.91,203.13,4,2023-01-17,2023-10-03,0.2857,1.75,True,18–29,2 — Duas falhas,Baixo Valor,False,True
+WCID5165,David Mccoy,59,7,4,2031.42,290.2029,5,2023-01-16,2023-08-23,0.5714,1.4,True,45–59,3+ — Múltiplas falhas,Médio Valor,False,True
+WCID5166,Kyle Weiss,49,7,0,2074.0,296.2857,4,2023-01-13,2023-12-30,0.0,1.75,False,45–59,0 — Sem falha,Médio Valor,False,False
+WCID5167,Tyler Grant,32,10,1,3000.86,300.086,6,2023-03-09,2023-11-06,0.1,1.6667,True,30–44,1 — Uma falha,VIP,False,True
+WCID5168,Matthew Price,34,7,1,1955.08,279.2971,5,2023-04-02,2023-11-01,0.1429,1.4,True,30–44,1 — Uma falha,Médio Valor,False,True
+WCID5169,Karen Hess,60,4,1,770.6,192.65,4,2023-08-18,2023-12-04,0.25,1.0,True,45–59,1 — Uma falha,Baixo Valor,False,True
+WCID5170,Elijah Taylor,30,16,2,5492.62,343.2888,11,2023-01-02,2023-12-07,0.125,1.4545,True,18–29,2 — Duas falhas,VIP,False,True
+WCID5171,Stefanie Ryan,68,7,2,1698.2,242.6,7,2023-01-02,2023-12-29,0.2857,1.0,True,60+,2 — Duas falhas,Médio Valor,False,True
+WCID5172,Lisa Anderson,34,11,2,3341.62,303.7836,8,2023-01-05,2023-12-27,0.1818,1.375,True,30–44,2 — Duas falhas,VIP,False,True
+WCID5173,Jeffrey Wilson,87,5,0,1540.63,308.126,5,2023-02-11,2023-12-19,0.0,1.0,False,60+,0 — Sem falha,Baixo Valor,False,False
+WCID5174,April Rogers,37,8,0,2338.21,292.2762,7,2023-01-12,2023-12-31,0.0,1.1429,False,30–44,0 — Sem falha,Alto Valor,False,False
+WCID5175,Miguel West,78,14,1,3969.57,283.5407,8,2023-01-12,2023-11-27,0.0714,1.75,True,60+,1 — Uma falha,VIP,False,True
+WCID5176,Jorge Blackburn,78,10,0,1951.34,195.134,7,2023-02-06,2023-12-20,0.0,1.4286,False,60+,0 — Sem falha,Médio Valor,False,False
+WCID5177,Danielle Wilson,40,5,1,1298.39,259.678,4,2023-05-19,2023-09-15,0.2,1.25,True,30–44,1 — Uma falha,Baixo Valor,True,False
+WCID5178,Jacob White,19,12,1,3609.28,300.7733,8,2023-01-30,2023-12-19,0.0833,1.5,True,18–29,1 — Uma falha,VIP,False,True
+WCID5179,Heather Martinez,59,8,1,2266.77,283.3462,7,2023-02-24,2023-11-22,0.125,1.1429,True,45–59,1 — Uma falha,Alto Valor,False,True
+WCID5180,William Owens,65,13,3,3272.98,251.7677,8,2023-03-14,2023-12-22,0.2308,1.625,True,60+,3+ — Múltiplas falhas,VIP,False,True
+WCID5181,Joseph Davis,82,10,2,2900.25,290.025,8,2023-02-12,2023-12-02,0.2,1.25,True,60+,2 — Duas falhas,VIP,False,True
+WCID5182,Ronald Torres,26,11,2,3012.22,273.8382,7,2023-04-13,2023-11-04,0.1818,1.5714,True,18–29,2 — Duas falhas,VIP,False,True
+WCID5183,Jill Pierce,89,3,1,759.47,253.1567,3,2023-08-03,2023-12-06,0.3333,1.0,True,60+,1 — Uma falha,Baixo Valor,False,False
+WCID5184,Kayla Smith,20,6,0,1478.86,246.4767,5,2023-02-01,2023-12-17,0.0,1.2,False,18–29,0 — Sem falha,Baixo Valor,False,False
+WCID5185,Daniel Gallagher,23,9,2,3139.31,348.8122,6,2023-02-21,2023-10-13,0.2222,1.5,True,18–29,2 — Duas falhas,VIP,False,True
+WCID5186,Sonya Mason,62,9,0,2293.71,254.8567,6,2023-01-07,2023-10-14,0.0,1.5,False,60+,0 — Sem falha,Alto Valor,False,False
+WCID5187,Juan Collier,23,9,2,3833.52,425.9467,6,2023-01-02,2023-10-31,0.2222,1.5,True,18–29,2 — Duas falhas,VIP,False,True
+WCID5188,Rhonda Strong,52,8,1,3318.09,414.7612,6,2023-02-10,2023-10-28,0.125,1.3333,True,45–59,1 — Uma falha,VIP,False,True
+WCID5189,Samuel Mayo,58,9,3,1767.79,196.4211,7,2023-01-07,2023-11-26,0.3333,1.2857,True,45–59,3+ — Múltiplas falhas,Médio Valor,False,True
+WCID5190,Anthony Jones,33,5,0,1311.67,262.334,5,2023-02-03,2023-10-18,0.0,1.0,False,30–44,0 — Sem falha,Baixo Valor,False,False
+WCID5191,John Bishop,31,8,1,2405.03,300.6288,6,2023-02-13,2023-11-07,0.125,1.3333,True,30–44,1 — Uma falha,Alto Valor,False,True
+WCID5192,Rachel King,57,10,3,3423.12,342.312,7,2023-01-15,2023-11-06,0.3,1.4286,True,45–59,3+ — Múltiplas falhas,VIP,False,True
+WCID5193,Monique Ochoa,77,10,1,2854.44,285.444,9,2023-03-17,2023-12-03,0.1,1.1111,True,60+,1 — Uma falha,Alto Valor,False,True
+WCID5194,Madison Guerrero,88,7,0,1879.65,268.5214,6,2023-03-21,2023-12-17,0.0,1.1667,False,60+,0 — Sem falha,Médio Valor,False,False
+WCID5195,Brian Wilson,20,11,3,4144.5,376.7727,8,2023-01-09,2023-12-28,0.2727,1.375,True,18–29,3+ — Múltiplas falhas,VIP,False,True
+WCID5196,Justin Hill,39,10,1,2081.89,208.189,8,2023-01-06,2023-12-18,0.1,1.25,True,30–44,1 — Uma falha,Médio Valor,False,True
+WCID5197,Caitlyn Velasquez,59,5,2,1600.49,320.098,5,2023-01-25,2023-12-19,0.4,1.0,True,45–59,2 — Duas falhas,Baixo Valor,False,True
+WCID5198,Jacqueline Oneal,64,9,1,3213.92,357.1022,8,2023-01-11,2023-11-21,0.1111,1.125,True,60+,1 — Uma falha,VIP,False,False
+WCID5199,Maureen Hughes,41,7,1,1925.94,275.1343,5,2023-05-10,2023-11-21,0.1429,1.4,True,30–44,1 — Uma falha,Médio Valor,False,True
+WCID5200,Ashley Campbell,79,8,1,2175.63,271.9538,5,2023-03-12,2023-10-28,0.125,1.6,True,60+,1 — Uma falha,Alto Valor,False,True
+WCID5201,Dominique Morse,87,8,2,2174.78,271.8475,7,2023-03-04,2023-12-18,0.25,1.1429,True,60+,2 — Duas falhas,Alto Valor,False,True
+WCID5202,Christy Dennis,51,6,1,1216.52,202.7533,3,2023-02-11,2023-11-21,0.1667,2.0,True,45–59,1 — Uma falha,Baixo Valor,False,True
+WCID5203,Caitlin Evans,58,7,2,1617.59,231.0843,6,2023-01-05,2023-12-17,0.2857,1.1667,True,45–59,2 — Duas falhas,Médio Valor,False,True
+WCID5204,Allison Ayers,33,4,1,1312.89,328.2225,4,2023-08-15,2023-11-18,0.25,1.0,True,30–44,1 — Uma falha,Baixo Valor,False,True
+WCID5205,Tina Farmer,62,6,0,1893.65,315.6083,4,2023-02-13,2023-12-02,0.0,1.5,False,60+,0 — Sem falha,Médio Valor,False,False
+WCID5206,David Reynolds,75,9,2,2410.14,267.7933,6,2023-03-08,2023-12-02,0.2222,1.5,True,60+,2 — Duas falhas,Alto Valor,False,True
+WCID5207,Heather Irwin,29,6,1,1399.54,233.2567,4,2023-02-19,2023-11-16,0.1667,1.5,True,18–29,1 — Uma falha,Baixo Valor,False,False
+WCID5208,James Bates,89,10,2,3609.89,360.989,5,2023-01-07,2023-12-02,0.2,2.0,True,60+,2 — Duas falhas,VIP,False,True
+WCID5209,John Williams,68,7,1,1936.08,276.5829,6,2023-01-09,2023-11-21,0.1429,1.1667,True,60+,1 — Uma falha,Médio Valor,False,True
+WCID5210,Jamie Jones,18,8,1,1616.97,202.1212,7,2023-01-03,2023-12-19,0.125,1.1429,True,,1 — Uma falha,Médio Valor,False,True
+WCID5211,Joel Anderson,37,9,1,2922.94,324.7711,6,2023-01-14,2023-11-22,0.1111,1.5,True,30–44,1 — Uma falha,VIP,False,True
+WCID5212,Kayla Spence,31,6,1,1662.47,277.0783,6,2023-01-25,2023-11-24,0.1667,1.0,True,30–44,1 — Uma falha,Médio Valor,False,True
+WCID5213,Lisa Cruz,62,11,0,2763.85,251.2591,6,2023-01-01,2023-12-29,0.0,1.8333,False,60+,0 — Sem falha,Alto Valor,False,False
+WCID5214,Michael Harris,71,3,1,1551.0,517.0,3,2023-05-06,2023-09-20,0.3333,1.0,True,60+,1 — Uma falha,Baixo Valor,False,True
+WCID5215,Charles Ruiz,35,8,2,2379.4,297.425,7,2023-02-02,2023-12-10,0.25,1.1429,True,30–44,2 — Duas falhas,Alto Valor,False,True
+WCID5216,Elizabeth Robertson,33,8,4,2140.04,267.505,4,2023-02-11,2023-10-27,0.5,2.0,True,30–44,3+ — Múltiplas falhas,Médio Valor,False,True
+WCID5217,Sara Roberts,22,7,0,2337.91,333.9871,5,2023-01-19,2023-12-23,0.0,1.4,False,18–29,0 — Sem falha,Alto Valor,False,False
+WCID5218,William Bryan,73,8,1,1612.7,201.5875,6,2023-01-14,2023-09-14,0.125,1.3333,True,60+,1 — Uma falha,Médio Valor,False,True
+WCID5219,Brett Young,85,10,2,2852.06,285.206,8,2023-02-23,2023-12-15,0.2,1.25,True,60+,2 — Duas falhas,Alto Valor,False,True
+WCID5220,Anthony Frank,71,7,3,3000.72,428.6743,5,2023-02-27,2023-09-09,0.4286,1.4,True,60+,3+ — Múltiplas falhas,VIP,True,True
+WCID5221,Deborah French,18,4,1,1534.41,383.6025,4,2023-03-17,2023-12-20,0.25,1.0,True,,1 — Uma falha,Baixo Valor,False,False
+WCID5222,Rebekah Martinez,63,7,3,2252.89,321.8414,5,2023-02-05,2023-12-11,0.4286,1.4,True,60+,3+ — Múltiplas falhas,Alto Valor,False,True
+WCID5223,Robert Rojas,37,9,1,2955.78,328.42,7,2023-02-07,2023-10-17,0.1111,1.2857,True,30–44,1 — Uma falha,VIP,False,True
+WCID5224,Stacey Davis,68,9,0,1927.4,214.1556,8,2023-01-25,2023-11-14,0.0,1.125,False,60+,0 — Sem falha,Médio Valor,False,False
+WCID5225,Adrian Griffith,31,8,2,2884.21,360.5262,7,2023-01-17,2023-11-03,0.25,1.1429,True,30–44,2 — Duas falhas,VIP,False,True
+WCID5226,Richard Wheeler MD,58,10,2,3139.99,313.999,8,2023-02-08,2023-12-18,0.2,1.25,True,45–59,2 — Duas falhas,VIP,False,True
+WCID5227,Keith Huerta,56,6,2,2080.35,346.725,4,2023-03-26,2023-09-02,0.3333,1.5,True,45–59,2 — Duas falhas,Médio Valor,False,True
+WCID5228,Mr. Gregory Luna,25,12,4,2983.84,248.6533,6,2023-01-03,2023-12-16,0.3333,2.0,True,18–29,3+ — Múltiplas falhas,VIP,False,True
+WCID5229,Billy Holden,74,6,0,1571.85,261.975,6,2023-01-18,2023-09-29,0.0,1.0,False,60+,0 — Sem falha,Baixo Valor,False,False
+WCID5230,Terry White,36,4,1,1031.44,257.86,3,2023-02-09,2023-11-29,0.25,1.3333,True,30–44,1 — Uma falha,Baixo Valor,False,False
+WCID5231,Toni Hernandez,81,9,2,2101.77,233.53,7,2023-01-08,2023-12-02,0.2222,1.2857,True,60+,2 — Duas falhas,Médio Valor,False,True
+WCID5232,Ashley Mueller,23,9,3,2954.68,328.2978,7,2023-02-11,2023-12-07,0.3333,1.2857,True,18–29,3+ — Múltiplas falhas,VIP,False,True
+WCID5233,Mr. Patrick West,67,11,0,3413.35,310.3045,5,2023-03-01,2023-12-31,0.0,2.2,False,60+,0 — Sem falha,VIP,False,False
+WCID5234,Cassandra Norton,37,8,2,2004.5,250.5625,6,2023-01-05,2023-10-07,0.25,1.3333,True,30–44,2 — Duas falhas,Médio Valor,False,True
+WCID5235,Rebecca Little,50,7,0,2530.43,361.49,6,2023-01-03,2023-07-17,0.0,1.1667,False,45–59,0 — Sem falha,Alto Valor,False,False
+WCID5236,Danielle Weaver,38,9,3,2960.13,328.9033,7,2023-04-06,2023-12-27,0.3333,1.2857,True,30–44,3+ — Múltiplas falhas,VIP,False,True
+WCID5237,Lauren Wilson,18,4,0,1423.5,355.875,3,2023-04-14,2023-08-13,0.0,1.3333,False,,0 — Sem falha,Baixo Valor,False,False
+WCID5238,Olivia Wise,27,9,1,2287.12,254.1244,7,2023-01-26,2023-11-23,0.1111,1.2857,True,18–29,1 — Uma falha,Alto Valor,False,True
+WCID5239,Tammy Bryant,30,12,2,4657.51,388.1258,7,2023-03-23,2023-11-27,0.1667,1.7143,True,18–29,2 — Duas falhas,VIP,False,True
+WCID5240,Jennifer Wilson,53,12,1,3687.76,307.3133,9,2023-01-09,2023-12-30,0.0833,1.3333,True,45–59,1 — Uma falha,VIP,False,False
+WCID5241,Jake Liu Jr.,39,5,2,2230.75,446.15,4,2023-01-09,2023-11-24,0.4,1.25,True,30–44,2 — Duas falhas,Alto Valor,False,True
+WCID5242,William Proctor,85,6,0,1829.57,304.9283,5,2023-04-23,2023-10-06,0.0,1.2,False,60+,0 — Sem falha,Médio Valor,False,False
+WCID5243,James Gilbert,31,6,2,1954.63,325.7717,5,2023-03-11,2023-12-25,0.3333,1.2,True,30–44,2 — Duas falhas,Médio Valor,False,True
+WCID5244,John Tate,61,7,1,2538.38,362.6257,3,2023-03-02,2023-10-20,0.1429,2.3333,True,60+,1 — Uma falha,Alto Valor,False,True
+WCID5245,Dale Stevens,48,10,4,4092.92,409.292,7,2023-02-19,2023-11-24,0.4,1.4286,True,45–59,3+ — Múltiplas falhas,VIP,False,True
+WCID5246,Eric Nicholson,51,10,1,3033.0,303.3,7,2023-01-12,2023-12-23,0.1,1.4286,True,45–59,1 — Uma falha,VIP,False,False
+WCID5247,Tina Perry,48,11,2,2963.4,269.4,7,2023-01-28,2023-11-28,0.1818,1.5714,True,45–59,2 — Duas falhas,VIP,False,True
+WCID5248,William Peterson,44,7,0,1824.39,260.6271,6,2023-02-11,2023-12-29,0.0,1.1667,False,30–44,0 — Sem falha,Médio Valor,False,False
+WCID5249,Jeffrey Smith,77,7,1,1420.17,202.8814,6,2023-03-22,2023-12-06,0.1429,1.1667,True,60+,1 — Uma falha,Baixo Valor,False,True
+WCID5250,Susan Stevens,63,15,2,4637.25,309.15,9,2023-01-07,2023-12-07,0.1333,1.6667,True,60+,2 — Duas falhas,VIP,False,True
+WCID5251,Matthew Baker,77,9,1,2112.66,234.74,6,2023-01-11,2023-10-28,0.1111,1.5,True,60+,1 — Uma falha,Médio Valor,False,True
+WCID5252,Christine Dean,24,8,3,2813.8,351.725,6,2023-02-17,2023-12-13,0.375,1.3333,True,18–29,3+ — Múltiplas falhas,Alto Valor,False,True
+WCID5253,Joseph Reilly,48,8,0,2165.12,270.64,6,2023-01-19,2023-07-20,0.0,1.3333,False,45–59,0 — Sem falha,Alto Valor,False,False
+WCID5254,April Ray,31,8,2,2222.4,277.8,5,2023-04-10,2023-11-07,0.25,1.6,True,30–44,2 — Duas falhas,Alto Valor,False,True
+WCID5255,Christian Cannon,37,6,0,1765.17,294.195,5,2023-02-03,2023-12-16,0.0,1.2,False,30–44,0 — Sem falha,Médio Valor,False,False
+WCID5256,Lance Galloway,83,5,2,1656.21,331.242,4,2023-05-07,2023-12-12,0.4,1.25,True,60+,2 — Duas falhas,Médio Valor,False,True
+WCID5257,Robert Hall,43,6,1,1619.91,269.985,5,2023-01-03,2023-09-17,0.1667,1.2,True,30–44,1 — Uma falha,Médio Valor,False,True
+WCID5258,Grace Hughes,50,2,0,811.08,405.54,2,2023-02-19,2023-05-07,0.0,1.0,False,45–59,0 — Sem falha,Baixo Valor,False,False
+WCID5259,Adam Mata,44,11,1,4645.86,422.3509,6,2023-01-12,2023-12-09,0.0909,1.8333,True,30–44,1 — Uma falha,VIP,False,True
+WCID5260,Danielle Boyer,65,6,2,1939.97,323.3283,5,2023-03-02,2023-11-27,0.3333,1.2,True,60+,2 — Duas falhas,Médio Valor,False,True
+WCID5261,Samantha Davis,18,8,0,2099.52,262.44,5,2023-02-25,2023-10-31,0.0,1.6,False,,0 — Sem falha,Médio Valor,False,False
+WCID5262,Elizabeth Rogers,38,7,0,2272.63,324.6614,7,2023-01-26,2023-12-05,0.0,1.0,False,30–44,0 — Sem falha,Alto Valor,False,False
+WCID5263,John Bryan,53,10,1,2747.72,274.772,6,2023-02-09,2023-10-29,0.1,1.6667,True,45–59,1 — Uma falha,Alto Valor,False,True
+WCID5264,Tiffany Gonzalez,78,5,1,1588.05,317.61,5,2023-02-04,2023-08-31,0.2,1.0,True,60+,1 — Uma falha,Baixo Valor,False,True
+WCID5265,Heather Norris,50,5,1,1594.81,318.962,5,2023-01-28,2023-12-16,0.2,1.0,True,45–59,1 — Uma falha,Baixo Valor,False,False
+WCID5266,Jodi Thomas,44,11,1,3150.29,286.39,7,2023-01-06,2023-10-09,0.0909,1.5714,True,30–44,1 — Uma falha,VIP,False,True
+WCID5267,Dr. Patricia Harrison MD,55,4,0,726.15,181.5375,3,2023-01-07,2023-10-26,0.0,1.3333,False,45–59,0 — Sem falha,Baixo Valor,False,False
+WCID5268,Charles Moses,67,11,2,3534.86,321.3509,8,2023-02-12,2023-10-26,0.1818,1.375,True,60+,2 — Duas falhas,VIP,False,True
+WCID5269,Wendy Moran,80,10,2,3574.97,357.497,7,2023-03-16,2023-12-09,0.2,1.4286,True,60+,2 — Duas falhas,VIP,False,True
+WCID5270,Scott Page,54,13,2,3038.61,233.7392,9,2023-01-08,2023-11-29,0.1538,1.4444,True,45–59,2 — Duas falhas,VIP,False,True
+WCID5271,David Griffith,51,11,1,3293.23,299.3845,9,2023-01-31,2023-12-23,0.0909,1.2222,True,45–59,1 — Uma falha,VIP,False,True
+WCID5272,Laura Mercado,70,7,1,2149.45,307.0643,6,2023-01-17,2023-11-01,0.1429,1.1667,True,60+,1 — Uma falha,Médio Valor,False,True
+WCID5273,Andrew Price,34,9,2,2384.8,264.9778,7,2023-01-15,2023-11-25,0.2222,1.2857,True,30–44,2 — Duas falhas,Alto Valor,False,True
+WCID5274,Ashley Herrera,54,8,1,2582.29,322.7862,6,2023-02-06,2023-12-27,0.125,1.3333,True,45–59,1 — Uma falha,Alto Valor,False,True
+WCID5275,Nathaniel Sanders Jr.,36,6,1,1228.79,204.7983,5,2023-01-12,2023-10-16,0.1667,1.2,True,30–44,1 — Uma falha,Baixo Valor,False,True
+WCID5276,Johnny Warren,76,4,1,1129.36,282.34,4,2023-06-28,2023-12-13,0.25,1.0,True,60+,1 — Uma falha,Baixo Valor,False,True
+WCID5277,Brent Hall,37,12,0,4320.08,360.0067,8,2023-01-03,2023-12-01,0.0,1.5,False,30–44,0 — Sem falha,VIP,False,False
+WCID5278,Anthony Oliver,77,13,0,3033.86,233.3738,10,2023-03-08,2023-12-30,0.0,1.3,False,60+,0 — Sem falha,VIP,False,False
+WCID5279,Jordan Sanchez,23,8,2,2505.31,313.1638,7,2023-01-27,2023-12-26,0.25,1.1429,True,18–29,2 — Duas falhas,Alto Valor,False,True
+WCID5280,Anthony Taylor,36,9,3,2488.12,276.4578,7,2023-01-14,2023-10-10,0.3333,1.2857,True,30–44,3+ — Múltiplas falhas,Alto Valor,False,True
+WCID5281,Steven Doyle,78,13,3,2635.35,202.7192,8,2023-01-07,2023-11-21,0.2308,1.625,True,60+,3+ — Múltiplas falhas,Alto Valor,False,True
+WCID5282,Dawn Malone,70,5,2,1221.47,244.294,5,2023-03-13,2023-11-16,0.4,1.0,True,60+,2 — Duas falhas,Baixo Valor,False,True
+WCID5283,Daniel White,89,12,2,3865.91,322.1592,8,2023-01-10,2023-12-07,0.1667,1.5,True,60+,2 — Duas falhas,VIP,False,True
+WCID5284,Michael Ewing,62,7,3,1895.94,270.8486,7,2023-02-09,2023-12-02,0.4286,1.0,True,60+,3+ — Múltiplas falhas,Médio Valor,False,True
+WCID5285,Lauren Serrano,60,17,3,3075.82,180.9306,10,2023-01-04,2023-12-17,0.1765,1.7,True,45–59,3+ — Múltiplas falhas,VIP,False,True
+WCID5286,Megan Castro,60,9,1,2215.74,246.1933,5,2023-01-03,2023-12-22,0.1111,1.8,True,45–59,1 — Uma falha,Alto Valor,False,True
+WCID5287,Jonathan Black,76,10,1,4043.89,404.389,6,2023-04-15,2023-12-27,0.1,1.6667,True,60+,1 — Uma falha,VIP,False,True
+WCID5288,Jessica Hicks,52,12,2,3200.46,266.705,8,2023-01-20,2023-12-16,0.1667,1.5,True,45–59,2 — Duas falhas,VIP,False,True
+WCID5289,Brandon Young,64,10,2,2595.85,259.585,6,2023-04-13,2023-12-28,0.2,1.6667,True,60+,2 — Duas falhas,Alto Valor,False,True
+WCID5290,Crystal Fletcher,35,8,0,2079.51,259.9387,8,2023-01-29,2023-11-10,0.0,1.0,False,30–44,0 — Sem falha,Médio Valor,False,False
+WCID5291,Timothy Nelson,53,9,2,1880.87,208.9856,6,2023-01-22,2023-11-22,0.2222,1.5,True,45–59,2 — Duas falhas,Médio Valor,False,True
+WCID5292,John Mcbride,61,8,1,3215.51,401.9388,6,2023-02-22,2023-10-17,0.125,1.3333,True,60+,1 — Uma falha,VIP,False,True
+WCID5293,Tina Cordova,31,7,0,1929.01,275.5729,6,2023-04-06,2023-12-28,0.0,1.1667,False,30–44,0 — Sem falha,Médio Valor,False,False
+WCID5294,Richard Davis,86,6,1,1031.62,171.9367,6,2023-02-08,2023-12-14,0.1667,1.0,True,60+,1 — Uma falha,Baixo Valor,False,True
+WCID5295,Mark Spencer,45,8,2,2493.97,311.7462,5,2023-01-02,2023-12-29,0.25,1.6,True,30–44,2 — Duas falhas,Alto Valor,False,True
+WCID5296,Jason Lee,77,9,0,2567.2,285.2444,6,2023-03-16,2023-12-07,0.0,1.5,False,60+,0 — Sem falha,Alto Valor,False,False
+WCID5297,Michelle Hill,40,6,2,2621.91,436.985,4,2023-02-16,2023-08-10,0.3333,1.5,True,30–44,2 — Duas falhas,Alto Valor,False,True
+WCID5298,Christopher Parker,49,9,0,2185.5,242.8333,7,2023-01-19,2023-12-14,0.0,1.2857,False,45–59,0 — Sem falha,Alto Valor,False,False
+WCID5299,James Brooks,74,9,1,2647.17,294.13,7,2023-01-07,2023-12-13,0.1111,1.2857,True,60+,1 — Uma falha,Alto Valor,False,True
+WCID5300,Mckenzie Liu,42,13,1,3447.07,265.1592,9,2023-01-18,2023-12-03,0.0769,1.4444,True,30–44,1 — Uma falha,VIP,False,True
+WCID5301,Eric Kelly MD,48,10,0,2791.86,279.186,5,2023-02-06,2023-11-30,0.0,2.0,False,45–59,0 — Sem falha,Alto Valor,False,False
+WCID5302,Christopher Brown,44,9,1,2051.74,227.9711,7,2023-04-02,2023-12-10,0.1111,1.2857,True,30–44,1 — Uma falha,Médio Valor,False,True
+WCID5303,Megan Patel,66,7,1,2790.18,398.5971,6,2023-01-09,2023-12-11,0.1429,1.1667,True,60+,1 — Uma falha,Alto Valor,False,True
+WCID5304,Mark Santana,64,8,2,2954.58,369.3225,6,2023-01-08,2023-11-28,0.25,1.3333,True,60+,2 — Duas falhas,VIP,False,True
+WCID5305,Benjamin Mitchell,28,10,2,3140.24,314.024,7,2023-01-11,2023-12-09,0.2,1.4286,True,18–29,2 — Duas falhas,VIP,False,True
+WCID5306,Courtney Castro,28,7,1,1417.02,202.4314,7,2023-02-10,2023-11-12,0.1429,1.0,True,18–29,1 — Uma falha,Baixo Valor,False,True
+WCID5307,Mr. Jeffrey Willis,86,8,1,1780.76,222.595,6,2023-02-15,2023-09-29,0.125,1.3333,True,60+,1 — Uma falha,Médio Valor,False,True
+WCID5308,Aaron Hansen,90,6,2,1702.1,283.6833,6,2023-01-02,2023-11-19,0.3333,1.0,True,60+,2 — Duas falhas,Médio Valor,False,True
+WCID5309,Katelyn Larsen,23,8,2,2296.2,287.025,7,2023-02-28,2023-11-13,0.25,1.1429,True,18–29,2 — Duas falhas,Alto Valor,False,True
+WCID5310,Susan Johns,34,10,0,2841.14,284.114,7,2023-01-04,2023-12-16,0.0,1.4286,False,30–44,0 — Sem falha,Alto Valor,False,False
+WCID5311,Omar Allen,46,8,1,2568.93,321.1162,6,2023-02-28,2023-12-24,0.125,1.3333,True,45–59,1 — Uma falha,Alto Valor,False,True
+WCID5312,John Anderson,54,7,0,2719.46,388.4943,6,2023-01-12,2023-09-11,0.0,1.1667,False,45–59,0 — Sem falha,Alto Valor,False,False
+WCID5313,Jonathan Wilson,41,10,1,1454.13,145.413,9,2023-02-11,2023-11-11,0.1,1.1111,True,30–44,1 — Uma falha,Baixo Valor,False,True
+WCID5314,Tonya Warren,48,4,1,1157.99,289.4975,2,2023-05-03,2023-09-18,0.25,2.0,True,45–59,1 — Uma falha,Baixo Valor,False,True
+WCID5315,Christopher Chapman,62,7,1,2059.83,294.2614,5,2023-03-29,2023-09-22,0.1429,1.4,True,60+,1 — Uma falha,Médio Valor,False,True
+WCID5316,Jane Smith,34,7,1,1372.61,196.0871,4,2023-02-19,2023-10-26,0.1429,1.75,True,30–44,1 — Uma falha,Baixo Valor,False,True
+WCID5317,Robert Moody,79,5,0,1130.38,226.076,4,2023-03-17,2023-11-06,0.0,1.25,False,60+,0 — Sem falha,Baixo Valor,False,False
+WCID5318,Katie Mendez,84,8,2,2908.99,363.6237,4,2023-01-22,2023-10-06,0.25,2.0,True,60+,2 — Duas falhas,VIP,False,True
+WCID5319,Tyler Mills,56,9,4,2677.0,297.4444,8,2023-01-13,2023-12-27,0.4444,1.125,True,45–59,3+ — Múltiplas falhas,Alto Valor,False,True
+WCID5320,Cynthia Smith,80,6,1,1330.78,221.7967,5,2023-01-03,2023-11-18,0.1667,1.2,True,60+,1 — Uma falha,Baixo Valor,False,False
+WCID5321,James Alvarado,74,7,1,2381.14,340.1629,7,2023-01-09,2023-12-09,0.1429,1.0,True,60+,1 — Uma falha,Alto Valor,False,True
+WCID5322,Patrick Brandt,73,12,1,2783.42,231.9517,7,2023-02-23,2023-12-29,0.0833,1.7143,True,60+,1 — Uma falha,Alto Valor,False,True
+WCID5323,William Terrell,87,4,0,963.21,240.8025,3,2023-02-16,2023-07-13,0.0,1.3333,False,60+,0 — Sem falha,Baixo Valor,False,False
+WCID5324,James Johnson,62,8,1,2322.42,290.3025,6,2023-03-04,2023-11-30,0.125,1.3333,True,60+,1 — Uma falha,Alto Valor,False,True
+WCID5325,Eric Meyer,59,5,1,957.34,191.468,4,2023-02-16,2023-09-09,0.2,1.25,True,45–59,1 — Uma falha,Baixo Valor,False,True
+WCID5326,Henry Hubbard,52,8,1,2228.58,278.5725,6,2023-01-28,2023-12-12,0.125,1.3333,True,45–59,1 — Uma falha,Alto Valor,False,False
+WCID5327,Barbara Gray,45,10,2,2574.03,257.403,8,2023-01-04,2023-12-26,0.2,1.25,True,30–44,2 — Duas falhas,Alto Valor,False,True
+WCID5328,Christine Garcia,68,6,2,1771.67,295.2783,4,2023-04-15,2023-11-19,0.3333,1.5,True,60+,2 — Duas falhas,Médio Valor,False,True
+WCID5329,Allen Byrd,26,7,3,2689.45,384.2071,4,2023-04-13,2023-12-26,0.4286,1.75,True,18–29,3+ — Múltiplas falhas,Alto Valor,False,True
+WCID5330,Michael Guerra,59,9,0,2206.36,245.1511,4,2023-01-17,2023-12-12,0.0,2.25,False,45–59,0 — Sem falha,Alto Valor,False,False
+WCID5331,Jason King,89,9,3,1732.21,192.4678,5,2023-01-21,2023-10-29,0.3333,1.8,True,60+,3+ — Múltiplas falhas,Médio Valor,False,True
+WCID5332,Brian Bender,31,12,1,3927.26,327.2717,9,2023-01-18,2023-12-16,0.0833,1.3333,True,30–44,1 — Uma falha,VIP,False,True
+WCID5333,Lisa Martinez,41,13,3,4136.66,318.2046,9,2023-02-08,2023-12-18,0.2308,1.4444,True,30–44,3+ — Múltiplas falhas,VIP,False,True
+WCID5334,Kathryn White,28,8,1,2665.6,333.2,7,2023-01-07,2023-12-26,0.125,1.1429,True,18–29,1 — Uma falha,Alto Valor,False,True
+WCID5335,Gregory Warren,46,8,3,2585.18,323.1475,6,2023-02-25,2023-11-29,0.375,1.3333,True,45–59,3+ — Múltiplas falhas,Alto Valor,False,True
+WCID5336,Ryan Logan,49,7,2,2088.68,298.3829,6,2023-02-28,2023-11-08,0.2857,1.1667,True,45–59,2 — Duas falhas,Médio Valor,False,True
+WCID5337,Benjamin Harvey,36,6,1,1456.02,242.67,5,2023-02-04,2023-07-01,0.1667,1.2,True,30–44,1 — Uma falha,Baixo Valor,False,True
+WCID5338,Lauren Padilla,73,9,3,3092.69,343.6322,7,2023-05-25,2023-12-28,0.3333,1.2857,True,60+,3+ — Múltiplas falhas,VIP,False,True
+WCID5339,Jerry Mullen,64,14,5,3296.88,235.4914,9,2023-02-25,2023-12-12,0.3571,1.5556,True,60+,3+ — Múltiplas falhas,VIP,False,True
+WCID5340,Dr. Jeremy Hill,83,7,3,1831.67,261.6671,5,2023-02-13,2023-07-18,0.4286,1.4,True,60+,3+ — Múltiplas falhas,Médio Valor,True,True
+WCID5341,Jackson Ramirez,78,8,1,2693.23,336.6538,7,2023-02-09,2023-11-26,0.125,1.1429,True,60+,1 — Uma falha,Alto Valor,False,True
+WCID5342,Gregory Flores,26,9,0,3195.61,355.0678,4,2023-01-22,2023-12-16,0.0,2.25,False,18–29,0 — Sem falha,VIP,False,False
+WCID5343,Monique Bryant,45,6,0,912.63,152.105,5,2023-01-17,2023-12-01,0.0,1.2,False,30–44,0 — Sem falha,Baixo Valor,False,False
+WCID5344,William Johnson,32,6,1,1217.88,202.98,5,2023-01-12,2023-11-29,0.1667,1.2,True,30–44,1 — Uma falha,Baixo Valor,False,True
+WCID5345,David Brooks,22,9,1,2600.34,288.9267,6,2023-02-11,2023-12-26,0.1111,1.5,True,18–29,1 — Uma falha,Alto Valor,False,True
+WCID5346,Robert Cook,47,6,1,2009.4,334.9,5,2023-02-22,2023-11-13,0.1667,1.2,True,45–59,1 — Uma falha,Médio Valor,False,False
+WCID5347,Crystal Mayer,43,9,2,2193.82,243.7578,6,2023-01-06,2023-12-21,0.2222,1.5,True,30–44,2 — Duas falhas,Alto Valor,False,True
+WCID5348,John Robinson,18,3,0,762.22,254.0733,2,2023-08-08,2023-10-02,0.0,1.5,False,,0 — Sem falha,Baixo Valor,False,False
+WCID5349,Patricia Jacobs,86,4,1,886.43,221.6075,4,2023-03-03,2023-12-29,0.25,1.0,True,60+,1 — Uma falha,Baixo Valor,False,False
+WCID5350,Gregory Harrison,25,7,3,2490.21,355.7443,4,2023-01-12,2023-11-21,0.4286,1.75,True,18–29,3+ — Múltiplas falhas,Alto Valor,False,True
+WCID5351,Steven Decker,84,9,2,2291.42,254.6022,6,2023-03-19,2023-12-02,0.2222,1.5,True,60+,2 — Duas falhas,Alto Valor,False,True
+WCID5352,Tyler Johnson,81,9,3,3114.24,346.0267,7,2023-01-08,2023-10-30,0.3333,1.2857,True,60+,3+ — Múltiplas falhas,VIP,False,True
+WCID5353,Mandy Ford,81,6,1,2339.97,389.995,4,2023-02-26,2023-12-28,0.1667,1.5,True,60+,1 — Uma falha,Alto Valor,False,True
+WCID5354,Mary Hernandez,66,8,1,2619.99,327.4987,7,2023-01-28,2023-12-15,0.125,1.1429,True,60+,1 — Uma falha,Alto Valor,False,True
+WCID5355,Rebecca Hughes,82,8,1,2732.72,341.59,4,2023-02-03,2023-10-17,0.125,2.0,True,60+,1 — Uma falha,Alto Valor,False,True
+WCID5356,David Garcia,25,5,1,1652.51,330.502,3,2023-04-02,2023-06-16,0.2,1.6667,True,18–29,1 — Uma falha,Médio Valor,False,True
+WCID5357,John Bowen,62,4,0,1541.1,385.275,4,2023-05-02,2023-09-04,0.0,1.0,False,60+,0 — Sem falha,Baixo Valor,False,False
+WCID5358,Linda Gregory,68,11,1,2693.96,244.9055,7,2023-02-24,2023-11-21,0.0909,1.5714,True,60+,1 — Uma falha,Alto Valor,False,True
+WCID5359,Amanda Frank,48,10,1,3588.12,358.812,7,2023-02-08,2023-12-12,0.1,1.4286,True,45–59,1 — Uma falha,VIP,False,True
+WCID5360,Ryan Jones,51,10,1,2623.76,262.376,4,2023-01-10,2023-11-30,0.1,2.5,True,45–59,1 — Uma falha,Alto Valor,False,True
+WCID5361,Kathleen Boone,64,9,2,2329.9,258.8778,7,2023-03-05,2023-12-19,0.2222,1.2857,True,60+,2 — Duas falhas,Alto Valor,False,True
+WCID5362,Michael Myers,61,6,1,1593.86,265.6433,5,2023-02-22,2023-12-08,0.1667,1.2,True,60+,1 — Uma falha,Baixo Valor,False,True
+WCID5363,Michelle Smith,40,13,3,5080.89,390.8377,9,2023-01-26,2023-12-22,0.2308,1.4444,True,30–44,3+ — Múltiplas falhas,VIP,False,True
+WCID5364,Frederick Lewis,87,9,0,2456.3,272.9222,7,2023-02-06,2023-12-26,0.0,1.2857,False,60+,0 — Sem falha,Alto Valor,False,False
+WCID5365,Travis Carr,23,5,1,1547.52,309.504,5,2023-02-18,2023-10-03,0.2,1.0,True,18–29,1 — Uma falha,Baixo Valor,False,False
+WCID5366,Taylor Montoya,48,2,0,667.4,333.7,2,2023-04-04,2023-11-06,0.0,1.0,False,45–59,0 — Sem falha,Baixo Valor,False,False
+WCID5367,James Alexander,74,11,1,3589.61,326.3282,8,2023-01-20,2023-12-30,0.0909,1.375,True,60+,1 — Uma falha,VIP,False,True
+WCID5368,Angela Cox MD,24,3,0,1375.31,458.4367,3,2023-01-28,2023-11-19,0.0,1.0,False,18–29,0 — Sem falha,Baixo Valor,False,False
+WCID5369,Michael Frazier,23,5,2,1829.93,365.986,3,2023-06-16,2023-10-25,0.4,1.6667,True,18–29,2 — Duas falhas,Médio Valor,False,True
+WCID5370,Ryan Robertson,43,6,2,1386.07,231.0117,3,2023-01-19,2023-09-25,0.3333,2.0,True,30–44,2 — Duas falhas,Baixo Valor,True,True
+WCID5371,Victoria Finley,90,7,0,2174.35,310.6214,6,2023-01-08,2023-11-11,0.0,1.1667,False,60+,0 — Sem falha,Alto Valor,False,False
+WCID5372,Paul Edwards,53,6,1,1631.96,271.9933,5,2023-01-13,2023-11-17,0.1667,1.2,True,45–59,1 — Uma falha,Médio Valor,False,False
+WCID5373,John Williams,29,7,0,1686.38,240.9114,6,2023-02-06,2023-12-31,0.0,1.1667,False,18–29,0 — Sem falha,Médio Valor,False,False
+WCID5374,Brandy Lucero,72,5,2,2151.53,430.306,4,2023-05-16,2023-12-09,0.4,1.25,True,60+,2 — Duas falhas,Médio Valor,False,True
+WCID5375,Arthur Garrison,81,4,0,2034.59,508.6475,4,2023-03-21,2023-11-16,0.0,1.0,False,60+,0 — Sem falha,Médio Valor,False,False
+WCID5376,Stephanie Roach,19,9,1,2974.41,330.49,5,2023-04-05,2023-10-30,0.1111,1.8,True,18–29,1 — Uma falha,VIP,False,True
+WCID5377,Brett White,63,6,1,1574.46,262.41,6,2023-03-01,2023-12-20,0.1667,1.0,True,60+,1 — Uma falha,Baixo Valor,False,False
+WCID5378,Michael Miller,80,9,1,2218.01,246.4456,8,2023-04-16,2023-12-31,0.1111,1.125,True,60+,1 — Uma falha,Alto Valor,False,True
+WCID5379,Sarah Wright,19,13,2,4887.85,375.9885,9,2023-01-29,2023-12-30,0.1538,1.4444,True,18–29,2 — Duas falhas,VIP,False,True
+WCID5380,Joseph Guerrero,60,6,2,2591.02,431.8367,5,2023-01-25,2023-10-25,0.3333,1.2,True,45–59,2 — Duas falhas,Alto Valor,False,True
+WCID5381,Victoria Diaz,75,7,1,1827.17,261.0243,7,2023-01-18,2023-11-16,0.1429,1.0,True,60+,1 — Uma falha,Médio Valor,False,True
+WCID5382,Taylor Jackson,25,7,1,2041.28,291.6114,6,2023-04-07,2023-12-22,0.1429,1.1667,True,18–29,1 — Uma falha,Médio Valor,False,True
+WCID5383,Michael Perry,39,4,0,1047.05,261.7625,4,2023-02-05,2023-07-28,0.0,1.0,False,30–44,0 — Sem falha,Baixo Valor,False,False
+WCID5384,Jennifer Mendoza,48,10,3,2923.28,292.328,8,2023-01-22,2023-12-24,0.3,1.25,True,45–59,3+ — Múltiplas falhas,VIP,False,True
+WCID5385,Michelle Miller,39,7,1,1966.95,280.9929,5,2023-02-03,2023-08-18,0.1429,1.4,True,30–44,1 — Uma falha,Médio Valor,False,True
+WCID5386,Brandon Lee,40,11,2,4095.29,372.2991,8,2023-01-21,2023-12-31,0.1818,1.375,True,30–44,2 — Duas falhas,VIP,False,True
+WCID5387,Heidi Dillon,63,7,3,1624.72,232.1029,6,2023-02-01,2023-12-30,0.4286,1.1667,True,60+,3+ — Múltiplas falhas,Médio Valor,False,True
+WCID5388,Daniel Parks,32,4,1,262.49,65.6225,3,2023-04-22,2023-12-19,0.25,1.3333,True,30–44,1 — Uma falha,Baixo Valor,False,True
+WCID5389,Jose Chapman,68,11,0,2273.46,206.6782,7,2023-01-15,2023-12-23,0.0,1.5714,False,60+,0 — Sem falha,Alto Valor,False,False
+WCID5390,James Cohen,74,8,0,1880.72,235.09,5,2023-03-04,2023-10-06,0.0,1.6,False,60+,0 — Sem falha,Médio Valor,False,False
+WCID5391,Christian Haynes,56,4,1,1335.43,333.8575,3,2023-01-12,2023-08-12,0.25,1.3333,True,45–59,1 — Uma falha,Baixo Valor,False,True
+WCID5392,Ruben Nichols,55,12,2,3680.64,306.72,8,2023-01-02,2023-12-22,0.1667,1.5,True,45–59,2 — Duas falhas,VIP,False,True
+WCID5393,Bailey Alexander,39,3,0,764.98,254.9933,3,2023-04-20,2023-10-01,0.0,1.0,False,30–44,0 — Sem falha,Baixo Valor,False,False
+WCID5394,Lauren Chapman,51,8,1,1749.3,218.6625,6,2023-02-02,2023-09-01,0.125,1.3333,True,45–59,1 — Uma falha,Médio Valor,False,True
+WCID5395,Zachary Bell,68,9,3,2402.52,266.9467,9,2023-01-05,2023-12-03,0.3333,1.0,True,60+,3+ — Múltiplas falhas,Alto Valor,False,True
+WCID5396,Sarah Velazquez,83,11,2,2803.86,254.8964,6,2023-01-16,2023-12-21,0.1818,1.8333,True,60+,2 — Duas falhas,Alto Valor,False,True
+WCID5397,Joel Gutierrez,27,7,0,1690.29,241.47,6,2023-02-19,2023-12-10,0.0,1.1667,False,18–29,0 — Sem falha,Médio Valor,False,False
+WCID5398,Valerie Miranda,65,9,0,2077.68,230.8533,7,2023-01-24,2023-12-21,0.0,1.2857,False,60+,0 — Sem falha,Médio Valor,False,False
+WCID5399,Joel Burke,82,10,1,3064.81,306.481,7,2023-02-01,2023-12-23,0.1,1.4286,True,60+,1 — Uma falha,VIP,False,True
+WCID5400,Daniel Brown,69,8,1,1867.63,233.4538,6,2023-01-18,2023-10-10,0.125,1.3333,True,60+,1 — Uma falha,Médio Valor,False,True
+WCID5401,Tommy Harvey,59,11,1,2831.8,257.4364,7,2023-01-14,2023-12-14,0.0909,1.5714,True,45–59,1 — Uma falha,Alto Valor,False,False
+WCID5402,Brandon Parker,82,4,0,1250.49,312.6225,3,2023-01-13,2023-05-16,0.0,1.3333,False,60+,0 — Sem falha,Baixo Valor,False,False
+WCID5403,Maria Evans,28,9,2,2290.38,254.4867,8,2023-02-18,2023-12-17,0.2222,1.125,True,18–29,2 — Duas falhas,Alto Valor,False,True
+WCID5404,Amy Miller,70,11,0,2926.07,266.0064,8,2023-01-16,2023-11-28,0.0,1.375,False,60+,0 — Sem falha,VIP,False,False
+WCID5405,Linda Santos,59,10,1,3991.29,399.129,6,2023-01-31,2023-11-24,0.1,1.6667,True,45–59,1 — Uma falha,VIP,False,False
+WCID5406,Andrew Gilbert,61,13,0,3366.21,258.9392,8,2023-02-04,2023-12-24,0.0,1.625,False,60+,0 — Sem falha,VIP,False,False
+WCID5407,Micheal Powell,57,6,1,1034.17,172.3617,4,2023-01-08,2023-11-25,0.1667,1.5,True,45–59,1 — Uma falha,Baixo Valor,False,True
+WCID5408,Omar Barton,27,5,2,1302.41,260.482,5,2023-02-15,2023-11-20,0.4,1.0,True,18–29,2 — Duas falhas,Baixo Valor,False,True
+WCID5409,April Hall,31,8,2,1902.35,237.7938,6,2023-02-11,2023-11-26,0.25,1.3333,True,30–44,2 — Duas falhas,Médio Valor,False,True
+WCID5410,Christopher Johnson,56,15,3,4082.1,272.14,7,2023-02-10,2023-12-20,0.2,2.1429,True,45–59,3+ — Múltiplas falhas,VIP,False,True
+WCID5411,Kylie Evans,79,14,2,4412.83,315.2021,10,2023-01-13,2023-12-22,0.1429,1.4,True,60+,2 — Duas falhas,VIP,False,True
+WCID5412,Stephanie Jennings,57,5,2,1209.84,241.968,4,2023-01-11,2023-10-04,0.4,1.25,True,45–59,2 — Duas falhas,Baixo Valor,False,True
+WCID5413,Heidi Taylor,71,6,1,1320.36,220.06,4,2023-01-06,2023-11-18,0.1667,1.5,True,60+,1 — Uma falha,Baixo Valor,False,True
+WCID5414,Melissa Brown,84,10,2,2748.64,274.864,6,2023-01-26,2023-10-17,0.2,1.6667,True,60+,2 — Duas falhas,Alto Valor,False,True
+WCID5415,Heather Graham,44,4,0,691.16,172.79,3,2023-02-09,2023-07-08,0.0,1.3333,False,30–44,0 — Sem falha,Baixo Valor,False,False
+WCID5416,Lisa Silva,80,9,2,2649.95,294.4389,6,2023-03-17,2023-11-06,0.2222,1.5,True,60+,2 — Duas falhas,Alto Valor,False,True
+WCID5417,Carol Wallace,59,8,0,2504.23,313.0288,6,2023-02-11,2023-12-04,0.0,1.3333,False,45–59,0 — Sem falha,Alto Valor,False,False
+WCID5418,Tiffany Shelton,74,9,1,2620.78,291.1978,7,2023-01-29,2023-12-18,0.1111,1.2857,True,60+,1 — Uma falha,Alto Valor,False,True
+WCID5419,Stephen Garcia,64,6,1,791.08,131.8467,3,2023-06-26,2023-12-24,0.1667,2.0,True,60+,1 — Uma falha,Baixo Valor,False,True
+WCID5420,Denise Stevens,66,6,1,1292.81,215.4683,6,2023-01-29,2023-11-12,0.1667,1.0,True,60+,1 — Uma falha,Baixo Valor,False,True
+WCID5421,Megan James,76,4,0,1180.09,295.0225,3,2023-06-02,2023-12-22,0.0,1.3333,False,60+,0 — Sem falha,Baixo Valor,False,False
+WCID5422,Mrs. Rachel Mcpherson,69,6,0,2403.95,400.6583,6,2023-01-19,2023-11-26,0.0,1.0,False,60+,0 — Sem falha,Alto Valor,False,False
+WCID5423,Tiffany Ryan,54,10,2,3053.6,305.36,6,2023-03-16,2023-09-20,0.2,1.6667,True,45–59,2 — Duas falhas,VIP,False,True
+WCID5424,Theodore Li,52,8,0,1563.12,195.39,7,2023-02-09,2023-12-31,0.0,1.1429,False,45–59,0 — Sem falha,Baixo Valor,False,False
+WCID5425,Anthony Mejia,56,6,0,1113.04,185.5067,5,2023-04-05,2023-11-16,0.0,1.2,False,45–59,0 — Sem falha,Baixo Valor,False,False
+WCID5426,Mark Avila,47,9,1,3808.16,423.1289,5,2023-01-26,2023-12-06,0.1111,1.8,True,45–59,1 — Uma falha,VIP,False,True
+WCID5427,Nicholas Burns,48,5,1,1783.9,356.78,4,2023-02-28,2023-12-11,0.2,1.25,True,45–59,1 — Uma falha,Médio Valor,False,True
+WCID5428,Matthew Marquez,63,8,1,2239.66,279.9575,6,2023-01-01,2023-12-21,0.125,1.3333,True,60+,1 — Uma falha,Alto Valor,False,False
+WCID5429,Ralph Dunn,39,3,0,1100.83,366.9433,3,2023-02-18,2023-11-14,0.0,1.0,False,30–44,0 — Sem falha,Baixo Valor,False,False
+WCID5430,Denise Thornton,69,5,1,1171.25,234.25,4,2023-05-01,2023-09-04,0.2,1.25,True,60+,1 — Uma falha,Baixo Valor,False,True
+WCID5431,Alexandria Grimes,61,7,1,2206.13,315.1614,6,2023-01-05,2023-11-18,0.1429,1.1667,True,60+,1 — Uma falha,Alto Valor,False,False
+WCID5432,Mrs. Holly Gallegos,83,5,1,1880.59,376.118,4,2023-05-03,2023-12-08,0.2,1.25,True,60+,1 — Uma falha,Médio Valor,False,False
+WCID5433,Laura Daniels,70,7,1,1323.09,189.0129,7,2023-02-22,2023-11-27,0.1429,1.0,True,60+,1 — Uma falha,Baixo Valor,False,True
+WCID5434,April Church,41,9,1,2534.76,281.64,7,2023-02-15,2023-12-28,0.1111,1.2857,True,30–44,1 — Uma falha,Alto Valor,False,True
+WCID5435,Sandra Walter,28,6,1,1158.08,193.0133,5,2023-01-24,2023-12-07,0.1667,1.2,True,18–29,1 — Uma falha,Baixo Valor,False,False
+WCID5436,Cody Miles,53,10,2,2246.32,224.632,7,2023-01-02,2023-11-26,0.2,1.4286,True,45–59,2 — Duas falhas,Alto Valor,False,True
+WCID5437,William Gibson,39,3,1,646.43,215.4767,3,2023-01-18,2023-11-07,0.3333,1.0,True,30–44,1 — Uma falha,Baixo Valor,False,False
+WCID5438,Jackie Walker,33,9,1,3152.06,350.2289,6,2023-01-23,2023-08-04,0.1111,1.5,True,30–44,1 — Uma falha,VIP,True,False
+WCID5439,Zachary Thompson,71,6,3,2281.74,380.29,4,2023-01-14,2023-12-05,0.5,1.5,True,60+,3+ — Múltiplas falhas,Alto Valor,False,True
+WCID5440,Stephen Morrison,68,5,0,1285.24,257.048,5,2023-02-02,2023-10-25,0.0,1.0,False,60+,0 — Sem falha,Baixo Valor,False,False
+WCID5441,Michael Mcintosh,84,5,0,1382.86,276.572,2,2023-01-14,2023-10-24,0.0,2.5,False,60+,0 — Sem falha,Baixo Valor,False,False
+WCID5442,John Bell,34,6,2,1424.23,237.3717,6,2023-03-27,2023-12-31,0.3333,1.0,True,30–44,2 — Duas falhas,Baixo Valor,False,True
+WCID5443,Gregory Vega,30,5,0,1081.73,216.346,4,2023-01-04,2023-07-29,0.0,1.25,False,18–29,0 — Sem falha,Baixo Valor,False,False
+WCID5444,Hannah Weber,52,5,1,1601.37,320.274,3,2023-03-20,2023-07-11,0.2,1.6667,True,45–59,1 — Uma falha,Baixo Valor,False,True
+WCID5445,Johnathan Campbell,64,12,0,3438.44,286.5367,8,2023-01-28,2023-11-30,0.0,1.5,False,60+,0 — Sem falha,VIP,False,False
+WCID5446,Andrew Shaw,70,12,1,3617.58,301.465,7,2023-04-11,2023-12-07,0.0833,1.7143,True,60+,1 — Uma falha,VIP,False,True
+WCID5447,Larry Patterson,25,5,0,1160.19,232.038,5,2023-05-30,2023-11-18,0.0,1.0,False,18–29,0 — Sem falha,Baixo Valor,False,False
+WCID5448,Hannah Hicks,55,6,1,1730.86,288.4767,5,2023-07-21,2023-12-03,0.1667,1.2,True,45–59,1 — Uma falha,Médio Valor,False,True
+WCID5449,Mrs. Brenda Wilson,79,6,1,2059.3,343.2167,5,2023-06-05,2023-12-02,0.1667,1.2,True,60+,1 — Uma falha,Médio Valor,False,True
+WCID5450,David Kline,49,6,0,1850.32,308.3867,5,2023-01-12,2023-09-14,0.0,1.2,False,45–59,0 — Sem falha,Médio Valor,False,False
+WCID5451,Andrew Hogan,86,9,0,2183.89,242.6544,7,2023-03-16,2023-12-03,0.0,1.2857,False,60+,0 — Sem falha,Alto Valor,False,False
+WCID5452,Becky Williams,77,10,0,2245.1,224.51,6,2023-01-13,2023-09-16,0.0,1.6667,False,60+,0 — Sem falha,Alto Valor,False,False
+WCID5453,Candice Turner,57,5,0,1563.36,312.672,5,2023-03-07,2023-12-16,0.0,1.0,False,45–59,0 — Sem falha,Baixo Valor,False,False
+WCID5454,Travis Foster,78,8,1,1565.81,195.7262,5,2023-02-02,2023-12-11,0.125,1.6,True,60+,1 — Uma falha,Baixo Valor,False,True
+WCID5455,Hannah Hernandez,56,5,1,1352.71,270.542,5,2023-04-21,2023-11-29,0.2,1.0,True,45–59,1 — Uma falha,Baixo Valor,False,True
+WCID5456,Alexis Stewart,55,8,1,1804.77,225.5962,5,2023-02-10,2023-12-23,0.125,1.6,True,45–59,1 — Uma falha,Médio Valor,False,True
+WCID5457,Tonya Webb,52,10,2,3465.0,346.5,8,2023-01-01,2023-12-03,0.2,1.25,True,45–59,2 — Duas falhas,VIP,False,True
+WCID5458,William Pineda,84,7,2,2069.47,295.6386,6,2023-03-29,2023-11-16,0.2857,1.1667,True,60+,2 — Duas falhas,Médio Valor,False,True
+WCID5459,Shannon Romero,69,12,3,4315.49,359.6242,7,2023-01-03,2023-12-25,0.25,1.7143,True,60+,3+ — Múltiplas falhas,VIP,False,True
+WCID5460,April Butler,77,12,2,3901.68,325.14,7,2023-01-04,2023-12-29,0.1667,1.7143,True,60+,2 — Duas falhas,VIP,False,True
+WCID5461,Susan Mccoy,68,4,1,666.64,166.66,3,2023-02-01,2023-12-28,0.25,1.3333,True,60+,1 — Uma falha,Baixo Valor,False,True
+WCID5462,Lacey Jackson,80,7,1,2398.58,342.6543,5,2023-01-01,2023-10-04,0.1429,1.4,True,60+,1 — Uma falha,Alto Valor,False,True
+WCID5463,Cheryl Simmons,21,13,0,5400.31,415.4085,7,2023-01-27,2023-11-11,0.0,1.8571,False,18–29,0 — Sem falha,VIP,False,False
+WCID5464,Francisco Parrish,36,6,3,4161.63,693.605,4,2023-01-06,2023-11-07,0.5,1.5,True,30–44,3+ — Múltiplas falhas,VIP,False,True
+WCID5465,Margaret Fleming,60,7,1,1421.85,203.1214,6,2023-03-02,2023-12-13,0.1429,1.1667,True,45–59,1 — Uma falha,Baixo Valor,False,True
+WCID5466,Stacey Howe,53,7,0,2884.98,412.14,6,2023-02-01,2023-12-23,0.0,1.1667,False,45–59,0 — Sem falha,VIP,False,False
+WCID5467,Leah James,25,5,1,1637.7,327.54,5,2023-01-02,2023-12-03,0.2,1.0,True,18–29,1 — Uma falha,Médio Valor,False,True
+WCID5468,Robert Barnes,22,9,1,2603.43,289.27,6,2023-02-11,2023-11-30,0.1111,1.5,True,18–29,1 — Uma falha,Alto Valor,False,True
+WCID5469,Mark Martinez,68,3,0,999.78,333.26,3,2023-01-23,2023-08-25,0.0,1.0,False,60+,0 — Sem falha,Baixo Valor,False,False
+WCID5470,Nichole Vasquez,62,12,2,3315.0,276.25,9,2023-01-15,2023-11-30,0.1667,1.3333,True,60+,2 — Duas falhas,VIP,False,True
+WCID5471,Marie Conner,73,10,1,2925.43,292.543,9,2023-02-07,2023-12-25,0.1,1.1111,True,60+,1 — Uma falha,VIP,False,True
+WCID5472,Amy Thompson,57,10,3,3139.25,313.925,8,2023-01-31,2023-12-23,0.3,1.25,True,45–59,3+ — Múltiplas falhas,VIP,False,True
+WCID5473,Megan Davis,63,7,0,1974.09,282.0129,7,2023-02-25,2023-11-20,0.0,1.0,False,60+,0 — Sem falha,Médio Valor,False,False
+WCID5474,Paige Wilson,43,8,3,2344.08,293.01,5,2023-02-09,2023-10-07,0.375,1.6,True,30–44,3+ — Múltiplas falhas,Alto Valor,False,True
+WCID5475,Marvin Stokes,75,8,0,1683.11,210.3888,6,2023-01-06,2023-12-15,0.0,1.3333,False,60+,0 — Sem falha,Médio Valor,False,False
+WCID5476,Louis Baker,33,14,0,3184.97,227.4979,9,2023-01-07,2023-12-29,0.0,1.5556,False,30–44,0 — Sem falha,VIP,False,False
+WCID5477,Sarah Benjamin,76,9,0,2305.81,256.2011,7,2023-01-31,2023-11-15,0.0,1.2857,False,60+,0 — Sem falha,Alto Valor,False,False
+WCID5478,Chad Strong,78,13,2,3131.1,240.8538,7,2023-01-07,2023-12-29,0.1538,1.8571,True,60+,2 — Duas falhas,VIP,False,True
+WCID5479,Christopher Banks,46,6,0,2088.46,348.0767,5,2023-01-15,2023-11-03,0.0,1.2,False,45–59,0 — Sem falha,Médio Valor,False,False
+WCID5480,Olivia West,83,10,1,2494.49,249.449,6,2023-01-24,2023-12-29,0.1,1.6667,True,60+,1 — Uma falha,Alto Valor,False,True
+WCID5481,Colin Stephenson,73,8,1,1915.91,239.4888,7,2023-01-01,2023-12-16,0.125,1.1429,True,60+,1 — Uma falha,Médio Valor,False,True
+WCID5482,Sarah Saunders,52,6,0,1600.91,266.8183,5,2023-01-19,2023-10-28,0.0,1.2,False,45–59,0 — Sem falha,Baixo Valor,False,False
+WCID5483,Dr. Dana Bowen,59,1,0,342.68,342.68,1,2023-08-12,2023-08-12,0.0,1.0,False,45–59,0 — Sem falha,Baixo Valor,False,False
+WCID5484,Melvin Carson,35,7,1,1667.47,238.21,6,2023-01-24,2023-10-27,0.1429,1.1667,True,30–44,1 — Uma falha,Médio Valor,False,True
+WCID5485,Anthony Bender DVM,39,3,0,815.89,271.9633,3,2023-04-20,2023-08-01,0.0,1.0,False,30–44,0 — Sem falha,Baixo Valor,False,False
+WCID5486,Norman Coffey,23,7,2,2478.71,354.1014,5,2023-03-04,2023-12-04,0.2857,1.4,True,18–29,2 — Duas falhas,Alto Valor,False,True
+WCID5487,Joshua Mccoy,31,2,1,334.07,167.035,2,2023-01-31,2023-02-16,0.5,1.0,True,30–44,1 — Uma falha,Baixo Valor,True,False
+WCID5488,Amy Owens,29,9,1,3094.72,343.8578,4,2023-02-04,2023-08-31,0.1111,2.25,True,18–29,1 — Uma falha,VIP,False,True
+WCID5489,Joshua Cunningham,75,9,1,2706.1,300.6778,7,2023-02-26,2023-12-13,0.1111,1.2857,True,60+,1 — Uma falha,Alto Valor,False,True
+WCID5490,Brooke Hines,41,7,1,1348.83,192.69,4,2023-03-03,2023-11-29,0.1429,1.75,True,30–44,1 — Uma falha,Baixo Valor,False,True
+WCID5491,Kara Kline,62,10,2,3745.32,374.532,7,2023-01-10,2023-11-30,0.2,1.4286,True,60+,2 — Duas falhas,VIP,False,True
+WCID5492,Mike Kennedy,19,10,0,2510.25,251.025,6,2023-01-18,2023-11-22,0.0,1.6667,False,18–29,0 — Sem falha,Alto Valor,False,False
+WCID5493,Patricia Fitzgerald,34,11,0,3146.72,286.0655,6,2023-04-29,2023-12-26,0.0,1.8333,False,30–44,0 — Sem falha,VIP,False,False
+WCID5494,Megan Peterson,38,7,2,1633.18,233.3114,4,2023-02-05,2023-11-12,0.2857,1.75,True,30–44,2 — Duas falhas,Médio Valor,False,True
+WCID5495,Jason Smith,24,5,1,1545.75,309.15,5,2023-02-24,2023-10-29,0.2,1.0,True,18–29,1 — Uma falha,Baixo Valor,False,True
+WCID5496,Rose Baldwin,60,5,1,668.08,133.616,5,2023-01-26,2023-12-11,0.2,1.0,True,45–59,1 — Uma falha,Baixo Valor,False,True
+WCID5497,Melissa Pittman,58,14,1,2804.33,200.3093,8,2023-01-17,2023-11-09,0.0714,1.75,True,45–59,1 — Uma falha,Alto Valor,False,True
+WCID5498,Sarah Salas MD,89,5,0,1432.8,286.56,5,2023-02-16,2023-12-28,0.0,1.0,False,60+,0 — Sem falha,Baixo Valor,False,False
+WCID5499,Julie Evans,62,8,3,3335.12,416.89,7,2023-01-11,2023-12-12,0.375,1.1429,True,60+,3+ — Múltiplas falhas,VIP,False,True
+WCID5500,Kyle Trujillo,32,8,2,1859.65,232.4562,6,2023-02-03,2023-11-18,0.25,1.3333,True,30–44,2 — Duas falhas,Médio Valor,False,True
+WCID5501,Charles Foster,55,13,0,2875.53,221.1946,6,2023-06-04,2023-12-04,0.0,2.1667,False,45–59,0 — Sem falha,VIP,False,False
+WCID5502,Lori Hanson,60,6,0,1044.7,174.1167,4,2023-05-02,2023-12-15,0.0,1.5,False,45–59,0 — Sem falha,Baixo Valor,False,False
+WCID5503,Marvin Flowers,79,9,1,1785.43,198.3811,7,2023-02-17,2023-09-10,0.1111,1.2857,True,60+,1 — Uma falha,Médio Valor,False,True
+WCID5504,Denise Evans,28,11,0,3133.99,284.9082,9,2023-01-24,2023-11-30,0.0,1.2222,False,18–29,0 — Sem falha,VIP,False,False
+WCID5505,Catherine Hill,26,11,4,2322.54,211.14,8,2023-01-13,2023-12-27,0.3636,1.375,True,18–29,3+ — Múltiplas falhas,Alto Valor,False,True
+WCID5506,Cynthia Williams,47,5,1,2224.02,444.804,4,2023-07-24,2023-12-14,0.2,1.25,True,45–59,1 — Uma falha,Alto Valor,False,True
+WCID5507,Amy Watson,40,7,2,3020.27,431.4671,5,2023-01-26,2023-09-29,0.2857,1.4,True,30–44,2 — Duas falhas,VIP,False,True
+WCID5508,Darin Lawrence,54,8,1,2078.83,259.8538,5,2023-02-21,2023-12-30,0.125,1.6,True,45–59,1 — Uma falha,Médio Valor,False,True
+WCID5509,Michelle Lopez,74,6,0,2180.46,363.41,5,2023-03-01,2023-12-28,0.0,1.2,False,60+,0 — Sem falha,Alto Valor,False,False
+WCID5510,James Patton,54,7,0,1882.28,268.8971,5,2023-05-26,2023-09-14,0.0,1.4,False,45–59,0 — Sem falha,Médio Valor,False,False
+WCID5511,David Hicks,89,13,4,2948.17,226.7823,9,2023-01-16,2023-12-28,0.3077,1.4444,True,60+,3+ — Múltiplas falhas,VIP,False,True
+WCID5512,Jessica Jackson,35,8,1,2684.52,335.565,5,2023-03-02,2023-10-24,0.125,1.6,True,30–44,1 — Uma falha,Alto Valor,False,True
+WCID5513,Phillip Castro,77,4,1,883.6,220.9,4,2023-06-10,2023-09-19,0.25,1.0,True,60+,1 — Uma falha,Baixo Valor,False,True
+WCID5514,Mr. Eric Richards,35,9,1,2248.83,249.87,7,2023-02-17,2023-10-23,0.1111,1.2857,True,30–44,1 — Uma falha,Alto Valor,False,True
+WCID5515,William Collins,39,7,1,1919.45,274.2071,6,2023-01-26,2023-12-09,0.1429,1.1667,True,30–44,1 — Uma falha,Médio Valor,False,True
+WCID5516,Ann Ramirez,89,8,4,2692.9,336.6125,6,2023-01-17,2023-12-24,0.5,1.3333,True,60+,3+ — Múltiplas falhas,Alto Valor,False,True
+WCID5517,Todd Griffith,25,10,2,2761.61,276.161,8,2023-01-06,2023-11-01,0.2,1.25,True,18–29,2 — Duas falhas,Alto Valor,False,True
+WCID5518,Tiffany Haynes,71,5,1,1674.02,334.804,5,2023-01-28,2023-11-18,0.2,1.0,True,60+,1 — Uma falha,Médio Valor,False,True
+WCID5519,David Walsh,25,10,2,2400.52,240.052,9,2023-01-13,2023-12-25,0.2,1.1111,True,18–29,2 — Duas falhas,Alto Valor,False,True
+WCID5520,John Cole,85,9,1,2125.94,236.2156,6,2023-01-13,2023-12-28,0.1111,1.5,True,60+,1 — Uma falha,Médio Valor,False,True
+WCID5521,Whitney Kelly,53,8,2,2740.78,342.5975,7,2023-01-14,2023-12-03,0.25,1.1429,True,45–59,2 — Duas falhas,Alto Valor,False,True
+WCID5522,Paul Tran,90,8,0,2524.54,315.5675,6,2023-04-24,2023-12-28,0.0,1.3333,False,60+,0 — Sem falha,Alto Valor,False,False
+WCID5523,Cynthia Oliver,36,10,1,2545.82,254.582,7,2023-01-29,2023-10-04,0.1,1.4286,True,30–44,1 — Uma falha,Alto Valor,False,True
+WCID5524,Tyler Mann,67,9,1,2317.77,257.53,9,2023-01-10,2023-12-09,0.1111,1.0,True,60+,1 — Uma falha,Alto Valor,False,True
+WCID5525,Danielle Parker,31,7,0,1779.81,254.2586,6,2023-01-30,2023-11-29,0.0,1.1667,False,30–44,0 — Sem falha,Médio Valor,False,False
+WCID5526,Leah Morris,31,5,0,1232.51,246.502,4,2023-02-13,2023-08-26,0.0,1.25,False,30–44,0 — Sem falha,Baixo Valor,False,False
+WCID5527,Kevin Barber,39,4,1,799.87,199.9675,3,2023-03-18,2023-09-20,0.25,1.3333,True,30–44,1 — Uma falha,Baixo Valor,False,True
+WCID5528,Christina Brown,18,5,1,1324.47,264.894,4,2023-02-07,2023-12-17,0.2,1.25,True,,1 — Uma falha,Baixo Valor,False,True
+WCID5529,William Young,74,9,0,1436.35,159.5944,5,2023-02-13,2023-12-27,0.0,1.8,False,60+,0 — Sem falha,Baixo Valor,False,False
+WCID5530,Carlos Hansen,31,11,3,3141.87,285.6245,6,2023-01-25,2023-12-15,0.2727,1.8333,True,30–44,3+ — Múltiplas falhas,VIP,False,True
+WCID5531,Peggy White,63,5,0,1676.85,335.37,3,2023-01-08,2023-08-19,0.0,1.6667,False,60+,0 — Sem falha,Médio Valor,False,False
+WCID5532,Deanna Parsons,77,9,1,2946.64,327.4044,6,2023-03-06,2023-12-23,0.1111,1.5,True,60+,1 — Uma falha,VIP,False,True
+WCID5533,Amy Wheeler,46,4,1,1350.88,337.72,3,2023-05-05,2023-12-17,0.25,1.3333,True,45–59,1 — Uma falha,Baixo Valor,False,False
+WCID5534,Timothy Wright MD,31,7,1,1543.17,220.4529,5,2023-03-01,2023-10-15,0.1429,1.4,True,30–44,1 — Uma falha,Baixo Valor,False,True
+WCID5535,Raymond Conrad,77,13,3,3331.26,256.2508,7,2023-03-20,2023-12-14,0.2308,1.8571,True,60+,3+ — Múltiplas falhas,VIP,False,True
+WCID5536,Michael Tyler,72,7,1,1921.38,274.4829,6,2023-02-01,2023-11-25,0.1429,1.1667,True,60+,1 — Uma falha,Médio Valor,False,False
+WCID5537,Donald Chen,38,9,2,2034.2,226.0222,8,2023-01-25,2023-12-08,0.2222,1.125,True,30–44,2 — Duas falhas,Médio Valor,False,True
+WCID5538,William Kennedy,36,11,2,3069.71,279.0645,8,2023-01-01,2023-10-30,0.1818,1.375,True,30–44,2 — Duas falhas,VIP,False,True
+WCID5539,Kimberly Willis,65,9,1,1815.99,201.7767,7,2023-01-08,2023-10-24,0.1111,1.2857,True,60+,1 — Uma falha,Médio Valor,False,True
+WCID5540,Barbara Pruitt,70,13,2,2490.15,191.55,7,2023-01-05,2023-11-04,0.1538,1.8571,True,60+,2 — Duas falhas,Alto Valor,False,True
+WCID5541,Amy Walker,66,6,1,2199.74,366.6233,5,2023-01-25,2023-10-17,0.1667,1.2,True,60+,1 — Uma falha,Alto Valor,False,True
+WCID5542,Elizabeth Russell,66,6,0,1099.63,183.2717,6,2023-01-24,2023-10-31,0.0,1.0,False,60+,0 — Sem falha,Baixo Valor,False,False
+WCID5543,Joshua Lewis,76,14,4,3602.95,257.3536,8,2023-01-03,2023-11-17,0.2857,1.75,True,60+,3+ — Múltiplas falhas,VIP,False,True
+WCID5544,Richard Harris,39,10,0,3032.47,303.247,6,2023-02-08,2023-12-09,0.0,1.6667,False,30–44,0 — Sem falha,VIP,False,False
+WCID5545,Peter Romero,64,7,2,1742.94,248.9914,5,2023-02-13,2023-12-24,0.2857,1.4,True,60+,2 — Duas falhas,Médio Valor,False,True
+WCID5546,Lawrence Hoover,69,9,0,2666.2,296.2444,7,2023-01-26,2023-12-09,0.0,1.2857,False,60+,0 — Sem falha,Alto Valor,False,False
+WCID5547,Peter Lee,87,9,1,1995.14,221.6822,6,2023-01-23,2023-12-13,0.1111,1.5,True,60+,1 — Uma falha,Médio Valor,False,True
+WCID5548,Marie Edwards,47,9,2,2347.73,260.8589,6,2023-02-08,2023-12-11,0.2222,1.5,True,45–59,2 — Duas falhas,Alto Valor,False,True
+WCID5549,Alisha Klein,59,11,3,2452.02,222.9109,7,2023-01-05,2023-10-28,0.2727,1.5714,True,45–59,3+ — Múltiplas falhas,Alto Valor,False,True
+WCID5550,Amy Wu,50,7,2,1708.81,244.1157,5,2023-01-06,2023-12-09,0.2857,1.4,True,45–59,2 — Duas falhas,Médio Valor,False,True
+WCID5551,Mr. Jamie Orr,30,11,2,3349.36,304.4873,7,2023-02-27,2023-12-15,0.1818,1.5714,True,18–29,2 — Duas falhas,VIP,False,True
+WCID5552,Evan Smith,65,3,0,955.09,318.3633,3,2023-02-07,2023-09-23,0.0,1.0,False,60+,0 — Sem falha,Baixo Valor,False,False
+WCID5553,Steven Goodwin,51,13,1,3237.33,249.0254,9,2023-01-16,2023-12-08,0.0769,1.4444,True,45–59,1 — Uma falha,VIP,False,True
+WCID5554,Brian Miller,41,12,2,3983.14,331.9283,9,2023-02-11,2023-12-26,0.1667,1.3333,True,30–44,2 — Duas falhas,VIP,False,True
+WCID5555,Kimberly Brown,27,8,2,1889.14,236.1425,6,2023-02-01,2023-12-22,0.25,1.3333,True,18–29,2 — Duas falhas,Médio Valor,False,True
+WCID5556,Crystal Lucas,22,13,3,3223.87,247.99,7,2023-01-03,2023-11-27,0.2308,1.8571,True,18–29,3+ — Múltiplas falhas,VIP,False,True
+WCID5557,Amber Hansen,21,13,3,4227.35,325.1808,9,2023-01-27,2023-12-17,0.2308,1.4444,True,18–29,3+ — Múltiplas falhas,VIP,False,True
+WCID5558,David Wilson,46,13,0,3476.83,267.4485,9,2023-01-21,2023-12-26,0.0,1.4444,False,45–59,0 — Sem falha,VIP,False,False
+WCID5559,Zachary Hampton,40,14,2,5248.7,374.9071,8,2023-01-10,2023-12-28,0.1429,1.75,True,30–44,2 — Duas falhas,VIP,False,True
+WCID5560,David Smith,25,6,0,1611.04,268.5067,6,2023-03-26,2023-11-02,0.0,1.0,False,18–29,0 — Sem falha,Baixo Valor,False,False
+WCID5561,Susan Chavez,69,11,2,4238.83,385.3482,7,2023-01-02,2023-12-31,0.1818,1.5714,True,60+,2 — Duas falhas,VIP,False,True
+WCID5562,Rachel Johnson,76,10,2,3860.95,386.095,8,2023-01-17,2023-12-07,0.2,1.25,True,60+,2 — Duas falhas,VIP,False,True
+WCID5563,Christopher Bass,69,4,0,1278.03,319.5075,4,2023-02-25,2023-08-14,0.0,1.0,False,60+,0 — Sem falha,Baixo Valor,False,False
+WCID5564,Brandon Phillips,50,14,2,3840.47,274.3193,7,2023-01-21,2023-12-31,0.1429,2.0,True,45–59,2 — Duas falhas,VIP,False,True
+WCID5565,Victoria Hill,28,8,2,1981.04,247.63,5,2023-05-24,2023-12-31,0.25,1.6,True,18–29,2 — Duas falhas,Médio Valor,False,True
+WCID5566,Gregory Ryan,65,7,2,1292.3,184.6143,6,2023-01-17,2023-11-22,0.2857,1.1667,True,60+,2 — Duas falhas,Baixo Valor,False,True
+WCID5567,Megan Bridges,57,5,1,1827.34,365.468,5,2023-03-14,2023-12-13,0.2,1.0,True,45–59,1 — Uma falha,Médio Valor,False,True
+WCID5568,Robin Russell,18,4,1,1635.29,408.8225,4,2023-01-25,2023-12-31,0.25,1.0,True,,1 — Uma falha,Médio Valor,False,True
+WCID5569,Henry Camacho,43,10,2,3105.22,310.522,7,2023-01-09,2023-10-08,0.2,1.4286,True,30–44,2 — Duas falhas,VIP,False,True
+WCID5570,Rodney Frey,52,9,2,1515.02,168.3356,7,2023-01-07,2023-12-14,0.2222,1.2857,True,45–59,2 — Duas falhas,Baixo Valor,False,True
+WCID5571,Jonathan Powell,74,11,2,3425.06,311.3691,5,2023-01-04,2023-06-27,0.1818,2.2,True,60+,2 — Duas falhas,VIP,False,True
+WCID5572,Dustin Ruiz,35,12,0,2699.13,224.9275,8,2023-01-04,2023-12-10,0.0,1.5,False,30–44,0 — Sem falha,Alto Valor,False,False
+WCID5573,Andrea Sanchez,61,9,3,3322.01,369.1122,7,2023-01-07,2023-12-16,0.3333,1.2857,True,60+,3+ — Múltiplas falhas,VIP,False,True
+WCID5574,Dr. Zachary Nelson III,44,9,1,2706.34,300.7044,8,2023-01-19,2023-12-22,0.1111,1.125,True,30–44,1 — Uma falha,Alto Valor,False,True
+WCID5575,Samantha Kelly,41,9,1,2006.72,222.9689,7,2023-01-09,2023-12-25,0.1111,1.2857,True,30–44,1 — Uma falha,Médio Valor,False,True
+WCID5576,Cindy Pitts,51,11,1,2263.01,205.7282,9,2023-03-29,2023-12-20,0.0909,1.2222,True,45–59,1 — Uma falha,Alto Valor,False,True
+WCID5577,Aaron Fry,61,6,0,2042.09,340.3483,3,2023-03-10,2023-08-29,0.0,2.0,False,60+,0 — Sem falha,Médio Valor,False,False
+WCID5578,Matthew Beard,61,9,3,3108.05,345.3389,8,2023-02-15,2023-12-25,0.3333,1.125,True,60+,3+ — Múltiplas falhas,VIP,False,True
+WCID5579,Matthew Lopez,78,9,0,2732.04,303.56,7,2023-01-30,2023-12-15,0.0,1.2857,False,60+,0 — Sem falha,Alto Valor,False,False
+WCID5580,Tina Greene,33,13,3,4248.86,326.8354,9,2023-01-13,2023-12-27,0.2308,1.4444,True,30–44,3+ — Múltiplas falhas,VIP,False,True
+WCID5581,Lisa Crawford,61,9,1,1935.91,215.1011,7,2023-02-16,2023-12-06,0.1111,1.2857,True,60+,1 — Uma falha,Médio Valor,False,True
+WCID5582,Stephen Parker,74,5,0,1686.41,337.282,4,2023-07-01,2023-12-21,0.0,1.25,False,60+,0 — Sem falha,Médio Valor,False,False
+WCID5583,Bradley Anderson,29,7,0,1788.93,255.5614,5,2023-06-21,2023-12-28,0.0,1.4,False,18–29,0 — Sem falha,Médio Valor,False,False
+WCID5584,Robert Walton,77,10,2,2525.31,252.531,7,2023-01-12,2023-11-21,0.2,1.4286,True,60+,2 — Duas falhas,Alto Valor,False,True
+WCID5585,Robert Vasquez,24,10,1,1801.83,180.183,7,2023-01-27,2023-11-29,0.1,1.4286,True,18–29,1 — Uma falha,Médio Valor,False,True
+WCID5586,Justin Baker,82,8,0,1412.1,176.5125,6,2023-05-08,2023-11-18,0.0,1.3333,False,60+,0 — Sem falha,Baixo Valor,False,False
+WCID5587,Linda Ruiz,88,6,2,2028.91,338.1517,5,2023-03-14,2023-09-15,0.3333,1.2,True,60+,2 — Duas falhas,Médio Valor,True,True
+WCID5588,Christina Russell,76,4,1,1347.72,336.93,3,2023-06-03,2023-08-27,0.25,1.3333,True,60+,1 — Uma falha,Baixo Valor,False,True
+WCID5589,Darlene Andersen,52,8,1,2052.09,256.5112,5,2023-01-03,2023-11-28,0.125,1.6,True,45–59,1 — Uma falha,Médio Valor,False,True
+WCID5590,Lawrence Cohen,23,9,0,2678.34,297.5933,7,2023-02-01,2023-11-03,0.0,1.2857,False,18–29,0 — Sem falha,Alto Valor,False,False
+WCID5591,Logan Nelson,49,11,1,3881.99,352.9082,6,2023-02-18,2023-11-23,0.0909,1.8333,True,45–59,1 — Uma falha,VIP,False,False
+WCID5592,Justin Knight,73,11,1,2647.29,240.6627,8,2023-02-07,2023-12-03,0.0909,1.375,True,60+,1 — Uma falha,Alto Valor,False,True
+WCID5593,Victor Gonzalez,86,13,4,2983.62,229.5092,9,2023-01-05,2023-12-26,0.3077,1.4444,True,60+,3+ — Múltiplas falhas,VIP,False,True
+WCID5594,Robert Odonnell,45,7,3,2075.43,296.49,6,2023-01-09,2023-12-02,0.4286,1.1667,True,30–44,3+ — Múltiplas falhas,Médio Valor,False,True
+WCID5595,Ann Kelly,28,5,0,1565.46,313.092,4,2023-01-05,2023-12-30,0.0,1.25,False,18–29,0 — Sem falha,Baixo Valor,False,False
+WCID5596,Kristen Marsh,56,6,0,1501.04,250.1733,6,2023-01-19,2023-12-19,0.0,1.0,False,45–59,0 — Sem falha,Baixo Valor,False,False
+WCID5597,Betty Young,36,8,0,1637.17,204.6462,6,2023-03-08,2023-11-11,0.0,1.3333,False,30–44,0 — Sem falha,Médio Valor,False,False
+WCID5598,Carrie Padilla,24,5,0,1068.31,213.662,5,2023-04-11,2023-12-02,0.0,1.0,False,18–29,0 — Sem falha,Baixo Valor,False,False
+WCID5599,Natalie Fisher,26,13,2,4035.18,310.3985,9,2023-01-01,2023-11-11,0.1538,1.4444,True,18–29,2 — Duas falhas,VIP,False,True
+WCID5600,Chad Hernandez,67,14,1,5222.84,373.06,10,2023-01-24,2023-12-06,0.0714,1.4,True,60+,1 — Uma falha,VIP,False,True
+WCID5601,Dominic Richardson,46,10,1,2774.38,277.438,8,2023-01-24,2023-11-09,0.1,1.25,True,45–59,1 — Uma falha,Alto Valor,False,True
+WCID5602,Alexis Nguyen,43,10,0,3439.96,343.996,5,2023-02-14,2023-12-20,0.0,2.0,False,30–44,0 — Sem falha,VIP,False,False
+WCID5603,Andrew Sullivan,59,7,0,1837.79,262.5414,5,2023-03-16,2023-09-21,0.0,1.4,False,45–59,0 — Sem falha,Médio Valor,False,False
+WCID5604,Jessica Stevens,78,6,1,2085.38,347.5633,4,2023-02-12,2023-08-23,0.1667,1.5,True,60+,1 — Uma falha,Médio Valor,False,True
+WCID5605,Adam Hernandez,76,9,3,4008.35,445.3722,7,2023-01-05,2023-12-05,0.3333,1.2857,True,60+,3+ — Múltiplas falhas,VIP,False,True
+WCID5606,Amy Fields,59,9,2,2738.52,304.28,6,2023-01-09,2023-12-05,0.2222,1.5,True,45–59,2 — Duas falhas,Alto Valor,False,True
+WCID5607,David Elliott,44,8,0,2112.29,264.0362,7,2023-01-02,2023-11-05,0.0,1.1429,False,30–44,0 — Sem falha,Médio Valor,False,False
+WCID5608,Angela Williams,38,6,2,1618.37,269.7283,5,2023-01-15,2023-12-24,0.3333,1.2,True,30–44,2 — Duas falhas,Médio Valor,False,True
+WCID5609,Beth Bell,60,2,1,215.83,107.915,2,2023-01-05,2023-02-06,0.5,1.0,True,45–59,1 — Uma falha,Baixo Valor,False,True
+WCID5610,Lauren Meyers,68,11,1,3292.39,299.3082,6,2023-02-23,2023-12-26,0.0909,1.8333,True,60+,1 — Uma falha,VIP,False,True
+WCID5611,Leah Deleon,38,3,2,757.73,252.5767,3,2023-04-15,2023-08-13,0.6667,1.0,True,30–44,2 — Duas falhas,Baixo Valor,True,True
+WCID5612,Elizabeth Rios,28,7,0,2341.06,334.4371,5,2023-03-19,2023-12-04,0.0,1.4,False,18–29,0 — Sem falha,Alto Valor,False,False
+WCID5613,William Anthony,81,11,1,3256.6,296.0545,8,2023-01-02,2023-10-15,0.0909,1.375,True,60+,1 — Uma falha,VIP,False,True
+WCID5614,Justin Scott,44,2,0,669.62,334.81,2,2023-09-13,2023-11-05,0.0,1.0,False,30–44,0 — Sem falha,Baixo Valor,False,False
+WCID5615,Anthony Hill,32,3,1,732.82,244.2733,3,2023-02-05,2023-09-19,0.3333,1.0,True,30–44,1 — Uma falha,Baixo Valor,False,True
+WCID5616,Scott Estrada,20,6,0,1456.86,242.81,5,2023-02-02,2023-12-28,0.0,1.2,False,18–29,0 — Sem falha,Baixo Valor,False,False
+WCID5617,John Bell,64,7,0,2478.0,354.0,5,2023-06-30,2023-12-26,0.0,1.4,False,60+,0 — Sem falha,Alto Valor,False,False
+WCID5618,Michelle Rivera,49,7,1,1398.67,199.81,4,2023-01-24,2023-06-28,0.1429,1.75,True,45–59,1 — Uma falha,Baixo Valor,False,True
+WCID5619,William Roberts,27,10,1,2601.27,260.127,9,2023-01-16,2023-12-07,0.1,1.1111,True,18–29,1 — Uma falha,Alto Valor,False,True
+WCID5620,Patrick Martin,72,16,3,4228.09,264.2556,9,2023-01-07,2023-11-03,0.1875,1.7778,True,60+,3+ — Múltiplas falhas,VIP,False,True
+WCID5621,Jared Simpson,88,6,1,1445.58,240.93,4,2023-04-24,2023-12-17,0.1667,1.5,True,60+,1 — Uma falha,Baixo Valor,False,False
+WCID5622,Anne Edwards,39,7,1,2295.97,327.9957,6,2023-01-26,2023-12-14,0.1429,1.1667,True,30–44,1 — Uma falha,Alto Valor,False,True
+WCID5623,Kathryn Mullen,50,7,1,1968.88,281.2686,7,2023-03-25,2023-12-18,0.1429,1.0,True,45–59,1 — Uma falha,Médio Valor,False,True
+WCID5624,Derek Lyons,82,13,0,3077.41,236.7238,8,2023-01-14,2023-11-22,0.0,1.625,False,60+,0 — Sem falha,VIP,False,False
+WCID5625,Alex Berry,74,14,3,5717.58,408.3986,8,2023-01-21,2023-11-11,0.2143,1.75,True,60+,3+ — Múltiplas falhas,VIP,False,True
+WCID5626,Melissa Anderson,64,11,2,3121.7,283.7909,6,2023-01-15,2023-11-24,0.1818,1.8333,True,60+,2 — Duas falhas,VIP,False,True
+WCID5627,Elizabeth Robinson,39,7,1,2150.89,307.27,4,2023-04-08,2023-12-05,0.1429,1.75,True,30–44,1 — Uma falha,Médio Valor,False,True
+WCID5628,Sarah James,58,6,3,1342.97,223.8283,5,2023-01-14,2023-12-08,0.5,1.2,True,45–59,3+ — Múltiplas falhas,Baixo Valor,False,True
+WCID5629,Heather Pineda,59,10,2,3730.66,373.066,8,2023-03-29,2023-12-31,0.2,1.25,True,45–59,2 — Duas falhas,VIP,False,True
+WCID5630,Stephanie Harris,67,6,2,2837.59,472.9317,5,2023-02-04,2023-11-09,0.3333,1.2,True,60+,2 — Duas falhas,Alto Valor,False,True
+WCID5631,John Patterson,82,8,0,2214.47,276.8088,5,2023-01-10,2023-10-14,0.0,1.6,False,60+,0 — Sem falha,Alto Valor,False,False
+WCID5632,Todd Whitney,41,4,1,1240.85,310.2125,4,2023-03-10,2023-12-15,0.25,1.0,True,30–44,1 — Uma falha,Baixo Valor,False,True
+WCID5633,Vicki Perez,43,8,3,1950.82,243.8525,7,2023-01-18,2023-12-27,0.375,1.1429,True,30–44,3+ — Múltiplas falhas,Médio Valor,False,True
+WCID5634,Joe Bentley,41,4,0,706.19,176.5475,4,2023-03-29,2023-07-23,0.0,1.0,False,30–44,0 — Sem falha,Baixo Valor,False,False
+WCID5635,Robert Brown,87,13,2,3421.63,263.2023,9,2023-01-20,2023-12-28,0.1538,1.4444,True,60+,2 — Duas falhas,VIP,False,True
+WCID5636,Isaiah Lawson,39,6,1,1744.1,290.6833,5,2023-01-21,2023-10-31,0.1667,1.2,True,30–44,1 — Uma falha,Médio Valor,False,True
+WCID5637,Nancy Torres,45,10,2,3689.43,368.943,6,2023-04-19,2023-12-23,0.2,1.6667,True,30–44,2 — Duas falhas,VIP,False,True
+WCID5638,Angela Brock,52,6,3,1591.33,265.2217,5,2023-02-20,2023-12-11,0.5,1.2,True,45–59,3+ — Múltiplas falhas,Baixo Valor,False,True
+WCID5639,Robert Smith,29,8,2,1858.05,232.2562,5,2023-01-07,2023-08-06,0.25,1.6,True,18–29,2 — Duas falhas,Médio Valor,False,True
+WCID5640,Sarah Gentry,24,5,1,2495.01,499.002,5,2023-01-14,2023-11-11,0.2,1.0,True,18–29,1 — Uma falha,Alto Valor,False,True
+WCID5641,Dylan Smith,78,5,1,1658.19,331.638,4,2023-04-11,2023-10-16,0.2,1.25,True,60+,1 — Uma falha,Médio Valor,False,True
+WCID5642,Adriana Pope,88,10,1,2020.7,202.07,8,2023-01-07,2023-12-23,0.1,1.25,True,60+,1 — Uma falha,Médio Valor,False,True
+WCID5643,James Harris,21,9,2,1903.73,211.5256,6,2023-04-01,2023-12-07,0.2222,1.5,True,18–29,2 — Duas falhas,Médio Valor,False,True
+WCID5644,Mariah Holloway,76,5,0,1908.56,381.712,5,2023-02-05,2023-09-29,0.0,1.0,False,60+,0 — Sem falha,Médio Valor,False,False
+WCID5645,Jennifer Jordan,18,4,1,1048.34,262.085,4,2023-01-23,2023-12-20,0.25,1.0,True,,1 — Uma falha,Baixo Valor,False,True
+WCID5646,Linda Smith,64,12,1,2502.58,208.5483,10,2023-01-04,2023-12-18,0.0833,1.2,True,60+,1 — Uma falha,Alto Valor,False,True
+WCID5647,Stephen Mckenzie,19,9,1,1586.63,176.2922,6,2023-01-09,2023-11-01,0.1111,1.5,True,18–29,1 — Uma falha,Baixo Valor,False,True
+WCID5648,Brian Spence,75,11,1,3328.37,302.5791,7,2023-01-07,2023-12-18,0.0909,1.5714,True,60+,1 — Uma falha,VIP,False,True
+WCID5649,Jonathan Stevens,54,6,0,1921.09,320.1817,5,2023-01-05,2023-10-08,0.0,1.2,False,45–59,0 — Sem falha,Médio Valor,False,False
+WCID5650,Kimberly Rojas,18,7,0,3405.35,486.4786,5,2023-02-01,2023-11-20,0.0,1.4,False,,0 — Sem falha,VIP,False,False
+WCID5651,Laurie Phillips,25,11,2,3387.89,307.99,7,2023-02-24,2023-12-21,0.1818,1.5714,True,18–29,2 — Duas falhas,VIP,False,True
+WCID5652,Carla Knox,23,12,3,3317.02,276.4183,8,2023-01-10,2023-12-18,0.25,1.5,True,18–29,3+ — Múltiplas falhas,VIP,False,True
+WCID5653,Matthew Roberts,66,10,4,2547.38,254.738,8,2023-01-23,2023-12-11,0.4,1.25,True,60+,3+ — Múltiplas falhas,Alto Valor,False,True
+WCID5654,Erin Vazquez,31,10,2,3348.39,334.839,5,2023-02-05,2023-09-22,0.2,2.0,True,30–44,2 — Duas falhas,VIP,False,True
+WCID5655,Kenneth Cole,35,6,0,1793.57,298.9283,4,2023-07-08,2023-12-01,0.0,1.5,False,30–44,0 — Sem falha,Médio Valor,False,False
+WCID5656,Amy Johnson,73,14,1,4463.14,318.7957,9,2023-01-03,2023-12-27,0.0714,1.5556,True,60+,1 — Uma falha,VIP,False,True
+WCID5657,Michael Evans,64,14,1,4121.13,294.3664,8,2023-01-21,2023-12-24,0.0714,1.75,True,60+,1 — Uma falha,VIP,False,True
+WCID5658,Michael Roberts,61,7,1,2672.9,381.8429,5,2023-02-05,2023-11-20,0.1429,1.4,True,60+,1 — Uma falha,Alto Valor,False,True
+WCID5659,Angela Smith,81,5,1,1175.06,235.012,4,2023-01-17,2023-12-30,0.2,1.25,True,60+,1 — Uma falha,Baixo Valor,False,True
+WCID5660,Stephen Barnes,62,5,2,1421.03,284.206,5,2023-01-06,2023-10-04,0.4,1.0,True,60+,2 — Duas falhas,Baixo Valor,False,True
+WCID5661,Dr. Anna Johnson,89,7,1,1093.1,156.1571,5,2023-02-02,2023-11-02,0.1429,1.4,True,60+,1 — Uma falha,Baixo Valor,False,True
+WCID5662,Erik Lee,82,7,1,1981.79,283.1129,5,2023-02-12,2023-12-21,0.1429,1.4,True,60+,1 — Uma falha,Médio Valor,False,True
+WCID5663,Cheryl Medina,40,9,1,2700.13,300.0144,7,2023-01-15,2023-12-05,0.1111,1.2857,True,30–44,1 — Uma falha,Alto Valor,False,True
+WCID5664,Tracy Price,24,8,2,2385.05,298.1312,6,2023-05-04,2023-12-19,0.25,1.3333,True,18–29,2 — Duas falhas,Alto Valor,False,True
+WCID5665,Peter Jenkins,24,7,1,1857.32,265.3314,5,2023-01-07,2023-08-24,0.1429,1.4,True,18–29,1 — Uma falha,Médio Valor,False,True
+WCID5666,Jennifer Gonzalez,65,6,0,1358.01,226.335,4,2023-01-29,2023-08-12,0.0,1.5,False,60+,0 — Sem falha,Baixo Valor,False,False
+WCID5667,Frank Watson,34,7,1,1680.02,240.0029,3,2023-03-31,2023-08-22,0.1429,2.3333,True,30–44,1 — Uma falha,Médio Valor,True,False
+WCID5668,Dr. Alicia Hernandez DVM,87,6,1,1512.69,252.115,5,2023-01-07,2023-11-21,0.1667,1.2,True,60+,1 — Uma falha,Baixo Valor,False,False
+WCID5669,James White,54,10,2,3220.15,322.015,7,2023-01-18,2023-10-11,0.2,1.4286,True,45–59,2 — Duas falhas,VIP,False,True
+WCID5670,Jason Flores,49,10,2,2970.5,297.05,9,2023-01-30,2023-10-24,0.2,1.1111,True,45–59,2 — Duas falhas,VIP,False,True
+WCID5671,Amanda Sanchez,73,4,0,1188.38,297.095,3,2023-05-10,2023-11-18,0.0,1.3333,False,60+,0 — Sem falha,Baixo Valor,False,False
+WCID5672,Dana Gutierrez,19,7,4,2115.65,302.2357,6,2023-03-14,2023-12-25,0.5714,1.1667,True,18–29,3+ — Múltiplas falhas,Médio Valor,False,True
+WCID5673,Amber Bell,67,5,1,1362.95,272.59,4,2023-04-23,2023-10-22,0.2,1.25,True,60+,1 — Uma falha,Baixo Valor,False,True
+WCID5674,Michael Decker,74,5,0,1514.24,302.848,3,2023-01-12,2023-10-27,0.0,1.6667,False,60+,0 — Sem falha,Baixo Valor,False,False
+WCID5675,Stephanie Carroll,85,5,1,1231.61,246.322,4,2023-01-01,2023-09-19,0.2,1.25,True,60+,1 — Uma falha,Baixo Valor,False,True
+WCID5676,Veronica Bradford,67,7,0,1848.14,264.02,6,2023-01-20,2023-12-29,0.0,1.1667,False,60+,0 — Sem falha,Médio Valor,False,False
+WCID5677,Kristen Lucas,87,7,2,885.33,126.4757,5,2023-02-28,2023-12-15,0.2857,1.4,True,60+,2 — Duas falhas,Baixo Valor,False,True
+WCID5678,Brandon Guerrero,39,4,0,875.1,218.775,3,2023-04-25,2023-12-24,0.0,1.3333,False,30–44,0 — Sem falha,Baixo Valor,False,False
+WCID5679,Paul Williams,47,7,2,2078.97,296.9957,5,2023-02-23,2023-12-06,0.2857,1.4,True,45–59,2 — Duas falhas,Médio Valor,False,True
+WCID5680,James Baker,28,7,1,2008.26,286.8943,5,2023-05-03,2023-10-18,0.1429,1.4,True,18–29,1 — Uma falha,Médio Valor,False,True
+WCID5681,John Spence,30,9,3,2996.15,332.9056,6,2023-01-31,2023-12-25,0.3333,1.5,True,18–29,3+ — Múltiplas falhas,VIP,False,True
+WCID5682,Cody Reyes,82,8,0,2512.04,314.005,6,2023-03-05,2023-11-27,0.0,1.3333,False,60+,0 — Sem falha,Alto Valor,False,False
+WCID5683,Jason Bolton,28,7,3,2604.24,372.0343,5,2023-01-11,2023-08-30,0.4286,1.4,True,18–29,3+ — Múltiplas falhas,Alto Valor,False,True
+WCID5684,George Baird,48,6,0,1832.6,305.4333,6,2023-03-10,2023-11-15,0.0,1.0,False,45–59,0 — Sem falha,Médio Valor,False,False
+WCID5685,Shelley Gould,85,12,7,2361.59,196.7992,9,2023-02-20,2023-12-29,0.5833,1.3333,True,60+,3+ — Múltiplas falhas,Alto Valor,False,True
+WCID5686,Larry Tran,32,14,1,4385.27,313.2336,9,2023-01-05,2023-12-26,0.0714,1.5556,True,30–44,1 — Uma falha,VIP,False,True
+WCID5687,Tracy Beasley,28,7,2,1887.39,269.6271,6,2023-01-29,2023-11-18,0.2857,1.1667,True,18–29,2 — Duas falhas,Médio Valor,False,True
+WCID5688,Alexandra Dougherty,64,9,1,3094.31,343.8122,7,2023-01-24,2023-12-08,0.1111,1.2857,True,60+,1 — Uma falha,VIP,False,True
+WCID5689,Jonathan Martin,78,5,0,733.97,146.794,3,2023-06-19,2023-10-21,0.0,1.6667,False,60+,0 — Sem falha,Baixo Valor,False,False
+WCID5690,Mr. Reginald Reed,81,5,1,1306.33,261.266,5,2023-01-04,2023-11-21,0.2,1.0,True,60+,1 — Uma falha,Baixo Valor,False,True
+WCID5691,Daniel Ellis,27,7,0,2026.71,289.53,6,2023-05-04,2023-11-23,0.0,1.1667,False,18–29,0 — Sem falha,Médio Valor,False,False
+WCID5692,Martha Whitehead,28,8,0,1721.53,215.1912,6,2023-01-05,2023-09-06,0.0,1.3333,False,18–29,0 — Sem falha,Médio Valor,False,False
+WCID5693,Alexander Love,55,10,0,2866.18,286.618,8,2023-01-01,2023-12-25,0.0,1.25,False,45–59,0 — Sem falha,VIP,False,False
+WCID5694,Tammy Hernandez,29,2,0,397.96,198.98,2,2023-01-18,2023-03-22,0.0,1.0,False,18–29,0 — Sem falha,Baixo Valor,False,False
+WCID5695,Jessica Rodgers,28,3,0,505.45,168.4833,2,2023-06-13,2023-09-09,0.0,1.5,False,18–29,0 — Sem falha,Baixo Valor,False,False
+WCID5696,Jordan Farmer,40,6,1,1635.51,272.585,6,2023-01-12,2023-11-14,0.1667,1.0,True,30–44,1 — Uma falha,Médio Valor,False,True
+WCID5697,Linda Perry,90,12,2,4128.37,344.0308,8,2023-02-13,2023-12-17,0.1667,1.5,True,60+,2 — Duas falhas,VIP,False,True
+WCID5698,Crystal Smith,44,4,3,777.93,194.4825,4,2023-04-10,2023-10-12,0.75,1.0,True,30–44,3+ — Múltiplas falhas,Baixo Valor,False,True
+WCID5699,Taylor Barnett,63,3,0,922.42,307.4733,3,2023-03-26,2023-10-31,0.0,1.0,False,60+,0 — Sem falha,Baixo Valor,False,False
+WCID5700,Jenny Martin,18,7,2,1693.87,241.9814,5,2023-01-04,2023-10-12,0.2857,1.4,True,,2 — Duas falhas,Médio Valor,False,True
+WCID5701,Stephanie Stewart,54,5,1,1172.21,234.442,5,2023-06-28,2023-12-19,0.2,1.0,True,45–59,1 — Uma falha,Baixo Valor,False,True
+WCID5702,Kristina Valdez,88,12,0,3516.7,293.0583,9,2023-01-08,2023-12-23,0.0,1.3333,False,60+,0 — Sem falha,VIP,False,False
+WCID5703,Yvonne Harmon,26,14,3,4520.35,322.8821,8,2023-01-26,2023-12-28,0.2143,1.75,True,18–29,3+ — Múltiplas falhas,VIP,False,True
+WCID5704,Alicia Charles,84,9,0,3219.72,357.7467,7,2023-02-13,2023-11-11,0.0,1.2857,False,60+,0 — Sem falha,VIP,False,False
+WCID5705,Dennis Summers,70,12,3,2471.87,205.9892,5,2023-03-20,2023-10-15,0.25,2.4,True,60+,3+ — Múltiplas falhas,Alto Valor,False,True
+WCID5706,Stephanie Walker,75,7,1,1088.44,155.4914,6,2023-03-17,2023-12-13,0.1429,1.1667,True,60+,1 — Uma falha,Baixo Valor,False,True
+WCID5707,Alicia Williams,69,9,2,2318.67,257.63,6,2023-01-20,2023-12-31,0.2222,1.5,True,60+,2 — Duas falhas,Alto Valor,False,True
+WCID5708,Claudia Moore,52,6,0,1431.12,238.52,6,2023-01-20,2023-12-09,0.0,1.0,False,45–59,0 — Sem falha,Baixo Valor,False,False
+WCID5709,Regina Becker,70,10,1,4048.34,404.834,6,2023-01-29,2023-11-24,0.1,1.6667,True,60+,1 — Uma falha,VIP,False,False
+WCID5710,Janet Smith,66,4,1,1485.81,371.4525,4,2023-02-25,2023-10-21,0.25,1.0,True,60+,1 — Uma falha,Baixo Valor,False,True
+WCID5711,Matthew Barker,46,3,2,970.23,323.41,3,2023-03-12,2023-12-19,0.6667,1.0,True,45–59,2 — Duas falhas,Baixo Valor,False,True
+WCID5712,Gerald Norton,57,3,1,1088.19,362.73,3,2023-01-11,2023-11-11,0.3333,1.0,True,45–59,1 — Uma falha,Baixo Valor,False,True
+WCID5713,Heather Eaton,23,4,1,948.7,237.175,4,2023-05-19,2023-11-13,0.25,1.0,True,18–29,1 — Uma falha,Baixo Valor,False,True
+WCID5714,Frances Wilson,76,8,1,1883.7,235.4625,7,2023-01-27,2023-12-10,0.125,1.1429,True,60+,1 — Uma falha,Médio Valor,False,True
+WCID5715,Kathleen Powell,49,5,3,2242.99,448.598,4,2023-05-09,2023-12-16,0.6,1.25,True,45–59,3+ — Múltiplas falhas,Alto Valor,False,True
+WCID5716,Julie Murray,23,12,1,2406.76,200.5633,8,2023-03-30,2023-11-15,0.0833,1.5,True,18–29,1 — Uma falha,Alto Valor,False,True
+WCID5717,James Boyle,22,8,3,2599.63,324.9538,7,2023-01-26,2023-11-11,0.375,1.1429,True,18–29,3+ — Múltiplas falhas,Alto Valor,False,True
+WCID5718,Nicole Cannon,24,9,0,2782.71,309.19,6,2023-01-05,2023-12-28,0.0,1.5,False,18–29,0 — Sem falha,Alto Valor,False,False
+WCID5719,Regina Hess,24,4,0,943.52,235.88,3,2023-03-20,2023-11-09,0.0,1.3333,False,18–29,0 — Sem falha,Baixo Valor,False,False
+WCID5720,Lindsay Estrada,36,7,1,1679.71,239.9586,5,2023-01-04,2023-12-30,0.1429,1.4,True,30–44,1 — Uma falha,Médio Valor,False,True
+WCID5721,Andrea Castro,37,7,1,2709.58,387.0829,4,2023-06-16,2023-11-30,0.1429,1.75,True,30–44,1 — Uma falha,Alto Valor,False,True
+WCID5722,Alan Oliver,64,8,1,1252.64,156.58,4,2023-01-03,2023-04-16,0.125,2.0,True,60+,1 — Uma falha,Baixo Valor,True,False
+WCID5723,Michael Smith,26,8,2,2331.99,291.4987,6,2023-03-19,2023-09-26,0.25,1.3333,True,18–29,2 — Duas falhas,Alto Valor,True,True
+WCID5724,Donald Bush,21,10,2,1982.75,198.275,7,2023-01-14,2023-11-08,0.2,1.4286,True,18–29,2 — Duas falhas,Médio Valor,False,True
+WCID5725,Jeremy Robinson,19,8,2,2825.54,353.1925,6,2023-01-22,2023-11-20,0.25,1.3333,True,18–29,2 — Duas falhas,Alto Valor,False,True
+WCID5726,Darrell Bennett,64,10,2,2370.66,237.066,6,2023-02-01,2023-12-03,0.2,1.6667,True,60+,2 — Duas falhas,Alto Valor,False,True
+WCID5727,John Gutierrez,71,6,1,1371.18,228.53,4,2023-05-16,2023-10-18,0.1667,1.5,True,60+,1 — Uma falha,Baixo Valor,False,False
+WCID5728,Donald Boyd,35,3,0,1169.08,389.6933,3,2023-01-28,2023-10-02,0.0,1.0,False,30–44,0 — Sem falha,Baixo Valor,False,False
+WCID5729,Sharon Allen,45,8,3,2304.46,288.0575,6,2023-01-11,2023-12-16,0.375,1.3333,True,30–44,3+ — Múltiplas falhas,Alto Valor,False,True
+WCID5730,John Ward,83,12,1,4448.5,370.7083,9,2023-01-22,2023-12-02,0.0833,1.3333,True,60+,1 — Uma falha,VIP,False,True
+WCID5731,Kristine Green,51,4,0,1056.52,264.13,4,2023-04-20,2023-12-15,0.0,1.0,False,45–59,0 — Sem falha,Baixo Valor,False,False
+WCID5732,Jordan Hawkins,67,7,2,2123.21,303.3157,4,2023-04-22,2023-12-24,0.2857,1.75,True,60+,2 — Duas falhas,Médio Valor,False,True
+WCID5733,Joseph Perry,61,8,3,2620.04,327.505,5,2023-01-05,2023-11-22,0.375,1.6,True,60+,3+ — Múltiplas falhas,Alto Valor,False,True
+WCID5734,Denise Ellis,56,8,0,2362.04,295.255,7,2023-02-21,2023-11-04,0.0,1.1429,False,45–59,0 — Sem falha,Alto Valor,False,False
+WCID5735,Michael Hicks,49,7,2,2026.26,289.4657,6,2023-04-20,2023-10-16,0.2857,1.1667,True,45–59,2 — Duas falhas,Médio Valor,False,True
+WCID5736,Candice Robinson,89,9,1,1515.33,168.37,6,2023-01-25,2023-10-12,0.1111,1.5,True,60+,1 — Uma falha,Baixo Valor,False,True
+WCID5737,Jonathan Munoz,66,9,0,2129.04,236.56,6,2023-01-18,2023-10-21,0.0,1.5,False,60+,0 — Sem falha,Médio Valor,False,False
+WCID5738,Raymond Gallagher,70,5,0,1051.75,210.35,5,2023-01-28,2023-09-08,0.0,1.0,False,60+,0 — Sem falha,Baixo Valor,False,False
+WCID5739,Rebecca Hayes,50,6,1,1674.01,279.0017,6,2023-02-06,2023-12-03,0.1667,1.0,True,45–59,1 — Uma falha,Médio Valor,False,True
+WCID5740,Timothy Nguyen,59,7,1,1625.49,232.2129,5,2023-01-05,2023-12-15,0.1429,1.4,True,45–59,1 — Uma falha,Médio Valor,False,True
+WCID5741,Billy Johnson,62,8,2,2137.28,267.16,6,2023-02-28,2023-12-22,0.25,1.3333,True,60+,2 — Duas falhas,Médio Valor,False,True
+WCID5742,Jason Glenn,84,9,2,2258.55,250.95,5,2023-03-21,2023-12-27,0.2222,1.8,True,60+,2 — Duas falhas,Alto Valor,False,True
+WCID5743,Justin Williams,78,4,2,917.03,229.2575,4,2023-01-29,2023-10-18,0.5,1.0,True,60+,2 — Duas falhas,Baixo Valor,False,True
+WCID5744,Alan Gonzales,20,12,0,4173.35,347.7792,8,2023-01-31,2023-11-17,0.0,1.5,False,18–29,0 — Sem falha,VIP,False,False
+WCID5745,Andrew Curtis,33,4,1,1226.91,306.7275,4,2023-05-10,2023-11-16,0.25,1.0,True,30–44,1 — Uma falha,Baixo Valor,False,True
+WCID5746,Victor Berry,18,10,0,2195.07,219.507,6,2023-02-03,2023-12-30,0.0,1.6667,False,,0 — Sem falha,Alto Valor,False,False
+WCID5747,Robin Harper,90,5,1,1189.08,237.816,4,2023-04-19,2023-12-14,0.2,1.25,True,60+,1 — Uma falha,Baixo Valor,False,False
+WCID5748,Ralph Bradford,58,4,1,1178.02,294.505,4,2023-01-21,2023-09-25,0.25,1.0,True,45–59,1 — Uma falha,Baixo Valor,False,True
+WCID5749,Christine Garcia,66,7,0,1719.51,245.6443,5,2023-04-28,2023-11-12,0.0,1.4,False,60+,0 — Sem falha,Médio Valor,False,False
+WCID5750,Heather Smith,80,7,0,1130.83,161.5471,5,2023-02-02,2023-12-09,0.0,1.4,False,60+,0 — Sem falha,Baixo Valor,False,False
+WCID5751,Patrick Sanchez,40,7,0,1786.4,255.2,6,2023-02-20,2023-09-01,0.0,1.1667,False,30–44,0 — Sem falha,Médio Valor,False,False
+WCID5752,Colleen Lopez,46,8,1,2848.83,356.1038,5,2023-01-01,2023-12-01,0.125,1.6,True,45–59,1 — Uma falha,Alto Valor,False,True
+WCID5753,Chad Hudson,31,8,1,1957.55,244.6938,7,2023-01-09,2023-12-23,0.125,1.1429,True,30–44,1 — Uma falha,Médio Valor,False,True
+WCID5754,Katie Taylor,74,6,0,1840.75,306.7917,5,2023-03-03,2023-12-22,0.0,1.2,False,60+,0 — Sem falha,Médio Valor,False,False
+WCID5755,Melissa Gutierrez,43,11,1,3561.33,323.7573,7,2023-01-26,2023-12-03,0.0909,1.5714,True,30–44,1 — Uma falha,VIP,False,True
+WCID5756,Jordan Harmon,27,6,1,1469.18,244.8633,4,2023-02-14,2023-07-19,0.1667,1.5,True,18–29,1 — Uma falha,Baixo Valor,False,True
+WCID5757,Danny Grant,25,5,1,1421.38,284.276,4,2023-01-23,2023-10-22,0.2,1.25,True,18–29,1 — Uma falha,Baixo Valor,False,True
+WCID5758,Natasha Simon,32,10,1,2399.2,239.92,9,2023-01-14,2023-12-09,0.1,1.1111,True,30–44,1 — Uma falha,Alto Valor,False,True
+WCID5759,Justin Barker,75,9,1,2144.81,238.3122,7,2023-03-05,2023-12-11,0.1111,1.2857,True,60+,1 — Uma falha,Médio Valor,False,False
+WCID5760,Paula Carney,84,5,0,1332.2,266.44,3,2023-01-04,2023-06-02,0.0,1.6667,False,60+,0 — Sem falha,Baixo Valor,False,False
+WCID5761,Richard Shah,77,4,0,1266.55,316.6375,4,2023-01-06,2023-06-05,0.0,1.0,False,60+,0 — Sem falha,Baixo Valor,False,False
+WCID5762,Matthew Osborne,74,7,3,2384.49,340.6414,5,2023-02-08,2023-12-10,0.4286,1.4,True,60+,3+ — Múltiplas falhas,Alto Valor,False,True
+WCID5763,Meredith White,43,6,2,1613.47,268.9117,4,2023-01-04,2023-11-28,0.3333,1.5,True,30–44,2 — Duas falhas,Médio Valor,False,True
+WCID5764,Seth Shea,88,10,1,2764.31,276.431,5,2023-03-20,2023-12-10,0.1,2.0,True,60+,1 — Uma falha,Alto Valor,False,True
+WCID5765,Michael York,43,9,1,3075.96,341.7733,7,2023-03-29,2023-12-17,0.1111,1.2857,True,30–44,1 — Uma falha,VIP,False,True
+WCID5766,Vanessa Johnston,60,9,4,3359.32,373.2578,5,2023-02-17,2023-11-05,0.4444,1.8,True,45–59,3+ — Múltiplas falhas,VIP,False,True
+WCID5767,Michelle Montgomery,26,7,3,1708.96,244.1371,5,2023-05-11,2023-12-24,0.4286,1.4,True,18–29,3+ — Múltiplas falhas,Médio Valor,False,True
+WCID5768,Connie Higgins,38,6,1,2271.25,378.5417,4,2023-03-14,2023-07-18,0.1667,1.5,True,30–44,1 — Uma falha,Alto Valor,False,True
+WCID5769,Stephanie Thomas,35,5,1,1359.01,271.802,4,2023-01-17,2023-11-12,0.2,1.25,True,30–44,1 — Uma falha,Baixo Valor,False,True
+WCID5770,David Warner,23,10,3,2814.11,281.411,8,2023-01-13,2023-12-03,0.3,1.25,True,18–29,3+ — Múltiplas falhas,Alto Valor,False,True
+WCID5771,Kristen Burton,69,8,0,2277.99,284.7487,6,2023-01-04,2023-09-21,0.0,1.3333,False,60+,0 — Sem falha,Alto Valor,False,False
+WCID5772,Michael Barton,18,9,2,2968.53,329.8367,6,2023-01-02,2023-09-28,0.2222,1.5,True,,2 — Duas falhas,VIP,True,True
+WCID5773,Tamara Gregory,72,9,2,2113.51,234.8344,5,2023-05-25,2023-12-13,0.2222,1.8,True,60+,2 — Duas falhas,Médio Valor,False,True
+WCID5774,Kristen Kennedy,77,5,0,1609.64,321.928,4,2023-01-21,2023-12-18,0.0,1.25,False,60+,0 — Sem falha,Baixo Valor,False,False
+WCID5775,Amy Russell,49,7,1,2002.28,286.04,6,2023-01-02,2023-11-24,0.1429,1.1667,True,45–59,1 — Uma falha,Médio Valor,False,True
+WCID5776,Scott Cummings,89,12,3,3133.03,261.0858,8,2023-01-05,2023-12-30,0.25,1.5,True,60+,3+ — Múltiplas falhas,VIP,False,True
+WCID5777,Lisa Adams,39,11,0,2821.85,256.5318,6,2023-02-09,2023-11-22,0.0,1.8333,False,30–44,0 — Sem falha,Alto Valor,False,False
+WCID5778,Joshua Brown,90,9,2,3068.9,340.9889,7,2023-01-17,2023-12-22,0.2222,1.2857,True,60+,2 — Duas falhas,VIP,False,True
+WCID5779,Michael Stewart,90,13,2,3023.01,232.5392,8,2023-01-05,2023-12-09,0.1538,1.625,True,60+,2 — Duas falhas,VIP,False,True
+WCID5780,Angel Scott,37,6,1,1619.86,269.9767,5,2023-01-17,2023-08-12,0.1667,1.2,True,30–44,1 — Uma falha,Médio Valor,False,True
+WCID5781,Megan Rhodes,86,14,3,2328.12,166.2943,10,2023-01-02,2023-12-25,0.2143,1.4,True,60+,3+ — Múltiplas falhas,Alto Valor,False,True
+WCID5782,Jon Murphy,82,10,0,1888.66,188.866,8,2023-01-18,2023-12-10,0.0,1.25,False,60+,0 — Sem falha,Médio Valor,False,False
+WCID5783,Abigail Hawkins,56,12,1,2844.61,237.0508,9,2023-02-11,2023-12-27,0.0833,1.3333,True,45–59,1 — Uma falha,Alto Valor,False,True
+WCID5784,Elizabeth Landry,67,10,2,4236.13,423.613,7,2023-04-13,2023-12-11,0.2,1.4286,True,60+,2 — Duas falhas,VIP,False,True
+WCID5785,Rachel Stone,22,9,0,1878.9,208.7667,7,2023-03-08,2023-12-10,0.0,1.2857,False,18–29,0 — Sem falha,Médio Valor,False,False
+WCID5786,Kimberly Gonzalez,32,7,2,3143.24,449.0343,6,2023-03-07,2023-12-24,0.2857,1.1667,True,30–44,2 — Duas falhas,VIP,False,True
+WCID5787,Gregory Foley,32,12,1,3600.52,300.0433,8,2023-01-15,2023-12-29,0.0833,1.5,True,30–44,1 — Uma falha,VIP,False,True
+WCID5788,Timothy Rodriguez,25,9,1,2304.76,256.0844,5,2023-05-10,2023-11-16,0.1111,1.8,True,18–29,1 — Uma falha,Alto Valor,False,True
+WCID5789,Lisa Freeman,38,10,2,3381.7,338.17,6,2023-03-18,2023-10-16,0.2,1.6667,True,30–44,2 — Duas falhas,VIP,False,True
+WCID5790,Jessica Robbins,86,7,3,2144.15,306.3071,6,2023-01-19,2023-12-24,0.4286,1.1667,True,60+,3+ — Múltiplas falhas,Médio Valor,False,True
+WCID5791,James Johnson,51,4,1,1061.36,265.34,4,2023-04-10,2023-12-25,0.25,1.0,True,45–59,1 — Uma falha,Baixo Valor,False,True
+WCID5792,Maria Combs,28,9,0,2103.68,233.7422,7,2023-02-02,2023-12-15,0.0,1.2857,False,18–29,0 — Sem falha,Médio Valor,False,False
+WCID5793,John Leonard,29,6,1,1450.41,241.735,5,2023-03-22,2023-12-03,0.1667,1.2,True,18–29,1 — Uma falha,Baixo Valor,False,True
+WCID5794,Christina Watts,30,7,1,2686.55,383.7929,5,2023-01-01,2023-10-14,0.1429,1.4,True,18–29,1 — Uma falha,Alto Valor,False,True
+WCID5795,Richard Bryant,56,9,1,1920.96,213.44,5,2023-01-03,2023-10-11,0.1111,1.8,True,45–59,1 — Uma falha,Médio Valor,False,False
+WCID5796,Rebecca Valenzuela,54,6,2,1815.59,302.5983,5,2023-06-18,2023-10-11,0.3333,1.2,True,45–59,2 — Duas falhas,Médio Valor,False,True
+WCID5797,Julie Anderson,85,8,1,1495.13,186.8912,6,2023-02-03,2023-12-26,0.125,1.3333,True,60+,1 — Uma falha,Baixo Valor,False,True
+WCID5798,Robert Humphrey,62,6,0,983.99,163.9983,6,2023-03-28,2023-12-16,0.0,1.0,False,60+,0 — Sem falha,Baixo Valor,False,False
+WCID5799,Eileen Daniel,73,8,1,4002.29,500.2862,6,2023-01-22,2023-10-19,0.125,1.3333,True,60+,1 — Uma falha,VIP,False,True
+WCID5800,Amanda Brown,30,6,2,2968.81,494.8017,4,2023-02-05,2023-10-02,0.3333,1.5,True,18–29,2 — Duas falhas,VIP,False,True
+WCID5801,Jeremiah Martinez,33,8,0,2096.78,262.0975,7,2023-02-19,2023-12-11,0.0,1.1429,False,30–44,0 — Sem falha,Médio Valor,False,False
+WCID5802,Linda Young,77,6,0,1674.43,279.0717,6,2023-01-28,2023-10-19,0.0,1.0,False,60+,0 — Sem falha,Médio Valor,False,False
+WCID5803,Sydney Hooper,57,8,1,1871.3,233.9125,8,2023-01-06,2023-12-20,0.125,1.0,True,45–59,1 — Uma falha,Médio Valor,False,True
+WCID5804,Kathryn Henderson,54,9,1,2614.58,290.5089,8,2023-01-24,2023-12-24,0.1111,1.125,True,45–59,1 — Uma falha,Alto Valor,False,True
+WCID5805,April Santana,74,7,0,1911.0,273.0,6,2023-05-11,2023-12-31,0.0,1.1667,False,60+,0 — Sem falha,Médio Valor,False,False
+WCID5806,Jessica Wilson,76,9,1,1525.93,169.5478,8,2023-02-14,2023-12-10,0.1111,1.125,True,60+,1 — Uma falha,Baixo Valor,False,True
+WCID5807,William Leach,54,6,0,1461.18,243.53,5,2023-01-10,2023-11-28,0.0,1.2,False,45–59,0 — Sem falha,Baixo Valor,False,False
+WCID5808,Patrick Spears,80,10,3,2334.52,233.452,6,2023-01-18,2023-08-15,0.3,1.6667,True,60+,3+ — Múltiplas falhas,Alto Valor,False,True
+WCID5809,Joyce Ewing,85,8,1,1896.39,237.0488,5,2023-01-03,2023-09-20,0.125,1.6,True,60+,1 — Uma falha,Médio Valor,False,True
+WCID5810,Thomas Wallace,65,12,3,3576.72,298.06,8,2023-02-17,2023-12-10,0.25,1.5,True,60+,3+ — Múltiplas falhas,VIP,False,True
+WCID5811,Jordan Rowe,69,11,1,3069.64,279.0582,8,2023-02-07,2023-12-15,0.0909,1.375,True,60+,1 — Uma falha,VIP,False,False
+WCID5812,Michael Lowe,30,5,1,1164.07,232.814,4,2023-02-21,2023-11-01,0.2,1.25,True,18–29,1 — Uma falha,Baixo Valor,False,False
+WCID5813,Jessica Donovan,50,8,1,1778.51,222.3138,6,2023-01-10,2023-12-14,0.125,1.3333,True,45–59,1 — Uma falha,Médio Valor,False,True
+WCID5814,Ryan Nguyen,63,7,0,1608.27,229.7529,6,2023-04-02,2023-11-04,0.0,1.1667,False,60+,0 — Sem falha,Baixo Valor,False,False
+WCID5815,Richard Lee,49,4,0,928.87,232.2175,4,2023-01-17,2023-11-15,0.0,1.0,False,45–59,0 — Sem falha,Baixo Valor,False,False
+WCID5816,David Chan,22,9,0,1872.31,208.0344,6,2023-03-21,2023-12-03,0.0,1.5,False,18–29,0 — Sem falha,Médio Valor,False,False
+WCID5817,Angela Bradley,67,10,4,3522.69,352.269,6,2023-01-01,2023-12-09,0.4,1.6667,True,60+,3+ — Múltiplas falhas,VIP,False,True
+WCID5818,Ashley Ball DVM,81,5,2,1484.4,296.88,3,2023-02-02,2023-05-18,0.4,1.6667,True,60+,2 — Duas falhas,Baixo Valor,True,True
+WCID5819,Cheryl Woodard,28,8,1,2239.15,279.8938,7,2023-01-12,2023-12-11,0.125,1.1429,True,18–29,1 — Uma falha,Alto Valor,False,True
+WCID5820,Edward Henry,73,15,7,5071.83,338.122,9,2023-01-29,2023-12-06,0.4667,1.6667,True,60+,3+ — Múltiplas falhas,VIP,False,True
+WCID5821,Dylan Chen,87,7,2,2145.96,306.5657,7,2023-01-01,2023-12-13,0.2857,1.0,True,60+,2 — Duas falhas,Médio Valor,False,True
+WCID5822,Justin Hill,23,5,0,995.26,199.052,4,2023-02-03,2023-11-20,0.0,1.25,False,18–29,0 — Sem falha,Baixo Valor,False,False
+WCID5823,Gary Guerrero,39,18,3,7446.34,413.6856,9,2023-02-08,2023-12-03,0.1667,2.0,True,30–44,3+ — Múltiplas falhas,VIP,False,True
+WCID5824,Adam Rice,27,7,1,1201.53,171.6471,6,2023-01-20,2023-11-27,0.1429,1.1667,True,18–29,1 — Uma falha,Baixo Valor,False,True
+WCID5825,James Mann,64,12,1,2943.63,245.3025,8,2023-02-02,2023-12-08,0.0833,1.5,True,60+,1 — Uma falha,VIP,False,True
+WCID5826,Jacqueline Hughes,68,12,2,4076.67,339.7225,6,2023-01-10,2023-10-21,0.1667,2.0,True,60+,2 — Duas falhas,VIP,False,True
+WCID5827,Lindsey Jones,57,10,0,2391.91,239.191,7,2023-01-03,2023-12-10,0.0,1.4286,False,45–59,0 — Sem falha,Alto Valor,False,False
+WCID5828,Zachary Conrad,88,3,0,657.49,219.1633,3,2023-04-02,2023-09-04,0.0,1.0,False,60+,0 — Sem falha,Baixo Valor,False,False
+WCID5829,Bryan Rios,69,9,1,2769.78,307.7533,7,2023-01-01,2023-12-25,0.1111,1.2857,True,60+,1 — Uma falha,Alto Valor,False,True
+WCID5830,Mark Delgado,46,8,2,1279.34,159.9175,6,2023-01-27,2023-12-30,0.25,1.3333,True,45–59,2 — Duas falhas,Baixo Valor,False,True
+WCID5831,Joanna French,60,8,0,2334.76,291.845,6,2023-02-03,2023-12-26,0.0,1.3333,False,45–59,0 — Sem falha,Alto Valor,False,False
+WCID5832,Laura Mitchell,90,6,2,1147.37,191.2283,2,2023-07-06,2023-08-23,0.3333,3.0,True,60+,2 — Duas falhas,Baixo Valor,True,True
+WCID5833,Eric Velez,67,8,1,2048.76,256.095,6,2023-02-19,2023-11-21,0.125,1.3333,True,60+,1 — Uma falha,Médio Valor,False,True
+WCID5834,David Harris,79,7,2,1254.84,179.2629,6,2023-03-25,2023-11-14,0.2857,1.1667,True,60+,2 — Duas falhas,Baixo Valor,False,True
+WCID5835,Johnny Taylor,51,6,2,1657.99,276.3317,5,2023-03-05,2023-09-12,0.3333,1.2,True,45–59,2 — Duas falhas,Médio Valor,True,True
+WCID5836,Angela Smith,24,7,1,1486.84,212.4057,5,2023-01-11,2023-12-21,0.1429,1.4,True,18–29,1 — Uma falha,Baixo Valor,False,True
+WCID5837,Samantha Smith,23,13,1,3735.17,287.3208,7,2023-01-13,2023-11-07,0.0769,1.8571,True,18–29,1 — Uma falha,VIP,False,True
+WCID5838,Krista Cohen,41,8,2,3102.76,387.845,6,2023-01-05,2023-12-13,0.25,1.3333,True,30–44,2 — Duas falhas,VIP,False,True
+WCID5839,Deborah Sullivan,43,7,3,2504.63,357.8043,4,2023-03-13,2023-12-03,0.4286,1.75,True,30–44,3+ — Múltiplas falhas,Alto Valor,False,True
+WCID5840,Lori Bowman,21,8,0,2491.38,311.4225,6,2023-02-10,2023-10-07,0.0,1.3333,False,18–29,0 — Sem falha,Alto Valor,False,False
+WCID5841,Eric Stewart,66,9,1,3252.34,361.3711,7,2023-02-02,2023-12-10,0.1111,1.2857,True,60+,1 — Uma falha,VIP,False,True
+WCID5842,Joseph Dawson,83,3,0,1223.47,407.8233,3,2023-01-22,2023-07-28,0.0,1.0,False,60+,0 — Sem falha,Baixo Valor,False,False
+WCID5843,Jerry Adams,43,8,1,2490.06,311.2575,4,2023-03-13,2023-11-12,0.125,2.0,True,30–44,1 — Uma falha,Alto Valor,False,True
+WCID5844,Derrick Thompson,76,4,0,1076.4,269.1,4,2023-05-16,2023-11-15,0.0,1.0,False,60+,0 — Sem falha,Baixo Valor,False,False
+WCID5845,Deanna Walters,70,15,1,3688.93,245.9287,10,2023-01-30,2023-12-19,0.0667,1.5,True,60+,1 — Uma falha,VIP,False,True
+WCID5846,Heather Perry,79,6,2,1596.43,266.0717,5,2023-02-09,2023-08-25,0.3333,1.2,True,60+,2 — Duas falhas,Baixo Valor,False,True
+WCID5847,Stephanie Davis,23,6,0,2422.58,403.7633,6,2023-03-22,2023-11-03,0.0,1.0,False,18–29,0 — Sem falha,Alto Valor,False,False
+WCID5848,Jill Barrett,66,7,0,1660.66,237.2371,5,2023-03-04,2023-12-17,0.0,1.4,False,60+,0 — Sem falha,Médio Valor,False,False
+WCID5849,Mary Griffith,22,10,0,3759.51,375.951,6,2023-01-04,2023-12-07,0.0,1.6667,False,18–29,0 — Sem falha,VIP,False,False
+WCID5850,Victoria Frank,22,7,2,1609.91,229.9871,7,2023-01-15,2023-12-28,0.2857,1.0,True,18–29,2 — Duas falhas,Baixo Valor,False,True
+WCID5851,Vicki Thomas,41,8,3,1846.32,230.79,7,2023-01-23,2023-09-29,0.375,1.1429,True,30–44,3+ — Múltiplas falhas,Médio Valor,True,True
+WCID5852,Jacqueline Maldonado,67,10,2,2645.56,264.556,9,2023-02-25,2023-12-23,0.2,1.1111,True,60+,2 — Duas falhas,Alto Valor,False,True
+WCID5853,Allison Logan,54,8,1,2315.11,289.3888,7,2023-01-20,2023-12-09,0.125,1.1429,True,45–59,1 — Uma falha,Alto Valor,False,False
+WCID5854,Mary Mccarty,30,8,0,3180.43,397.5538,5,2023-04-17,2023-12-24,0.0,1.6,False,18–29,0 — Sem falha,VIP,False,False
+WCID5855,Dawn Webster,20,4,0,841.15,210.2875,4,2023-05-04,2023-10-26,0.0,1.0,False,18–29,0 — Sem falha,Baixo Valor,False,False
+WCID5856,Karen Smith,61,11,1,3613.59,328.5082,6,2023-03-23,2023-11-29,0.0909,1.8333,True,60+,1 — Uma falha,VIP,False,True
+WCID5857,Douglas Roth,81,13,5,3951.35,303.95,7,2023-01-01,2023-10-16,0.3846,1.8571,True,60+,3+ — Múltiplas falhas,VIP,False,True
+WCID5858,Vanessa Payne,58,6,2,1226.79,204.465,4,2023-01-03,2023-08-07,0.3333,1.5,True,45–59,2 — Duas falhas,Baixo Valor,False,True
+WCID5859,Carlos Jones,86,8,1,2007.91,250.9888,7,2023-01-23,2023-10-03,0.125,1.1429,True,60+,1 — Uma falha,Médio Valor,False,False
+WCID5860,Robert Sanchez,21,13,5,3514.26,270.3277,8,2023-01-29,2023-12-25,0.3846,1.625,True,18–29,3+ — Múltiplas falhas,VIP,False,True
+WCID5861,Marcus Brown,41,4,0,879.58,219.895,4,2023-01-13,2023-11-05,0.0,1.0,False,30–44,0 — Sem falha,Baixo Valor,False,False
+WCID5862,Arthur Jordan,86,8,0,1884.28,235.535,7,2023-02-28,2023-12-20,0.0,1.1429,False,60+,0 — Sem falha,Médio Valor,False,False
+WCID5863,Gary Booker,61,5,2,1153.83,230.766,5,2023-03-11,2023-09-15,0.4,1.0,True,60+,2 — Duas falhas,Baixo Valor,False,True
+WCID5864,Lisa Ortiz,58,6,2,2792.74,465.4567,4,2023-05-01,2023-10-28,0.3333,1.5,True,45–59,2 — Duas falhas,Alto Valor,False,True
+WCID5865,Lisa Garcia,44,7,1,1933.8,276.2571,4,2023-02-08,2023-12-16,0.1429,1.75,True,30–44,1 — Uma falha,Médio Valor,False,True
+WCID5866,Nancy Pena DDS,70,6,2,2440.9,406.8167,5,2023-01-30,2023-12-14,0.3333,1.2,True,60+,2 — Duas falhas,Alto Valor,False,True
+WCID5867,Jose Jennings,85,7,1,2645.4,377.9143,6,2023-01-19,2023-09-30,0.1429,1.1667,True,60+,1 — Uma falha,Alto Valor,True,False
+WCID5868,Ms. Michelle Murphy,71,8,1,2106.04,263.255,5,2023-01-13,2023-10-12,0.125,1.6,True,60+,1 — Uma falha,Médio Valor,False,True
+WCID5869,Leslie Thomas,63,6,0,1687.08,281.18,4,2023-04-03,2023-12-08,0.0,1.5,False,60+,0 — Sem falha,Médio Valor,False,False
+WCID5870,Jason Gallagher,70,7,2,2671.48,381.64,5,2023-02-06,2023-12-30,0.2857,1.4,True,60+,2 — Duas falhas,Alto Valor,False,True
+WCID5871,Rebecca Fisher,43,8,0,1826.78,228.3475,6,2023-03-09,2023-11-24,0.0,1.3333,False,30–44,0 — Sem falha,Médio Valor,False,False
+WCID5872,Marc Patterson,36,11,4,3049.29,277.2082,7,2023-01-09,2023-11-16,0.3636,1.5714,True,30–44,3+ — Múltiplas falhas,VIP,False,True
+WCID5873,Samantha Alvarez,19,11,1,2412.76,219.3418,6,2023-02-14,2023-12-24,0.0909,1.8333,True,18–29,1 — Uma falha,Alto Valor,False,True
+WCID5874,Kristina Dillon,32,9,3,1954.3,217.1444,6,2023-02-15,2023-12-08,0.3333,1.5,True,30–44,3+ — Múltiplas falhas,Médio Valor,False,True
+WCID5875,Robert Guerrero,47,9,3,2958.13,328.6811,6,2023-02-09,2023-12-03,0.3333,1.5,True,45–59,3+ — Múltiplas falhas,VIP,False,True
+WCID5876,Tara Phillips,80,5,0,1838.11,367.622,4,2023-02-24,2023-12-27,0.0,1.25,False,60+,0 — Sem falha,Médio Valor,False,False
+WCID5877,Miguel Ramsey,47,12,4,2331.39,194.2825,9,2023-01-18,2023-12-25,0.3333,1.3333,True,45–59,3+ — Múltiplas falhas,Alto Valor,False,True
+WCID5878,Mary Vang,41,15,0,5772.3,384.82,9,2023-01-04,2023-12-22,0.0,1.6667,False,30–44,0 — Sem falha,VIP,False,False
+WCID5879,Natalie Fisher MD,65,11,2,4713.47,428.4973,8,2023-01-06,2023-12-24,0.1818,1.375,True,60+,2 — Duas falhas,VIP,False,True
+WCID5880,Crystal Gibson,40,7,1,1367.22,195.3171,7,2023-02-24,2023-10-12,0.1429,1.0,True,30–44,1 — Uma falha,Baixo Valor,False,True
+WCID5881,Olivia Lozano,83,5,0,1760.63,352.126,4,2023-02-06,2023-11-29,0.0,1.25,False,60+,0 — Sem falha,Médio Valor,False,False
+WCID5882,Taylor Aguirre,60,9,0,2956.49,328.4989,7,2023-04-15,2023-12-26,0.0,1.2857,False,45–59,0 — Sem falha,VIP,False,False
+WCID5883,Jerry Burton,79,8,0,2380.96,297.62,5,2023-01-05,2023-10-03,0.0,1.6,False,60+,0 — Sem falha,Alto Valor,False,False
+WCID5884,Holly Ramirez,72,2,0,430.85,215.425,2,2023-01-15,2023-08-29,0.0,1.0,False,60+,0 — Sem falha,Baixo Valor,False,False
+WCID5885,Daniel Anderson,90,6,1,1653.22,275.5367,5,2023-02-11,2023-11-18,0.1667,1.2,True,60+,1 — Uma falha,Médio Valor,False,True
+WCID5886,Christopher Fox,46,7,0,1553.84,221.9771,5,2023-02-24,2023-12-23,0.0,1.4,False,45–59,0 — Sem falha,Baixo Valor,False,False
+WCID5887,James Bailey,80,9,2,2086.28,231.8089,8,2023-01-08,2023-11-14,0.2222,1.125,True,60+,2 — Duas falhas,Médio Valor,False,True
+WCID5888,Jason Cummings,29,7,2,2602.14,371.7343,7,2023-01-23,2023-12-20,0.2857,1.0,True,18–29,2 — Duas falhas,Alto Valor,False,True
+WCID5889,Mason Williams,58,5,0,728.56,145.712,4,2023-05-06,2023-12-31,0.0,1.25,False,45–59,0 — Sem falha,Baixo Valor,False,False
+WCID5890,Evelyn Young,49,14,3,4223.9,301.7071,9,2023-02-06,2023-11-23,0.2143,1.5556,True,45–59,3+ — Múltiplas falhas,VIP,False,True
+WCID5891,Christine Rodriguez,38,7,2,2313.14,330.4486,6,2023-06-24,2023-12-03,0.2857,1.1667,True,30–44,2 — Duas falhas,Alto Valor,False,True
+WCID5892,Travis Hamilton,51,12,1,3274.62,272.885,8,2023-03-23,2023-12-12,0.0833,1.5,True,45–59,1 — Uma falha,VIP,False,True
+WCID5893,Allen Rodriguez,59,14,2,3784.99,270.3564,9,2023-01-02,2023-12-26,0.1429,1.5556,True,45–59,2 — Duas falhas,VIP,False,True
+WCID5894,Calvin Combs,45,9,0,2776.49,308.4989,7,2023-01-15,2023-12-13,0.0,1.2857,False,30–44,0 — Sem falha,Alto Valor,False,False
+WCID5895,Donna Solis,42,10,1,2589.65,258.965,7,2023-02-26,2023-11-29,0.1,1.4286,True,30–44,1 — Uma falha,Alto Valor,False,True
+WCID5896,Maurice Howard,57,8,2,2347.52,293.44,6,2023-01-20,2023-11-14,0.25,1.3333,True,45–59,2 — Duas falhas,Alto Valor,False,True
+WCID5897,Zachary Peterson,71,8,1,2073.68,259.21,5,2023-01-07,2023-11-24,0.125,1.6,True,60+,1 — Uma falha,Médio Valor,False,True
+WCID5898,Emily Wells,29,13,2,3536.17,272.0131,9,2023-02-22,2023-12-18,0.1538,1.4444,True,18–29,2 — Duas falhas,VIP,False,True
+WCID5899,Jon Hoffman,32,6,0,1692.92,282.1533,4,2023-08-03,2023-12-16,0.0,1.5,False,30–44,0 — Sem falha,Médio Valor,False,False
+WCID5900,Wayne Harris,88,6,0,1564.07,260.6783,5,2023-01-10,2023-12-16,0.0,1.2,False,60+,0 — Sem falha,Baixo Valor,False,False
+WCID5901,Alexis Ross,58,8,1,1929.47,241.1837,6,2023-01-22,2023-09-23,0.125,1.3333,True,45–59,1 — Uma falha,Médio Valor,False,True
+WCID5902,Anthony Myers,41,4,1,1339.14,334.785,3,2023-02-06,2023-12-22,0.25,1.3333,True,30–44,1 — Uma falha,Baixo Valor,False,False
+WCID5903,Sharon Allen,34,1,1,44.38,44.38,1,2023-04-05,2023-04-05,1.0,1.0,True,30–44,1 — Uma falha,Baixo Valor,True,False
+WCID5904,James Sparks,44,9,1,2487.98,276.4422,5,2023-01-29,2023-12-21,0.1111,1.8,True,30–44,1 — Uma falha,Alto Valor,False,True
+WCID5905,Julie Reese,80,7,3,2203.24,314.7486,5,2023-05-20,2023-11-04,0.4286,1.4,True,60+,3+ — Múltiplas falhas,Alto Valor,False,True
+WCID5906,Christopher Smith,25,5,1,1483.04,296.608,4,2023-01-25,2023-10-19,0.2,1.25,True,18–29,1 — Uma falha,Baixo Valor,False,True
+WCID5907,Dr. Kelly Taylor,31,6,2,2807.08,467.8467,4,2023-02-04,2023-06-06,0.3333,1.5,True,30–44,2 — Duas falhas,Alto Valor,True,True
+WCID5908,Tyler Ramirez,50,7,1,2928.24,418.32,3,2023-04-04,2023-09-05,0.1429,2.3333,True,45–59,1 — Uma falha,VIP,True,False
+WCID5909,Angela Leach,37,11,4,5650.71,513.7009,5,2023-01-08,2023-11-10,0.3636,2.2,True,30–44,3+ — Múltiplas falhas,VIP,False,True
+WCID5910,Robin Miller,56,10,1,3280.02,328.002,7,2023-02-12,2023-12-24,0.1,1.4286,True,45–59,1 — Uma falha,VIP,False,True
+WCID5911,Joseph Sims,36,10,2,2859.57,285.957,8,2023-01-30,2023-12-07,0.2,1.25,True,30–44,2 — Duas falhas,VIP,False,True
+WCID5912,Russell Harris,82,7,2,1782.44,254.6343,6,2023-02-05,2023-12-15,0.2857,1.1667,True,60+,2 — Duas falhas,Médio Valor,False,True
+WCID5913,Mrs. Anna Jackson,69,6,2,1231.73,205.2883,5,2023-01-15,2023-12-13,0.3333,1.2,True,60+,2 — Duas falhas,Baixo Valor,False,True
+WCID5914,David Jordan,26,10,0,2546.3,254.63,7,2023-01-16,2023-11-07,0.0,1.4286,False,18–29,0 — Sem falha,Alto Valor,False,False
+WCID5915,Jerry Munoz,34,12,1,3243.08,270.2567,8,2023-01-07,2023-12-25,0.0833,1.5,True,30–44,1 — Uma falha,VIP,False,True
+WCID5916,Stacy Williams,18,11,2,3633.86,330.3509,7,2023-01-09,2023-12-31,0.1818,1.5714,True,,2 — Duas falhas,VIP,False,True
+WCID5917,Franklin Cruz,27,8,2,1536.39,192.0488,4,2023-01-06,2023-10-23,0.25,2.0,True,18–29,2 — Duas falhas,Baixo Valor,False,True
+WCID5918,Ryan Zavala,41,3,0,708.35,236.1167,2,2023-09-22,2023-11-12,0.0,1.5,False,30–44,0 — Sem falha,Baixo Valor,False,False
+WCID5919,Johnny Barron,84,7,1,2075.06,296.4371,6,2023-02-09,2023-12-09,0.1429,1.1667,True,60+,1 — Uma falha,Médio Valor,False,True
+WCID5920,Daniel Mays,66,13,1,2831.09,217.7762,7,2023-01-08,2023-10-27,0.0769,1.8571,True,60+,1 — Uma falha,Alto Valor,False,True
+WCID5921,Lynn Blackwell,36,16,1,5629.92,351.87,11,2023-01-30,2023-12-05,0.0625,1.4545,True,30–44,1 — Uma falha,VIP,False,False
+WCID5922,Mr. Alan Santos,84,8,0,2716.34,339.5425,6,2023-04-23,2023-12-14,0.0,1.3333,False,60+,0 — Sem falha,Alto Valor,False,False
+WCID5923,Kenneth Brown,19,7,4,1224.29,174.8986,7,2023-04-06,2023-11-20,0.5714,1.0,True,18–29,3+ — Múltiplas falhas,Baixo Valor,False,True
+WCID5924,John Olson,25,9,1,1837.3,204.1444,6,2023-02-28,2023-10-15,0.1111,1.5,True,18–29,1 — Uma falha,Médio Valor,False,True
+WCID5925,Mr. Kenneth Patel,81,4,1,1717.73,429.4325,4,2023-01-11,2023-07-05,0.25,1.0,True,60+,1 — Uma falha,Médio Valor,False,True
+WCID5926,Paul Grant,47,8,0,3258.25,407.2812,5,2023-04-05,2023-12-28,0.0,1.6,False,45–59,0 — Sem falha,VIP,False,False
+WCID5927,Elizabeth Barnes,82,7,1,1377.56,196.7943,5,2023-02-10,2023-10-28,0.1429,1.4,True,60+,1 — Uma falha,Baixo Valor,False,True
+WCID5928,Donald Martinez,25,6,1,1617.17,269.5283,4,2023-03-22,2023-12-07,0.1667,1.5,True,18–29,1 — Uma falha,Médio Valor,False,True
+WCID5929,Christina Pope,72,8,2,2720.15,340.0188,5,2023-05-25,2023-12-22,0.25,1.6,True,60+,2 — Duas falhas,Alto Valor,False,True
+WCID5930,Ronald Ross,78,6,0,856.57,142.7617,6,2023-04-03,2023-11-04,0.0,1.0,False,60+,0 — Sem falha,Baixo Valor,False,False
+WCID5931,Misty Mayo,81,6,1,2035.67,339.2783,6,2023-01-10,2023-11-25,0.1667,1.0,True,60+,1 — Uma falha,Médio Valor,False,False
+WCID5932,Dean Coleman,67,13,2,2526.29,194.33,7,2023-04-03,2023-12-12,0.1538,1.8571,True,60+,2 — Duas falhas,Alto Valor,False,True
+WCID5933,Jennifer Wright,89,4,1,1657.27,414.3175,3,2023-05-21,2023-10-24,0.25,1.3333,True,60+,1 — Uma falha,Médio Valor,False,True
+WCID5934,Sylvia Miller,52,4,1,1193.5,298.375,4,2023-06-16,2023-11-20,0.25,1.0,True,45–59,1 — Uma falha,Baixo Valor,False,True
+WCID5935,Julian Rowe,84,12,3,2936.22,244.685,8,2023-01-16,2023-12-13,0.25,1.5,True,60+,3+ — Múltiplas falhas,VIP,False,True
+WCID5936,Alexis Harris,75,8,0,1321.53,165.1912,6,2023-02-11,2023-11-17,0.0,1.3333,False,60+,0 — Sem falha,Baixo Valor,False,False
+WCID5937,Eric Crawford DDS,52,6,0,1700.27,283.3783,4,2023-01-06,2023-08-16,0.0,1.5,False,45–59,0 — Sem falha,Médio Valor,False,False
+WCID5938,Stephen Cook,87,9,3,2095.54,232.8378,6,2023-01-08,2023-12-08,0.3333,1.5,True,60+,3+ — Múltiplas falhas,Médio Valor,False,True
+WCID5939,Andrea Casey,57,8,0,1894.47,236.8088,7,2023-01-10,2023-12-26,0.0,1.1429,False,45–59,0 — Sem falha,Médio Valor,False,False
+WCID5940,Daniel Wade,37,8,3,1526.11,190.7638,5,2023-04-29,2023-12-16,0.375,1.6,True,30–44,3+ — Múltiplas falhas,Baixo Valor,False,True
+WCID5941,Kristin Allen,31,4,1,1019.28,254.82,4,2023-01-22,2023-10-27,0.25,1.0,True,30–44,1 — Uma falha,Baixo Valor,False,True
+WCID5942,Andrew Carrillo,71,9,0,2107.75,234.1944,6,2023-04-21,2023-12-30,0.0,1.5,False,60+,0 — Sem falha,Médio Valor,False,False
+WCID5943,Tracey Huynh,38,8,4,1585.88,198.235,5,2023-05-03,2023-10-09,0.5,1.6,True,30–44,3+ — Múltiplas falhas,Baixo Valor,False,True
+WCID5944,Michael Walker,84,7,1,2692.3,384.6143,6,2023-02-22,2023-11-07,0.1429,1.1667,True,60+,1 — Uma falha,Alto Valor,False,True
+WCID5945,Danielle White,26,9,1,2143.62,238.18,7,2023-02-20,2023-12-16,0.1111,1.2857,True,18–29,1 — Uma falha,Médio Valor,False,True
+WCID5946,Katherine Brown,19,8,2,2536.71,317.0888,5,2023-05-05,2023-11-13,0.25,1.6,True,18–29,2 — Duas falhas,Alto Valor,False,True
+WCID5947,David Skinner MD,88,15,2,4641.98,309.4653,9,2023-02-01,2023-12-03,0.1333,1.6667,True,60+,2 — Duas falhas,VIP,False,True
+WCID5948,Kurt Curtis,76,8,1,2249.96,281.245,6,2023-02-01,2023-10-19,0.125,1.3333,True,60+,1 — Uma falha,Alto Valor,False,True
+WCID5949,Amy Petersen,40,8,2,2215.55,276.9438,7,2023-02-19,2023-12-05,0.25,1.1429,True,30–44,2 — Duas falhas,Alto Valor,False,True
+WCID5950,Stephanie Barron,64,11,2,2687.65,244.3318,7,2023-02-27,2023-12-22,0.1818,1.5714,True,60+,2 — Duas falhas,Alto Valor,False,True
+WCID5951,Amy Wilson,79,8,3,2199.94,274.9925,5,2023-07-11,2023-12-27,0.375,1.6,True,60+,3+ — Múltiplas falhas,Alto Valor,False,True
+WCID5952,Morgan Smith,31,4,0,738.76,184.69,3,2023-03-28,2023-08-02,0.0,1.3333,False,30–44,0 — Sem falha,Baixo Valor,False,False
+WCID5953,Heather Jackson,46,6,0,2165.42,360.9033,5,2023-01-19,2023-12-21,0.0,1.2,False,45–59,0 — Sem falha,Alto Valor,False,False
+WCID5954,Wendy Santos PhD,49,6,0,1358.39,226.3983,5,2023-04-17,2023-11-24,0.0,1.2,False,45–59,0 — Sem falha,Baixo Valor,False,False
+WCID5955,Kenneth Lee,21,6,1,1404.55,234.0917,5,2023-01-03,2023-12-05,0.1667,1.2,True,18–29,1 — Uma falha,Baixo Valor,False,True
+WCID5956,Christopher Randall,49,11,0,3322.03,302.0027,9,2023-01-20,2023-12-02,0.0,1.2222,False,45–59,0 — Sem falha,VIP,False,False
+WCID5957,Jasmine Thompson,26,9,1,2477.52,275.28,8,2023-01-05,2023-12-04,0.1111,1.125,True,18–29,1 — Uma falha,Alto Valor,False,True
+WCID5958,Hannah Brady DVM,34,10,0,2109.84,210.984,6,2023-01-07,2023-11-29,0.0,1.6667,False,30–44,0 — Sem falha,Médio Valor,False,False
+WCID5959,Stephen Higgins,81,9,1,3033.46,337.0511,7,2023-03-12,2023-12-19,0.1111,1.2857,True,60+,1 — Uma falha,VIP,False,True
+WCID5960,Jamie Parker,43,4,0,676.87,169.2175,4,2023-01-30,2023-09-08,0.0,1.0,False,30–44,0 — Sem falha,Baixo Valor,False,False
+WCID5961,Terry Greer,71,9,1,2046.79,227.4211,6,2023-01-15,2023-09-09,0.1111,1.5,True,60+,1 — Uma falha,Médio Valor,False,True
+WCID5962,Julie Williams,87,6,2,1818.2,303.0333,4,2023-03-09,2023-11-15,0.3333,1.5,True,60+,2 — Duas falhas,Médio Valor,False,True
+WCID5963,Jordan Mendoza,36,12,1,3330.81,277.5675,6,2023-03-08,2023-12-27,0.0833,2.0,True,30–44,1 — Uma falha,VIP,False,True
+WCID5964,John Scott,35,6,2,1749.1,291.5167,5,2023-01-13,2023-08-20,0.3333,1.2,True,30–44,2 — Duas falhas,Médio Valor,False,True
+WCID5965,Alex Ochoa,52,11,0,2284.86,207.7145,9,2023-01-08,2023-12-05,0.0,1.2222,False,45–59,0 — Sem falha,Alto Valor,False,False
+WCID5966,Kimberly Gonzalez,49,9,1,3660.51,406.7233,5,2023-01-28,2023-12-11,0.1111,1.8,True,45–59,1 — Uma falha,VIP,False,False
+WCID5967,Monica Powell,66,10,2,3144.86,314.486,6,2023-01-16,2023-12-31,0.2,1.6667,True,60+,2 — Duas falhas,VIP,False,True
+WCID5968,Mr. Kyle Gomez,22,8,0,1400.29,175.0362,5,2023-01-16,2023-12-15,0.0,1.6,False,18–29,0 — Sem falha,Baixo Valor,False,False
+WCID5969,Mr. Maxwell Johnson,19,3,0,707.78,235.9267,3,2023-03-08,2023-11-10,0.0,1.0,False,18–29,0 — Sem falha,Baixo Valor,False,False
+WCID5970,Linda Gonzalez,41,5,0,896.44,179.288,4,2023-01-23,2023-11-30,0.0,1.25,False,30–44,0 — Sem falha,Baixo Valor,False,False
+WCID5971,Sheri Woodward,47,5,2,1124.85,224.97,3,2023-02-02,2023-11-03,0.4,1.6667,True,45–59,2 — Duas falhas,Baixo Valor,False,True
+WCID5972,David Morris,70,10,1,2413.39,241.339,7,2023-03-06,2023-12-19,0.1,1.4286,True,60+,1 — Uma falha,Alto Valor,False,True
+WCID5973,Courtney Aguilar,33,3,1,1041.73,347.2433,3,2023-07-17,2023-12-06,0.3333,1.0,True,30–44,1 — Uma falha,Baixo Valor,False,True
+WCID5974,Crystal Davis DVM,58,5,0,1502.93,300.586,4,2023-03-27,2023-12-12,0.0,1.25,False,45–59,0 — Sem falha,Baixo Valor,False,False
+WCID5975,Jonathan Golden,18,8,2,2615.31,326.9138,6,2023-01-08,2023-12-02,0.25,1.3333,True,,2 — Duas falhas,Alto Valor,False,True
+WCID5976,Dr. Ross Watson,51,5,1,1942.17,388.434,4,2023-01-11,2023-11-04,0.2,1.25,True,45–59,1 — Uma falha,Médio Valor,False,False
+WCID5977,Brianna Shaw,84,9,1,1725.43,191.7144,7,2023-02-21,2023-12-08,0.1111,1.2857,True,60+,1 — Uma falha,Médio Valor,False,True
+WCID5978,Raymond Chavez,30,15,5,2994.61,199.6407,7,2023-01-23,2023-11-27,0.3333,2.1429,True,18–29,3+ — Múltiplas falhas,VIP,False,True
+WCID5979,Travis Lamb,32,14,1,5394.92,385.3514,8,2023-01-10,2023-11-07,0.0714,1.75,True,30–44,1 — Uma falha,VIP,False,True
+WCID5980,Tyler Santos,21,6,1,2498.17,416.3617,4,2023-01-13,2023-12-21,0.1667,1.5,True,18–29,1 — Uma falha,Alto Valor,False,True
+WCID5981,Kathleen Chase,65,8,0,1548.13,193.5163,6,2023-01-06,2023-12-13,0.0,1.3333,False,60+,0 — Sem falha,Baixo Valor,False,False
+WCID5982,Stephanie Lee,85,10,1,2682.25,268.225,7,2023-02-25,2023-12-27,0.1,1.4286,True,60+,1 — Uma falha,Alto Valor,False,True
+WCID5983,Kimberly Smith,49,8,2,2282.87,285.3588,5,2023-01-27,2023-10-28,0.25,1.6,True,45–59,2 — Duas falhas,Alto Valor,False,True
+WCID5984,Christopher Dickerson,71,7,1,1157.51,165.3586,5,2023-01-20,2023-11-23,0.1429,1.4,True,60+,1 — Uma falha,Baixo Valor,False,True
+WCID5985,James Berry,61,8,3,2081.14,260.1425,5,2023-03-11,2023-09-19,0.375,1.6,True,60+,3+ — Múltiplas falhas,Médio Valor,False,True
+WCID5986,Sean Singleton,74,6,0,1684.8,280.8,4,2023-05-03,2023-11-18,0.0,1.5,False,60+,0 — Sem falha,Médio Valor,False,False
+WCID5987,Christopher Ball,84,12,2,3393.33,282.7775,7,2023-02-16,2023-11-27,0.1667,1.7143,True,60+,2 — Duas falhas,VIP,False,True
+WCID5988,Brittany Reeves,59,7,0,1652.49,236.07,5,2023-03-04,2023-10-17,0.0,1.4,False,45–59,0 — Sem falha,Médio Valor,False,False
+WCID5989,Deborah Boyd,79,10,0,2539.88,253.988,5,2023-02-27,2023-12-24,0.0,2.0,False,60+,0 — Sem falha,Alto Valor,False,False
+WCID5990,Michelle Nichols,88,6,0,2098.02,349.67,5,2023-01-27,2023-12-06,0.0,1.2,False,60+,0 — Sem falha,Médio Valor,False,False
+WCID5991,Jessica Simpson,62,10,0,2435.68,243.568,8,2023-01-16,2023-11-17,0.0,1.25,False,60+,0 — Sem falha,Alto Valor,False,False
+WCID5992,Caitlyn Gaines,50,10,1,2251.12,225.112,6,2023-01-28,2023-12-10,0.1,1.6667,True,45–59,1 — Uma falha,Alto Valor,False,True
+WCID5993,Devin Olson,75,6,0,1590.65,265.1083,4,2023-06-17,2023-12-13,0.0,1.5,False,60+,0 — Sem falha,Baixo Valor,False,False
+WCID5994,Michelle Cole,20,6,1,1453.11,242.185,6,2023-01-16,2023-12-29,0.1667,1.0,True,18–29,1 — Uma falha,Baixo Valor,False,True
+WCID5995,Lorraine Pennington,84,9,0,2833.8,314.8667,6,2023-01-02,2023-09-28,0.0,1.5,False,60+,0 — Sem falha,Alto Valor,False,False
+WCID5996,John Soto,47,10,0,2549.83,254.983,7,2023-01-10,2023-12-23,0.0,1.4286,False,45–59,0 — Sem falha,Alto Valor,False,False
+WCID5997,Rachael Thomas DDS,77,6,0,2079.85,346.6417,6,2023-03-25,2023-12-08,0.0,1.0,False,60+,0 — Sem falha,Médio Valor,False,False
+WCID5998,Michael King,83,3,1,1454.65,484.8833,3,2023-06-19,2023-11-29,0.3333,1.0,True,60+,1 — Uma falha,Baixo Valor,False,True
+WCID5999,Kevin Thomas,52,11,2,4210.67,382.7882,8,2023-01-04,2023-11-10,0.1818,1.375,True,45–59,2 — Duas falhas,VIP,False,True
+WCID6000,Tina Mccann,68,5,1,1248.93,249.786,5,2023-02-24,2023-11-16,0.2,1.0,True,60+,1 — Uma falha,Baixo Valor,False,True
+WCID6001,Kenneth Mann,87,14,2,3772.9,269.4929,10,2023-01-28,2023-12-11,0.1429,1.4,True,60+,2 — Duas falhas,VIP,False,True
+WCID6002,Terri Bass,83,8,1,2931.65,366.4562,8,2023-01-10,2023-10-07,0.125,1.0,True,60+,1 — Uma falha,VIP,False,True
+WCID6003,Cheryl Walker,56,6,1,1494.82,249.1367,6,2023-03-02,2023-12-16,0.1667,1.0,True,45–59,1 — Uma falha,Baixo Valor,False,True
+WCID6004,Marissa Fleming,49,8,1,2284.79,285.5988,6,2023-01-18,2023-10-01,0.125,1.3333,True,45–59,1 — Uma falha,Alto Valor,False,True
+WCID6005,Matthew Smith,45,4,1,1398.12,349.53,4,2023-02-01,2023-11-09,0.25,1.0,True,30–44,1 — Uma falha,Baixo Valor,False,True
+WCID6006,Barbara Norris,28,9,1,3215.9,357.3222,5,2023-01-09,2023-12-27,0.1111,1.8,True,18–29,1 — Uma falha,VIP,False,True
+WCID6007,Donna Smith,72,8,2,2560.74,320.0925,7,2023-01-14,2023-12-11,0.25,1.1429,True,60+,2 — Duas falhas,Alto Valor,False,True
+WCID6008,David Henderson,41,9,0,2412.06,268.0067,6,2023-04-04,2023-12-11,0.0,1.5,False,30–44,0 — Sem falha,Alto Valor,False,False
+WCID6009,Caitlyn Smith,54,6,1,1849.98,308.33,6,2023-01-31,2023-10-03,0.1667,1.0,True,45–59,1 — Uma falha,Médio Valor,False,True
+WCID6010,Frederick Webb,75,2,0,374.72,187.36,2,2023-05-19,2023-10-27,0.0,1.0,False,60+,0 — Sem falha,Baixo Valor,False,False
+WCID6011,Janet Reid,89,11,0,3394.51,308.5918,9,2023-01-20,2023-12-01,0.0,1.2222,False,60+,0 — Sem falha,VIP,False,False
+WCID6012,David Wilson,77,3,1,1187.64,395.88,3,2023-08-27,2023-11-08,0.3333,1.0,True,60+,1 — Uma falha,Baixo Valor,False,False
+WCID6013,Robert Olson,63,8,1,3554.45,444.3062,6,2023-01-07,2023-12-08,0.125,1.3333,True,60+,1 — Uma falha,VIP,False,True
+WCID6014,Stephanie Craig,19,3,0,692.51,230.8367,3,2023-05-10,2023-12-21,0.0,1.0,False,18–29,0 — Sem falha,Baixo Valor,False,False
+WCID6015,Kristin Gill,51,6,0,1853.92,308.9867,5,2023-01-09,2023-09-26,0.0,1.2,False,45–59,0 — Sem falha,Médio Valor,False,False
+WCID6016,Lisa Ward,40,8,0,2322.54,290.3175,6,2023-01-14,2023-10-28,0.0,1.3333,False,30–44,0 — Sem falha,Alto Valor,False,False
+WCID6017,Lisa Perez,41,10,1,2910.52,291.052,7,2023-04-26,2023-12-19,0.1,1.4286,True,30–44,1 — Uma falha,VIP,False,True
+WCID6018,Mrs. Susan Smith,44,11,3,2211.76,201.0691,8,2023-01-05,2023-12-13,0.2727,1.375,True,30–44,3+ — Múltiplas falhas,Alto Valor,False,True
+WCID6019,Stephen Jennings,56,11,2,2983.71,271.2464,7,2023-01-15,2023-12-20,0.1818,1.5714,True,45–59,2 — Duas falhas,VIP,False,True
+WCID6020,Holly Wright,46,6,0,2513.93,418.9883,5,2023-01-11,2023-12-31,0.0,1.2,False,45–59,0 — Sem falha,Alto Valor,False,False
+WCID6021,Kevin Gates,79,8,1,2661.76,332.72,7,2023-02-27,2023-10-15,0.125,1.1429,True,60+,1 — Uma falha,Alto Valor,False,True
+WCID6022,Edward Thomas,50,6,1,831.92,138.6533,4,2023-02-09,2023-10-27,0.1667,1.5,True,45–59,1 — Uma falha,Baixo Valor,False,True
+WCID6023,Peter Davis,75,9,0,2380.58,264.5089,8,2023-01-11,2023-12-29,0.0,1.125,False,60+,0 — Sem falha,Alto Valor,False,False
+WCID6024,Daniel Hall,45,8,4,2632.91,329.1138,6,2023-01-16,2023-10-02,0.5,1.3333,True,30–44,3+ — Múltiplas falhas,Alto Valor,True,True
+WCID6025,Cynthia Hebert,84,3,1,588.77,196.2567,3,2023-01-20,2023-08-02,0.3333,1.0,True,60+,1 — Uma falha,Baixo Valor,True,False
+WCID6026,Dean Graham,88,10,1,3155.5,315.55,8,2023-01-23,2023-12-26,0.1,1.25,True,60+,1 — Uma falha,VIP,False,True
+WCID6027,Heidi Ingram,56,8,0,2717.4,339.675,7,2023-04-28,2023-12-17,0.0,1.1429,False,45–59,0 — Sem falha,Alto Valor,False,False
+WCID6028,Jacob Fleming,34,7,0,2249.82,321.4029,6,2023-01-30,2023-11-26,0.0,1.1667,False,30–44,0 — Sem falha,Alto Valor,False,False
+WCID6029,Karen Good,33,8,2,1770.34,221.2925,6,2023-04-05,2023-10-05,0.25,1.3333,True,30–44,2 — Duas falhas,Médio Valor,False,True
+WCID6030,Edward Gonzalez,70,6,0,1628.61,271.435,6,2023-04-25,2023-12-21,0.0,1.0,False,60+,0 — Sem falha,Médio Valor,False,False
+WCID6031,Jackie Lopez,51,7,1,1824.3,260.6143,6,2023-03-08,2023-11-30,0.1429,1.1667,True,45–59,1 — Uma falha,Médio Valor,False,True
+WCID6032,Karen Wagner,49,6,0,2275.55,379.2583,4,2023-02-27,2023-12-28,0.0,1.5,False,45–59,0 — Sem falha,Alto Valor,False,False
+WCID6033,Michelle Taylor,57,12,2,2816.23,234.6858,9,2023-01-17,2023-12-10,0.1667,1.3333,True,45–59,2 — Duas falhas,Alto Valor,False,True
+WCID6034,Troy Erickson,50,8,2,2199.08,274.885,5,2023-04-28,2023-12-31,0.25,1.6,True,45–59,2 — Duas falhas,Alto Valor,False,True
+WCID6035,Kathleen Oliver,79,5,0,1767.74,353.548,4,2023-01-23,2023-11-17,0.0,1.25,False,60+,0 — Sem falha,Médio Valor,False,False
+WCID6036,James Frost,88,9,1,2431.95,270.2167,5,2023-03-04,2023-10-12,0.1111,1.8,True,60+,1 — Uma falha,Alto Valor,False,True
+WCID6037,Alan Paul,68,13,2,3773.41,290.2623,6,2023-02-06,2023-12-26,0.1538,2.1667,True,60+,2 — Duas falhas,VIP,False,True
+WCID6038,Kayla Williams,55,5,0,1314.13,262.826,5,2023-01-29,2023-12-31,0.0,1.0,False,45–59,0 — Sem falha,Baixo Valor,False,False
+WCID6039,Matthew Lutz,72,8,2,2966.34,370.7925,7,2023-01-17,2023-10-26,0.25,1.1429,True,60+,2 — Duas falhas,VIP,False,True
+WCID6040,Kenneth Schroeder,80,7,1,1486.3,212.3286,5,2023-02-02,2023-12-29,0.1429,1.4,True,60+,1 — Uma falha,Baixo Valor,False,True
+WCID6041,Melissa Zamora,36,10,1,3729.54,372.954,6,2023-01-12,2023-09-22,0.1,1.6667,True,30–44,1 — Uma falha,VIP,False,True
+WCID6042,Tara Nelson,73,5,1,1610.39,322.078,4,2023-05-24,2023-12-05,0.2,1.25,True,60+,1 — Uma falha,Baixo Valor,False,True
+WCID6043,Joshua Thompson,79,3,2,702.76,234.2533,3,2023-01-19,2023-12-18,0.6667,1.0,True,60+,2 — Duas falhas,Baixo Valor,False,True
+WCID6044,Tim Johnson,63,10,4,2954.65,295.465,7,2023-03-11,2023-12-11,0.4,1.4286,True,60+,3+ — Múltiplas falhas,VIP,False,True
+WCID6045,Zachary Campbell,60,5,1,2030.48,406.096,3,2023-01-03,2023-09-23,0.2,1.6667,True,45–59,1 — Uma falha,Médio Valor,False,True
+WCID6046,Shannon Carney,25,10,2,1855.2,185.52,8,2023-01-14,2023-11-11,0.2,1.25,True,18–29,2 — Duas falhas,Médio Valor,False,True
+WCID6047,Elizabeth Saunders,36,11,1,3538.86,321.7145,8,2023-03-13,2023-12-15,0.0909,1.375,True,30–44,1 — Uma falha,VIP,False,True
+WCID6048,Amy Hayes,87,2,0,747.89,373.945,1,2023-02-11,2023-02-13,0.0,2.0,False,60+,0 — Sem falha,Baixo Valor,False,False
+WCID6049,James Hughes,60,9,1,2176.07,241.7856,6,2023-01-15,2023-12-17,0.1111,1.5,True,45–59,1 — Uma falha,Alto Valor,False,True
+WCID6050,Tracy Armstrong,43,10,2,3021.0,302.1,7,2023-01-04,2023-11-22,0.2,1.4286,True,30–44,2 — Duas falhas,VIP,False,True
+WCID6051,James Weaver,34,11,2,1797.16,163.3782,7,2023-03-09,2023-12-20,0.1818,1.5714,True,30–44,2 — Duas falhas,Médio Valor,False,True
+WCID6052,Betty Holmes,59,4,0,948.94,237.235,3,2023-09-07,2023-12-23,0.0,1.3333,False,45–59,0 — Sem falha,Baixo Valor,False,False
+WCID6053,Tracy Nguyen,41,9,3,2602.74,289.1933,6,2023-01-20,2023-10-24,0.3333,1.5,True,30–44,3+ — Múltiplas falhas,Alto Valor,False,True
+WCID6054,Linda Brown,82,8,2,2066.72,258.34,6,2023-02-09,2023-12-15,0.25,1.3333,True,60+,2 — Duas falhas,Médio Valor,False,True
+WCID6055,Becky Clark,46,7,0,1545.51,220.7871,6,2023-01-21,2023-10-08,0.0,1.1667,False,45–59,0 — Sem falha,Baixo Valor,False,False
+WCID6056,Brandi Martin,64,4,2,797.46,199.365,3,2023-02-01,2023-07-20,0.5,1.3333,True,60+,2 — Duas falhas,Baixo Valor,False,True
+WCID6057,Randy Harrington,22,10,1,1807.35,180.735,5,2023-03-01,2023-11-26,0.1,2.0,True,18–29,1 — Uma falha,Médio Valor,False,False
+WCID6058,Kara Price,85,10,1,2039.22,203.922,7,2023-01-27,2023-10-23,0.1,1.4286,True,60+,1 — Uma falha,Médio Valor,False,True
+WCID6059,Savannah Long,55,8,0,2541.19,317.6488,5,2023-04-03,2023-12-11,0.0,1.6,False,45–59,0 — Sem falha,Alto Valor,False,False
+WCID6060,Mrs. Jennifer Lewis,59,8,2,2182.92,272.865,7,2023-02-23,2023-12-19,0.25,1.1429,True,45–59,2 — Duas falhas,Alto Valor,False,True
+WCID6061,Cynthia Hicks,90,8,1,2009.97,251.2462,7,2023-01-10,2023-12-26,0.125,1.1429,True,60+,1 — Uma falha,Médio Valor,False,False
+WCID6062,Joseph Blair,59,12,0,2985.58,248.7983,9,2023-01-09,2023-12-07,0.0,1.3333,False,45–59,0 — Sem falha,VIP,False,False
+WCID6063,Alex Humphrey,78,10,1,1987.55,198.755,8,2023-02-04,2023-12-13,0.1,1.25,True,60+,1 — Uma falha,Médio Valor,False,True
+WCID6064,Lisa Cox,80,10,1,3907.32,390.732,6,2023-02-15,2023-11-05,0.1,1.6667,True,60+,1 — Uma falha,VIP,False,True
+WCID6065,Michelle Henry,62,3,0,638.89,212.9633,2,2023-03-14,2023-09-06,0.0,1.5,False,60+,0 — Sem falha,Baixo Valor,False,False
+WCID6066,Krista Lee,58,8,0,1790.93,223.8662,6,2023-01-26,2023-12-25,0.0,1.3333,False,45–59,0 — Sem falha,Médio Valor,False,False
+WCID6067,Jack Rich,39,10,3,2112.58,211.258,6,2023-01-15,2023-10-19,0.3,1.6667,True,30–44,3+ — Múltiplas falhas,Médio Valor,False,True
+WCID6068,Eric Bailey,21,10,1,2725.52,272.552,6,2023-01-01,2023-10-13,0.1,1.6667,True,18–29,1 — Uma falha,Alto Valor,False,True
+WCID6069,Jonathan Barry,80,7,2,2023.78,289.1114,5,2023-03-20,2023-12-22,0.2857,1.4,True,60+,2 — Duas falhas,Médio Valor,False,True
+WCID6070,Katie Brown,74,6,2,2042.09,340.3483,5,2023-05-16,2023-12-20,0.3333,1.2,True,60+,2 — Duas falhas,Médio Valor,False,True
+WCID6071,Stacey Hodge,90,6,2,1476.71,246.1183,5,2023-03-14,2023-10-22,0.3333,1.2,True,60+,2 — Duas falhas,Baixo Valor,False,True
+WCID6072,Rebecca Young,80,6,2,1956.45,326.075,5,2023-02-24,2023-12-27,0.3333,1.2,True,60+,2 — Duas falhas,Médio Valor,False,True
+WCID6073,Lori Brooks,64,12,3,4357.55,363.1292,8,2023-02-08,2023-12-06,0.25,1.5,True,60+,3+ — Múltiplas falhas,VIP,False,True
+WCID6074,James Thompson,58,6,0,1654.35,275.725,5,2023-01-19,2023-11-02,0.0,1.2,False,45–59,0 — Sem falha,Médio Valor,False,False
+WCID6075,Mary Vasquez,48,8,1,1993.9,249.2375,6,2023-03-14,2023-12-06,0.125,1.3333,True,45–59,1 — Uma falha,Médio Valor,False,True
+WCID6076,Wayne Willis,74,8,3,2249.48,281.185,8,2023-02-15,2023-12-04,0.375,1.0,True,60+,3+ — Múltiplas falhas,Alto Valor,False,True
+WCID6077,Amanda Thomas,27,9,1,1805.45,200.6056,6,2023-02-06,2023-12-27,0.1111,1.5,True,18–29,1 — Uma falha,Médio Valor,False,True
+WCID6078,Mary Wright,32,8,0,1990.07,248.7588,7,2023-03-15,2023-12-29,0.0,1.1429,False,30–44,0 — Sem falha,Médio Valor,False,False
+WCID6079,Nathan King,35,6,2,2551.01,425.1683,5,2023-05-13,2023-12-28,0.3333,1.2,True,30–44,2 — Duas falhas,Alto Valor,False,True
+WCID6080,Shelley Phillips,89,5,1,1562.57,312.514,4,2023-02-16,2023-09-30,0.2,1.25,True,60+,1 — Uma falha,Baixo Valor,False,True
+WCID6081,Jacob Parker,26,13,4,2833.92,217.9938,8,2023-01-08,2023-12-28,0.3077,1.625,True,18–29,3+ — Múltiplas falhas,Alto Valor,False,True
+WCID6082,Victor Davis,82,8,1,2359.84,294.98,8,2023-02-23,2023-12-21,0.125,1.0,True,60+,1 — Uma falha,Alto Valor,False,True
+WCID6083,Joseph Mckinney,24,10,1,3041.21,304.121,6,2023-01-27,2023-12-16,0.1,1.6667,True,18–29,1 — Uma falha,VIP,False,True
+WCID6084,Brett Marshall,48,9,1,2956.84,328.5378,5,2023-01-01,2023-11-21,0.1111,1.8,True,45–59,1 — Uma falha,VIP,False,True
+WCID6085,Lawrence Cain,43,7,1,1649.19,235.5986,5,2023-02-20,2023-12-10,0.1429,1.4,True,30–44,1 — Uma falha,Médio Valor,False,True
+WCID6086,Philip Rivas,24,8,2,1698.29,212.2862,5,2023-05-15,2023-12-27,0.25,1.6,True,18–29,2 — Duas falhas,Médio Valor,False,True
+WCID6087,Jessica Cobb,67,12,0,3515.44,292.9533,9,2023-01-28,2023-12-26,0.0,1.3333,False,60+,0 — Sem falha,VIP,False,False
+WCID6088,Mark Padilla,76,12,2,3546.98,295.5817,7,2023-02-07,2023-11-24,0.1667,1.7143,True,60+,2 — Duas falhas,VIP,False,True
+WCID6089,Christopher Bailey,87,8,1,2403.24,300.405,7,2023-01-15,2023-10-04,0.125,1.1429,True,60+,1 — Uma falha,Alto Valor,False,True
+WCID6090,Mary Mueller,53,7,0,2252.22,321.7457,7,2023-02-07,2023-11-04,0.0,1.0,False,45–59,0 — Sem falha,Alto Valor,False,False
+WCID6091,Isaiah Mueller,53,10,2,2531.1,253.11,7,2023-03-02,2023-12-17,0.2,1.4286,True,45–59,2 — Duas falhas,Alto Valor,False,True
+WCID6092,Jacob Wallace,40,8,0,2111.27,263.9088,5,2023-02-01,2023-10-21,0.0,1.6,False,30–44,0 — Sem falha,Médio Valor,False,False
+WCID6093,Albert Cochran,43,7,1,1713.35,244.7643,7,2023-01-26,2023-12-11,0.1429,1.0,True,30–44,1 — Uma falha,Médio Valor,False,True
+WCID6094,Reginald Sullivan,86,7,0,2119.64,302.8057,6,2023-02-19,2023-12-12,0.0,1.1667,False,60+,0 — Sem falha,Médio Valor,False,False
+WCID6095,Cory Stephens,20,12,2,2923.21,243.6008,8,2023-01-18,2023-12-16,0.1667,1.5,True,18–29,2 — Duas falhas,VIP,False,True
+WCID6096,Holly Stewart,76,19,5,7087.42,373.0221,9,2023-03-04,2023-11-07,0.2632,2.1111,True,60+,3+ — Múltiplas falhas,VIP,False,True
+WCID6097,Bruce Anderson,70,11,0,2462.37,223.8518,9,2023-01-05,2023-11-16,0.0,1.2222,False,60+,0 — Sem falha,Alto Valor,False,False
+WCID6098,Holly Hayes,79,5,0,2380.79,476.158,5,2023-01-20,2023-11-18,0.0,1.0,False,60+,0 — Sem falha,Alto Valor,False,False
+WCID6099,Aaron Gillespie,63,8,1,2233.43,279.1788,6,2023-01-09,2023-09-14,0.125,1.3333,True,60+,1 — Uma falha,Alto Valor,False,True
+WCID6100,Lori Colon,85,6,1,1904.6,317.4333,5,2023-02-20,2023-08-29,0.1667,1.2,True,60+,1 — Uma falha,Médio Valor,False,True
+WCID6101,Daniel Faulkner,81,5,0,1770.17,354.034,4,2023-03-11,2023-12-27,0.0,1.25,False,60+,0 — Sem falha,Médio Valor,False,False
+WCID6102,Diana Miller,88,11,1,2255.78,205.0709,7,2023-02-26,2023-11-04,0.0909,1.5714,True,60+,1 — Uma falha,Alto Valor,False,True
+WCID6103,Kathleen Nunez,64,7,1,1169.26,167.0371,6,2023-01-22,2023-12-05,0.1429,1.1667,True,60+,1 — Uma falha,Baixo Valor,False,True
+WCID6104,Amanda Hill,69,11,2,3273.51,297.5918,8,2023-02-17,2023-12-08,0.1818,1.375,True,60+,2 — Duas falhas,VIP,False,True
+WCID6105,Bryan Cardenas,70,5,1,1116.78,223.356,5,2023-03-23,2023-12-27,0.2,1.0,True,60+,1 — Uma falha,Baixo Valor,False,True
+WCID6106,Dean Willis,52,10,2,2093.55,209.355,7,2023-01-10,2023-12-12,0.2,1.4286,True,45–59,2 — Duas falhas,Médio Valor,False,True
+WCID6107,Jonathan Rivera,29,6,1,1125.84,187.64,4,2023-02-03,2023-10-30,0.1667,1.5,True,18–29,1 — Uma falha,Baixo Valor,False,True
+WCID6108,Richard Smith,59,7,1,1778.54,254.0771,6,2023-02-11,2023-11-22,0.1429,1.1667,True,45–59,1 — Uma falha,Médio Valor,False,True
+WCID6109,Angela Casey,45,12,1,3457.48,288.1233,8,2023-01-02,2023-12-15,0.0833,1.5,True,30–44,1 — Uma falha,VIP,False,True
+WCID6110,Nicole Solis,21,12,1,3298.34,274.8617,8,2023-02-20,2023-12-17,0.0833,1.5,True,18–29,1 — Uma falha,VIP,False,False
+WCID6111,Claudia English,54,10,1,2878.03,287.803,6,2023-02-15,2023-12-28,0.1,1.6667,True,45–59,1 — Uma falha,VIP,False,True
+WCID6112,Robert Gonzales,86,11,4,3682.65,334.7864,7,2023-04-11,2023-12-26,0.3636,1.5714,True,60+,3+ — Múltiplas falhas,VIP,False,True
+WCID6113,Latoya Barber,53,10,0,2226.96,222.696,6,2023-01-21,2023-12-21,0.0,1.6667,False,45–59,0 — Sem falha,Alto Valor,False,False
+WCID6114,Melissa Foster DVM,61,4,1,2570.1,642.525,4,2023-04-04,2023-10-15,0.25,1.0,True,60+,1 — Uma falha,Alto Valor,False,True
+WCID6115,Margaret Smith,68,8,3,2035.97,254.4962,6,2023-04-09,2023-11-28,0.375,1.3333,True,60+,3+ — Múltiplas falhas,Médio Valor,False,True
+WCID6116,Brenda Wyatt,79,9,0,3231.74,359.0822,6,2023-01-22,2023-11-19,0.0,1.5,False,60+,0 — Sem falha,VIP,False,False
+WCID6117,Monica Thomas,37,5,0,1394.04,278.808,5,2023-01-13,2023-10-09,0.0,1.0,False,30–44,0 — Sem falha,Baixo Valor,False,False
+WCID6118,Michael Pierce,50,5,0,1316.74,263.348,5,2023-01-30,2023-12-20,0.0,1.0,False,45–59,0 — Sem falha,Baixo Valor,False,False
+WCID6119,Justin Fowler,83,5,2,1391.62,278.324,5,2023-03-09,2023-12-07,0.4,1.0,True,60+,2 — Duas falhas,Baixo Valor,False,True
+WCID6120,Haley Buckley,49,9,0,2876.52,319.6133,8,2023-01-22,2023-12-12,0.0,1.125,False,45–59,0 — Sem falha,VIP,False,False
+WCID6121,Debbie Ball,25,10,0,1883.03,188.303,6,2023-03-26,2023-11-28,0.0,1.6667,False,18–29,0 — Sem falha,Médio Valor,False,False
+WCID6122,Pamela Davis,74,6,1,2285.13,380.855,4,2023-01-08,2023-10-25,0.1667,1.5,True,60+,1 — Uma falha,Alto Valor,False,True
+WCID6123,Patricia Briggs,87,8,0,2071.69,258.9612,6,2023-02-18,2023-09-30,0.0,1.3333,False,60+,0 — Sem falha,Médio Valor,False,False
+WCID6124,Shannon Garcia,46,3,1,1334.38,444.7933,3,2023-03-11,2023-11-10,0.3333,1.0,True,45–59,1 — Uma falha,Baixo Valor,False,True
+WCID6125,Jeffery Burton,50,13,0,4579.7,352.2846,8,2023-01-01,2023-11-18,0.0,1.625,False,45–59,0 — Sem falha,VIP,False,False
+WCID6126,Virginia Young,63,7,1,1385.65,197.95,4,2023-05-03,2023-11-04,0.1429,1.75,True,60+,1 — Uma falha,Baixo Valor,False,True
+WCID6127,Edward Mcdonald,74,13,0,3709.73,285.3638,9,2023-01-02,2023-12-19,0.0,1.4444,False,60+,0 — Sem falha,VIP,False,False
+WCID6128,Robert Wilson,23,7,3,2649.12,378.4457,4,2023-01-11,2023-10-26,0.4286,1.75,True,18–29,3+ — Múltiplas falhas,Alto Valor,False,True
+WCID6129,Regina Wilson,64,6,1,1252.4,208.7333,5,2023-02-19,2023-11-23,0.1667,1.2,True,60+,1 — Uma falha,Baixo Valor,False,True
+WCID6130,David Lutz,81,6,0,1493.99,248.9983,5,2023-01-15,2023-12-16,0.0,1.2,False,60+,0 — Sem falha,Baixo Valor,False,False
+WCID6131,Mary Little,35,12,2,3033.47,252.7892,8,2023-01-14,2023-11-15,0.1667,1.5,True,30–44,2 — Duas falhas,VIP,False,True
+WCID6132,Sandra Brown,18,9,2,2283.68,253.7422,5,2023-02-04,2023-08-30,0.2222,1.8,True,,2 — Duas falhas,Alto Valor,False,True
+WCID6133,Patty Thomas,74,5,0,1470.78,294.156,4,2023-01-22,2023-11-29,0.0,1.25,False,60+,0 — Sem falha,Baixo Valor,False,False
+WCID6134,Jackie Sparks,47,8,1,2200.37,275.0462,6,2023-02-08,2023-12-21,0.125,1.3333,True,45–59,1 — Uma falha,Alto Valor,False,True
+WCID6135,Randall Martinez,60,10,1,2152.65,215.265,7,2023-02-08,2023-12-25,0.1,1.4286,True,45–59,1 — Uma falha,Alto Valor,False,False
+WCID6136,Robert Skinner,89,5,2,1109.19,221.838,5,2023-01-15,2023-12-23,0.4,1.0,True,60+,2 — Duas falhas,Baixo Valor,False,True
+WCID6137,George Mccann,19,8,3,1667.01,208.3762,6,2023-02-15,2023-10-16,0.375,1.3333,True,18–29,3+ — Múltiplas falhas,Médio Valor,False,True
+WCID6138,Jessica Gutierrez,51,8,0,2508.26,313.5325,6,2023-02-26,2023-12-13,0.0,1.3333,False,45–59,0 — Sem falha,Alto Valor,False,False
+WCID6139,Jacob Scott,37,10,1,2118.12,211.812,7,2023-01-02,2023-11-26,0.1,1.4286,True,30–44,1 — Uma falha,Médio Valor,False,True
+WCID6140,Shelly Cross,49,10,1,2473.15,247.315,5,2023-01-03,2023-11-02,0.1,2.0,True,45–59,1 — Uma falha,Alto Valor,False,True
+WCID6141,Brenda Mcintosh,88,4,0,1041.72,260.43,4,2023-02-05,2023-11-13,0.0,1.0,False,60+,0 — Sem falha,Baixo Valor,False,False
+WCID6142,Thomas Wright,68,12,3,4108.15,342.3458,9,2023-01-12,2023-12-10,0.25,1.3333,True,60+,3+ — Múltiplas falhas,VIP,False,True
+WCID6143,Alexa Finley,61,12,1,3007.03,250.5858,8,2023-01-01,2023-12-28,0.0833,1.5,True,60+,1 — Uma falha,VIP,False,True
+WCID6144,Maria Guerra,56,5,1,1193.41,238.682,5,2023-01-26,2023-08-01,0.2,1.0,True,45–59,1 — Uma falha,Baixo Valor,False,True
+WCID6145,Cody Smith,33,4,1,1004.57,251.1425,3,2023-05-04,2023-12-20,0.25,1.3333,True,30–44,1 — Uma falha,Baixo Valor,False,True
+WCID6146,Sheila Smith,40,6,2,931.39,155.2317,4,2023-02-14,2023-11-07,0.3333,1.5,True,30–44,2 — Duas falhas,Baixo Valor,False,True
+WCID6147,Samantha Lang,31,11,1,2557.29,232.4809,7,2023-02-24,2023-11-04,0.0909,1.5714,True,30–44,1 — Uma falha,Alto Valor,False,True
+WCID6148,Danielle Sexton,76,8,1,2285.71,285.7138,7,2023-05-27,2023-12-23,0.125,1.1429,True,60+,1 — Uma falha,Alto Valor,False,True
+WCID6149,Rebecca Crawford,34,12,2,4899.59,408.2992,8,2023-02-01,2023-12-15,0.1667,1.5,True,30–44,2 — Duas falhas,VIP,False,True
+WCID6150,Connie Downs,86,10,2,4386.18,438.618,7,2023-01-23,2023-10-28,0.2,1.4286,True,60+,2 — Duas falhas,VIP,False,True
+WCID6151,Jeffrey Lewis,61,5,2,1489.34,297.868,5,2023-01-10,2023-12-22,0.4,1.0,True,60+,2 — Duas falhas,Baixo Valor,False,True
+WCID6152,Corey Owens,18,7,1,1760.58,251.5114,6,2023-03-23,2023-12-29,0.1429,1.1667,True,,1 — Uma falha,Médio Valor,False,True
+WCID6153,Regina Wright,44,8,2,2192.13,274.0162,6,2023-04-29,2023-12-25,0.25,1.3333,True,30–44,2 — Duas falhas,Alto Valor,False,True
+WCID6154,Ellen Rice,84,13,3,2423.22,186.4015,8,2023-02-09,2023-12-19,0.2308,1.625,True,60+,3+ — Múltiplas falhas,Alto Valor,False,True
+WCID6155,Michael Daniels,66,15,2,4985.75,332.3833,9,2023-02-17,2023-12-03,0.1333,1.6667,True,60+,2 — Duas falhas,VIP,False,True
+WCID6156,Joseph King,82,11,0,3005.28,273.2073,7,2023-02-16,2023-12-28,0.0,1.5714,False,60+,0 — Sem falha,VIP,False,False
+WCID6157,Jacqueline Barajas,50,7,1,2030.8,290.1143,6,2023-01-04,2023-10-08,0.1429,1.1667,True,45–59,1 — Uma falha,Médio Valor,False,True
+WCID6158,Janet Hawkins,24,9,2,2888.39,320.9322,7,2023-04-02,2023-12-16,0.2222,1.2857,True,18–29,2 — Duas falhas,VIP,False,True
+WCID6159,Megan West,36,9,1,2635.35,292.8167,6,2023-01-14,2023-12-06,0.1111,1.5,True,30–44,1 — Uma falha,Alto Valor,False,True
+WCID6160,Brandon Richmond,77,7,1,1460.87,208.6957,5,2023-03-09,2023-12-19,0.1429,1.4,True,60+,1 — Uma falha,Baixo Valor,False,False
+WCID6161,Maria Ross,80,15,2,4688.16,312.544,7,2023-02-21,2023-12-31,0.1333,2.1429,True,60+,2 — Duas falhas,VIP,False,True
+WCID6162,Christopher Green,77,13,2,3789.96,291.5354,9,2023-01-28,2023-10-25,0.1538,1.4444,True,60+,2 — Duas falhas,VIP,False,True
+WCID6163,Jennifer Kennedy,90,4,0,946.5,236.625,3,2023-04-06,2023-07-30,0.0,1.3333,False,60+,0 — Sem falha,Baixo Valor,False,False
+WCID6164,Karen Moore,47,11,4,2762.72,251.1564,8,2023-01-10,2023-12-18,0.3636,1.375,True,45–59,3+ — Múltiplas falhas,Alto Valor,False,True
+WCID6165,Daniel Evans,46,11,1,3028.83,275.3482,9,2023-02-06,2023-12-09,0.0909,1.2222,True,45–59,1 — Uma falha,VIP,False,True
+WCID6166,Belinda Hodges,25,7,0,1556.91,222.4157,7,2023-01-08,2023-12-29,0.0,1.0,False,18–29,0 — Sem falha,Baixo Valor,False,False
+WCID6167,Jeremy Frederick,28,9,3,2064.94,229.4378,8,2023-01-31,2023-10-30,0.3333,1.125,True,18–29,3+ — Múltiplas falhas,Médio Valor,False,True
+WCID6168,James Woodard,35,7,0,1806.98,258.14,6,2023-02-12,2023-09-01,0.0,1.1667,False,30–44,0 — Sem falha,Médio Valor,False,False
+WCID6169,Kevin Reyes,77,15,2,4188.52,279.2347,11,2023-02-17,2023-12-01,0.1333,1.3636,True,60+,2 — Duas falhas,VIP,False,True
+WCID6170,Ruben Hernandez,88,8,1,1706.35,213.2938,5,2023-04-25,2023-11-19,0.125,1.6,True,60+,1 — Uma falha,Médio Valor,False,True
+WCID6171,Brandon Abbott,51,7,0,1903.56,271.9371,4,2023-05-23,2023-09-20,0.0,1.75,False,45–59,0 — Sem falha,Médio Valor,False,False
+WCID6172,Brian Bryan,43,8,2,2685.87,335.7338,6,2023-03-01,2023-10-30,0.25,1.3333,True,30–44,2 — Duas falhas,Alto Valor,False,True
+WCID6173,Kara Thompson,24,8,2,2816.32,352.04,7,2023-01-28,2023-09-23,0.25,1.1429,True,18–29,2 — Duas falhas,Alto Valor,False,True
+WCID6174,Deborah Solis,28,11,0,3714.23,337.6573,9,2023-01-11,2023-12-11,0.0,1.2222,False,18–29,0 — Sem falha,VIP,False,False
+WCID6175,Bridget Anderson,62,9,0,2657.22,295.2467,6,2023-05-06,2023-12-01,0.0,1.5,False,60+,0 — Sem falha,Alto Valor,False,False
+WCID6176,Amanda Rodriguez,24,7,0,1320.15,188.5929,7,2023-01-31,2023-11-10,0.0,1.0,False,18–29,0 — Sem falha,Baixo Valor,False,False
+WCID6177,Matthew Rodriguez,70,2,0,376.51,188.255,1,2023-01-03,2023-01-10,0.0,2.0,False,60+,0 — Sem falha,Baixo Valor,False,False
+WCID6178,Susan Reilly,59,8,1,2662.55,332.8188,7,2023-02-23,2023-12-26,0.125,1.1429,True,45–59,1 — Uma falha,Alto Valor,False,False
+WCID6179,Jacob Simpson,24,13,2,2939.77,226.1362,8,2023-01-19,2023-12-22,0.1538,1.625,True,18–29,2 — Duas falhas,VIP,False,True
+WCID6180,Sydney Reed,51,10,1,2417.2,241.72,8,2023-01-15,2023-12-19,0.1,1.25,True,45–59,1 — Uma falha,Alto Valor,False,True
+WCID6181,Charles Hernandez,67,9,1,2213.64,245.96,8,2023-02-19,2023-11-25,0.1111,1.125,True,60+,1 — Uma falha,Alto Valor,False,True
+WCID6182,Jonathan Hinton,47,10,2,3410.03,341.003,6,2023-02-04,2023-12-13,0.2,1.6667,True,45–59,2 — Duas falhas,VIP,False,True
+WCID6183,Kathleen Fitzgerald,74,7,0,1956.08,279.44,6,2023-01-06,2023-10-28,0.0,1.1667,False,60+,0 — Sem falha,Médio Valor,False,False
+WCID6184,Juan Gibson,23,11,0,3676.86,334.26,9,2023-02-11,2023-12-21,0.0,1.2222,False,18–29,0 — Sem falha,VIP,False,False
+WCID6185,Barbara Maxwell,27,11,2,4800.39,436.3991,6,2023-01-09,2023-12-02,0.1818,1.8333,True,18–29,2 — Duas falhas,VIP,False,True
+WCID6186,John Campbell,63,4,1,792.7,198.175,3,2023-05-10,2023-11-12,0.25,1.3333,True,60+,1 — Uma falha,Baixo Valor,False,False
+WCID6187,Michael Key,41,5,1,977.14,195.428,5,2023-02-15,2023-11-19,0.2,1.0,True,30–44,1 — Uma falha,Baixo Valor,False,True
+WCID6188,Latasha Stein,87,4,0,1135.82,283.955,4,2023-04-21,2023-10-20,0.0,1.0,False,60+,0 — Sem falha,Baixo Valor,False,False
+WCID6189,Tiffany Gay,80,7,0,2290.76,327.2514,5,2023-01-05,2023-12-01,0.0,1.4,False,60+,0 — Sem falha,Alto Valor,False,False
+WCID6190,Leah Davis,22,9,2,1845.68,205.0756,8,2023-02-10,2023-11-02,0.2222,1.125,True,18–29,2 — Duas falhas,Médio Valor,False,True
+WCID6191,Johnny Strong,82,9,0,1660.12,184.4578,9,2023-01-29,2023-12-19,0.0,1.0,False,60+,0 — Sem falha,Médio Valor,False,False
+WCID6192,Craig Perez,45,5,0,1232.24,246.448,3,2023-06-06,2023-09-23,0.0,1.6667,False,30–44,0 — Sem falha,Baixo Valor,False,False
+WCID6193,Michael Wilson,83,9,1,2840.62,315.6244,7,2023-01-28,2023-12-27,0.1111,1.2857,True,60+,1 — Uma falha,Alto Valor,False,True
+WCID6194,Jonathon Robinson,82,7,2,2266.35,323.7643,6,2023-01-15,2023-10-22,0.2857,1.1667,True,60+,2 — Duas falhas,Alto Valor,False,True
+WCID6195,Ashley Smith,47,10,3,4282.09,428.209,9,2023-01-04,2023-11-25,0.3,1.1111,True,45–59,3+ — Múltiplas falhas,VIP,False,True
+WCID6196,David Davis,70,9,2,2586.65,287.4056,6,2023-02-25,2023-11-06,0.2222,1.5,True,60+,2 — Duas falhas,Alto Valor,False,True
+WCID6197,Wesley Ramsey,53,6,1,1917.87,319.645,5,2023-01-16,2023-12-12,0.1667,1.2,True,45–59,1 — Uma falha,Médio Valor,False,False
+WCID6198,Kevin Lee,19,4,0,1181.85,295.4625,3,2023-01-20,2023-05-27,0.0,1.3333,False,18–29,0 — Sem falha,Baixo Valor,False,False
+WCID6199,Lisa Myers,74,13,1,2897.49,222.8838,6,2023-01-01,2023-11-07,0.0769,2.1667,True,60+,1 — Uma falha,VIP,False,True
+WCID6200,Daniel Moses,70,5,0,1214.86,242.972,5,2023-01-29,2023-12-22,0.0,1.0,False,60+,0 — Sem falha,Baixo Valor,False,False
+WCID6201,Joshua Williams,32,7,1,1424.29,203.47,5,2023-02-16,2023-11-04,0.1429,1.4,True,30–44,1 — Uma falha,Baixo Valor,False,True
+WCID6202,Teresa Smith,22,13,2,3309.8,254.6,7,2023-01-20,2023-12-11,0.1538,1.8571,True,18–29,2 — Duas falhas,VIP,False,True
+WCID6203,Collin Jones,35,12,4,4388.59,365.7158,7,2023-01-17,2023-11-13,0.3333,1.7143,True,30–44,3+ — Múltiplas falhas,VIP,False,True
+WCID6204,Adam Whitehead,51,8,0,1841.05,230.1312,8,2023-02-19,2023-12-22,0.0,1.0,False,45–59,0 — Sem falha,Médio Valor,False,False
+WCID6205,Amber Ruiz,58,12,0,2999.94,249.995,9,2023-01-02,2023-11-17,0.0,1.3333,False,45–59,0 — Sem falha,VIP,False,False
+WCID6206,Mr. Jeffrey Proctor,20,11,1,3134.0,284.9091,8,2023-02-04,2023-12-25,0.0909,1.375,True,18–29,1 — Uma falha,VIP,False,True
+WCID6207,Kevin Lyons,62,7,0,1821.06,260.1514,6,2023-02-16,2023-12-29,0.0,1.1667,False,60+,0 — Sem falha,Médio Valor,False,False
+WCID6208,Alexandra Smith,47,7,1,1593.17,227.5957,5,2023-01-28,2023-12-06,0.1429,1.4,True,45–59,1 — Uma falha,Baixo Valor,False,True
+WCID6209,Penny Jones,52,8,0,1907.48,238.435,7,2023-01-25,2023-12-02,0.0,1.1429,False,45–59,0 — Sem falha,Médio Valor,False,False
+WCID6210,Jeffrey Foster,66,11,1,2536.3,230.5727,7,2023-01-01,2023-10-22,0.0909,1.5714,True,60+,1 — Uma falha,Alto Valor,False,True
+WCID6211,Rebecca Mcdaniel,24,4,1,2189.16,547.29,4,2023-01-12,2023-11-09,0.25,1.0,True,18–29,1 — Uma falha,Alto Valor,False,True
+WCID6212,Victoria Fields,86,6,2,1080.28,180.0467,5,2023-02-15,2023-09-15,0.3333,1.2,True,60+,2 — Duas falhas,Baixo Valor,False,True
+WCID6213,Ryan Warren,54,14,3,4737.19,338.3707,7,2023-02-12,2023-11-23,0.2143,2.0,True,45–59,3+ — Múltiplas falhas,VIP,False,True
+WCID6214,Christine Hernandez,22,14,2,5568.71,397.765,9,2023-01-20,2023-12-09,0.1429,1.5556,True,18–29,2 — Duas falhas,VIP,False,True
+WCID6215,Kayla Dominguez,28,5,0,1406.01,281.202,4,2023-04-09,2023-10-20,0.0,1.25,False,18–29,0 — Sem falha,Baixo Valor,False,False
+WCID6216,Johnny Wyatt,47,11,2,2653.9,241.2636,7,2023-03-31,2023-11-29,0.1818,1.5714,True,45–59,2 — Duas falhas,Alto Valor,False,True
+WCID6217,Michael Simon,74,8,2,2089.06,261.1325,8,2023-01-22,2023-12-22,0.25,1.0,True,60+,2 — Duas falhas,Médio Valor,False,True
+WCID6218,Michael Espinoza,87,9,1,3215.69,357.2989,7,2023-02-03,2023-12-27,0.1111,1.2857,True,60+,1 — Uma falha,VIP,False,False
+WCID6219,Antonio Young,62,4,0,623.12,155.78,4,2023-03-07,2023-11-06,0.0,1.0,False,60+,0 — Sem falha,Baixo Valor,False,False
+WCID6220,Chad Ochoa,38,4,1,993.87,248.4675,4,2023-01-14,2023-09-22,0.25,1.0,True,30–44,1 — Uma falha,Baixo Valor,False,True
+WCID6221,Danielle Garcia,25,7,0,1846.23,263.7471,5,2023-03-14,2023-12-18,0.0,1.4,False,18–29,0 — Sem falha,Médio Valor,False,False
+WCID6222,Mark Santos,58,5,0,1490.12,298.024,5,2023-02-18,2023-12-18,0.0,1.0,False,45–59,0 — Sem falha,Baixo Valor,False,False
+WCID6223,Stephanie Ford,48,8,1,2369.59,296.1988,6,2023-03-19,2023-12-26,0.125,1.3333,True,45–59,1 — Uma falha,Alto Valor,False,True
+WCID6224,Michael Elliott,53,6,0,1050.04,175.0067,5,2023-02-24,2023-11-21,0.0,1.2,False,45–59,0 — Sem falha,Baixo Valor,False,False
+WCID6225,Troy Walker,84,7,2,2341.81,334.5443,7,2023-01-20,2023-10-09,0.2857,1.0,True,60+,2 — Duas falhas,Alto Valor,False,True
+WCID6226,Michelle Gill,86,9,0,2659.57,295.5078,6,2023-03-04,2023-11-24,0.0,1.5,False,60+,0 — Sem falha,Alto Valor,False,False
+WCID6227,Angela Johnson,23,7,2,1591.64,227.3771,5,2023-01-09,2023-11-11,0.2857,1.4,True,18–29,2 — Duas falhas,Baixo Valor,False,True
+WCID6228,Trevor Cox,49,10,1,1966.48,196.648,6,2023-01-05,2023-12-31,0.1,1.6667,True,45–59,1 — Uma falha,Médio Valor,False,True
+WCID6229,Joseph Lamb,57,8,2,2148.96,268.62,7,2023-01-12,2023-12-23,0.25,1.1429,True,45–59,2 — Duas falhas,Médio Valor,False,True
+WCID6230,Tammy Banks,68,8,1,2847.8,355.975,6,2023-02-22,2023-10-31,0.125,1.3333,True,60+,1 — Uma falha,Alto Valor,False,True
+WCID6231,Crystal Caldwell,29,10,3,3611.19,361.119,8,2023-01-28,2023-12-16,0.3,1.25,True,18–29,3+ — Múltiplas falhas,VIP,False,True
+WCID6232,Frederick Cisneros,32,10,0,3452.26,345.226,6,2023-01-13,2023-11-23,0.0,1.6667,False,30–44,0 — Sem falha,VIP,False,False
+WCID6233,Robert Davis,61,9,2,1988.31,220.9233,6,2023-01-01,2023-11-24,0.2222,1.5,True,60+,2 — Duas falhas,Médio Valor,False,True
+WCID6234,James Pitts,90,8,1,2011.19,251.3988,6,2023-02-09,2023-08-31,0.125,1.3333,True,60+,1 — Uma falha,Médio Valor,True,False
+WCID6235,Christopher Fleming,60,3,0,1068.1,356.0333,3,2023-01-24,2023-06-29,0.0,1.0,False,45–59,0 — Sem falha,Baixo Valor,False,False
+WCID6236,Jay Wright,22,7,0,1689.07,241.2957,5,2023-05-09,2023-12-28,0.0,1.4,False,18–29,0 — Sem falha,Médio Valor,False,False
+WCID6237,Kari Reed,69,10,2,3147.52,314.752,8,2023-01-11,2023-12-28,0.2,1.25,True,60+,2 — Duas falhas,VIP,False,True
+WCID6238,Michael Lloyd,61,7,1,2044.5,292.0714,4,2023-06-14,2023-10-04,0.1429,1.75,True,60+,1 — Uma falha,Médio Valor,False,True

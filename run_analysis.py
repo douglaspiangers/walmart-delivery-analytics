@@ -15,7 +15,6 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import seaborn as sns
-from scipy import stats
 
 from src.data_loader import load_orders, load_customers, load_products, load_drivers, load_order_items
 from src.preprocessing import clean_orders, clean_products, clean_drivers, build_master
