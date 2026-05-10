@@ -1,26 +1,26 @@
 """
 export_powerbi.py
 =================
-Gera os arquivos CSV para o dashboard Power BI no modelo estrela (Star Schema).
+Generates CSV files for the Power BI dashboard in Star Schema format.
 
-Estrutura gerada em data/powerbi/:
-├── FATO
-│   └── fct_orders.csv          ← tabela central com todas as métricas
-├── DIMENSÕES
-│   ├── dim_date.csv             ← calendário completo com atributos de tempo
-│   ├── dim_customers.csv        ← perfil + segmentação + flag de churn
-│   ├── dim_drivers.csv          ← perfil + tier + performance H1/H2 + quadrante
-│   ├── dim_regions.csv          ← KPIs por região
-│   └── dim_products.csv         ← catálogo de produtos
-└── AGREGADOS (visuais complexos)
-    ├── agg_monthly_kpis.csv     ← tendência mensal
-    ├── agg_region_day.csv       ← heatmap falha por região × dia
-    ├── agg_hour_day.csv         ← heatmap volume/falha por hora × dia
-    ├── agg_driver_monthly.csv   ← performance mensal por motorista
-    ├── agg_financial_impact.csv ← impacto financeiro por segmento
-    └── agg_top_products.csv     ← ranking de produtos
+Output structure in data/powerbi/:
+├── FACT
+│   └── fct_orders.csv          ← central fact table with all metrics
+├── DIMENSIONS
+│   ├── dim_date.csv             ← full calendar with time attributes
+│   ├── dim_customers.csv        ← profile + segmentation + churn flag
+│   ├── dim_drivers.csv          ← profile + tier + H1/H2 performance + quadrant
+│   ├── dim_regions.csv          ← regional KPIs
+│   └── dim_products.csv         ← product catalog
+└── AGGREGATES (complex visuals)
+    ├── agg_monthly_kpis.csv     ← monthly trend
+    ├── agg_region_day.csv       ← failure heatmap by region × day
+    ├── agg_hour_day.csv         ← volume/failure heatmap by hour × day
+    ├── agg_driver_monthly.csv   ← monthly performance by driver
+    ├── agg_financial_impact.csv ← financial impact by segment
+    └── agg_top_products.csv     ← product ranking
 
-Execução: python export_powerbi.py
+Usage: python export_powerbi.py
 """
 
 import os
@@ -43,9 +43,9 @@ OUT = os.path.join(os.path.dirname(__file__), "data", "powerbi")
 os.makedirs(OUT, exist_ok=True)
 
 # ─────────────────────────────────────────────────────────────────
-# CARREGAR E LIMPAR DADOS
+# LOAD AND CLEAN DATA
 # ─────────────────────────────────────────────────────────────────
-print("Carregando dados...")
+print("Loading data...")
 orders      = clean_orders(load_orders())
 drivers     = clean_drivers(load_drivers())
 customers   = load_customers()
@@ -53,11 +53,11 @@ products    = clean_products(load_products())
 order_items = load_order_items()
 master      = build_master(orders, customers, drivers)
 
-# Constantes de negócio
-# PREMISSA: custo de reentrega estimado em 25% do ticket médio.
-# Referência de mercado: operações de grocery delivery tipicamente incorrem em
-# 20–30% do valor do pedido em custos de reentrega (mão-de-obra + logística).
-# Fonte: premissa operacional — ajustar se dados reais de custo estiverem disponíveis.
+# Business constants
+# ASSUMPTION: redelivery cost estimated at 25% of the average ticket.
+# Market reference: grocery delivery operations typically incur
+# 20–30% of order value in redelivery costs (labor + logistics).
+# Source: operational assumption — adjust if real cost data becomes available.
 REDELIVERY_COST_RATE = 0.25
 AVG_TICKET           = master["order_amount"].mean()
 COST_PER_FAILURE     = AVG_TICKET * REDELIVERY_COST_RATE
@@ -66,9 +66,9 @@ DATASET_END          = master["date"].max()
 
 
 # ═════════════════════════════════════════════════════════════════
-# 1. dim_date — Calendário completo
+# 1. dim_date — Full calendar
 # ═════════════════════════════════════════════════════════════════
-print("[1/8] Gerando dim_date...")
+print("[1/8] Generating dim_date...")
 
 date_range = pd.date_range(start="2023-01-01", end="2023-12-31", freq="D")
 dim_date = pd.DataFrame({"date": date_range})
@@ -86,15 +86,15 @@ dim_date["is_weekend"]   = dim_date["day_number"].isin([6, 7])
 dim_date["month_year"]   = dim_date["date"].dt.strftime("%Y-%m")
 
 dim_date.to_csv(f"{OUT}/dim_date.csv", index=False)
-print(f"   dim_date: {len(dim_date)} linhas")
+print(f"   dim_date: {len(dim_date)} rows")
 
 
 # ═════════════════════════════════════════════════════════════════
-# 2. dim_drivers — Perfil + métricas pré-computadas
+# 2. dim_drivers — Profile + pre-computed metrics
 # ═════════════════════════════════════════════════════════════════
-print("[2/8] Gerando dim_drivers...")
+print("[2/8] Generating dim_drivers...")
 
-# Performance global por motorista
+# Global performance per driver
 drv_global = (
     master.groupby(["driver_id", "driver_name"])
     .agg(
@@ -113,10 +113,10 @@ drv_global = (
 drv_global["exp_tier"] = pd.cut(
     drv_global["trips"],
     bins=[0, 25, 50, 100],
-    labels=["Novato (≤25 trips)", "Intermediário (26–50 trips)", "Experiente (51+ trips)"],
+    labels=["Rookie (≤25 trips)", "Intermediate (26–50 trips)", "Experienced (51+ trips)"],
 ).astype(str)
 
-# H1 vs H2
+# H1 vs H2 performance
 def semester_rate(df, semester):
     months = range(1, 7) if semester == "H1" else range(7, 13)
     sub = df[df["date"].dt.month.isin(months)]
@@ -138,7 +138,7 @@ drv_global = drv_global.merge(
     on="driver_id", how="left"
 )
 
-# Consistency Index (CV mensal)
+# Consistency Index (monthly CV)
 monthly_drv = (
     master.groupby(["driver_id", "month"])
     .agg(del_=("order_id", "count"), rate=("has_missing", "mean"))
@@ -152,36 +152,36 @@ cons = (
 cons["consistency_cv"] = (cons["std_rate"] / cons["avg_rate"]).fillna(0).round(3)
 drv_global = drv_global.merge(cons[["driver_id", "consistency_cv", "months_active"]], on="driver_id", how="left")
 
-# Quadrante de intervenção — usa mediana global (todos os motoristas com >= 5 entregas)
+# Intervention quadrant — uses global median (all drivers with >= 5 deliveries)
 qualified = drv_global[drv_global["total_deliveries"] >= 5].copy()
 rate_med = qualified["hist_failure_rate"].median()
 cv_med   = qualified["consistency_cv"].median()
 
 def assign_quadrant(row):
     if row["total_deliveries"] < 5:
-        return "Volume Insuficiente (<5)"
+        return "Insufficient Volume (<5)"
     high_risk = row["hist_failure_rate"] > rate_med
     high_cv   = row["consistency_cv"] > cv_med
-    if high_risk and not high_cv: return "Crônico — Ação Disciplinar"
-    if high_risk and high_cv:     return "Instável — Coaching"
-    if not high_risk and not high_cv: return "Referência — Boas Práticas"
-    return "Monitorar — Baixo Risco"
+    if high_risk and not high_cv: return "Chronic — Disciplinary Action"
+    if high_risk and high_cv:     return "Unstable — Coaching"
+    if not high_risk and not high_cv: return "Reference — Best Practices"
+    return "Monitor — Low Risk"
 
 drv_global["intervention_quadrant"] = drv_global.apply(assign_quadrant, axis=1)
 
-# Custo estimado por motorista
+# Estimated cost per driver
 drv_global["estimated_failure_cost"] = drv_global["total_failures"] * COST_PER_FAILURE
 drv_global["risk_flag"] = drv_global["hist_failure_rate"] > 0.20
 
 dim_drivers = drv_global.round(4)
 dim_drivers.to_csv(f"{OUT}/dim_drivers.csv", index=False)
-print(f"   dim_drivers: {len(dim_drivers)} linhas | {dim_drivers['intervention_quadrant'].value_counts().to_dict()}")
+print(f"   dim_drivers: {len(dim_drivers)} rows | {dim_drivers['intervention_quadrant'].value_counts().to_dict()}")
 
 
 # ═════════════════════════════════════════════════════════════════
-# 3. dim_customers — Perfil + segmentação + churn
+# 3. dim_customers — Profile + segmentation + churn
 # ═════════════════════════════════════════════════════════════════
-print("[3/8] Gerando dim_customers...")
+print("[3/8] Generating dim_customers...")
 
 cust_stats = (
     master.groupby(["customer_id", "customer_name", "customer_age"])
@@ -201,36 +201,36 @@ cust_stats["failure_rate"]     = cust_stats["total_failures"] / cust_stats["tota
 cust_stats["orders_per_month"] = cust_stats["total_orders"] / cust_stats["months_active"]
 cust_stats["had_failure"]      = cust_stats["total_failures"] > 0
 
-# Faixa etária
+# Age group
 cust_stats["age_group"] = pd.cut(
     cust_stats["customer_age"],
     bins=[18, 30, 45, 60, 100],
     labels=["18–29", "30–44", "45–59", "60+"],
 ).astype(str)
 
-# Grupo de falha
+# Failure group
 def fail_group(n):
-    if n == 0:   return "0 — Sem falha"
-    if n == 1:   return "1 — Uma falha"
-    if n == 2:   return "2 — Duas falhas"
-    return "3+ — Múltiplas falhas"
+    if n == 0:   return "0 — No failure"
+    if n == 1:   return "1 — One failure"
+    if n == 2:   return "2 — Two failures"
+    return "3+ — Multiple failures"
 
 cust_stats["failure_group"] = cust_stats["total_failures"].apply(fail_group)
 
-# Segmento de valor (Revenue quartile)
+# Value segment (Revenue quartile)
 q75 = cust_stats["total_revenue"].quantile(0.75)
 q50 = cust_stats["total_revenue"].quantile(0.50)
 q25 = cust_stats["total_revenue"].quantile(0.25)
 
 def value_segment(rev):
     if rev >= q75: return "VIP"
-    if rev >= q50: return "Alto Valor"
-    if rev >= q25: return "Médio Valor"
-    return "Baixo Valor"
+    if rev >= q50: return "High Value"
+    if rev >= q25: return "Medium Value"
+    return "Low Value"
 
 cust_stats["value_segment"] = cust_stats["total_revenue"].apply(value_segment)
 
-# Churn pós-falha (não comprou nos 90 dias após a última falha)
+# Post-failure churn (did not purchase in the 90 days after the last failure)
 failed_orders = master[master["has_missing"]]
 last_fail = (
     failed_orders.groupby("customer_id")["date"]
@@ -250,7 +250,7 @@ churn_df["churned"] = (
 cust_stats = cust_stats.merge(churn_df[["customer_id", "churned"]], on="customer_id", how="left")
 cust_stats["churned"] = cust_stats["churned"].fillna(False)
 
-# Return rate flag: voltou após falha?
+# Return rate flag: did they come back after the failure?
 first_fail = (
     failed_orders.groupby("customer_id")["date"]
     .min().reset_index().rename(columns={"date": "first_failure_date"})
@@ -262,13 +262,13 @@ cust_stats["returned_after_failure"] = cust_stats["customer_id"].isin(returned)
 
 dim_customers = cust_stats.round(4)
 dim_customers.to_csv(f"{OUT}/dim_customers.csv", index=False)
-print(f"   dim_customers: {len(dim_customers)} linhas | churned: {dim_customers['churned'].sum()} | VIP: {(dim_customers['value_segment']=='VIP').sum()}")
+print(f"   dim_customers: {len(dim_customers)} rows | churned: {dim_customers['churned'].sum()} | VIP: {(dim_customers['value_segment']=='VIP').sum()}")
 
 
 # ═════════════════════════════════════════════════════════════════
-# 4. dim_regions — KPIs por região
+# 4. dim_regions — Regional KPIs
 # ═════════════════════════════════════════════════════════════════
-print("[4/8] Gerando dim_regions...")
+print("[4/8] Generating dim_regions...")
 
 dim_regions = (
     master.groupby("region")
@@ -286,18 +286,18 @@ dim_regions = (
 dim_regions["failure_cost_estimated"] = dim_regions["total_failures"] * COST_PER_FAILURE
 dim_regions["vs_global_avg_pp"]       = (dim_regions["failure_rate"] - GLOBAL_FAILURE_RATE) * 100
 dim_regions["performance_label"]      = np.where(
-    dim_regions["failure_rate"] > GLOBAL_FAILURE_RATE, "Acima da Média", "Abaixo da Média"
+    dim_regions["failure_rate"] > GLOBAL_FAILURE_RATE, "Above Average", "Below Average"
 )
 dim_regions.to_csv(f"{OUT}/dim_regions.csv", index=False)
-print(f"   dim_regions: {len(dim_regions)} regiões")
+print(f"   dim_regions: {len(dim_regions)} regions")
 
 
 # ═════════════════════════════════════════════════════════════════
-# 5. dim_products — Catálogo enriquecido
+# 5. dim_products — Enriched catalog
 # ═════════════════════════════════════════════════════════════════
-print("[5/8] Gerando dim_products...")
+print("[5/8] Generating dim_products...")
 
-# Contar pedidos por produto
+# Count orders per product
 product_orders = (
     order_items.groupby("product_id").size().reset_index(name="order_count")
 )
@@ -305,13 +305,13 @@ dim_products = products.merge(product_orders, on="product_id", how="left")
 dim_products["order_count"] = dim_products["order_count"].fillna(0).astype(int)
 dim_products["revenue_potential"] = dim_products["order_count"] * dim_products["price"]
 dim_products.to_csv(f"{OUT}/dim_products.csv", index=False)
-print(f"   dim_products: {len(dim_products)} produtos | {dim_products['category'].nunique()} categorias")
+print(f"   dim_products: {len(dim_products)} products | {dim_products['category'].nunique()} categories")
 
 
 # ═════════════════════════════════════════════════════════════════
-# 6. fct_orders — Tabela fato central
+# 6. fct_orders — Central fact table
 # ═════════════════════════════════════════════════════════════════
-print("[6/8] Gerando fct_orders...")
+print("[6/8] Generating fct_orders...")
 
 fct = orders.copy()
 fct["date_key"]   = fct["date"].dt.strftime("%Y%m%d").astype(int)
@@ -321,13 +321,13 @@ fct["failure_cost"]    = fct["has_missing"].astype(int) * COST_PER_FAILURE
 fct["period"] = pd.cut(
     fct["delivery_hour"],
     bins=[-1, 5, 11, 17, 23],
-    labels=["Madrugada (0–5h)", "Manhã (6–11h)", "Tarde (12–17h)", "Noite (18–23h)"]
+    labels=["Overnight (0–5h)", "Morning (6–11h)", "Afternoon (12–17h)", "Evening (18–23h)"]
 ).astype(str)
 
 fct["order_size_tier"] = pd.cut(
     fct["items_delivered"],
     bins=[0, 5, 10, 20, 100],
-    labels=["Pequeno (1–5)", "Médio (6–10)", "Grande (11–20)", "Extra (21+)"]
+    labels=["Small (1–5)", "Medium (6–10)", "Large (11–20)", "Extra (21+)"]
 ).astype(str)
 
 fct["amount_tier"] = pd.cut(
@@ -340,7 +340,7 @@ fct["week_number"] = fct["date"].dt.isocalendar().week.astype(int)
 fct["quarter"]     = fct["date"].dt.quarter
 fct["semester"]    = np.where(fct["date"].dt.month <= 6, "H1", "H2")
 
-# Manter só colunas necessárias (chaves + métricas)
+# Keep only necessary columns (keys + metrics)
 fct_orders = fct[[
     "order_id", "date_key", "date", "driver_id", "customer_id", "region",
     "order_amount", "items_delivered", "items_missing", "delivery_hour",
@@ -350,15 +350,15 @@ fct_orders = fct[[
 ]]
 
 fct_orders.to_csv(f"{OUT}/fct_orders.csv", index=False)
-print(f"   fct_orders: {len(fct_orders)} linhas | {fct_orders.columns.tolist()}")
+print(f"   fct_orders: {len(fct_orders)} rows | {fct_orders.columns.tolist()}")
 
 
 # ═════════════════════════════════════════════════════════════════
-# 7. TABELAS AGREGADAS (visuais complexos prontos)
+# 7. AGGREGATED TABLES (pre-built complex visuals)
 # ═════════════════════════════════════════════════════════════════
 
-# ── 7a. Tendência mensal
-print("[7/8] Gerando tabelas agregadas...")
+# ── 7a. Monthly trend
+print("[7/8] Generating aggregated tables...")
 
 agg_monthly = (
     master.groupby("month")
@@ -376,7 +376,7 @@ agg_monthly["mom_revenue_change"] = agg_monthly["total_revenue"].pct_change() * 
 agg_monthly["mom_failure_change"] = agg_monthly["failure_rate"].diff() * 100
 agg_monthly.to_csv(f"{OUT}/agg_monthly_kpis.csv", index=False)
 
-# ── 7b. Heatmap hora × dia
+# ── 7b. Hour × day heatmap
 day_order = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]
 
 agg_hour_day = (
@@ -392,7 +392,7 @@ agg_hour_day["day_order"] = agg_hour_day["day_of_week"].map({d: i for i, d in en
 agg_hour_day = agg_hour_day.sort_values(["day_order", "delivery_hour"]).drop(columns="day_order")
 agg_hour_day.to_csv(f"{OUT}/agg_hour_day_heatmap.csv", index=False)
 
-# ── 7c. Falha por região × dia
+# ── 7c. Failure by region × day
 agg_region_day = (
     master.groupby(["region", "day_of_week"])
     .agg(
@@ -406,7 +406,7 @@ agg_region_day["day_order"] = agg_region_day["day_of_week"].map({d: i for i, d i
 agg_region_day = agg_region_day.sort_values(["region", "day_order"]).drop(columns="day_order")
 agg_region_day.to_csv(f"{OUT}/agg_region_day.csv", index=False)
 
-# ── 7d. Performance mensal de motoristas (Consistency Index)
+# ── 7d. Monthly driver performance (Consistency Index)
 agg_driver_monthly = (
     master.groupby(["driver_id", "driver_name", "month"])
     .agg(
@@ -419,11 +419,11 @@ agg_driver_monthly = (
 )
 agg_driver_monthly.to_csv(f"{OUT}/agg_driver_monthly.csv", index=False)
 
-# ── 7e. Impacto financeiro por quadrante
+# ── 7e. Financial impact by quadrant
 fin_impact = (
     dim_drivers.groupby("intervention_quadrant")
     .agg(
-        motoristas=("driver_id", "count"),
+        drivers=("driver_id", "count"),
         total_deliveries=("total_deliveries", "sum"),
         total_failures=("total_failures", "sum"),
         total_failure_cost=("estimated_failure_cost", "sum"),
@@ -435,7 +435,7 @@ fin_impact["pct_total_cost"] = fin_impact["total_failure_cost"] / fin_impact["to
 fin_impact["savings_if_30pct_reduction"] = fin_impact["total_failure_cost"] * 0.30
 fin_impact.to_csv(f"{OUT}/agg_financial_impact.csv", index=False)
 
-# ── 7f. Top produtos
+# ── 7f. Top products
 agg_products = (
     order_items
     .merge(products[["product_id","product_name","category","price"]], on="product_id", how="left")
@@ -446,17 +446,17 @@ agg_products = (
 agg_products["revenue_generated"] = agg_products["order_count"] * agg_products["price"]
 agg_products.to_csv(f"{OUT}/agg_top_products.csv", index=False)
 
-# ── 7g. Retenção de clientes (agregado para visuals de retenção)
+# ── 7g. Customer retention (aggregated for retention visuals)
 retention_summary = pd.DataFrame({
     "metric": [
-        "Total de Clientes",
-        "Clientes com Falha",
-        "% Base Impactada",
-        "Retornaram Após Falha",
+        "Total Customers",
+        "Customers with Failure",
+        "% Base Impacted",
+        "Returned After Failure",
         "Return Rate (%)",
-        "Clientes em Churn",
+        "Churned Customers",
         "Revenue at Risk ($)",
-        "Custo Médio por Churn ($)",
+        "Average Cost per Churn ($)",
     ],
     "value": [
         len(dim_customers),
@@ -473,9 +473,9 @@ retention_summary.to_csv(f"{OUT}/agg_retention_summary.csv", index=False)
 
 
 # ═════════════════════════════════════════════════════════════════
-# 8. KPIs GLOBAIS — cartão de referência
+# 8. GLOBAL KPIs — reference card
 # ═════════════════════════════════════════════════════════════════
-print("[8/8] Gerando global_kpis.json...")
+print("[8/8] Generating global_kpis.json...")
 
 global_kpis = {
     "total_orders":          int(len(fct_orders)),
@@ -491,8 +491,8 @@ global_kpis = {
     "worst_region_rate":     round(float(dim_regions["failure_rate"].max()), 4),
     "best_region":           dim_regions.loc[dim_regions["failure_rate"].idxmin(), "region"],
     "best_region_rate":      round(float(dim_regions["failure_rate"].min()), 4),
-    "chronic_drivers":       int((dim_drivers["intervention_quadrant"] == "Crônico — Ação Disciplinar").sum()),
-    "coaching_drivers":      int((dim_drivers["intervention_quadrant"] == "Instável — Coaching").sum()),
+    "chronic_drivers":       int((dim_drivers["intervention_quadrant"] == "Chronic — Disciplinary Action").sum()),
+    "coaching_drivers":      int((dim_drivers["intervention_quadrant"] == "Unstable — Coaching").sum()),
     "customers_with_failure": int(dim_customers["had_failure"].sum()),
     "customer_churn_count":  int(dim_customers["churned"].sum()),
     "revenue_at_risk":       round(float(dim_customers[dim_customers["churned"]]["total_revenue"].sum()), 2),
@@ -504,30 +504,30 @@ with open(f"{OUT}/global_kpis.json", "w") as f:
 
 
 # ═════════════════════════════════════════════════════════════════
-# SUMÁRIO
+# SUMMARY
 # ═════════════════════════════════════════════════════════════════
 print()
 print("=" * 60)
-print("  EXPORTAÇÃO CONCLUÍDA")
+print("  EXPORT COMPLETE")
 print("=" * 60)
-print(f"  Destino: data/powerbi/")
+print(f"  Output: data/powerbi/")
 print()
 
 files = {
-    "fct_orders.csv":            f"{len(fct_orders):,} linhas — tabela fato",
-    "dim_date.csv":              "365 linhas — calendário completo",
-    "dim_drivers.csv":           f"{len(dim_drivers):,} motoristas — com tier e quadrante",
-    "dim_customers.csv":         f"{len(dim_customers):,} clientes — com churn e segmento",
-    "dim_regions.csv":           f"{len(dim_regions)} regiões — com KPIs",
-    "dim_products.csv":          f"{len(dim_products):,} produtos — com rank",
-    "agg_monthly_kpis.csv":      "12 meses — tendência MoM",
-    "agg_hour_day_heatmap.csv":  "Heatmap hora × dia",
-    "agg_region_day.csv":        "Falha por região × dia",
-    "agg_driver_monthly.csv":    f"{len(agg_driver_monthly):,} linhas — performance mensal",
-    "agg_financial_impact.csv":  "Custo por quadrante de intervenção",
-    "agg_top_products.csv":      f"{len(agg_products):,} produtos ranqueados",
-    "agg_retention_summary.csv": "8 métricas de retenção",
-    "global_kpis.json":          "KPIs globais para referência",
+    "fct_orders.csv":            f"{len(fct_orders):,} rows — fact table",
+    "dim_date.csv":              "365 rows — full calendar",
+    "dim_drivers.csv":           f"{len(dim_drivers):,} drivers — with tier and quadrant",
+    "dim_customers.csv":         f"{len(dim_customers):,} customers — with churn and segment",
+    "dim_regions.csv":           f"{len(dim_regions)} regions — with KPIs",
+    "dim_products.csv":          f"{len(dim_products):,} products — with ranking",
+    "agg_monthly_kpis.csv":      "12 months — MoM trend",
+    "agg_hour_day_heatmap.csv":  "Hour × day heatmap",
+    "agg_region_day.csv":        "Failure by region × day",
+    "agg_driver_monthly.csv":    f"{len(agg_driver_monthly):,} rows — monthly performance",
+    "agg_financial_impact.csv":  "Cost by intervention quadrant",
+    "agg_top_products.csv":      f"{len(agg_products):,} ranked products",
+    "agg_retention_summary.csv": "8 retention metrics",
+    "global_kpis.json":          "Global KPIs for reference",
 }
 
 for fname, desc in files.items():
@@ -535,6 +535,6 @@ for fname, desc in files.items():
     print(f"  {'OK':2}  {fname:<35} {desc}  ({size/1024:.1f} KB)")
 
 print()
-print(f"  Custo por falha estimado: ${COST_PER_FAILURE:.2f}")
-print(f"  Taxa de falha global:     {GLOBAL_FAILURE_RATE*100:.1f}%")
-print(f"  Revenue at risk:          ${global_kpis['revenue_at_risk']:,.0f}")
+print(f"  Estimated cost per failure: ${COST_PER_FAILURE:.2f}")
+print(f"  Global failure rate:        {GLOBAL_FAILURE_RATE*100:.1f}%")
+print(f"  Revenue at risk:            ${global_kpis['revenue_at_risk']:,.0f}")

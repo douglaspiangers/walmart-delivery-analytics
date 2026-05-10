@@ -1,58 +1,58 @@
 # Power BI Dashboard Guide — Walmart Delivery Analytics
 
-## Arquivos gerados em `data/powerbi/`
+## Files generated in `data/powerbi/`
 
-| Arquivo | Tipo | Uso no Power BI |
+| File | Type | Usage in Power BI |
 |---|---|---|
-| `fct_orders.csv` | Fato | Tabela central — conecta tudo |
-| `dim_date.csv` | Dimensão | Eixo de tempo, filtros de período |
-| `dim_drivers.csv` | Dimensão | Segmento, tier, quadrante |
-| `dim_customers.csv` | Dimensão | Segmento, churn, valor |
-| `dim_regions.csv` | Dimensão | KPIs regionais |
-| `dim_products.csv` | Dimensão | Ranking de produtos |
-| `agg_monthly_kpis.csv` | Agregado | Gráfico de tendência |
-| `agg_hour_day_heatmap.csv` | Agregado | Heatmap hora × dia |
-| `agg_region_day.csv` | Agregado | Falha por região × dia |
-| `agg_driver_monthly.csv` | Agregado | Consistency index mensal |
-| `agg_financial_impact.csv` | Agregado | Custo por quadrante |
-| `agg_top_products.csv` | Agregado | Ranking de produtos |
-| `agg_retention_summary.csv` | Agregado | Métricas de retenção |
+| `fct_orders.csv` | Fact | Central table — connects everything |
+| `dim_date.csv` | Dimension | Time axis, period filters |
+| `dim_drivers.csv` | Dimension | Segment, tier, quadrant |
+| `dim_customers.csv` | Dimension | Segment, churn, value |
+| `dim_regions.csv` | Dimension | Regional KPIs |
+| `dim_products.csv` | Dimension | Product ranking |
+| `agg_monthly_kpis.csv` | Aggregate | Trend chart |
+| `agg_hour_day_heatmap.csv` | Aggregate | Hour × day heatmap |
+| `agg_region_day.csv` | Aggregate | Failure by region × day |
+| `agg_driver_monthly.csv` | Aggregate | Monthly consistency index |
+| `agg_financial_impact.csv` | Aggregate | Cost by quadrant |
+| `agg_top_products.csv` | Aggregate | Product ranking |
+| `agg_retention_summary.csv` | Aggregate | Retention metrics |
 
 ---
 
-## Passo 1 — Importar os dados
+## Step 1 — Import the data
 
-1. Abrir Power BI Desktop
-2. **Obter Dados → Texto/CSV**
-3. Importar TODOS os arquivos da pasta `data/powerbi/`
-4. Em cada tabela: verificar se os tipos de coluna estão corretos
-   - Colunas de data → tipo **Data**
-   - Colunas de taxa (failure_rate, etc.) → tipo **Número Decimal**
-   - Colunas de ID → tipo **Texto**
+1. Open Power BI Desktop
+2. **Get Data → Text/CSV**
+3. Import ALL files from the `data/powerbi/` folder
+4. For each table: verify that column types are correct
+   - Date columns → **Date** type
+   - Rate columns (failure_rate, etc.) → **Decimal Number** type
+   - ID columns → **Text** type
 
 ---
 
-## Passo 2 — Montar o Modelo (Star Schema)
+## Step 2 — Build the Model (Star Schema)
 
-Ir em **Exibição de Modelo** e criar os relacionamentos:
+Go to **Model View** and create the relationships:
 
 ```
-fct_orders[date_key]       → dim_date[date_key]         (Muitos:1)
-fct_orders[driver_id]      → dim_drivers[driver_id]     (Muitos:1)
-fct_orders[customer_id]    → dim_customers[customer_id] (Muitos:1)
-fct_orders[region]         → dim_regions[region]        (Muitos:1)
-fct_orders[order_id]       → agg_driver_monthly         (via driver_id + month — não criar relacionamento direto)
+fct_orders[date_key]       → dim_date[date_key]         (Many:1)
+fct_orders[driver_id]      → dim_drivers[driver_id]     (Many:1)
+fct_orders[customer_id]    → dim_customers[customer_id] (Many:1)
+fct_orders[region]         → dim_regions[region]        (Many:1)
+fct_orders[order_id]       → agg_driver_monthly         (via driver_id + month — do not create a direct relationship)
 ```
 
-> As tabelas `agg_*` são usadas **diretamente** em visuais específicos,
-> sem relacionamento com fct_orders — elas já têm os dados calculados.
+> The `agg_*` tables are used **directly** in specific visuals,
+> without a relationship to fct_orders — they already contain pre-calculated data.
 
 ---
 
-## Passo 3 — Criar Medidas DAX (colar no Power BI)
+## Step 3 — Create DAX Measures (paste into Power BI)
 
 ```dax
--- KPIs Globais
+-- Global KPIs
 Total Orders = COUNTROWS(fct_orders)
 
 Total Revenue = SUM(fct_orders[order_amount])
@@ -68,26 +68,26 @@ DIVIDE(
 
 Total Failure Cost = SUM(fct_orders[failure_cost])
 
--- Comparações
+-- Comparisons
 Failure Rate vs Global =
 VAR CurrentRate = [Failure Rate]
 VAR GlobalRate  = 0.15
 RETURN CurrentRate - GlobalRate
 
--- Motoristas
+-- Drivers
 High Risk Drivers =
 CALCULATE(
     DISTINCTCOUNT(dim_drivers[driver_id]),
-    dim_drivers[intervention_quadrant] = "Crônico — Ação Disciplinar"
+    dim_drivers[intervention_quadrant] = "Chronic — Disciplinary Action"
 )
 
 Coaching Needed =
 CALCULATE(
     DISTINCTCOUNT(dim_drivers[driver_id]),
-    dim_drivers[intervention_quadrant] = "Instável — Coaching"
+    dim_drivers[intervention_quadrant] = "Unstable — Coaching"
 )
 
--- Clientes
+-- Customers
 Customers with Failure =
 CALCULATE(
     COUNTROWS(dim_customers),
@@ -106,149 +106,149 @@ CALCULATE(
     dim_customers[churned] = TRUE()
 )
 
--- Savings projetados (para Plano de Ação)
+-- Projected savings (for Action Plan)
 Projected Savings 30pct =
 [Total Failure Cost] * 0.30
 ```
 
 ---
 
-## Passo 4 — Estrutura das Páginas
+## Step 4 — Page Structure
 
-### PÁGINA 1 — Visão Executiva
-**Objetivo:** Dar ao executivo o estado geral da operação em 30 segundos.
+### PAGE 1 — Executive Overview
+**Objective:** Give the executive the overall state of the operation in 30 seconds.
 
-| Visual | Tipo | Dados | Configuração |
+| Visual | Type | Data | Configuration |
 |---|---|---|---|
-| Total de Pedidos | Cartão | Medida: `Total Orders` | Negrito, ícone de pacote |
-| Receita Total | Cartão | Medida: `Total Revenue` | Formato: $#,##0 |
-| Ticket Médio | Cartão | Medida: `Avg Ticket` | Formato: $#,##0.00 |
-| Taxa de Falha | Cartão KPI | Medida: `Failure Rate` | Meta: 10% / Alerta: >15% |
-| Custo Total de Falhas | Cartão | Medida: `Total Failure Cost` | Cor vermelha |
-| Clientes em Risco | Cartão | Medida: `Churned Customers` | |
-| Receita em Risco | Cartão | Medida: `Revenue at Risk` | |
-| Tendência Mensal | Gráfico de linhas | `agg_monthly_kpis` — month × total_orders + total_revenue | Eixo duplo |
-| Taxa de Falha Mensal | Gráfico de linhas | `agg_monthly_kpis` — month × failure_rate | Linha de referência em 15% |
-| Receita por Região | Gráfico de barras | `dim_regions` — region × total_revenue | Ordenar decrescente |
+| Total Orders | Card | Measure: `Total Orders` | Bold, package icon |
+| Total Revenue | Card | Measure: `Total Revenue` | Format: $#,##0 |
+| Average Ticket | Card | Measure: `Avg Ticket` | Format: $#,##0.00 |
+| Failure Rate | KPI Card | Measure: `Failure Rate` | Target: 10% / Alert: >15% |
+| Total Failure Cost | Card | Measure: `Total Failure Cost` | Red color |
+| Customers at Risk | Card | Measure: `Churned Customers` | |
+| Revenue at Risk | Card | Measure: `Revenue at Risk` | |
+| Monthly Trend | Line chart | `agg_monthly_kpis` — month × total_orders + total_revenue | Dual axis |
+| Monthly Failure Rate | Line chart | `agg_monthly_kpis` — month × failure_rate | Reference line at 15% |
+| Revenue by Region | Bar chart | `dim_regions` — region × total_revenue | Sort descending |
 
-**Filtros de página:** Segmentação por Mês / Semestre / Dia da Semana
+**Page filters:** Slicer by Month / Semester / Day of Week
 
 ---
 
-### PÁGINA 2 — Qualidade de Entrega
-**Objetivo:** Mostrar ONDE e QUANDO as falhas acontecem — painel operacional.
+### PAGE 2 — Delivery Quality
+**Objective:** Show WHERE and WHEN failures occur — operational dashboard.
 
-| Visual | Tipo | Dados | Configuração |
+| Visual | Type | Data | Configuration |
 |---|---|---|---|
-| Taxa de Falha por Região | Gráfico de barras | `dim_regions` — region × failure_rate | Linha de referência global 15% / Verde=OK, Vermelho=Ruim |
-| Comparação vs Média | Gráfico de colunas clusterizado | `dim_regions` — region × vs_global_avg_pp | Positivo = vermelho, negativo = verde |
-| Heatmap Hora × Dia | Matriz | `agg_hour_day_heatmap` — day_of_week × delivery_hour, valor: failure_rate | Formatação condicional por cor (branco→vermelho) |
-| Volume por Hora e Dia | Matriz | `agg_hour_day_heatmap` — valor: volume | Escala de azul |
-| Falha por Dia da Semana | Gráfico de colunas | `agg_region_day` agrupado — day_of_week × avg failure_rate | Segunda em destaque |
-| Falha por Período | Gráfico de rosca | `fct_orders` — period × has_missing_int | Madrugada/Manhã/Tarde/Noite |
+| Failure Rate by Region | Bar chart | `dim_regions` — region × failure_rate | Global reference line at 15% / Green=OK, Red=Bad |
+| Comparison vs Average | Clustered column chart | `dim_regions` — region × vs_global_avg_pp | Positive = red, negative = green |
+| Hour × Day Heatmap | Matrix | `agg_hour_day_heatmap` — day_of_week × delivery_hour, value: failure_rate | Conditional color formatting (white→red) |
+| Volume by Hour and Day | Matrix | `agg_hour_day_heatmap` — value: volume | Blue scale |
+| Failure by Day of Week | Column chart | `agg_region_day` grouped — day_of_week × avg failure_rate | Monday highlighted |
+| Failure by Period | Donut chart | `fct_orders` — period × has_missing_int | Overnight/Morning/Afternoon/Evening |
 
-**Filtros de página:** Região / Mês / Semestre
+**Page filters:** Region / Month / Semester
 
 ---
 
-### PÁGINA 3 — Performance de Motoristas
-**Objetivo:** Identificar quem precisa de ação — ranqueamento e segmentação.
+### PAGE 3 — Driver Performance
+**Objective:** Identify who needs action — ranking and segmentation.
 
-| Visual | Tipo | Dados | Configuração |
+| Visual | Type | Data | Configuration |
 |---|---|---|---|
-| Motoristas Alto Risco | Cartão | Medida: `High Risk Drivers` | Alerta vermelho |
-| Motoristas para Coaching | Cartão | Medida: `Coaching Needed` | Alerta laranja |
-| Custo por Quadrante | Gráfico de barras | `agg_financial_impact` — quadrant × total_failure_cost | Incluir savings_if_30pct_reduction como linha |
-| Distribuição por Quadrante | Gráfico de rosca | `dim_drivers` — intervention_quadrant × count | 4 cores: vermelho / laranja / verde / azul |
-| Top 15 Motoristas Críticos | Tabela | `dim_drivers` — filtrar crônico+instável — colunas: driver_name, exp_tier, hist_failure_rate, estimated_failure_cost, intervention_quadrant | Formatação condicional na taxa |
-| Distribuição de Taxa de Falha | Histograma | `dim_drivers` — hist_failure_rate | Linha vertical em 15% (média global) |
-| Performance H1 vs H2 | Gráfico de dispersão | `dim_drivers` — rate_h1 × rate_h2, legenda: improved_h1_h2 | Linha diagonal (x=y) como referência |
-| Motoristas que Melhoraram | Cartão | Contar dim_drivers onde improved_h1_h2 = TRUE | % do total |
+| High Risk Drivers | Card | Measure: `High Risk Drivers` | Red alert |
+| Drivers for Coaching | Card | Measure: `Coaching Needed` | Orange alert |
+| Cost by Quadrant | Bar chart | `agg_financial_impact` — quadrant × total_failure_cost | Include savings_if_30pct_reduction as a line |
+| Distribution by Quadrant | Donut chart | `dim_drivers` — intervention_quadrant × count | 4 colors: red / orange / green / blue |
+| Top 15 Critical Drivers | Table | `dim_drivers` — filter chronic+unstable — columns: driver_name, exp_tier, hist_failure_rate, estimated_failure_cost, intervention_quadrant | Conditional formatting on rate |
+| Failure Rate Distribution | Histogram | `dim_drivers` — hist_failure_rate | Vertical line at 15% (global average) |
+| H1 vs H2 Performance | Scatter plot | `dim_drivers` — rate_h1 × rate_h2, legend: improved_h1_h2 | Diagonal line (x=y) as reference |
+| Drivers Who Improved | Card | Count dim_drivers where improved_h1_h2 = TRUE | % of total |
 
-**Filtros de página:** Tier de Experiência / Quadrante / Região
+**Page filters:** Experience Tier / Quadrant / Region
 
 ---
 
-### PÁGINA 4 — Impacto no Cliente
-**Objetivo:** Traduzir falhas operacionais em perda de receita e relacionamento.
+### PAGE 4 — Customer Impact
+**Objective:** Translate operational failures into revenue loss and relationship damage.
 
-| Visual | Tipo | Dados | Configuração |
+| Visual | Type | Data | Configuration |
 |---|---|---|---|
-| Clientes Impactados | Cartão | Medida: `Customers with Failure` | Com % do total |
-| Taxa de Retorno | Cartão | `agg_retention_summary` — Return Rate (%) | Benchmark: >90% = OK |
-| Clientes em Churn | Cartão | Medida: `Churned Customers` | Alerta vermelho |
-| Revenue at Risk | Cartão | Medida: `Revenue at Risk` | Formato $#,##0 |
-| Perfil de Falha | Gráfico de rosca | `dim_customers` — failure_group × count | 4 cores por grupo |
-| Segmento de Valor × Falha | Matriz | `dim_customers` — value_segment × failure_group, valor: count | Formatação condicional |
-| Churn por Grupo de Falha | Gráfico de colunas | `dim_customers` agrupado — failure_group × avg(churned) | Cor gradiente branco→vermelho |
-| Frequência de Compra | Gráfico de colunas clusterizadas | `dim_customers` — had_failure × avg(orders_per_month) | Lado a lado: com falha vs sem falha |
-| Clientes Perdidos (Tabela) | Tabela | `dim_customers` filtrado: churned = TRUE — customer_name, failure_group, total_revenue, value_segment | Ordenar por total_revenue desc |
+| Impacted Customers | Card | Measure: `Customers with Failure` | With % of total |
+| Return Rate | Card | `agg_retention_summary` — Return Rate (%) | Benchmark: >90% = OK |
+| Churned Customers | Card | Measure: `Churned Customers` | Red alert |
+| Revenue at Risk | Card | Measure: `Revenue at Risk` | Format $#,##0 |
+| Failure Profile | Donut chart | `dim_customers` — failure_group × count | 4 colors per group |
+| Value Segment × Failure | Matrix | `dim_customers` — value_segment × failure_group, value: count | Conditional formatting |
+| Churn by Failure Group | Column chart | `dim_customers` grouped — failure_group × avg(churned) | White→red gradient color |
+| Purchase Frequency | Clustered column chart | `dim_customers` — had_failure × avg(orders_per_month) | Side by side: with failure vs without failure |
+| Lost Customers (Table) | Table | `dim_customers` filtered: churned = TRUE — customer_name, failure_group, total_revenue, value_segment | Sort by total_revenue desc |
 
-**Filtros de página:** Segmento de Valor / Grupo de Falha / Idade
+**Page filters:** Value Segment / Failure Group / Age
 
 ---
 
-### PÁGINA 5 — Plano de Ação
-**Objetivo:** Traduzir toda a análise em recomendações com ROI estimado.
+### PAGE 5 — Action Plan
+**Objective:** Translate the entire analysis into recommendations with estimated ROI.
 
-| Visual | Tipo | Dados | Configuração |
+| Visual | Type | Data | Configuration |
 |---|---|---|---|
-| Custo Total Atual | Cartão grande | Medida: `Total Failure Cost` | Contexto: "por ano" |
-| Economia Estimada (30%) | Cartão grande | Medida: `Projected Savings 30pct` | Verde — "se atingir meta" |
-| Prioridade por Impacto | Gráfico de barras horizontal | `agg_financial_impact` — quadrant × total_failure_cost + savings | Mostrar delta |
-| Tabela de Recomendações | Tabela manual (Enter Data) | 4 ações priorizadas com impacto estimado | Ver abaixo |
-| Revenue at Risk vs Custo de Retenção | Gráfico de dispersão ou cartões comparativos | Mostrar que $47,371 em risco vs. custo de compensação | Narrativa visual |
+| Current Total Cost | Large card | Measure: `Total Failure Cost` | Context: "per year" |
+| Estimated Savings (30%) | Large card | Measure: `Projected Savings 30pct` | Green — "if target is met" |
+| Priority by Impact | Horizontal bar chart | `agg_financial_impact` — quadrant × total_failure_cost + savings | Show delta |
+| Recommendations Table | Manual table (Enter Data) | 4 prioritized actions with estimated impact | See below |
+| Revenue at Risk vs Retention Cost | Scatter plot or comparative cards | Show that $47,371 is at risk vs. compensation cost | Visual narrative |
 
-**Tabela de Recomendações (inserir manualmente via Enter Data):**
+**Recommendations Table (enter manually via Enter Data):**
 
-| Prioridade | Ação | Alvo | Impacto Estimado |
+| Priority | Action | Target | Estimated Impact |
 |---|---|---|---|
-| 1 | Programa de retreinamento obrigatório | Motoristas Crônico + Instável | -30% no custo de falha |
-| 2 | Protocolo reforçado às Segundas-feiras | Todos os motoristas | -2pp na taxa de falha |
-| 3 | Auditoria operacional — Altamonte Springs | Gestão regional | -1.5pp na região |
-| 4 | Compensação imediata após 1ª falha | Clientes com 1 falha | Recuperar $47k em risco |
+| 1 | Mandatory retraining program | Chronic + Unstable Drivers | -30% in failure cost |
+| 2 | Reinforced protocol on Mondays | All drivers | -2pp in failure rate |
+| 3 | Operational audit — Altamonte Springs | Regional management | -1.5pp in the region |
+| 4 | Immediate compensation after 1st failure | Customers with 1 failure | Recover $47k at risk |
 
 ---
 
-## Dicas de Design Profissional
+## Professional Design Tips
 
-### Paleta de cores recomendada
+### Recommended color palette
 ```
-Primário (azul):   #1F77B4
-Sucesso (verde):   #2CA02C
-Alerta (laranja):  #FF7F0E
-Perigo (vermelho): #D62728
-Neutro (cinza):    #7F7F7F
-Fundo das páginas: #F8F9FA
-Fundo dos cartões: #FFFFFF
-```
-
-### Configurações gerais
-- **Tema:** Usar o tema padrão do Power BI ou importar um tema JSON com as cores acima
-- **Fonte:** Segoe UI em todo o relatório
-- **Cartões KPI:** Usar visual "Cartão" com bordas arredondadas e sombra sutil
-- **Linhas de referência:** Sempre adicionar linha pontilhada vermelha na média global (15%) nos gráficos de taxa
-- **Formatação condicional:** Usar escala Branco→Vermelho em toda coluna de `failure_rate` ou `failure_cost` nas tabelas
-- **Tooltips:** Customizar para mostrar contexto adicional (ex: no gráfico de região, tooltip com nº de pedidos e motoristas)
-
-### Hierarquia de informação por página
-```
-TÍTULO DA PÁGINA (grande, negrito)
-  └── Subtítulo com contexto ("Jan–Dez 2023 | 7 cidades | 10.000 pedidos")
-      └── KPI Cards (linha de cartões no topo)
-          └── Gráficos principais (2/3 da página)
-              └── Tabela de detalhe (1/3 inferior, opcional)
+Primary (blue):    #1F77B4
+Success (green):   #2CA02C
+Alert (orange):    #FF7F0E
+Danger (red):      #D62728
+Neutral (gray):    #7F7F7F
+Page background:   #F8F9FA
+Card background:   #FFFFFF
 ```
 
+### General settings
+- **Theme:** Use the default Power BI theme or import a JSON theme with the colors above
+- **Font:** Segoe UI throughout the report
+- **KPI Cards:** Use the "Card" visual with rounded corners and a subtle shadow
+- **Reference lines:** Always add a red dashed line at the global average (15%) on rate charts
+- **Conditional formatting:** Use a White→Red scale on every `failure_rate` or `failure_cost` column in tables
+- **Tooltips:** Customize to show additional context (e.g., in the region chart, tooltip with number of orders and drivers)
+
+### Information hierarchy per page
+```
+PAGE TITLE (large, bold)
+  └── Subtitle with context ("Jan–Dec 2023 | 7 cities | 10,000 orders")
+      └── KPI Cards (card row at the top)
+          └── Main charts (2/3 of the page)
+              └── Detail table (bottom 1/3, optional)
+```
+
 ---
 
-## Ordem de criação recomendada
+## Recommended creation order
 
-1. Criar modelo e relacionamentos
-2. Criar todas as medidas DAX
-3. Montar Página 1 (Executiva) — referência visual para as demais
-4. Montar Página 5 (Plano de Ação) — âncora narrativa
-5. Montar Páginas 2, 3, 4
+1. Create the model and relationships
+2. Create all DAX measures
+3. Build Page 1 (Executive) — visual reference for all other pages
+4. Build Page 5 (Action Plan) — narrative anchor
+5. Build Pages 2, 3, 4
 
-> Comece pelo final (Plano de Ação) para ter clareza de qual história
-> cada página anterior precisa contar.
+> Start from the end (Action Plan) to have clarity about what story
+> each preceding page needs to tell.

@@ -1,6 +1,6 @@
 """
 preprocessing.py
-Funções de limpeza e transformação dos dados brutos.
+Data cleaning and transformation functions.
 """
 
 import pandas as pd
@@ -41,7 +41,7 @@ def clean_drivers(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def build_master(orders, customers, drivers) -> pd.DataFrame:
-    """Une pedidos com clientes e motoristas em um dataframe único."""
+    """Joins orders with customers and drivers into a single master dataframe."""
     df = orders.merge(customers, on="customer_id", how="left")
     df = df.merge(
         drivers[["driver_id", "driver_name", "age", "trips"]],

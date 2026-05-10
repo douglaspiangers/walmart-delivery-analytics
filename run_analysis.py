@@ -1,6 +1,6 @@
 """
 run_analysis.py
-Executa toda a pipeline de análise e gera os gráficos em reports/figures/.
+Runs the full analysis pipeline and generates charts in reports/figures/.
 """
 
 import os
@@ -29,10 +29,10 @@ pd.set_option("display.float_format", "{:.2f}".format)
 
 
 # ─────────────────────────────────────────────
-# ETAPA 1 — LIMPEZA E MASTER DATAFRAME
+# STEP 1 — CLEANING AND MASTER DATAFRAME
 # ─────────────────────────────────────────────
 print("=" * 55)
-print("  ETAPA 1 — Limpeza e construção do master dataframe")
+print("  STEP 1 — Cleaning and building the master dataframe")
 print("=" * 55)
 
 orders      = clean_orders(load_orders())
@@ -46,18 +46,18 @@ master.to_parquet(f"{PROCESSED}/master.parquet", index=False)
 products.to_parquet(f"{PROCESSED}/products.parquet", index=False)
 order_items.to_parquet(f"{PROCESSED}/order_items.parquet", index=False)
 
-print(f"  Pedidos:    {master.shape[0]:,}")
-print(f"  Clientes:   {customers.shape[0]:,}")
-print(f"  Motoristas: {drivers.shape[0]:,}")
-print(f"  Produtos:   {products.shape[0]:,}")
-print(f"  Intervalo:  {master['date'].min().date()} a {master['date'].max().date()}")
+print(f"  Orders:    {master.shape[0]:,}")
+print(f"  Customers:   {customers.shape[0]:,}")
+print(f"  Drivers: {drivers.shape[0]:,}")
+print(f"  Products:   {products.shape[0]:,}")
+print(f"  Date range:  {master['date'].min().date()} to {master['date'].max().date()}")
 
 
 # ─────────────────────────────────────────────
-# ETAPA 2 — KPIs EXECUTIVOS
+# STEP 2 — EXECUTIVE KPIs
 # ─────────────────────────────────────────────
 print("\n" + "=" * 55)
-print("  ETAPA 2 — KPIs Executivos")
+print("  STEP 2 — Executive KPIs")
 print("=" * 55)
 
 total_revenue  = master["order_amount"].sum()
@@ -65,18 +65,18 @@ avg_ticket     = master["order_amount"].mean()
 missing_rate   = master["has_missing"].mean()
 total_orders   = master.shape[0]
 
-print(f"  Total de Pedidos:        {total_orders:,}")
-print(f"  Receita Total:           ${total_revenue:,.2f}")
-print(f"  Ticket Médio:            ${avg_ticket:,.2f}")
-print(f"  Taxa de Itens Faltando:  {missing_rate*100:.1f}%")
-print(f"  Regiões Atendidas:       {master['region'].nunique()}")
-print(f"  Motoristas Ativos:       {master['driver_id'].nunique()}")
+print(f"  Total Orders:            {total_orders:,}")
+print(f"  Total Revenue:           ${total_revenue:,.2f}")
+print(f"  Average Ticket:          ${avg_ticket:,.2f}")
+print(f"  Missing Items Rate:      {missing_rate*100:.1f}%")
+print(f"  Regions Served:          {master['region'].nunique()}")
+print(f"  Active Drivers:          {master['driver_id'].nunique()}")
 
 
 # ─────────────────────────────────────────────
-# FIGURA 1 — Tendência mensal
+# FIGURE 1 — Monthly trend
 # ─────────────────────────────────────────────
-print("\n[Gerando gráfico 01] Tendência mensal...")
+print("\n[Generating chart 01] Monthly trend...")
 
 monthly = (
     master.groupby("month")
@@ -86,13 +86,13 @@ monthly = (
 
 fig, axes = plt.subplots(1, 2, figsize=(16, 5))
 axes[0].plot(monthly["month"], monthly["total_orders"], marker="o", color="steelblue", linewidth=2)
-axes[0].set_title("Pedidos por Mês", fontsize=13, fontweight="bold")
-axes[0].set_xlabel("Mês"); axes[0].set_ylabel("Nº de Pedidos")
+axes[0].set_title("Orders by Month", fontsize=13, fontweight="bold")
+axes[0].set_xlabel("Month"); axes[0].set_ylabel("No. of Orders")
 axes[0].tick_params(axis="x", rotation=45)
 
 axes[1].plot(monthly["month"], monthly["total_revenue"], marker="o", color="darkorange", linewidth=2)
-axes[1].set_title("Receita por Mês (USD)", fontsize=13, fontweight="bold")
-axes[1].set_xlabel("Mês"); axes[1].set_ylabel("Receita ($)")
+axes[1].set_title("Revenue by Month (USD)", fontsize=13, fontweight="bold")
+axes[1].set_xlabel("Month"); axes[1].set_ylabel("Revenue ($)")
 axes[1].tick_params(axis="x", rotation=45)
 
 plt.tight_layout()
@@ -101,9 +101,9 @@ plt.close()
 
 
 # ─────────────────────────────────────────────
-# FIGURA 2 — Receita por região
+# FIGURE 2 — Revenue by region
 # ─────────────────────────────────────────────
-print("[Gerando gráfico 02] Receita por região...")
+print("[Generating chart 02] Revenue by region...")
 
 region_revenue = (
     master.groupby("region")["order_amount"]
@@ -112,37 +112,37 @@ region_revenue = (
 
 fig, ax = plt.subplots(figsize=(10, 5))
 ax.bar(region_revenue["region"], region_revenue["order_amount"], color="steelblue")
-ax.set_title("Receita Total por Região (USD)", fontsize=13, fontweight="bold")
-ax.set_xlabel("Região"); ax.set_ylabel("Receita ($)")
+ax.set_title("Total Revenue by Region (USD)", fontsize=13, fontweight="bold")
+ax.set_xlabel("Region"); ax.set_ylabel("Revenue ($)")
 plt.xticks(rotation=45, ha="right"); plt.tight_layout()
 plt.savefig(f"{FIGURES}/02_revenue_by_region.png", dpi=150)
 plt.close()
 
-print("\n  Receita por região:")
+print("\n  Revenue by region:")
 for _, row in region_revenue.iterrows():
     print(f"    {row['region']:<25} ${row['order_amount']:,.0f}")
 
 
 # ─────────────────────────────────────────────
-# FIGURA 3 — Distribuição do valor dos pedidos
+# FIGURE 3 — Order value distribution
 # ─────────────────────────────────────────────
-print("\n[Gerando gráfico 03] Distribuição do valor dos pedidos...")
+print("\n[Generating chart 03] Order value distribution...")
 
 fig, ax = plt.subplots(figsize=(10, 5))
 ax.hist(master["order_amount"], bins=40, color="steelblue", edgecolor="white")
 ax.axvline(master["order_amount"].median(), color="red", linestyle="--",
-           label=f"Mediana: ${master['order_amount'].median():.2f}")
-ax.set_title("Distribuição do Valor dos Pedidos", fontsize=13, fontweight="bold")
-ax.set_xlabel("Valor ($)"); ax.set_ylabel("Frequência"); ax.legend()
+           label=f"Median: ${master['order_amount'].median():.2f}")
+ax.set_title("Order Value Distribution", fontsize=13, fontweight="bold")
+ax.set_xlabel("Value ($)"); ax.set_ylabel("Frequency"); ax.legend()
 plt.tight_layout()
 plt.savefig(f"{FIGURES}/03_order_amount_distribution.png", dpi=150)
 plt.close()
 
 
 # ─────────────────────────────────────────────
-# FIGURA 4 — Heatmap horário x dia da semana
+# FIGURE 4 — Heatmap hour x day of week
 # ─────────────────────────────────────────────
-print("[Gerando gráfico 04] Heatmap horário × dia da semana...")
+print("[Generating chart 04] Heatmap hour × day of week...")
 
 day_order = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 pivot = (
@@ -152,16 +152,16 @@ pivot = (
 
 fig, ax = plt.subplots(figsize=(14, 5))
 sns.heatmap(pivot, annot=True, fmt=".0f", cmap="Blues", ax=ax)
-ax.set_title("Volume de Entregas: Hora × Dia da Semana", fontsize=13, fontweight="bold")
+ax.set_title("Delivery Volume: Hour × Day of Week", fontsize=13, fontweight="bold")
 plt.tight_layout()
 plt.savefig(f"{FIGURES}/04_delivery_heatmap.png", dpi=150)
 plt.close()
 
 
 # ─────────────────────────────────────────────
-# FIGURA 5 — Distribuição por faixa etária
+# FIGURE 5 — Distribution by age group
 # ─────────────────────────────────────────────
-print("[Gerando gráfico 05] Distribuição por faixa etária...")
+print("[Generating chart 05] Distribution by age group...")
 
 age_bins = [18, 30, 45, 60, 100]
 age_labels = ["18-29", "30-44", "45-59", "60+"]
@@ -171,17 +171,17 @@ age_dist.columns = ["age_group", "count"]
 
 fig, ax = plt.subplots(figsize=(8, 5))
 ax.bar(age_dist["age_group"].astype(str), age_dist["count"], color="#4a90d9")
-ax.set_title("Pedidos por Faixa Etária", fontsize=13, fontweight="bold")
-ax.set_xlabel("Faixa Etária"); ax.set_ylabel("Nº de Pedidos")
+ax.set_title("Orders by Age Group", fontsize=13, fontweight="bold")
+ax.set_xlabel("Age Group"); ax.set_ylabel("No. of Orders")
 plt.tight_layout()
 plt.savefig(f"{FIGURES}/05_age_distribution.png", dpi=150)
 plt.close()
 
 
 # ─────────────────────────────────────────────
-# FIGURA 6 — Categorias de produto
+# FIGURE 6 — Product categories
 # ─────────────────────────────────────────────
-print("[Gerando gráfico 06] Categorias de produto...")
+print("[Generating chart 06] Product categories...")
 
 items_cat = order_items.merge(products[["product_id", "category"]], on="product_id", how="left")
 cat_counts = items_cat["category"].value_counts().reset_index()
@@ -189,17 +189,17 @@ cat_counts.columns = ["category", "count"]
 
 fig, ax = plt.subplots(figsize=(10, 5))
 ax.bar(cat_counts["category"], cat_counts["count"], color="steelblue")
-ax.set_title("Itens Pedidos por Categoria", fontsize=13, fontweight="bold")
-ax.set_xlabel("Categoria"); ax.set_ylabel("Quantidade")
+ax.set_title("Items Ordered by Category", fontsize=13, fontweight="bold")
+ax.set_xlabel("Category"); ax.set_ylabel("Quantity")
 plt.xticks(rotation=45, ha="right"); plt.tight_layout()
 plt.savefig(f"{FIGURES}/06_product_categories.png", dpi=150)
 plt.close()
 
 
 # ─────────────────────────────────────────────
-# FIGURA 7 — Top 10 produtos
+# FIGURE 7 — Top 10 products
 # ─────────────────────────────────────────────
-print("[Gerando gráfico 07] Top 10 produtos...")
+print("[Generating chart 07] Top 10 products...")
 
 top_products = (
     order_items
@@ -212,17 +212,17 @@ top_products = (
 
 fig, ax = plt.subplots(figsize=(10, 6))
 ax.barh(top_products["product_name"][::-1], top_products["order_count"][::-1], color="steelblue")
-ax.set_title("Top 10 Produtos Mais Pedidos", fontsize=13, fontweight="bold")
-ax.set_xlabel("Quantidade de Pedidos")
+ax.set_title("Top 10 Most Ordered Products", fontsize=13, fontweight="bold")
+ax.set_xlabel("Number of Orders")
 plt.tight_layout()
 plt.savefig(f"{FIGURES}/07_top_products.png", dpi=150)
 plt.close()
 
 
 # ─────────────────────────────────────────────
-# FIGURA 8 — Ticket médio por faixa etária
+# FIGURE 8 — Average ticket by age group
 # ─────────────────────────────────────────────
-print("[Gerando gráfico 08] Ticket médio por faixa etária...")
+print("[Generating chart 08] Average ticket by age group...")
 
 ticket_by_age = (
     master.groupby("age_group", observed=True)["order_amount"]
@@ -231,17 +231,17 @@ ticket_by_age = (
 
 fig, ax = plt.subplots(figsize=(8, 5))
 ax.bar(ticket_by_age["age_group"].astype(str), ticket_by_age["avg_ticket"], color="#4a90d9")
-ax.set_title("Ticket Médio por Faixa Etária", fontsize=13, fontweight="bold")
-ax.set_xlabel("Faixa Etária"); ax.set_ylabel("Ticket Médio ($)")
+ax.set_title("Average Ticket by Age Group", fontsize=13, fontweight="bold")
+ax.set_xlabel("Age Group"); ax.set_ylabel("Average Ticket ($)")
 plt.tight_layout()
 plt.savefig(f"{FIGURES}/08_ticket_by_age.png", dpi=150)
 plt.close()
 
 
 # ─────────────────────────────────────────────
-# FIGURA 9 — Taxa de itens faltando por região
+# FIGURE 9 — Missing items rate by region
 # ─────────────────────────────────────────────
-print("[Gerando gráfico 09] Taxa de falha por região...")
+print("[Generating chart 09] Failure rate by region...")
 
 region_missing = (
     master.groupby("region")
@@ -253,22 +253,22 @@ region_missing = (
 
 fig, ax = plt.subplots(figsize=(10, 5))
 ax.bar(region_missing["region"], region_missing["missing_rate"] * 100, color="salmon")
-ax.axhline(missing_rate * 100, color="darkred", linestyle="--", label=f"Média geral: {missing_rate*100:.1f}%")
-ax.set_title("Taxa de Itens Faltando por Região (%)", fontsize=13, fontweight="bold")
-ax.set_xlabel("Região"); ax.set_ylabel("Taxa (%)"); ax.legend()
+ax.axhline(missing_rate * 100, color="darkred", linestyle="--", label=f"Overall avg: {missing_rate*100:.1f}%")
+ax.set_title("Missing Items Rate by Region (%)", fontsize=13, fontweight="bold")
+ax.set_xlabel("Region"); ax.set_ylabel("Rate (%)"); ax.legend()
 plt.xticks(rotation=45, ha="right"); plt.tight_layout()
 plt.savefig(f"{FIGURES}/09_missing_by_region.png", dpi=150)
 plt.close()
 
-print("\n  Taxa de falha por região:")
+print("\n  Failure rate by region:")
 for _, row in region_missing.iterrows():
-    print(f"    {row['region']:<25} {row['missing_rate']*100:.1f}%  ({int(row['missing_count'])}/{int(row['total_orders'])} pedidos)")
+    print(f"    {row['region']:<25} {row['missing_rate']*100:.1f}%  ({int(row['missing_count'])}/{int(row['total_orders'])} orders)")
 
 
 # ─────────────────────────────────────────────
-# FIGURA 10 — Taxa de falha por dia da semana
+# FIGURE 10 — Failure rate by day of week
 # ─────────────────────────────────────────────
-print("\n[Gerando gráfico 10] Taxa de falha por dia da semana...")
+print("\n[Generating chart 10] Failure rate by day of week...")
 
 day_missing = (
     master.groupby("day_of_week")["has_missing"]
@@ -277,43 +277,43 @@ day_missing = (
 
 fig, ax = plt.subplots(figsize=(10, 5))
 ax.bar(day_missing["day_of_week"], day_missing["has_missing"] * 100, color="#5b8db8")
-ax.axhline(missing_rate * 100, color="darkred", linestyle="--", label=f"Média geral: {missing_rate*100:.1f}%")
-ax.set_title("Taxa de Itens Faltando por Dia da Semana (%)", fontsize=13, fontweight="bold")
-ax.set_xlabel("Dia"); ax.set_ylabel("Taxa (%)"); ax.legend()
+ax.axhline(missing_rate * 100, color="darkred", linestyle="--", label=f"Overall avg: {missing_rate*100:.1f}%")
+ax.set_title("Missing Items Rate by Day of Week (%)", fontsize=13, fontweight="bold")
+ax.set_xlabel("Day"); ax.set_ylabel("Rate (%)"); ax.legend()
 plt.xticks(rotation=45, ha="right"); plt.tight_layout()
 plt.savefig(f"{FIGURES}/10_missing_by_weekday.png", dpi=150)
 plt.close()
 
-print("\n  Taxa por dia da semana:")
+print("\n  Rate by day of week:")
 for _, row in day_missing.iterrows():
-    marker = " <- pior" if row["has_missing"] == day_missing["has_missing"].max() else ""
+    marker = " <- worst" if row["has_missing"] == day_missing["has_missing"].max() else ""
     print(f"    {row['day_of_week']:<12} {row['has_missing']*100:.1f}%{marker}")
 
 
 # ─────────────────────────────────────────────
-# ANÁLISE DE CORRELAÇÃO
+# CORRELATION ANALYSIS
 # ─────────────────────────────────────────────
 print("\n" + "=" * 55)
-print("  ETAPA 3 — Correlação: volume de itens × falhas")
+print("  STEP 3 — Correlation: item volume × failures")
 print("=" * 55)
 
 corr, pvalue = stats.pointbiserialr(master["items_delivered"], master["items_missing"])
 avg_by_missing = master.groupby("has_missing")["items_delivered"].mean()
 
-print(f"  Correlação:  {corr:.4f}")
-print(f"  P-value:     {pvalue:.4f}")
-print(f"  Média itens — pedidos SEM falha:  {avg_by_missing[False]:.2f}")
-print(f"  Média itens — pedidos COM falha:  {avg_by_missing[True]:.2f}")
+print(f"  Correlation:  {corr:.4f}")
+print(f"  P-value:      {pvalue:.4f}")
+print(f"  Avg items — orders WITHOUT failure:  {avg_by_missing[False]:.2f}")
+print(f"  Avg items — orders WITH failure:     {avg_by_missing[True]:.2f}")
 if pvalue < 0.05:
-    print("  -> Correlacao estatisticamente significativa (p < 0.05)")
+    print("  -> Statistically significant correlation (p < 0.05)")
 else:
-    print("  -> Sem correlacao significativa")
+    print("  -> No significant correlation")
 
 
 # ─────────────────────────────────────────────
-# FIGURA 11 — Ranking de motoristas
+# FIGURE 11 — Driver ranking
 # ─────────────────────────────────────────────
-print("\n[Gerando gráfico 11] Ranking de motoristas...")
+print("\n[Generating chart 11] Driver ranking...")
 
 driver_perf = (
     master.groupby(["driver_id", "driver_name"])
@@ -326,26 +326,26 @@ best        = qualified.nsmallest(10, "missing_rate")
 
 fig, axes = plt.subplots(1, 2, figsize=(16, 6))
 axes[0].barh(worst["driver_name"][::-1], worst["missing_rate"][::-1] * 100, color="salmon")
-axes[0].set_title("Top 10 — Maior Taxa de Falha", fontsize=12, fontweight="bold")
-axes[0].set_xlabel("Taxa de Itens Faltando (%)")
+axes[0].set_title("Top 10 — Highest Failure Rate", fontsize=12, fontweight="bold")
+axes[0].set_xlabel("Missing Items Rate (%)")
 
 axes[1].barh(best["driver_name"][::-1], best["missing_rate"][::-1] * 100, color="seagreen")
-axes[1].set_title("Top 10 — Menor Taxa de Falha", fontsize=12, fontweight="bold")
-axes[1].set_xlabel("Taxa de Itens Faltando (%)")
+axes[1].set_title("Top 10 — Lowest Failure Rate", fontsize=12, fontweight="bold")
+axes[1].set_xlabel("Missing Items Rate (%)")
 
 plt.tight_layout()
 plt.savefig(f"{FIGURES}/11_driver_ranking.png", dpi=150)
 plt.close()
 
-print(f"\n  Motoristas qualificados (>= 20 entregas): {qualified.shape[0]}")
-print(f"  Pior taxa:   {worst['missing_rate'].max()*100:.1f}%  ({worst.iloc[0]['driver_name']})")
-print(f"  Melhor taxa: {best['missing_rate'].min()*100:.1f}%  ({best.iloc[0]['driver_name']})")
+print(f"\n  Qualified drivers (>= 20 deliveries): {qualified.shape[0]}")
+print(f"  Worst rate:   {worst['missing_rate'].max()*100:.1f}%  ({worst.iloc[0]['driver_name']})")
+print(f"  Best rate:    {best['missing_rate'].min()*100:.1f}%  ({best.iloc[0]['driver_name']})")
 
 
 # ─────────────────────────────────────────────
-# FIGURA 12 — Heatmap falha: região × hora
+# FIGURE 12 — Failure heatmap: region × hour
 # ─────────────────────────────────────────────
-print("\n[Gerando gráfico 12] Heatmap falha por região e hora...")
+print("\n[Generating chart 12] Failure heatmap by region and hour...")
 
 pivot_missing = (
     master.groupby(["region", "delivery_hour"])["has_missing"]
@@ -354,30 +354,30 @@ pivot_missing = (
 
 fig, ax = plt.subplots(figsize=(14, 5))
 sns.heatmap(pivot_missing, annot=True, fmt=".2f", cmap="RdYlGn_r", ax=ax)
-ax.set_title("Taxa de Itens Faltando: Região × Hora do Dia", fontsize=13, fontweight="bold")
+ax.set_title("Missing Items Rate: Region × Hour of Day", fontsize=13, fontweight="bold")
 plt.tight_layout()
 plt.savefig(f"{FIGURES}/12_missing_heatmap.png", dpi=150)
 plt.close()
 
 
 # ─────────────────────────────────────────────
-# SUMÁRIO FINAL
+# FINAL SUMMARY
 # ─────────────────────────────────────────────
 print("\n" + "=" * 55)
-print("  ANÁLISE CONCLUÍDA")
+print("  ANALYSIS COMPLETE")
 print("=" * 55)
 
 worst_region  = region_missing.iloc[0]
 best_region   = region_missing.iloc[-1]
 worst_day     = day_missing.loc[day_missing["has_missing"].idxmax()]
 
-print(f"\n  Pior região:    {worst_region['region']} ({worst_region['missing_rate']*100:.1f}% de falha)")
-print(f"  Melhor região:  {best_region['region']} ({best_region['missing_rate']*100:.1f}% de falha)")
-print(f"  Pior dia:       {worst_day['day_of_week']} ({worst_day['has_missing']*100:.1f}% de falha)")
-print(f"\n  12 gráficos exportados em: reports/figures/")
-print(f"  Dados processados em:      data/processed/")
+print(f"\n  Worst region:    {worst_region['region']} ({worst_region['missing_rate']*100:.1f}% failure rate)")
+print(f"  Best region:     {best_region['region']} ({best_region['missing_rate']*100:.1f}% failure rate)")
+print(f"  Worst day:       {worst_day['day_of_week']} ({worst_day['has_missing']*100:.1f}% failure rate)")
+print(f"\n  12 charts exported to: reports/figures/")
+print(f"  Processed data saved to: data/processed/")
 
-# retorna os valores reais para atualizar o README
+# returns actual values to update the README
 RESULTS = {
     "total_orders":   total_orders,
     "total_revenue":  total_revenue,
@@ -401,4 +401,4 @@ import json
 with open(f"{PROCESSED}/results_summary.json", "w") as f:
     json.dump(RESULTS, f, indent=2)
 
-print("\n  Resumo de resultados salvo em: data/processed/results_summary.json")
+print("\n  Results summary saved to: data/processed/results_summary.json")

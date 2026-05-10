@@ -1,6 +1,6 @@
 """
 visualization.py
-Funções de visualização padronizadas para o projeto.
+Standardized visualization functions for the project.
 """
 
 import matplotlib.pyplot as plt

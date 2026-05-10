@@ -1,7 +1,7 @@
 """
 run_shap_export.py
-Executa a lógica computacional do Notebook 11 e salva shap_results.json.
-Equivalente ao NB11 sem os gráficos — para ambientes sem Jupyter instalado.
+Runs the computational logic from Notebook 11 and saves shap_results.json.
+Equivalent to NB11 without charts — for environments without Jupyter installed.
 """
 import sys, os, warnings, json
 warnings.filterwarnings("ignore")
@@ -19,13 +19,13 @@ from scipy.stats import kruskal, mannwhitneyu
 from src.data_loader import load_orders, load_customers, load_drivers
 from src.preprocessing import clean_orders, clean_drivers, build_master
 
-# ── Carregar dados
-print("Carregando dados...")
+# ── Load data
+print("Loading data...")
 master = pd.read_parquet("data/processed/master.parquet")
 
-# ── Feature engineering — driver_fail_rate sem data leakage
-# Para cada pedido, usa apenas entregas ANTERIORES do mesmo motorista (expanding window).
-# Pedidos sem histórico recebem a taxa global como prior.
+# ── Feature engineering — driver_fail_rate without data leakage
+# For each order, uses only PRIOR deliveries of the same driver (expanding window).
+# Orders with no history receive the global rate as a prior.
 master = master.sort_values("date").reset_index(drop=True)
 global_rate = master["has_missing"].mean()
 master["driver_fail_rate"] = (
@@ -35,10 +35,10 @@ master["driver_fail_rate"] = (
 )
 
 def hour_to_period(h):
-    if h < 6:  return "madrugada"
-    if h < 12: return "manha"
-    if h < 18: return "tarde"
-    return "noite"
+    if h < 6:  return "overnight"
+    if h < 12: return "morning"
+    if h < 18: return "afternoon"
+    return "evening"
 
 master["period"]     = master["delivery_hour"].apply(hour_to_period)
 master["is_weekend"] = master["day_of_week"].isin(["Saturday", "Sunday"]).astype(int)
@@ -57,15 +57,15 @@ FEATURES = [
     "customer_age",
 ]
 FEATURE_CATEGORIES = {
-    "driver_fail_rate": "Motorista",
-    "customer_age":     "Cliente",
-    "order_amount":     "Pedido",
-    "items_delivered":  "Pedido",
-    "delivery_hour":    "Tempo",
-    "period_enc":       "Tempo",
-    "is_weekend":       "Tempo",
-    "is_monday":        "Tempo",
-    "region_enc":       "Localização",
+    "driver_fail_rate": "Driver",
+    "customer_age":     "Customer",
+    "order_amount":     "Order",
+    "items_delivered":  "Order",
+    "delivery_hour":    "Time",
+    "period_enc":       "Time",
+    "is_weekend":       "Time",
+    "is_monday":        "Time",
+    "region_enc":       "Location",
 }
 
 df_model = master[FEATURES + ["has_missing"]].dropna()
@@ -73,15 +73,15 @@ X = df_model[FEATURES]
 y = df_model["has_missing"].astype(int)
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42, stratify=y)
 
-# ── Treinar Random Forest
-print(f"Treinando Random Forest ({len(X_train):,} amostras de treino)...")
+# ── Train Random Forest
+print(f"Training Random Forest ({len(X_train):,} training samples)...")
 rf = RandomForestClassifier(n_estimators=300, max_depth=8, random_state=42, n_jobs=-1)
 rf.fit(X_train, y_train)
 auc = roc_auc_score(y_test, rf.predict_proba(X_test)[:, 1])
 print(f"AUC = {auc:.4f}")
 
 # ── SHAP values
-print("Computando SHAP values (amostra de 800)...")
+print("Computing SHAP values (sample of 800)...")
 X_sample = X_test.sample(min(800, len(X_test)), random_state=42)
 explainer   = shap.TreeExplainer(rf)
 shap_values = explainer.shap_values(X_sample)
@@ -107,18 +107,18 @@ cat_shap = (
 )
 cat_shap["pct"] = cat_shap["mean_abs_shap"] / cat_shap["mean_abs_shap"].sum() * 100
 
-print("\n=== SHAP por Categoria ===")
+print("\n=== SHAP by Category ===")
 for _, row in cat_shap.iterrows():
     print(f"  {row['category']:<15} {row['pct']:5.1f}%")
 
-# ── Variância
+# ── Variance
 master["age_group"] = pd.cut(
     master["customer_age"], bins=[18, 30, 45, 60, 100],
     labels=["18-29", "30-44", "45-59", "60+"]
 )
 master["value_segment"] = pd.qcut(
     master.groupby("customer_id")["order_amount"].transform("mean"),
-    q=4, labels=["Baixo Valor", "Médio Valor", "Alto Valor", "VIP"]
+    q=4, labels=["Low Value", "Medium Value", "High Value", "VIP"]
 )
 driver_rates = (
     master.groupby("driver_id")
@@ -130,13 +130,13 @@ value_rates  = master.groupby("value_segment",observed=True)["has_missing"].mean
 region_rates = master.groupby("region")["has_missing"].mean()
 
 variance_comparison = pd.DataFrame({
-    "Dimensão": ["Motorista (individual)", "Região", "Faixa Etária", "Segmento de Valor"],
-    "Máximo":   [driver_rates.max(), region_rates.max(), age_rates.max(), value_rates.max()],
-    "Mínimo":   [driver_rates.min(), region_rates.min(), age_rates.min(), value_rates.min()],
+    "Dimension": ["Driver (individual)", "Region", "Age Group", "Value Segment"],
+    "Maximum":   [driver_rates.max(), region_rates.max(), age_rates.max(), value_rates.max()],
+    "Minimum":   [driver_rates.min(), region_rates.min(), age_rates.min(), value_rates.min()],
 })
-variance_comparison["Range (pp)"] = ((variance_comparison["Máximo"] - variance_comparison["Mínimo"]) * 100).round(1)
+variance_comparison["Range (pp)"] = ((variance_comparison["Maximum"] - variance_comparison["Minimum"]) * 100).round(1)
 
-# ── Testes estatísticos
+# ── Statistical tests
 age_groups_data = [
     master[master["age_group"] == g]["has_missing"].astype(int).values
     for g in master["age_group"].cat.categories
@@ -146,7 +146,7 @@ stat_age, pval_age = kruskal(*age_groups_data)
 
 val_groups_data = [
     master[master["value_segment"] == g]["has_missing"].astype(int).values
-    for g in ["Baixo Valor", "Médio Valor", "Alto Valor", "VIP"]
+    for g in ["Low Value", "Medium Value", "High Value", "VIP"]
     if len(master[master["value_segment"] == g]) > 0
 ]
 stat_val, pval_val = kruskal(*val_groups_data)
@@ -168,17 +168,17 @@ reg_groups_data = [
 ]
 stat_reg, pval_reg = kruskal(*reg_groups_data)
 
-print("\n=== Testes Estatísticos ===")
-print(f"  Mann-Whitney (motoristas alto vs baixo risco):  p = {pval_drv:.6f}  {'SIGNIFICATIVO' if pval_drv < 0.05 else 'não significativo'}")
-print(f"  Kruskal-Wallis (faixas etárias do cliente):     p = {pval_age:.4f}   {'SIGNIFICATIVO' if pval_age < 0.05 else 'não significativo'}")
-print(f"  Kruskal-Wallis (segmentos de valor do cliente): p = {pval_val:.4f}   {'SIGNIFICATIVO' if pval_val < 0.05 else 'não significativo'}")
-print(f"  Kruskal-Wallis (regiões):                       p = {pval_reg:.6f}  {'SIGNIFICATIVO' if pval_reg < 0.05 else 'não significativo'}")
+print("\n=== Statistical Tests ===")
+print(f"  Mann-Whitney (high vs low risk drivers):        p = {pval_drv:.6f}  {'SIGNIFICANT' if pval_drv < 0.05 else 'not significant'}")
+print(f"  Kruskal-Wallis (customer age groups):           p = {pval_age:.4f}   {'SIGNIFICANT' if pval_age < 0.05 else 'not significant'}")
+print(f"  Kruskal-Wallis (customer value segments):       p = {pval_val:.4f}   {'SIGNIFICANT' if pval_val < 0.05 else 'not significant'}")
+print(f"  Kruskal-Wallis (regions):                       p = {pval_reg:.6f}  {'SIGNIFICANT' if pval_reg < 0.05 else 'not significant'}")
 
-# ── Montar e salvar export
-driver_pct_val = float(cat_shap.loc[cat_shap["category"] == "Motorista", "pct"].values[0])
-client_pct_val = float(cat_shap.loc[cat_shap["category"] == "Cliente",   "pct"].values[0])
-driver_range_val = float(variance_comparison.loc[variance_comparison["Dimensão"] == "Motorista (individual)", "Range (pp)"].values[0])
-age_range_val    = float(variance_comparison.loc[variance_comparison["Dimensão"] == "Faixa Etária",           "Range (pp)"].values[0])
+# ── Build and save export
+driver_pct_val = float(cat_shap.loc[cat_shap["category"] == "Driver",   "pct"].values[0])
+client_pct_val = float(cat_shap.loc[cat_shap["category"] == "Customer", "pct"].values[0])
+driver_range_val = float(variance_comparison.loc[variance_comparison["Dimension"] == "Driver (individual)", "Range (pp)"].values[0])
+age_range_val    = float(variance_comparison.loc[variance_comparison["Dimension"] == "Age Group",            "Range (pp)"].values[0])
 
 shap_export = []
 for _, row in cat_shap.iterrows():
@@ -192,7 +192,7 @@ for _, row in cat_shap.iterrows():
 statistical_export = {
     "mann_whitney_drivers": {
         "test":        "Mann-Whitney U",
-        "description": "Alta risco (>=Q75) vs. Baixo risco (<=Q25) entre motoristas",
+        "description": "High risk (>=Q75) vs. Low risk (<=Q25) among drivers",
         "statistic":   round(float(stat_drv), 2),
         "p_value":     float(pval_drv),
         "significant": bool(pval_drv < 0.05),
@@ -200,7 +200,7 @@ statistical_export = {
     },
     "kruskal_age_groups": {
         "test":        "Kruskal-Wallis",
-        "description": "Taxa de falha por faixa etária do cliente",
+        "description": "Failure rate by customer age group",
         "statistic":   round(float(stat_age), 4),
         "p_value":     float(pval_age),
         "significant": bool(pval_age < 0.05),
@@ -208,7 +208,7 @@ statistical_export = {
     },
     "kruskal_value_segments": {
         "test":        "Kruskal-Wallis",
-        "description": "Taxa de falha por segmento de valor do cliente",
+        "description": "Failure rate by customer value segment",
         "statistic":   round(float(stat_val), 4),
         "p_value":     float(pval_val),
         "significant": bool(pval_val < 0.05),
@@ -216,7 +216,7 @@ statistical_export = {
     },
     "kruskal_regions": {
         "test":        "Kruskal-Wallis",
-        "description": "Taxa de falha entre regiões",
+        "description": "Failure rate across regions",
         "statistic":   round(float(stat_reg), 2),
         "p_value":     float(pval_reg),
         "significant": bool(pval_reg < 0.05),
@@ -233,7 +233,7 @@ conclusion_export = {
     "age_range_pp":           round(age_range_val, 1),
     "worst_driver_rate":      round(float(driver_rates.max()) * 100, 1),
     "best_driver_rate":       round(float(driver_rates.min()) * 100, 1),
-    "verdict":                "O problema está nos motoristas — não nos clientes.",
+    "verdict":                "The problem lies with the drivers — not the customers.",
 }
 
 os.makedirs("data/processed", exist_ok=True)
@@ -243,9 +243,9 @@ with open(output_path, "w", encoding="utf-8") as f:
         "shap_categories":   shap_export,
         "statistical_tests": statistical_export,
         "conclusion":        conclusion_export,
-        "generated_by":      "run_shap_export.py (equivalente ao NB11 sem gráficos)",
+        "generated_by":      "run_shap_export.py (equivalent to NB11 without charts)",
     }, f, indent=2, ensure_ascii=False)
 
-print(f"\n[OK] Salvo em '{output_path}'")
-print(f"  Motorista: {driver_pct_val:.1f}% | Cliente: {client_pct_val:.1f}% | Razão: {driver_pct_val/client_pct_val:.0f}x")
-print(f"  AUC: {auc:.4f} | Pior motorista: {conclusion_export['worst_driver_rate']}%")
+print(f"\n[OK] Saved to '{output_path}'")
+print(f"  Driver: {driver_pct_val:.1f}% | Customer: {client_pct_val:.1f}% | Ratio: {driver_pct_val/client_pct_val:.0f}x")
+print(f"  AUC: {auc:.4f} | Worst driver: {conclusion_export['worst_driver_rate']}%")

@@ -1,6 +1,6 @@
 """
 data_loader.py
-Funções responsáveis por carregar os dados brutos do projeto.
+Functions responsible for loading the project's raw data.
 """
 
 import pandas as pd
@@ -30,7 +30,7 @@ def load_order_items() -> pd.DataFrame:
 
 
 def load_all() -> dict[str, pd.DataFrame]:
-    """Carrega todas as tabelas e retorna um dicionário."""
+    """Loads all tables and returns a dictionary."""
     return {
         "orders": load_orders(),
         "customers": load_customers(),
