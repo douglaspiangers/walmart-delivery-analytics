@@ -1,43 +1,32 @@
 # SQL — Star Schema for Power BI
 
-This folder contains the SQL Server scripts that transform the five raw source
-files into a star schema ready for Power BI.
+This folder organizes the five raw source files into a star schema using SQL
+Server views. The raw data stays untouched in staging tables — all cleaning
+and structuring is expressed as views that Power BI connects to directly.
 
 ---
 
-## Why a star schema
-
-The raw files had two structural problems that make Power BI inefficient:
-the missing items table stored products as columns instead of rows (pivoted),
-and there was no date dimension, which blocks all time intelligence functions
-(month-over-month, year-to-date, period comparisons).
-
-The star schema fixes both and adds clean FK relationships between every
-dimension and the two fact tables.
-
----
-
-## Final model
+## Model
 
 ```
-              dim_date
-                 │
- dim_region ─ fact_orders ─ dim_drivers
-                 │               dim_customers
-         fact_missing_items
-                 │
-            dim_products
+              vw_dim_date
+                   │
+vw_dim_region ─ vw_fact_orders ─ vw_dim_driver
+                   │                  vw_dim_customer
+         vw_fact_missing_items
+                   │
+             vw_dim_product
 ```
 
-| Table | Type | Rows (approx.) | Key change from raw |
+| View | Type | Source | Key change |
 |---|---|---|---|
-| `dim_date` | Dimension | 365 | Generated — did not exist in source |
-| `dim_region` | Dimension | 7 | Extracted from orders; adds surrogate key |
-| `dim_drivers` | Dimension | 1,246 | `Trips` column dropped — computed from facts |
-| `dim_customers` | Dimension | 1,238 | `age_group` derived column added |
-| `dim_products` | Dimension | 313 | `produc_id` typo fixed; `price` cleaned to DECIMAL |
-| `fact_orders` | Fact | 9,999 | `order_amount` and `delivery_hour` cleaned; `has_missing` flag added |
-| `fact_missing_items` | Fact (bridge) | ~2,400 | UNPIVOTed from 3 columns into rows |
+| `vw_dim_date` | Dimension | Generated | Did not exist — full 2023 calendar |
+| `vw_dim_region` | Dimension | `stg.orders` | Extracted from loose text; adds numeric ID |
+| `vw_dim_driver` | Dimension | `stg.drivers` | `Trips` removed; `age_group` added |
+| `vw_dim_customer` | Dimension | `stg.customers` | `age_group` added |
+| `vw_dim_product` | Dimension | `stg.products` | `produc_id` typo fixed; price cleaned |
+| `vw_fact_orders` | Fact | `stg.orders` | `order_amount` cleaned; `delivery_hour` as integer; `has_missing` flag |
+| `vw_fact_missing_items` | Fact | `stg.missing_items` | UNPIVOTed from 3 columns to rows |
 
 ---
 
@@ -45,18 +34,24 @@ dimension and the two fact tables.
 
 | Script | What it does |
 |---|---|
-| `01_raw_data_profile.sql` | Documents raw table structures, data quality checks, and transformation decisions |
-| `02_star_schema_ddl.sql` | Creates `stg.*` staging tables and `dw.*` star schema tables with FKs and indexes |
-| `03_load_dimensions.sql` | Loads all five dimension tables from staging with cleaning applied |
-| `04_load_facts.sql` | Loads `fact_orders` and `fact_missing_items` (UNPIVOT), then runs validation queries |
+| `01_raw_data_profile.sql` | Audits raw data: structure, quality issues, transformation decisions |
+| `02_staging_setup.sql` | Creates staging tables and documents how to load the CSVs |
+| `03_views_dimensions.sql` | Creates the 5 dimension views |
+| `04_views_facts.sql` | Creates the 2 fact views + validation and analytical queries |
 
 ---
 
 ## How to use
 
-1. Create the `WalmartDW` database in SQL Server
-2. Run `02_star_schema_ddl.sql` to create all tables
-3. Load the five CSV files into the `stg.*` tables (SSMS Import Wizard or BULK INSERT)
-4. Run `03_load_dimensions.sql`
-5. Run `04_load_facts.sql`
-6. Connect Power BI to the `dw.*` tables — do not connect to `stg.*`
+1. Run `02_staging_setup.sql` to create the staging tables
+2. Load the five CSVs into `stg.*` via SSMS Import Wizard or BULK INSERT
+3. Run `03_views_dimensions.sql`
+4. Run `04_views_facts.sql`
+5. In Power BI Desktop: **Get Data → SQL Server** → connect to the `vw_*` views
+6. Set relationships in Power BI model view:
+   - `vw_fact_orders[date_key]` → `vw_dim_date[date_key]`
+   - `vw_fact_orders[region_id]` → `vw_dim_region[region_id]`
+   - `vw_fact_orders[driver_id]` → `vw_dim_driver[driver_id]`
+   - `vw_fact_orders[customer_id]` → `vw_dim_customer[customer_id]`
+   - `vw_fact_missing_items[order_id]` → `vw_fact_orders[order_id]`
+   - `vw_fact_missing_items[product_id]` → `vw_dim_product[product_id]`
